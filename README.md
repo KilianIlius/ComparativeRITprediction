@@ -110,12 +110,12 @@ Use ./rnie.pl to compute RNIE scores for positive homologs, negative homologs, i
 
 #### Second iteration of <tt>RNIE_score_averaging.py</tt>
 
-* ini_positives:        path to your initial set of positive sequences.<br/>
-* ini_negatives:        path to your initial set of negative sequences.<br/>
-* ini_scores_txt:       serves as a log file to save all scores of initial sequences.<br/>
-* avg_scores_txt:       serves as a log file to save all averaged scores.<br/>
-* rnie_out_pos:         path to RNIEs GFF output of all positive homologs.<br/>
-* rnie_out_neg:         path to RNIEs GFF output of all negative homologs.<br/>
+* ini_positives: path to your initial set of positive sequences.<br/>
+* ini_negatives: path to your initial set of negative sequences.<br/>
+* ini_scores_txt: serves as a log file to save all scores of initial sequences.<br/>
+* avg_scores_txt: serves as a log file to save all averaged scores.<br/>
+* rnie_out_pos: path to RNIEs GFF output of all positive homologs.<br/>
+* rnie_out_neg: path to RNIEs GFF output of all negative homologs.<br/>
 * rnie_out_initial_pos: path to RNIEs GFF output of all initial positive sequences.<br/>
 * rnie_out_initial_neg: path to RNIEs GFF output of all initial negative sequences.<br/>
 
