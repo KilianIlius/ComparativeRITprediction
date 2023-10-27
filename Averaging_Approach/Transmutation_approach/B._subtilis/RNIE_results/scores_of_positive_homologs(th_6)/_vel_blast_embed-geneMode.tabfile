@@ -1,0 +1,280 @@
+# command:    cmsearch -T 6 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile _vel_blast_embed-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/first_RNIE_test/BLAST_results/embedded_hits_all_genomes/_vel_blast_embed.fa
+# date:       Fri Dec  2 13:39:28 2022
+# num seqs:   79
+# dbsize(Mb): 0.021118
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.454     6.00   0.0009  00:00:02.29
+#
+# CM: seed-a-14
+#                                                                                                     target coord   query coord                         
+#                                                                                           ----------------------  ------------                         
+# model name  target name                                                                        start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------------------------------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   dnaA,dnaN                                                                             71         112      1     44     12.31  3.34e-02   48
+  seed-a-14   guaB                                                                                  66         104      1     44      6.39  3.86e-01   33
+  seed-a-14   yaaH                                                                                  37          80      1     44      9.87  9.16e-02   32
+  seed-a-14   yaaH                                                                                  70          27      1     44     25.74  1.30e-04   39
+  seed-a-14   metS                                                                                  70         121      1     44     15.52  8.88e-03   38
+  seed-a-14   metS                                                                                 111          60      1     44      7.08  2.91e-01   38
+  seed-a-14   yabG                                                                                  11          54      1     44     15.84  7.77e-03   32
+  seed-a-14   yabG                                                                                  44           1      1     44     13.17  2.35e-02   41
+  seed-a-14   veg                                                                                   69         111      1     44     11.51  4.66e-02   37
+  seed-a-14   sspF                                                                                  75         115      1     44      7.81  2.15e-01   61
+  seed-a-14   glpT,glpQ                                                                             71         114      1     44     24.62  2.07e-04   50
+  seed-a-14   glpT,glpQ                                                                            104          61      1     44     24.45  2.22e-04   43
+  seed-a-14   ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ                                                    70         111      1     44     28.82  3.64e-05   40
+  seed-a-14   ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ                                                   102          59      1     44     14.16  1.55e-02   55
+  seed-a-14   cwlJ                                                                                  67         109      1     44     13.86  1.76e-02   37
+  seed-a-14   mdr                                                                                   40          87      1     44     28.74  3.76e-05   35
+  seed-a-14   mdr                                                                                   76          31      1     44     28.09  4.92e-05   37
+  seed-a-14   yclE                                                                                  34          75      1     44     33.37  5.54e-06   43
+  seed-a-14   yclE                                                                                  65          24      1     44     36.57  1.48e-06   50
+  seed-a-14   ycnC,ycnB                                                                            106          69      1     44     14.35  1.44e-02   42
+  seed-a-14   ycnL                                                                                  15          50      1     44     20.74  1.03e-03   33
+  seed-a-14   ycnL                                                                                  41           2      1     44     12.90  2.62e-02   40
+  seed-a-14   gsiB                                                                                  65         108      1     44     18.63  2.46e-03   48
+  seed-a-14   gsiB                                                                                  97          56      1     44      6.94  3.08e-01   52
+  seed-a-14   yfnB                                                                                  98          56      1     44      6.09  4.38e-01   35
+  seed-a-14   yfmK                                                                                  69         109      1     44     18.23  2.90e-03   41
+  seed-a-14   yfmK                                                                                  98          60      1     44     18.03  3.15e-03   41
+  seed-a-14   yfmI,yfmJ                                                                             79         119      1     44     18.23  2.90e-03   41
+  seed-a-14   yfmI,yfmJ                                                                            108          70      1     44     18.03  3.15e-03   41
+  seed-a-14   yfjQ                                                                                  60          20      1     44     10.65  6.65e-02   39
+  seed-a-14   yfjP,yfjO                                                                             57          93      1     44      6.23  4.12e-01   32
+  seed-a-14   yfhQ,fabL,sspE                                                                        68         112      1     44     24.11  2.55e-04   42
+  seed-a-14   yfhQ,fabL,sspE                                                                       102          58      1     44     25.19  1.63e-04   40
+  seed-a-14   sigM,yhdL,yhdK                                                                        31          69      1     44     30.62  1.73e-05   31
+  seed-a-14   sigM,yhdL,yhdK                                                                        59          21      1     44     28.78  3.69e-05   36
+  seed-a-14   sspB                                                                                  84         119      1     44      7.45  2.50e-01   56
+  seed-a-14   sspB                                                                                 110          73      1     44     15.55  8.75e-03   58
+  seed-a-14   yjbC,yjbD                                                                              2          45      1     44     32.89  6.78e-06   39
+  seed-a-14   yjbC,yjbD                                                                             34           1      1     44     11.46  4.75e-02   50
+  seed-a-14   sspD                                                                                 114          77      1     44      8.64  1.52e-01   39
+  seed-a-14   splA,splB                                                                             70         112      1     44      9.60  1.03e-01   58
+  seed-a-14   pdhA,pdhB,pdhC,pdhD                                                                   73         116      1     44     30.44  1.86e-05   48
+  seed-a-14   pdhA,pdhB,pdhC,pdhD                                                                  106          63      1     44     27.70  5.77e-05   48
+  seed-a-14   spoIIGA,sigE,sigG                                                                     72         114      1     44     34.23  3.89e-06   33
+  seed-a-14   spoIIGA,sigE,sigG                                                                    104          62      1     44     30.36  1.92e-05   30
+  seed-a-14   pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE                                   29          64      1     44     24.77  1.94e-04   39
+  seed-a-14   pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE                                   54          19      1     44     20.84  9.83e-04   39
+  seed-a-14   yneA,yneB,ynzC                                                                        67         106      1     44     20.46  1.15e-03   30
+  seed-a-14   yneA,yneB,ynzC                                                                        96          57      1     44     15.07  1.07e-02   28
+  seed-a-14   ccdA,yneI,yneJ                                                                        47          87      1     44     27.27  6.90e-05   41
+  seed-a-14   ccdA,yneI,yneJ                                                                        78          36      1     44     18.94  2.16e-03   40
+  seed-a-14   yoxA,dacC                                                                             30          72      1     44     29.25  3.04e-05   42
+  seed-a-14   yoxA,dacC                                                                             62          20      1     44     36.73  1.38e-06   37
+  seed-a-14   phrK                                                                                  68         103      1     44     12.07  3.69e-02   36
+  seed-a-14   yocF,yocG                                                                             21          59      1     44      7.10  2.88e-01   51
+  seed-a-14   recU,ponA                                                                             29          68      1     44     28.76  3.74e-05   43
+  seed-a-14   recU,ponA                                                                             59          18      1     44     32.95  6.61e-06   33
+  seed-a-14   spoIVA                                                                               110          69      1     44     15.43  9.22e-03   40
+  seed-a-14   sigX,rsiX                                                                             38          74      1     44     23.07  3.92e-04   35
+  seed-a-14   sigX,rsiX                                                                             64          28      1     44     26.81  8.35e-05   32
+  seed-a-14   drm,punA                                                                             110          67      1     44     16.68  5.49e-03   43
+  seed-a-14   yqjM                                                                                   1          45      1     44      8.58  1.56e-01   40
+  seed-a-14   yqjH,yqjI                                                                             12          54      1     44     29.84  2.39e-05   51
+  seed-a-14   yqjH,yqjI                                                                             44           2      1     44     34.73  3.16e-06   47
+  seed-a-14   yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH          30          70      1     44     29.11  3.23e-05   44
+  seed-a-14   yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH          59          21      1     44     29.16  3.16e-05   44
+  seed-a-14   yqxD,dnaG,sigA                                                                        72         110      1     44      6.64  3.49e-01   41
+  seed-a-14   yqxD,dnaG,sigA                                                                       101          61      1     44     16.96  4.89e-03   32
+  seed-a-14   comER                                                                                 46          88      1     44     22.96  4.09e-04   40
+  seed-a-14   comER                                                                                 78          36      1     44     21.79  6.65e-04   30
+  seed-a-14   levD,levE,levF,levG,sacC                                                              83         125      1     44     28.57  4.03e-05   37
+  seed-a-14   levD,levE,levF,levG,sacC                                                             115          73      1     44     28.09  4.92e-05   37
+  seed-a-14   glnQ,glnH,glnM,glnP                                                                   68         107      1     44     26.95  7.88e-05   35
+  seed-a-14   glnQ,glnH,glnM,glnP                                                                   98          57      1     44     25.44  1.47e-04   36
+  seed-a-14   spoVID,ysxE                                                                          119          72      1     44     16.04  7.15e-03   38
+  seed-a-14   clpX                                                                                  32          77      1     44     26.49  9.53e-05   39
+  seed-a-14   clpX                                                                                  67          22      1     44     27.06  7.52e-05   41
+  seed-a-14   pfkA,pyk,ytzA                                                                         83         123      1     44     19.56  1.67e-03   41
+  seed-a-14   pfkA,pyk,ytzA                                                                        113          73      1     44     23.23  3.66e-04   46
+  seed-a-14   ytrA,ytrB,ytrC,ytrD,ytrE,ytrF                                                         31          70      1     44     26.19  1.08e-04   45
+  seed-a-14   ytrA,ytrB,ytrC,ytrD,ytrE,ytrF                                                         59          21      1     44     25.80  1.27e-04   46
+  seed-a-14   cggR,gapA,pgk,tpiA,pgm,eno                                                            14          49      1     44     30.24  2.02e-05   42
+  seed-a-14   cggR,gapA,pgk,tpiA,pgm,eno                                                            39           4      1     44     33.38  5.52e-06   36
+  seed-a-14   yvfG                                                                                  68         112      1     44     22.29  5.40e-04   47
+  seed-a-14   yvfG                                                                                 102          58      1     44     28.29  4.53e-05   38
+  seed-a-14   clpP                                                                                  54         100      1     44     30.31  1.97e-05   38
+  seed-a-14   clpP                                                                                  90          44      1     44     28.13  4.84e-05   40
+  seed-a-14   csbA                                                                                  80         124      1     44     18.28  2.84e-03   33
+  seed-a-14   csbA                                                                                 114          70      1     44     19.85  1.48e-03   33
+  seed-a-14   degS,degU                                                                             42          79      1     44     15.05  1.08e-02   42
+  seed-a-14   degS,degU                                                                             71          30      1     44     22.41  5.15e-04   43
+  seed-a-14   spoIID                                                                                 9          46      1     44     15.60  8.57e-03   39
+  seed-a-14   spoIID                                                                                36           1      1     44     21.81  6.60e-04   33
+  seed-a-14   yxiT                                                                                 107          75      1     44      7.49  2.46e-01   36
+  seed-a-14   deoR,dra,nupC,pdp                                                                     14          58      1     44     26.59  9.15e-05   38
+  seed-a-14   deoR,dra,nupC,pdp                                                                     48           4      1     44     29.86  2.36e-05   40
+  seed-a-14   rapG,phrG                                                                             27          71      1     44     17.52  3.88e-03   29
+  seed-a-14   rapG,phrG                                                                             61          17      1     44     18.65  2.44e-03   33
+  seed-a-14   soj,spo0J                                                                             31          73      1     44     22.96  4.09e-04   40
+  seed-a-14   soj,spo0J                                                                             63          21      1     44     21.79  6.65e-04   30
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.454      100    0.0009   0.1979
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:02.29    00:00:04.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       4.359     6.00   0.0092  00:00:10.28
+#
+# CM: seed-b-14
+#                                                                                                     target coord   query coord                         
+#                                                                                           ----------------------  ------------                         
+# model name  target name                                                                        start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------------------------------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   dnaA,dnaN                                                                             71         112      1     54     16.48  1.44e-02   48
+  seed-b-14   dnaA,dnaN                                                                            102          58      1     54     15.64  2.28e-02   44
+  seed-b-14   guaB                                                                                  65         105      1     54     18.56  4.62e-03   37
+  seed-b-14   guaB                                                                                  97          50      1     54     12.98  9.69e-02   33
+  seed-b-14   yaaH                                                                                  37          80      1     54      9.29  7.27e-01   32
+  seed-b-14   yaaH                                                                                  70          27      1     54     21.83  7.79e-04   39
+  seed-b-14   metS                                                                                  70         121      1     54     18.38  5.11e-03   38
+  seed-b-14   metS                                                                                 116          53      1     54     11.54  2.13e-01   31
+  seed-b-14   yabG                                                                                  11          54      1     54     20.16  1.93e-03   32
+  seed-b-14   yabG                                                                                  44           1      1     54     16.67  1.30e-02   41
+  seed-b-14   veg                                                                                   70         110      1     54     13.58  6.99e-02   39
+  seed-b-14   sspF                                                                                  73         115      1     54     14.70  3.80e-02   60
+  seed-b-14   spoVG                                                                                 68         130      1     54     16.93  1.13e-02   43
+  seed-b-14   spoVG                                                                                120          56      1     54     14.17  5.06e-02   42
+  seed-b-14   glpT,glpQ                                                                             71         114      1     54     21.62  8.74e-04   50
+  seed-b-14   glpT,glpQ                                                                            104          61      1     54     17.07  1.04e-02   43
+  seed-b-14   ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ                                                    70         111      1     54     25.45  1.08e-04   40
+  seed-b-14   ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ                                                   100          71      1     54     10.95  2.93e-01   47
+  seed-b-14   cwlJ                                                                                  67         109      1     54     18.76  4.14e-03   37
+  seed-b-14   mdr                                                                                   40          87      1     54     26.74  5.34e-05   35
+  seed-b-14   mdr                                                                                   77          30      1     54     26.87  4.98e-05   35
+  seed-b-14   yclE                                                                                  34          75      1     54     27.78  3.04e-05   43
+  seed-b-14   yclE                                                                                  65          24      1     54     26.71  5.43e-05   50
+  seed-b-14   ycnC,ycnB                                                                             81         106      1     54      7.41  2.02e+00   54
+  seed-b-14   ycnC,ycnB                                                                            106          73      1     54     11.55  2.11e-01   44
+  seed-b-14   ycnL                                                                                  14          43      1     54     17.51  8.20e-03   33
+  seed-b-14   ycnL                                                                                  46          93      1     54      7.44  1.99e+00   38
+  seed-b-14   ycnL                                                                                  41           1      1     54     11.59  2.06e-01   39
+  seed-b-14   gsiB                                                                                  63         110      1     54     17.56  8.00e-03   46
+  seed-b-14   gsiB                                                                                  97          56      1     54      7.05  2.46e+00   52
+  seed-b-14   yfnB                                                                                  98          60      1     54      8.01  1.46e+00   36
+  seed-b-14   yfmK                                                                                  69         109      1     54     18.84  3.96e-03   41
+  seed-b-14   yfmK                                                                                  98          60      1     54     20.25  1.84e-03   41
+  seed-b-14   yfmI,yfmJ                                                                             79         119      1     54     18.84  3.96e-03   41
+  seed-b-14   yfmI,yfmJ                                                                            108          70      1     54     20.25  1.84e-03   41
+  seed-b-14   yfjQ                                                                                  31          69      1     54      9.18  7.72e-01   38
+  seed-b-14   yfjQ                                                                                  59          21      1     54     19.92  2.21e-03   38
+  seed-b-14   yfjP,yfjO                                                                             37          93      1     54     16.39  1.51e-02   37
+  seed-b-14   yfjP,yfjO                                                                             84          46      1     54      6.95  2.59e+00   33
+  seed-b-14   yfhQ,fabL,sspE                                                                        68         112      1     54     21.50  9.29e-04   42
+  seed-b-14   yfhQ,fabL,sspE                                                                       102          58      1     54     20.54  1.57e-03   40
+  seed-b-14   sigM,yhdL,yhdK                                                                        31          69      1     54     27.99  2.70e-05   31
+  seed-b-14   sigM,yhdL,yhdK                                                                        59          21      1     54     23.72  2.77e-04   36
+  seed-b-14   sspB                                                                                  80         129      1     54     15.22  2.85e-02   44
+  seed-b-14   sspB                                                                                 113          57      1     54     17.27  9.33e-03   47
+  seed-b-14   yjbC,yjbD                                                                              2          45      1     54     28.48  2.07e-05   39
+  seed-b-14   yjbC,yjbD                                                                             35           2      1     54     12.72  1.12e-01   47
+  seed-b-14   sspD                                                                                 114          77      1     54     14.54  4.15e-02   39
+  seed-b-14   splA,splB                                                                             70         112      1     54     15.56  2.38e-02   58
+  seed-b-14   pdhA,pdhB,pdhC,pdhD                                                                   73         116      1     54     29.24  1.36e-05   48
+  seed-b-14   pdhA,pdhB,pdhC,pdhD                                                                  106          63      1     54     26.25  6.97e-05   48
+  seed-b-14   spoIIGA,sigE,sigG                                                                     72         114      1     54     22.25  6.19e-04   33
+  seed-b-14   spoIIGA,sigE,sigG                                                                    104          62      1     54     21.50  9.33e-04   30
+  seed-b-14   pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE                                   29          64      1     54     19.49  2.79e-03   39
+  seed-b-14   pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE                                   54          18      1     54     19.68  2.51e-03   38
+  seed-b-14   yneA,yneB,ynzC                                                                        67         106      1     54     22.32  5.94e-04   30
+  seed-b-14   yneA,yneB,ynzC                                                                        96          56      1     54     16.38  1.52e-02   29
+  seed-b-14   ccdA,yneI,yneJ                                                                        47          87      1     54     20.03  2.08e-03   41
+  seed-b-14   ccdA,yneI,yneJ                                                                        79          35      1     54     14.26  4.83e-02   38
+  seed-b-14   yoxA,dacC                                                                             30          72      1     54     20.67  1.47e-03   42
+  seed-b-14   yoxA,dacC                                                                             62          20      1     54     26.72  5.40e-05   37
+  seed-b-14   phrK                                                                                  64         104      1     54     12.40  1.33e-01   32
+  seed-b-14   yocF,yocG                                                                             20          49      1     54      6.59  3.17e+00   50
+  seed-b-14   yocF,yocG                                                                             48           7      1     54      6.20  3.91e+00   52
+  seed-b-14   ilvD                                                                                 123         168      1     54     11.40  2.29e-01   43
+  seed-b-14   ilvD                                                                                 134          71      1     54     14.01  5.54e-02   42
+  seed-b-14   recU,ponA                                                                             29          68      1     54     22.54  5.28e-04   43
+  seed-b-14   recU,ponA                                                                             58          19      1     54     25.60  9.96e-05   35
+  seed-b-14   spoIVA                                                                               113          68      1     54     20.04  2.06e-03   41
+  seed-b-14   sigX,rsiX                                                                             38          75      1     54     19.61  2.61e-03   37
+  seed-b-14   sigX,rsiX                                                                             64          28      1     54     22.81  4.57e-04   32
+  seed-b-14   drm,punA                                                                             108          69      1     54     17.48  8.35e-03   45
+  seed-b-14   yqjM                                                                                   2          41      1     54     12.35  1.36e-01   43
+  seed-b-14   yqjH,yqjI                                                                             12          54      1     54     25.89  8.52e-05   51
+  seed-b-14   yqjH,yqjI                                                                             44           2      1     54     30.85  5.70e-06   47
+  seed-b-14   yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH          30          70      1     54     21.70  8.33e-04   44
+  seed-b-14   yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH          60          20      1     54     25.27  1.19e-04   44
+  seed-b-14   yqxD,dnaG,sigA                                                                        70         114      1     54     12.17  1.51e-01   36
+  seed-b-14   yqxD,dnaG,sigA                                                                       102          60      1     54     20.32  1.78e-03   35
+  seed-b-14   antE                                                                                  77         117      1     54      8.15  1.35e+00   39
+  seed-b-14   comER                                                                                 46          88      1     54     19.52  2.75e-03   40
+  seed-b-14   comER                                                                                 78          36      1     54     18.86  3.94e-03   30
+  seed-b-14   levD,levE,levF,levG,sacC                                                              83         125      1     54     26.31  6.74e-05   37
+  seed-b-14   levD,levE,levF,levG,sacC                                                             115          73      1     54     27.64  3.28e-05   37
+  seed-b-14   glnQ,glnH,glnM,glnP                                                                   67         108      1     54     26.11  7.54e-05   33
+  seed-b-14   glnQ,glnH,glnM,glnP                                                                   98          57      1     54     21.37  1.00e-03   36
+  seed-b-14   spoVID,ysxE                                                                           80         143      1     54     13.78  6.26e-02   41
+  seed-b-14   spoVID,ysxE                                                                          121          70      1     54     24.64  1.68e-04   40
+  seed-b-14   clpX                                                                                  32          77      1     54     21.67  8.50e-04   39
+  seed-b-14   clpX                                                                                  67          22      1     54     26.59  5.81e-05   41
+  seed-b-14   gapB,speD                                                                             48          74      1     54      7.36  2.07e+00   22
+  seed-b-14   gapB,speD                                                                             64          38      1     54      7.10  2.40e+00   30
+  seed-b-14   gapB,speD                                                                            130          65      1     54      6.73  2.93e+00   41
+  seed-b-14   phoP,phoR                                                                            114          71      1     54     10.95  2.92e-01   48
+  seed-b-14   pfkA,pyk,ytzA                                                                         81         125      1     54     20.15  1.95e-03   38
+  seed-b-14   pfkA,pyk,ytzA                                                                        115          71      1     54     24.17  2.17e-04   44
+  seed-b-14   ytrA,ytrB,ytrC,ytrD,ytrE,ytrF                                                         31          69      1     54     21.87  7.61e-04   44
+  seed-b-14   ytrA,ytrB,ytrC,ytrD,ytrE,ytrF                                                         59          21      1     54     19.51  2.75e-03   46
+  seed-b-14   yufN                                                                                  73         115      1     54      7.65  1.77e+00   47
+  seed-b-14   cggR,gapA,pgk,tpiA,pgm,eno                                                            14          49      1     54     21.14  1.14e-03   42
+  seed-b-14   cggR,gapA,pgk,tpiA,pgm,eno                                                            39           4      1     54     23.36  3.38e-04   36
+  seed-b-14   yvfG                                                                                  68         112      1     54     20.55  1.56e-03   47
+  seed-b-14   yvfG                                                                                 102          58      1     54     26.12  7.48e-05   38
+  seed-b-14   sacB,yveB,yveA                                                                        10          40      1     54      6.80  2.82e+00   42
+  seed-b-14   clpP                                                                                  54         100      1     54     25.37  1.13e-04   38
+  seed-b-14   clpP                                                                                  90          44      1     54     25.22  1.23e-04   40
+  seed-b-14   csbA                                                                                  80         126      1     54     14.29  4.73e-02   34
+  seed-b-14   csbA                                                                                  26          62      1     54      7.59  1.83e+00   30
+  seed-b-14   csbA                                                                                 114          70      1     54     18.77  4.13e-03   33
+  seed-b-14   degS,degU                                                                             40          81      1     54     13.58  7.00e-02   40
+  seed-b-14   degS,degU                                                                             71          30      1     54     21.46  9.53e-04   43
+  seed-b-14   spoIID                                                                                 7          48      1     54     14.76  3.68e-02   36
+  seed-b-14   spoIID                                                                                36           1      1     54     19.35  3.01e-03   33
+  seed-b-14   fbaA,ywjH                                                                             36          88      1     54     14.09  5.29e-02   47
+  seed-b-14   fbaA,ywjH                                                                             77          27      1     54     11.71  1.94e-01   55
+  seed-b-14   yxiT                                                                                 106          73      1     54     10.41  3.93e-01   38
+  seed-b-14   deoR,dra,nupC,pdp                                                                     14          58      1     54     23.66  2.87e-04   38
+  seed-b-14   deoR,dra,nupC,pdp                                                                     48           4      1     54     26.79  5.21e-05   40
+  seed-b-14   yxaG,yxaH                                                                             24          69      1     54      6.35  3.60e+00   46
+  seed-b-14   yxaG,yxaH                                                                             56          13      1     54     11.12  2.67e-01   52
+  seed-b-14   rapG,phrG                                                                             27          71      1     54     17.54  8.09e-03   29
+  seed-b-14   rapG,phrG                                                                             61          17      1     54     18.15  5.79e-03   33
+  seed-b-14   soj,spo0J                                                                             31          73      1     54     19.52  2.75e-03   40
+  seed-b-14   soj,spo0J                                                                             63          21      1     54     18.86  3.94e-03   30
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       4.359      124    0.0092   0.2534
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:10.28    00:00:06.00

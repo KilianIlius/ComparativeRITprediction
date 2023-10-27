@@ -1,0 +1,1615 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._amyloliquefaciens_NZ_CP072120.1.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>URS000001BC09_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</BlastOutput_query-def>
+  <BlastOutput_query-len>101</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.002857</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>URS000001BC09_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.625</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>1.8215e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>3129281</Hsp_hit-from>
+      <Hsp_hit-to>3129380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>TTCTTATCAAGAGCAGGCAGAGGGACGAGCCCGATGAAGCCCGGCAACCGACTTATAAAGCACGGTGCTAATTCTTGCAGCTAGCGGCTGAGAGATAAGAT</Hsp_qseq>
+      <Hsp_hseq>TTCTTATCAAGAGCAGGCAGAGGGACGAGCCCGATGAAGCCCGGCAACCGACTGATAAAGCACGGTGCTAATTCTTGCAGC-AGGAGCTGAGAGATAAGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||  |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>328549608</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>URS0000032866_224308 Bacillus subtilis subsp. subtilis str. 168 PreQ1 riboswitch</Iteration_query-def>
+  <Iteration_query-len>45</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.2195</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>4.86268e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>3142071</Hsp_hit-from>
+      <Hsp_hit-to>3142115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GCGGGAGAGGTTCTAGCTACACCCTCTATAAAAAACTAAGGACGA</Hsp_qseq>
+      <Hsp_hseq>GCGGGAGAGGTTCTAGCTACACCCTCTATAAAAAACTAAGGACGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>109516590</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>URS000005CA97_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>113</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.846</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>9.86875e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>3102811</Hsp_hit-from>
+      <Hsp_hit-to>3102699</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>GGAAA-GCACTAGGGGTGCTGTT-TTGGCTGAGATAAAGC--GCGGAAGAAACGCGCTTTGATCCCTTATGACCCGATCTGGATAATACCAGCGTGGGGAAGTGCAGGTTGACCG</Hsp_qseq>
+      <Hsp_hseq>GGAAACGCACTAGGGGTGCTGTTATCGGCTGAGATAAAACATGCGGCAG--GCATGTTTTGATCCCTTATAACCCGATCTGGATAATACCAGCGTGGGGAAGTGCAGATTGACCG</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||| | |||||||||||| |  |||| ||   |  | ||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>377223624</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>URS000005DB10_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.4181e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>26378</Hsp_hit-from>
+      <Hsp_hit-to>26283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AATATAATAGGAACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGGGCACCGTAAATGTCCGACTATGGGTGAGCAATGGAACCGC</Hsp_qseq>
+      <Hsp_hseq>AATATCATACGAACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGGTCACCGTAAATGTCCGACTATGAGTGAGCAATGGAACGGC</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>328549608</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>URS000008638F_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.153</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.38642e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>2979220</Hsp_hit-from>
+      <Hsp_hit-to>2979344</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>TTCTTATCGTGAGAGGTGGAGGGACTGGCCCTTAGAAACCTCAGCAACCGGCTTGTTTTGCATTT-----GCAAAGCGCCAAGGTGCTAAATCCAGCAAGCGTTTTTTATGCTTGGAAGATAAGA</Hsp_qseq>
+      <Hsp_hseq>TTCTTATCACGAGAGGTGGAGGGACTGGCCCTTTGAAACCTCAGCAACCGGTTTGCTTTGCCGCGGGAAGGCAAAGTGCCAAGGTGCTAAATCCAGCAAGCGATTCACATGCTTGGAAGATAAGA</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||||||||||||||||||||| ||||||||||||||||| ||| |||||         |||||| ||||||||||||||||||||||||| ||   |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>URS0000114DA0_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.13681e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>1617638</Hsp_hit-from>
+      <Hsp_hit-to>1617717</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>CCTTATCAAGAGAGGTGGAGGGACTGGCCCTATGATACCCGGCAACCGCTGTTTCAAACAGAATGGTGCTAAATCCTTAAGA</Hsp_qseq>
+      <Hsp_hseq>CCTTATCAAGAGAGGTGGAGGGACTGGCCCTATGATACCCGGCAACCGCTGTT-CAG-CAGAATGGTGCTAAATCCTGAAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||| ||  ||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>352886616</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>URS000016E07A_224308 Bacillus subtilis subsp. subtilis str. 168 putative coenzyme B12 (AdoCbl) riboswitch</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>450234648</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>URS00001AE039_224308 Bacillus subtilis subsp. subtilis str. 168 glmS glucosamine-6-phosphate activated ribozyme</Iteration_query-def>
+  <Iteration_query-len>171</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.105</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.30089e-61</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>2012284</Hsp_hit-from>
+      <Hsp_hit-to>2012453</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>TATAATTATAGCGCCCGAACTAAGCGCCCGGAAAAAGGCTTAGTTGACGAGGATGGAGGTTATCGAATTTTCGGCGGATGCCTCCCGGCTGAGTG-TGCAGATCACAGCCGTAAGGATTTCTTCAAACCAAGGGGGTGACTCCTTGAACAAAGAGAAATCACATGATCTT</Hsp_qseq>
+      <Hsp_hseq>TATAATTACAGCGCCCGAACTAAGCGCCCGAAAAACGGCTTAGTTGACGAGGATGGAGGTTATCGAATTTTCGGCGGATGCCTCCCGGCTGATTCATTTAGATCACAGCCGTAAGGATTTCTTCAAACCGGAGGGGCGACTCTCCGAACAAAGAGAAATCACATGATCTT</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  |  ||||||||||||||||||||||||||||||   |||| |||||   |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>612481368</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>URS00001D0AD3_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.29526e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>1617637</Hsp_hit-from>
+      <Hsp_hit-to>1617712</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TCCTTATCAAGAGAGGTGGAGGGACTGGCCCTGCGATACCCGGCAACCGCTGTTTAACAGAATGGTGCTAAATCCT</Hsp_qseq>
+      <Hsp_hseq>TCCTTATCAAGAGAGGTGGAGGGACTGGCCCTATGATACCCGGCAACCGCTGTTCAGCAGAATGGTGCTAAATCCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||  |||||||||||||||||||| | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>352886616</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>URS00002B96A6_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.239</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>3.12327e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>2460499</Hsp_hit-from>
+      <Hsp_hit-to>2460594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>CATGAAATCAAAACACGACCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCAACCGTAAATTGCCGGACTATGCAGGAAAGTGAT</Hsp_qseq>
+      <Hsp_hseq>CATGAAATCAAAACACGACCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCTGCCGTAAACGGCCGGACTATGCAGGAAAGTGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||  |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>336661944</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>URS00002D22AE_224308 Bacillus subtilis subsp. subtilis str. 168 Lysine riboswitch</Iteration_query-def>
+  <Iteration_query-len>180</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.878</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.2491e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>581413</Hsp_hit-from>
+      <Hsp_hit-to>581234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>GGTGAAGATAGAGGTGCGAACTTCAAGAGTATGCCTTTGGAGAAAGATGGATTCTGTGAAAAAGGCTGAAAGGGGAGCGTCGCCGAAGCAAATAAAACCCCATCGGTATTATTTGCTGGCCGTGCATTGAATAAATGTAAGGCTGTCAAGAAATCATTTTCTTGGAGGGCTATCTCGTTG</Hsp_qseq>
+      <Hsp_hseq>GGTGAAGATAGAGGTGCGAACTTCATTAGTAAGCCTTTGGAGAATGATGGATTCTGCGAAAAAGGCTGAAAGGGGAGCGTCGCCGAAGTGTATCACATCCCATCGGTGTGATTTGCTGGCCTTGCATTAAATAAATGTAAGGCTGTCAAGAATTCATTTTCTTGGAGGGCTATCTCGTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||  |||| |||||||||||| ||||||||||| |||||||||||||||||||||||||||||||   || | | ||||||||| | ||||||||||| |||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>648986880</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>URS00002D29F6_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.71573e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>2899790</Hsp_hit-from>
+      <Hsp_hit-to>2899669</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TTCTTATCAAGAGAAGCAGAGGGACTGGCCCGACGAAGCTTCAGCAACCGGTGTAATGG-CGA-TC-AGCCATGACCAAGGTGCTAAATCCAGCAAGCTCGAA-CAGCTTGGAAGATAAGAA</Hsp_qseq>
+      <Hsp_hseq>TTCTTATCAAGAGAAGCCGAGGGACTGGCCCGACGACGCTTCAGCAACCGGTGTAGTGGTTTACCCAAACCATGACCAAGGTGCTAAATCCAGCAAGCTAAAAACAGCTTGGAAGATAAGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||||||| |||||||||||||||||| |||   |  | | ||||||||||||||||||||||||||||||  || ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>397504464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>URS00002F3927_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>92</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.852</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.59665e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>3876326</Hsp_hit-from>
+      <Hsp_hit-to>3876234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>TTTCTATCCAGAGAGGTGGAGGGACTGGCCCTATGAAACCTCGGCAACATT-ATTGTGCCAATTCCAGCAAGCGCTA-GCTTGAAAGATAGGAA</Hsp_qseq>
+      <Hsp_hseq>TTTCTATCCAGAGAGGTGGAGGGACTGGCCCTACGAAACCTCGGCAACATTTATTGTGCCAATTCCAGCAAGCG-TATGCTTGAAAGATAGGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||| || ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>296100337</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>URS00003061C5_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.932</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>2.38534e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>820026</Hsp_hit-from>
+      <Hsp_hit-to>820126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GATGACCACAAGGGGAGCATTAAAGCTGAGAGTGAGCGGTTTCGTTCTGACCCTTTGAACCTGTTAGTTAACGCTGGCGTAGGGATGTGGCAAAGTCAAATG</Hsp_qseq>
+      <Hsp_hseq>GATGACCACAAGGGGAGCATTAAAGCTGAGAGTGAACATTTT-GTTCTGACCCTTTGAACCTGTTAGTTAACGCTGGCGTAGGGATGTGGCAAAGCCAAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||| |  ||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>332605776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>URS00003085CF_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>106</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.686</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>4.27603e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>3373321</Hsp_hit-from>
+      <Hsp_hit-to>3373423</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>CTTATCAAGAGCGGCTGAGGGACTGGACCTATGAAGCCCGGCAACCTGCATAGTT-TGTAAGGTGCTACTTCCAGCAAAATGAATTCCATTTTGAAAGATAAGGG</Hsp_qseq>
+      <Hsp_hseq>CTTATCAAGAGCGGCTGAGGGACTGGACCGATGACGCCCGGCAACCTGCGT-GTCATGCAAGGTGCCGCATCCAGAAAAATGCACAGCATTTTGAA-GATAAGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||| |||| |||||||||||||| | ||  || |||||||  | ||||| |||||| |   ||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>348830448</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>URS000037084E_224308 Bacillus subtilis subsp. subtilis str. 168 FMN riboswitch (RFN element)</Iteration_query-def>
+  <Iteration_query-len>145</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.625</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>2.81095e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>133034</Hsp_hit-from>
+      <Hsp_hit-to>132889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>TGTATCCTTCGGGGCAGGGTGGAAATCCCGACCGGCGGTAGTAAAGCACATTT-GCTTTAGAGCCCGTGACCCGTGTGCATAAGCACGCGGTGGATTCAGT-TTAAGCTGAAGCCGACAGTGAAAGTCTGGATGGGAGAAGGATGA</Hsp_qseq>
+      <Hsp_hseq>TGTATCCTTCGGGGCTGGGTGAAAATCCCGACCGGCGGTAATAAGGCGTTTTGCGCTTTACAGCCCGTGACCCGTATGCATCTGTATACGGTGGATTCAGTGAAAAGCTGAAGCCGACAGTGAAAGTCTGGATGGGAGAAGGATGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||| |||||||||||||||||| ||| ||   ||  |||||| |||||||||||||| |||||  | |  |||||||||||||   ||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>507021000</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>URS00003A473B_224308 Bacillus subtilis subsp. subtilis str. 168 Lysine riboswitch</Iteration_query-def>
+  <Iteration_query-len>180</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.345</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.44849e-71</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1053462</Hsp_hit-from>
+      <Hsp_hit-to>1053284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GTGAGGTAGAGGTTGCGC-GGATGATGAGTCACACATGCTAGGCTGACAGGGGCTGTTAAACATGTGTAAAAGGCATCAGCGCCGAAGTGTGGAGAAAGCCGATCCTTCTCTATGCTGGGACTGTATCTGAATAAGTGCAGGACTGCCGCGTGCTTTTTCGCGGAGGGCTATCCGGAGA</Hsp_qseq>
+      <Hsp_hseq>GTGAGGTAGAGGTTGCGCTTGATGATGAGTCGCACATGCCAGGCTGATAGGGGCCGCAAAACATGTGTTAAAGGCATCAGCGCCGAAGTGTAAAGAAAGCCGATCCTTCTTTATGCTGGGACTGTATCTGAATAAGTGCAGGACTGCCGCGTGCTTTTTCGCGGAGGGCTATCCGGAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  ||||||||||| ||||||| ||||||| |||||| |  |||||||||| ||||||||||||||||||||||  ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>648986880</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>URS00003D6469_224308 Bacillus subtilis subsp. subtilis str. 168 Glycine riboswitch</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.692</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.41933e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>319729</Hsp_hit-from>
+      <Hsp_hit-to>319629</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>ATGACAGCAAGGGGAGAGAC-CTGACCGAAAACCTCGGGATACAGGCGCCGAAGGAGCAAACTGCGGAGTGAATCTCTCAGGCAAAAGAACTCTTGCTCGACG</Hsp_qseq>
+      <Hsp_hseq>ATGACAGCAAGGGGAGAGACTCGGA-CG-AAAGATGGGCGTCCGGGCGCCGAAGGAGCAAACTGCGGAGTGAATCTCTCAGGCAAAAGAACTCTTGCTCGACG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| | || || |||  | ||  | | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>332605776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>URS00003E2572_224308 Bacillus subtilis subsp. subtilis str. 168 adenine riboswitch</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.99903e-28</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>2396571</Hsp_hit-from>
+      <Hsp_hit-to>2396502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TTGTATAACCTCAATAATATGGTTTGAGGGTGTCTACCAGGAACCGTAAAATCCTGATTACAAAATTTGT</Hsp_qseq>
+      <Hsp_hseq>TTGTATAACCTCAATGATATGGTTTGAGGGTGTCTACCAGGAACCGTAAAATCCTGATTACAAAAATTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>328549608</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>URS00003F7F6C_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.379</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.19026e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2456702</Hsp_hit-from>
+      <Hsp_hit-to>2456785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>AGAAATCAAATAAGATGAATTCGTATAATCGCGGGAATATGGCTCGCAAGTCTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_qseq>
+      <Hsp_hseq>AGAAATCAAATATGCAGATATCGTATAATGGCGGGGATATGGCCCGCAAGTTTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |  ||  ||||||||| ||||| ||||||| ||||||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>336661944</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>URS0000431F51_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.27412e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>3350652</Hsp_hit-from>
+      <Hsp_hit-to>3350758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ATTCATCCTAGGGGTGCT---TTGCGAAGCTGAGAGAGAC-TTTGTCTCAACCCTT--TTGACCTGATCTGGATCATGCCAGCGGAGGGAAGCGGTGAAAA--GCGGAG</Hsp_qseq>
+      <Hsp_hseq>ATTCACCCTGGGGGTGCTGCCATGCG--GCTGAGAGAGACGTTTGTCTCAACCCTTAACGGACCTGATCCGGATCATGCCGGCGGAGGGAAGCGGTGAAAAAAGCGGAG</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||    ||||  |||||||||||| |||||||||||||||    ||||||||| |||||||||| ||||||||||||||||||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>332605776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>URS0000450568_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.8337e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>790661</Hsp_hit-from>
+      <Hsp_hit-to>790522</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCCCGAGCTGGCGGAGGGACAGGCCCTATGAAGCCCAGCAACCGGTTTCTCTGTTATTTATTATGTTCAA-CTGAGTGAGACAACCAAGGTGCTAACCTGTTGCAAGGTTGTATGA-TTCCTTGAGCGATAAGAG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCCCGAGCTGGCGGAGGGACAGGCCCGATGAAGCCCAGCAACCGGTTTCTCTGTAAAAAAGCAGGTGAAAACACTGTGGGA-AACCAAGGTGCTAACCTGATGCAAGGTTTAATATTTTCCTTGAGCGATAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |   |  | ||  || |   ||| || |||||||||||||||||| |||||||||  ||   ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>482683992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>URS00004DDA4E_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.772</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.1313e-33</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>1620233</Hsp_hit-from>
+      <Hsp_hit-to>1620318</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ATTCTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTAACCGTAAAAAACTAGACTACAAGAAAGTTTGAATAAATTT</Hsp_qseq>
+      <Hsp_hseq>ATTCTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTG-CCGTAAAAGACTAGACTACAAGAAAGTTTGCATAAATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||  |||||||| ||||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>336661944</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>URS00005242E3_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.785</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>4.2714e-48</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>2960603</Hsp_hit-from>
+      <Hsp_hit-to>2960705</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>ACCACTAGGGGTGTCCTTCATAAGGGCTGAGATAAAAGTGTGACTTTTAGACCCTCATAACTTGAACAGGTTCAGACCTGCGTAGGGAAGTGGAGCGGTATTT</Hsp_qseq>
+      <Hsp_hseq>ACCACTAGGGGTGTCCTTCATAAGGGCTGAGATAAAAGTGAGACTTTTAGACCCTCATAACTTGAACAGGTTCAGACCTGCGTAGGGAAGTGGAGCGGTATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>360998952</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>URS000052ABD5_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>156</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.412</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.8458e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>3097360</Hsp_hit-from>
+      <Hsp_hit-to>3097206</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCGAGAGTTGGGCGAGGGATTGGCCTTTTGACCCCAACAGCAACCGACCGTAATACCATTGTGAAATGGGGCGCACTGCTTTTCGCGCCGAGACTGA-TGTCTCATAAGGCACGGTGCTAATTCCATCAGATTGTG-TCTGAGAGATGAGAG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCGAGAGTTGGGCGAGGGATTGGCCTTTTGACCCCAACAGCAACCGACCGTAATTCCATTGTGAAATGGGGCGCG-TGATTTTTGCGCCGAGAC-GACTGTCTCATAAGGCACGGTGCTAATTCCATCAGAC-GTGATCTGAGAGATAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||  || |||| |||||||||| || |||||||||||||||||||||||||||||||||  ||| |||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>551638848</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>URS000053CEAC_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>157</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.718</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>5.01143e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>3097360</Hsp_hit-from>
+      <Hsp_hit-to>3097206</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCGAGAGTTGGGCGAGGGATTTGGCCTTTTGACCCCAAAAGCAACCGACCGTAATTCCATTGTGAAATGGGGCGCATTTTTTTCGCGCCGAGACG-CTGGTCTCTTAAGGCACGGTGCTAATTCCATTCAGATCTGATCTGAGAGATAAGAG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCGAGAGTTGGGCGAGGGATT-GGCCTTTTGACCCCAACAGCAACCGACCGTAATTCCATTGTGAAATGGGGCGCGTGATTTTTGCGCCGAGACGACT-GTCTCATAAGGCACGGTGCTAATTCCAT-CAGACGTGATCTGAGAGATAAGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||| |  |||| ||||||||||| || ||||| |||||||||||||||||||||| ||||  ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>555695016</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>URS000057560B_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>108</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.314e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>2694185</Hsp_hit-from>
+      <Hsp_hit-to>2694286</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AATAGTTACTGGGGGTGCCCG-CT-TTCGGGCTGAGAGAGAAG-GCAAGCTTCTTAACCCTTTGGACCTGATCTGGTTCGTACCAGCGTGGGGAAGTAGAGG</Hsp_qseq>
+      <Hsp_hseq>AATAGTTACTGGGGGTGCCCGTCTGAGCGGGCTGAGAGAGAAGCGGCGGCTTCTTAACCCTTTGGACCTGATCTGGTTCGTACCAGCGTGGGGAAGTAAAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||   |||||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>356942784</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>URS00005D48AF_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.552</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>2.51295e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>998119</Hsp_hit-from>
+      <Hsp_hit-to>998013</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCAAGAGAGGTGGAGGGAAGTGCCCTATGAAGCCCGGCAACCATCAACACTGTTGAAATGGTGCCAATTCACACGAAGCGTTCAGCTTTGAAAGATGAGAG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCAAGAGAGGTGGAGGGAAGTGCCCTATGAAGCCCGGCAACCATCAACAATGTTGAAATGGTGCCAATTCACTCGAAGCGGTCTGCTTTGAAAGATGAGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||||| || |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>352886616</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>URS00007C13B6_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.379</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.15183e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2456702</Hsp_hit-from>
+      <Hsp_hit-to>2456785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>AGAAATCAAATAAGATGAATTCGTATAATCGCGGGAATATGGCTCGCAAGTCTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_qseq>
+      <Hsp_hseq>AGAAATCAAATATGCAGATATCGTATAATGGCGGGGATATGGCCCGCAAGTTTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |  ||  ||||||||| ||||| ||||||| ||||||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>332605776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>URS00007C2D83_224308 Bacillus subtilis subsp. subtilis str. 168 FMN riboswitch (RFN element)</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.479</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>4.26662e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>113051</Hsp_hit-from>
+      <Hsp_hit-to>112917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>ATCAATCTTCGGGGCAGGGTGAAATTCCCTACCGGCGGTGATGAGC-CAATGGCTCTAAGCCCGCGAGCTGTCTTTA-CAGCAGGATTCGGTGAGATTCCGGAGCCGACAGTACAGTCTGGATGGGAGAAGATGGAG</Hsp_qseq>
+      <Hsp_hseq>ATCAATCTTCGGGGCAGGGTGAAATTCCCTACCGGCGGTGATGAGCATCAT-GCTCTAAGCCCGCGAGCTG-CTTCGGCGGCAGGATCCGGTGAGATTCCGGAGCCGACAGTATAGTCTGGATGGGAGAAGATGGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||||||||||||| |||   | ||||||| ||||||||||||||||||||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>466459320</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>URS00007DCA0D_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.40059e-37</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>26378</Hsp_hit-from>
+      <Hsp_hit-to>26283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AATATAATAGGAACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGGGCACCGTAAATGTCCGACTATGGGTGAGCAATGGAACCGC</Hsp_qseq>
+      <Hsp_hseq>AATATCATACGAACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGGTCACCGTAAATGTCCGACTATGAGTGAGCAATGGAACGGC</Hsp_hseq>
+      <Hsp_midline>||||| ||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>324493440</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>URS00007DE88A_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.94966e-28</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>2396571</Hsp_hit-from>
+      <Hsp_hit-to>2396502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TTGTATAACCTCAATAATATGGTTTGAGGGTGTCTACCAGGAACCGTAAAATCCTGATTACAAAATTTGT</Hsp_qseq>
+      <Hsp_hseq>TTGTATAACCTCAATGATATGGTTTGAGGGTGTCTACCAGGAACCGTAAAATCCTGATTACAAAAATTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>324493440</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>URS0002315457_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>99</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.38309e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>2460502</Hsp_hit-from>
+      <Hsp_hit-to>2460594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GAAATCAAAACACGACCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCAACCGTAAATTGCCGGACTATGCAGGAAAGTGAT</Hsp_qseq>
+      <Hsp_hseq>GAAATCAAAACACGACCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCTGCCGTAAACGGCCGGACTATGCAGGAAAGTGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||  |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>320437272</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>URS0002316056_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>99</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.87279e-33</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>1620233</Hsp_hit-from>
+      <Hsp_hit-to>1620317</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ATTCTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTAACCGTAAAAAACTAGACTACAAGAAAGTTTGAATAAATT</Hsp_qseq>
+      <Hsp_hseq>ATTCTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTG-CCGTAAAAGACTAGACTACAAGAAAGTTTGCATAAATT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||  |||||||| ||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>320437272</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>URS0002316C4A_224308 Bacillus subtilis subsp. subtilis str. 168 Cobalamin riboswitch</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>482683992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

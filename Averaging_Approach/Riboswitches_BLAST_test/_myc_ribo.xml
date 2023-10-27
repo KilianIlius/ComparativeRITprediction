@@ -1,0 +1,1507 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._mycoides_NZ_CP035997.1.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>URS000001BC09_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</BlastOutput_query-def>
+  <BlastOutput_query-len>101</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.002857</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>URS000001BC09_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.9128</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.45015e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>4146411</Hsp_hit-from>
+      <Hsp_hit-to>4146308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>TTCTTATCAAGAGCAGGCAGAGGGACGAGCCCGATGAAGCCCGGCAACCGACTTATAA----AG-CACGGTGCTAATTCTTGCAGC-TAGCGGCTGAGAGATAAG</Hsp_qseq>
+      <Hsp_hseq>TTCTTATCAAGAGCAGGTGGAGGGACGAGCCCGACGAAACCCGGCAACCGATCTACAATTGTAGACACGGTGCTAATTCTCGCAGCGTTAC-GCTGACAGATAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||  ||||||||||||||| ||| ||||||||||||  || ||    || ||||||||||||||| ||||| |  | ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>422484498</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>URS0000032866_224308 Bacillus subtilis subsp. subtilis str. 168 PreQ1 riboswitch</Iteration_query-def>
+  <Iteration_query-len>45</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.8999</Hsp_bit-score>
+      <Hsp_score>21</Hsp_score>
+      <Hsp_evalue>0.000132197</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>1442448</Hsp_hit-from>
+      <Hsp_hit-to>1442410</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>GGGAGAGGTTCTAGC-TACACCCTCTATAAAAAACTAAGGA</Hsp_qseq>
+      <Hsp_hseq>GGGAGAGGTTC--GCGAACTCCCTCTATAAAAAACTATGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||  || ||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>135612334</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>URS000005CA97_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>113</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.8999</Hsp_bit-score>
+      <Hsp_score>21</Hsp_score>
+      <Hsp_evalue>0.000472858</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>142520</Hsp_hit-from>
+      <Hsp_hit-to>142558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>CTTATGACCCGATCTGGATAATACCAGCGTGGGGAAGTG</Hsp_qseq>
+      <Hsp_hseq>CTTAGTACCTGATCTGGTTAATGCCAGCGTAGGGAAGTG</Hsp_hseq>
+      <Hsp_midline>||||  ||| ||||||| |||| ||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>485074794</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>URS000005DB10_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>1.12899e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1234368</Hsp_hit-from>
+      <Hsp_hit-to>1234295</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>ACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGG-GCACCGTAAATG-TCCGACTATGGGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACACTCATATAATCGCGGGGATATGGCCTGCAAGTTTCTACCGAAGTACCGTAAATACTTTGACTATGAGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||  ||||||||||||||  | |||||||||  |  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>422484498</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>URS000008638F_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>1.09599e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>2444764</Hsp_hit-from>
+      <Hsp_hit-to>2444709</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TCTTATCGTGAGAGGTGGAGGGACTGGCCCTTAGAAACCTCAGCAACCGGCTTGTTTT</Hsp_qseq>
+      <Hsp_hseq>TCTTATCCAGAGAGGTGGAGGGACTGGCCCTACGATACCTCAGCAACGGG-TT-TTTT</Hsp_hseq>
+      <Hsp_midline>|||||||  ||||||||||||||||||||||  || ||||||||||| || || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>526801658</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>URS0000114DA0_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>2.02915e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>4893696</Hsp_hit-from>
+      <Hsp_hit-to>4893743</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>CTTATCAAGAGAGGTGGAGGGACTGGCCCTATGATACCCGGCAACCGC</Hsp_qseq>
+      <Hsp_hseq>CTTATCCAGAGAGGTGGAGGGACTGGCCCGATGAAACCCAGCAACCGC</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||| |||| |||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>453779646</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>URS000016E07A_224308 Bacillus subtilis subsp. subtilis str. 168 putative coenzyme B12 (AdoCbl) riboswitch</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>578960238</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>URS00001AE039_224308 Bacillus subtilis subsp. subtilis str. 168 glmS glucosamine-6-phosphate activated ribozyme</Iteration_query-def>
+  <Iteration_query-len>171</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>5.85427e-10</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>2617375</Hsp_hit-from>
+      <Hsp_hit-to>2617326</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>TAGTTGACGAGGATGGAGGTTATCGAATTTTCGGCGGATGCCTCCCGGCTG</Hsp_qseq>
+      <Hsp_hseq>TAGTTGACGAGG-TGGAGTTTATCGAGATTTCGGCGGATGACTCCCGGTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||| |||||||  |||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>782378550</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>URS00001D0AD3_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>9.44069e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>2444763</Hsp_hit-from>
+      <Hsp_hit-to>2444718</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>CTTATCAAGAGAGGTGGAGGGACTGGCCCTGCGATACC-CGGCAAC</Hsp_qseq>
+      <Hsp_hseq>CTTATCCAGAGAGGTGGAGGGACTGGCCCTACGATACCTCAGCAAC</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||||||||||||| ||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>453779646</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>URS00002B96A6_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1396</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>4.16084e-14</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>4391446</Hsp_hit-from>
+      <Hsp_hit-to>4391514</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCAACCGTAAATTGCCGGACTATGCAGG</Hsp_qseq>
+      <Hsp_hseq>CCTCATATAATCTTGGAGATAAGGTCCATAAGTTTCTACCTGGCAACCATGAATTGCTAGACTATG-AGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||| || ||||||||||||||| ||||||| | ||||||  ||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>432916214</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>URS00002D22AE_224308 Bacillus subtilis subsp. subtilis str. 168 Lysine riboswitch</Iteration_query-def>
+  <Iteration_query-len>180</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>829321263</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>URS00002D29F6_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>3.82479e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1369149</Hsp_hit-from>
+      <Hsp_hit-to>1369103</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>CTTATCAAGAGAAGCAGAGGGA-CTGGCCCGACGAAGCTTCAGCAACC</Hsp_qseq>
+      <Hsp_hseq>CTTATCAAGAGAAGCTGAGGGAACTGGCCCTACGAAGCT-CGGCAACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||| ||||||| |||||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>511154084</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>URS00002F3927_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>92</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>1.67929e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>46</Hsp_query-to>
+      <Hsp_hit-from>2584509</Hsp_hit-from>
+      <Hsp_hit-to>2584553</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TTCTATCCAGAGAGGTGGAGGGACTGGCCCTATGAAACCTCGGCA</Hsp_qseq>
+      <Hsp_hseq>TTGTATCAAGAGAGGTGGAGGGACTGGCCCTTTGAAACCTCGGCA</Hsp_hseq>
+      <Hsp_midline>|| |||| ||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>375541776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>URS00003061C5_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>5.31754e-13</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3443483</Hsp_hit-from>
+      <Hsp_hit-to>3443393</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>CACAAGGGGAGCATTAAAGCTGAGAGTGAGCGGTTTCGTTCTGACCCTTTGAACCTGTTAGTTAACGCTGGCGTAGGGAT-GTGGCAAA-GTC</Hsp_qseq>
+      <Hsp_hseq>CACAGGGGGAGCCTTACCGCTGAGAGGGAAC-AATTCGTTCCGACCCTTCGAACCTGTTAGTTAATACTAGCGCAGGGATTGTG-CAAACGTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| |||  |||||||| || |   ||||||| ||||||| |||||||||||||||  || ||| |||||| ||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>427700356</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>URS00003085CF_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>106</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>1.52881e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>1369149</Hsp_hit-from>
+      <Hsp_hit-to>1369044</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>CTTATCAAGAGCGGCTGAGGGA-CTGGACCTATGAAGCCCGGCAACCTGC--ATAGTTTGTAAGGTGCTACTTCCAGCAAAATGAATTCCATTTTGAAAGATAAGG</Hsp_qseq>
+      <Hsp_hseq>CTTATCAAGAGAAGCTGAGGGAACTGGCCCTACGAAGCTCGGCAACCTGCTTATAGAAAGCAAGGTGCTAAATCCAGCAAAATGGAATCCATTTTGAAAGATAAGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||||||| |||| |||| ||||| |||||||||||  ||||   | |||||||||  |||||||||||| | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>448563788</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>URS000037084E_224308 Bacillus subtilis subsp. subtilis str. 168 FMN riboswitch (RFN element)</Iteration_query-def>
+  <Iteration_query-len>145</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>2.91544e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4082837</Hsp_hit-from>
+      <Hsp_hit-to>4082700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>ATCCTTCGGGGCAGGGTGGAAATCCCGACCGGCGGTAGTAAAGCACATTTGCTT-TAGAGCCCGTGACCCGTGTGCATAAGC--ACGCGGTGGATTCAGTTTAAGCT-GA-AGCCGACAGTGAAAGTCTGGATGGGAGAAGGAT</Hsp_qseq>
+      <Hsp_hseq>ATCCTTCGGGGTCGGGTGAAATTCCCAACCGGCGGTGATGAAGC-GA-TAGCTTCTA-AGTCCGTGACCCGTTTTCA-ACGCGAAAACGGTGGATCTAG-TGAAACTCTAGGGCCGACAGT-ATAGTCTGGATGGGAGAAGGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||| || |||| |||||||||  | ||||  | | |||| || || ||||||||||| | || | ||  |  ||||||||  || | || ||  |  ||||||||| | ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>651982250</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>URS00003A473B_224308 Bacillus subtilis subsp. subtilis str. 168 Lysine riboswitch</Iteration_query-def>
+  <Iteration_query-len>180</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>829321263</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>URS00003D6469_224308 Bacillus subtilis subsp. subtilis str. 168 Glycine riboswitch</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>427700356</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>URS00003E2572_224308 Bacillus subtilis subsp. subtilis str. 168 adenine riboswitch</Iteration_query-def>
+  <Iteration_query-len>101</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.46119e-06</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>2516616</Hsp_hit-from>
+      <Hsp_hit-to>2516558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TATAACCTCAATAATATGGTTTGAGGGTGTCTACCAGG-AACCGTAAA-ATCCTGATTA</Hsp_qseq>
+      <Hsp_hseq>TATATCCTCGATGATATGGTTTGAGAGTCTCTACCGGGTTACCGTAAACAACCTGACTA</Hsp_hseq>
+      <Hsp_midline>|||| |||| || |||||||||||| || |||||| ||  |||||||| | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>422484498</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>URS00003F7F6C_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.5262</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>2.48653e-16</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2514658</Hsp_hit-from>
+      <Hsp_hit-to>2514595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TCGTATAATCGCGGGAATATGGCTCGCAAGTCTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_qseq>
+      <Hsp_hseq>TCGTATAATATCGGGGATATGGCCCGAAAGTTTCTACCTAGCTACCGTAAATGGCTTGACTACG</Hsp_hseq>
+      <Hsp_midline>|||||||||  |||| ||||||| || |||| |||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>432916214</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>URS0000431F51_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>1.92611e-07</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>3078057</Hsp_hit-from>
+      <Hsp_hit-to>3078101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>TCTCAACCCTTTTGACCTGATCTGGATCATGCCAGCGGAGGGAAG</Hsp_qseq>
+      <Hsp_hseq>TCTTAACCCTTTGGACCTGATCTGGCTCGTACCAGCGTAGGGAAG</Hsp_hseq>
+      <Hsp_midline>||| |||||||| |||||||||||| || | |||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>427700356</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>URS0000450568_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.0662</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>7.66252e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>3482225</Hsp_hit-from>
+      <Hsp_hit-to>3482273</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCCCGAGCTGGCGGAGGGACAGGCCCTATGAAGCCCAGCAACC</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCCCGAGCTGGCGGAGGGACAGGCCCGATGAAGCCCAGCAACC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>620687102</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>URS00004DDA4E_224308 Bacillus subtilis subsp. subtilis str. 168 guanine riboswitch</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>3.26236e-05</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>4879434</Hsp_hit-from>
+      <Hsp_hit-to>4879499</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTAACCG-TAAAA-AACTAGACTAC</Hsp_qseq>
+      <Hsp_hseq>CTCGTATATACTCGGTAATATGGTCCGAGCGTTTCTACCTAGTTCCCAATGAAAGAACTGGACTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||  || ||||||||||| ||  |||||||||||||  ||  | ||| |||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>432916214</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>URS00005242E3_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>464211362</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>URS000052ABD5_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>156</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1396</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>6.81776e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>4148604</Hsp_hit-from>
+      <Hsp_hit-to>4148681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCGAGAGTTGGGCGAGGGA-TTGGCCTTTTGACCCCAACAGCAACCGACCGTAATACCATTGTGAAATGGGGCG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCAAGAGCAGGTGGAGGGATTTGGCCCGATGAAGCC--CAGCAACCGACCGTAATACCATTGTGAAATGGGGCG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||  ||  |||||| ||||||   |||  ||  ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>709356688</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>URS000053CEAC_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>157</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>8.88418e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>4148604</Hsp_hit-from>
+      <Hsp_hit-to>4148681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCGAGAGTTGGGCGAGGGATTTGGCCTTTTGACCCCAAAAGCAACCGACCGTAATTCCATTGTGAAATGGGGCG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATCAAGAGCAGGTGGAGGGATTTGGCCCGATGAAGCCC--AGCAACCGACCGTAATACCATTGTGAAATGGGGCG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||  ||  |||||||||||||   |||  ||   |||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>714572546</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>URS000057560B_224308 Bacillus subtilis subsp. subtilis str. 168 TPP riboswitch (THI element)</Iteration_query-def>
+  <Iteration_query-len>108</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.3729</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>7.32995e-17</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>3078033</Hsp_hit-from>
+      <Hsp_hit-to>3078102</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>GGCTGAGAGAGAAG---GCAAGCTTCTTAACCCTTTGGACCTGATCTGGTTCGTACCAGCGTGGGGAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGAGAGAGAAGCGTGTGAACTTCTTAACCCTTTGGACCTGATCTGGCTCGTACCAGCGTAGGGAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||   |  | ||||||||||||||||||||||||||| |||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>458995504</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>URS00005D48AF_224308 Bacillus subtilis subsp. subtilis str. 168 SAM riboswitch (S box leader)</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>7.19557e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>3286675</Hsp_hit-from>
+      <Hsp_hit-to>3286782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>CTCTTATCAAGAGAGGTGGAGGGA-AGTGCCCTATGAAGCCCGGCAACCATCAAC-ACTGTTGAAATGGTGCCAATTCACACGAAGCGTTCAGCTTTGAAAGATGAGAG</Hsp_qseq>
+      <Hsp_hseq>CTCTTATTAAGAGAGGTGGAGGGACTGTGCCCTGTGAAGCCCGGCAACCGTCAACTTATGTTGAAATGGTGCCAATTCCTGCAAAGCAAAT-GCTTTGAGAGATGAGAG</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||  ||||||| ||||||||||||||| |||||   ||||||||||||||||||||   | ||||     ||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>453779646</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>URS00007C13B6_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.5262</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>2.45657e-16</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2514658</Hsp_hit-from>
+      <Hsp_hit-to>2514595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TCGTATAATCGCGGGAATATGGCTCGCAAGTCTCTACCAAGCTACCGTAAATGGCTTGACTACG</Hsp_qseq>
+      <Hsp_hseq>TCGTATAATATCGGGGATATGGCCCGAAAGTTTCTACCTAGCTACCGTAAATGGCTTGACTACG</Hsp_hseq>
+      <Hsp_midline>|||||||||  |||| ||||||| || |||| |||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>427700356</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>URS00007C2D83_224308 Bacillus subtilis subsp. subtilis str. 168 FMN riboswitch (RFN element)</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.766</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.39679e-26</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1310396</Hsp_hit-from>
+      <Hsp_hit-to>1310261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>ATCTTCGGGGCAGGGTGAAATTCCCTACCGGCGGTGATGAGC------CAA--TGGCTCTAAGCCCGCGAGCTGTCTTTACAGCAGGATTCGGTGAGATTCCGGAGCCGACAGTACAGTCTGGATGGGAGAAGATGGAG</Hsp_qseq>
+      <Hsp_hseq>ATCTTCGGGGCAGGGTGAAAATCCCGACCGGCGGTGATGAACATTTAATAATTTCGTTCTAAGCCCGCGAGC---CGTTAAGGCAGGATTTGGTGTGATTCCAAAGCCGACAGTACAGTCTGGATGGGAGAAGATGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||| |||||||||||||| |       ||  | | |||||||||||||||   | |||  |||||||| |||| ||||||  |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>599823670</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>URS00007DCA0D_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>1.11505e-14</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1234368</Hsp_hit-from>
+      <Hsp_hit-to>1234295</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>ACACTCATATAATCGCGTGGATATGGCACGCAAGTTTCTACCGG-GCACCGTAAATG-TCCGACTATGGGTGAG</Hsp_qseq>
+      <Hsp_hseq>ACACTCATATAATCGCGGGGATATGGCCTGCAAGTTTCTACCGAAGTACCGTAAATACTTTGACTATGAGTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||  ||||||||||||||  | |||||||||  |  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417268640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>URS00007DE88A_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.43081e-06</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>2516616</Hsp_hit-from>
+      <Hsp_hit-to>2516558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TATAACCTCAATAATATGGTTTGAGGGTGTCTACCAGG-AACCGTAAA-ATCCTGATTA</Hsp_qseq>
+      <Hsp_hseq>TATATCCTCGATGATATGGTTTGAGAGTCTCTACCGGGTTACCGTAAACAACCTGACTA</Hsp_hseq>
+      <Hsp_midline>|||| |||| || |||||||||||| || |||||| ||  |||||||| | ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417268640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>URS0002315457_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>99</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1396</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>3.96032e-14</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>4391446</Hsp_hit-from>
+      <Hsp_hit-to>4391514</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>CCTCATATAATCTTGGGAATATGGCCCATAAGTTTCTACCCGGCAACCGTAAATTGCCGGACTATGCAGG</Hsp_qseq>
+      <Hsp_hseq>CCTCATATAATCTTGGAGATAAGGTCCATAAGTTTCTACCTGGCAACCATGAATTGCTAGACTATG-AGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||| || ||||||||||||||| ||||||| | ||||||  ||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>412052782</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>URS0002316056_224308 Bacillus subtilis subsp. subtilis str. 168 Purine riboswitch</Iteration_query-def>
+  <Iteration_query-len>99</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP035997.1 Bacillus mycoides strain BPN36/3 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5215878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>3.10514e-05</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>4879434</Hsp_hit-from>
+      <Hsp_hit-to>4879499</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>CTTGTATATGATCAGTAATATGGTCTGATTGTTTCTACCTAGTAACCG-TAAAA-AACTAGACTAC</Hsp_qseq>
+      <Hsp_hseq>CTCGTATATACTCGGTAATATGGTCCGAGCGTTTCTACCTAGTTCCCAATGAAAGAACTGGACTAC</Hsp_hseq>
+      <Hsp_midline>|| ||||||  || ||||||||||| ||  |||||||||||||  ||  | ||| |||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>412052782</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>URS0002316C4A_224308 Bacillus subtilis subsp. subtilis str. 168 Cobalamin riboswitch</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5215878</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>620687102</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

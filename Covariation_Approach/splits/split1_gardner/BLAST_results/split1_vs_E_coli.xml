@@ -1,0 +1,3360 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>E._coli_NC_002695.2.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>X60293.1/246-293 slurp/ecgetrf.pl?CH03783 DE:[Terminator cysB]</BlastOutput_query-def>
+  <BlastOutput_query-len>48</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.1</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>X60293.1/246-293 slurp/ecgetrf.pl?CH03783 DE:[Terminator cysB]</Iteration_query-def>
+  <Iteration_query-len>48</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>1.52178e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>1835687</Hsp_hit-from>
+      <Hsp_hit-to>1835734</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>TTTCGGCACCTTTTATGTAGCGAAGGTGCCGGAATATATTCTCTTTTG</Hsp_qseq>
+      <Hsp_hseq>TTTCGGCACCTTTTATGTAGCGAAGGTGCCGGAATATATTCTCTTTTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0935521</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>1404164</Hsp_hit-from>
+      <Hsp_hit-to>1404179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>GTGCCGGAATATATTC</Hsp_qseq>
+      <Hsp_hseq>GTGCCGGAATATATTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>159458211</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>X60293.1/3970-4002 slurp/ecgetrf.pl?CH03785 DE:[acn/ribA terminator 2]</Iteration_query-def>
+  <Iteration_query-len>33</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>1.71593e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>1839411</Hsp_hit-from>
+      <Hsp_hit-to>1839443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>GGGTTATTTGTTCAGCAAATGGCCCATTTTCTC</Hsp_qseq>
+      <Hsp_hseq>GGGTTATTTGTTCAGCAAATGGCCCATTTTCTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.048389</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>3046441</Hsp_hit-from>
+      <Hsp_hit-to>3046463</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>GGTTATTTGTTCAGCAAA-TGGC</Hsp_qseq>
+      <Hsp_hseq>GGTTATTTGTACAGCAAAATGGC</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>82478400</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>M55170.1/1827-1862 slurp/ecgetrf.pl?CH03788 DE:[amtA terminator]</Iteration_query-def>
+  <Iteration_query-len>36</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>4.42578e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>5293091</Hsp_hit-from>
+      <Hsp_hit-to>5293126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>GATGGCAGAAACAGTGTATTTCCTGATTCTGCCATC</Hsp_qseq>
+      <Hsp_hseq>GATGGCAGAAACAGTGTATTTCCTGATTCTGCCATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>98974080</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>X68192.1/1504-1542 slurp/ecgetrf.pl?CH03794 DE:[terminator I]</Iteration_query-def>
+  <Iteration_query-len>39</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>4.0199e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>1117044</Hsp_hit-from>
+      <Hsp_hit-to>1117007</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>AAGAGCCAGCGCCCGCTGGCTCTTTTTTTATCTTTTCTG</Hsp_qseq>
+      <Hsp_hseq>AAGAGCCAGCACCCGCTGGCTCTTTTTT-ATCCTTTCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||| ||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00523698</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1182025</Hsp_hit-from>
+      <Hsp_hit-to>1182008</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CGCTGGCTCTTTTTTTAT</Hsp_qseq>
+      <Hsp_hseq>CGCTGGCTCTTTTTTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00523698</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>2237668</Hsp_hit-from>
+      <Hsp_hit-to>2237685</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>CGCTGGCTCTTTTTTTAT</Hsp_qseq>
+      <Hsp_hseq>CGCTGGCTCTTTTTTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.0188355</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>2477948</Hsp_hit-from>
+      <Hsp_hit-to>2477964</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>GCTGGCTCTTTTTTTAT</Hsp_qseq>
+      <Hsp_hseq>GCTGGCTCTTTTTTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>115469760</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>X68192.1/1637-1678 slurp/ecgetrf.pl?CH03795 DE:[terminator II]</Iteration_query-def>
+  <Iteration_query-len>42</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>5.90104e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>1116912</Hsp_hit-from>
+      <Hsp_hit-to>1116871</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>AAAAACTAATCCGCATTCTTATTGCGGATTAGTTTTTTCTTA</Hsp_qseq>
+      <Hsp_hseq>AAAAAATAACCCGCATTCTTATTGCGGATTAGTTTTTTCTTA</Hsp_hseq>
+      <Hsp_midline>||||| ||| ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0774225</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>1116876</Hsp_hit-from>
+      <Hsp_hit-to>1116912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>AAAAACTAATCCGCATTCTTATTGCGGATTAGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAAAACTAATCCGCAATAAGAATGCGGGTTA-TTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |   | ||||| ||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>131965440</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>M87625.1/2270-2297 slurp/ecgetrf.pl?CH03800 DE:[termination sequence]</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.8265</Hsp_bit-score>
+      <Hsp_score>28</Hsp_score>
+      <Hsp_evalue>7.5733e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4811758</Hsp_hit-from>
+      <Hsp_hit-to>4811785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>ACCGGGTGGTAATACCACCCGGTCTTTT</Hsp_qseq>
+      <Hsp_hseq>ACCGGGTGGTAATACCACCCGGTCTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.000212061</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>4811780</Hsp_hit-from>
+      <Hsp_hit-to>4811758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ACCGGGTGGTAATACCACCCGGT</Hsp_qseq>
+      <Hsp_hseq>ACCGGGTGGTATTACCACCCGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>60484171</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>X61919.1/257-295 slurp/ecgetrf.pl?CH03803 DE:[crp divergent RNA transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>39</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1396</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>1.1098e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>4205730</Hsp_hit-from>
+      <Hsp_hit-to>4205692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>GATGGCGGCGGGTGGTTGCAGTGCCATCGATGTGGTTTC</Hsp_qseq>
+      <Hsp_hseq>GATGGCGGCGGGTGGTTGCAGTGCCATCGATGTGGTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.0188355</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>715495</Hsp_hit-from>
+      <Hsp_hit-to>715479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>GGTGGTTGCAGTGCCAT</Hsp_qseq>
+      <Hsp_hseq>GGTGGTTGCAGTGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>115469760</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>X01653.1/3207-3232 slurp/ecgetrf.pl?CH03805 DE:[pot. stem-loop structure]</Iteration_query-def>
+  <Iteration_query-len>26</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>8.01547e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>4787491</Hsp_hit-from>
+      <Hsp_hit-to>4787516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TGCCGGAAAGCGAGGCTTATCCGGCA</Hsp_qseq>
+      <Hsp_hseq>TGCCGGAAAGCGAGGCTTATCCGGCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0290334</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>488492</Hsp_hit-from>
+      <Hsp_hit-to>488512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TGCCGGAAAGCGAGGCTTATCCG</Hsp_qseq>
+      <Hsp_hseq>TGCCGGAAAGCGAG-CTT-TCCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>49487049</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>X05629.1/80-111 slurp/ecgetrf.pl?CH03808 DE:[Terminator deoT]</Iteration_query-def>
+  <Iteration_query-len>32</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>1.24685e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>5479603</Hsp_hit-from>
+      <Hsp_hit-to>5479634</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AAGCCGGAGCGGGAGACTGCTCCGGCTTTTTA</Hsp_qseq>
+      <Hsp_hseq>AAGCCGGAGTGGGGGACTGCTCCGGCTTTTTA</Hsp_hseq>
+      <Hsp_midline>||||||||| ||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>76979840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>X00547.1/1104-1134 slurp/ecgetrf.pl?CH03811 DE:[Pot. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>31</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.92373e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>1160208</Hsp_hit-from>
+      <Hsp_hit-to>1160178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>AGCCTCGCTTTATGCGGGGCTTTGTTTTTTG</Hsp_qseq>
+      <Hsp_hseq>AGCCTCGCTTTATGCGGGGCTTTGTTTTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>71481280</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>M84991.1/1269-1309 slurp/ecgetrf.pl?CH03814 DE:[Terminatorfor fatty acid biosynthesis operon]</Iteration_query-def>
+  <Iteration_query-len>41</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>1.57235e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>1511096</Hsp_hit-from>
+      <Hsp_hit-to>1511135</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>CTCCAGGCGGTCGTTCGACCGCCTTGAGTTTTATCTTTTTG</Hsp_qseq>
+      <Hsp_hseq>CTCCAGGCGGTCGTTCGACCGCC-TGAGTTTTATCTTTTTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0741965</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1511120</Hsp_hit-from>
+      <Hsp_hit-to>1511096</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CAGGCGGTCGTTCGACCGCCTTGAG</Hsp_qseq>
+      <Hsp_hseq>CAGGCGGTCGAACGACCGCCTGGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||  ||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>126466880</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>X08087.1/907-941 slurp/ecgetrf.pl?CH03816 DE:[Pot. stem-loop structure; pot. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.753</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>1.50336e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>1677302</Hsp_hit-from>
+      <Hsp_hit-to>1677336</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>AAACCCCTCAAACGAGGGGTTTTTTGTTGTTTTTA</Hsp_qseq>
+      <Hsp_hseq>AAACCCCTCAAACGAGGGGTTTTTTGTTGTTTTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.0152478</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>5328108</Hsp_hit-from>
+      <Hsp_hit-to>5328083</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CCCCTCAAACGAGGGGTTTTTTGTTG</Hsp_qseq>
+      <Hsp_hseq>CCCCTCAATCGAGGGGCTTTTTTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||| ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>93475520</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>X63666.1/1540-1567 slurp/ecgetrf.pl?CH03819 DE:[Putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>3.52352e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4170316</Hsp_hit-from>
+      <Hsp_hit-to>4170343</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAGCCCGGTCTTGCCGGGCGTTTTTATA</Hsp_qseq>
+      <Hsp_hseq>AAGCCCGGTCTTGCCGGGCATTTTTATA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>60484171</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>X04065.1/1578-1619 slurp/ecgetrf.pl?CH03822 DE:[Stem-loop structure; pot. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>42</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6796</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>2.72613e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>42</Hsp_query-to>
+      <Hsp_hit-from>2285111</Hsp_hit-from>
+      <Hsp_hit-to>2285070</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>CAGGTGCAGCCGTGGAATGATCAAACGAAGCGGCTGCGCCTG</Hsp_qseq>
+      <Hsp_hseq>CAGGTGCAGCCGTGGAATGATCAAACGAAGCGGCTGCGCCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>131965440</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>X06744.1/2831-2858 slurp/ecgetrf.pl?CH03831 DE:[Put. stem loop structure]</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>1.63933e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>3062678</Hsp_hit-from>
+      <Hsp_hit-to>3062651</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAGGGAGCTATCTCCCTTGTTTGAATTG</Hsp_qseq>
+      <Hsp_hseq>AAGGGAGCCATCTCCCTTTTTTGAATTG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>60484171</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>X04864.1/40-68 slurp/ecgetrf.pl?CH03834 DE:[Put. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>29</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>9.79668e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>1093323</Hsp_hit-from>
+      <Hsp_hit-to>1093351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>CTTCGGGATTTTTATTCCGAAGTTTGTTG</Hsp_qseq>
+      <Hsp_hseq>CTTCGGGATTTTTATTCTGAAGTTTGTTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>60484160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>X13462.1/7351-7391 slurp/ecgetrf.pl?CH03836 DE:[Pot. stem-loop structure]</Iteration_query-def>
+  <Iteration_query-len>40</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>3.2326e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>2769471</Hsp_hit-from>
+      <Hsp_hit-to>2769510</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>AAAAACGGGCAAGGTGTCACCACCCTGCCCTTTTTCTTTA</Hsp_qseq>
+      <Hsp_hseq>AAAAACGGGCAAGGTGTCACCACCCTGCCCTTTTTCTTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>120968320</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>L12044.1/438-472 slurp/ecgetrf.pl?CH03847 DE:[Putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>35</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.753</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>1.50336e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>35</Hsp_query-to>
+      <Hsp_hit-from>1753534</Hsp_hit-from>
+      <Hsp_hit-to>1753500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TAAGGGCACGGTTTTTGCAACCGTGTTCTTGTTTG</Hsp_qseq>
+      <Hsp_hseq>TAAGGGCACGGTTTTTGCAACCGTGTTCTTGTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>93475520</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>X55791.1/1233-1270 slurp/ecgetrf.pl?CH03857 DE:[MetG attenuator terminator]</Iteration_query-def>
+  <Iteration_query-len>38</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>3.80148e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>2870013</Hsp_hit-from>
+      <Hsp_hit-to>2870050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>GGCCTGGGATTGTTCGTTCATCCCGACTCCTTTTTTGT</Hsp_qseq>
+      <Hsp_hseq>GGCCTGGGATTGTTCGTTCATCCCGACTCCTTTTTTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>109971200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>M83655.1/1677-1708 slurp/ecgetrf.pl?CH03863 DE:[NhaB Terminator]</Iteration_query-def>
+  <Iteration_query-len>32</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>5.76014e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>1674790</Hsp_hit-from>
+      <Hsp_hit-to>1674759</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>ACCGGGCATATAAATGCCCGGTTTGCCTTTTC</Hsp_qseq>
+      <Hsp_hseq>ACCGGGCATATAAATGCCCGGTTTGCCTTTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0451631</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>1674769</Hsp_hit-from>
+      <Hsp_hit-to>1674790</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>ACCGGGCATATAAATGCCCGGT</Hsp_qseq>
+      <Hsp_hseq>ACCGGGCATTTATATGCCCGGT</Hsp_hseq>
+      <Hsp_midline>||||||||| || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>76979840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>X05123.1/672-711 slurp/ecgetrf.pl?CH03867 DE:[pot. stem-loop structure; pot. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>40</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>3.2326e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>864029</Hsp_hit-from>
+      <Hsp_hit-to>864068</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>CAGTAACTTCAGACATCAACTATTGAGTCTGTCGTTACTG</Hsp_qseq>
+      <Hsp_hseq>CAGTAACTTCAGACATCAACTATTGAGTCTGTCGTTACTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>120968320</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>X08035.1/3325-3361 slurp/ecgetrf.pl?CH03871 DE:[pot.stem-loop structure]</Iteration_query-def>
+  <Iteration_query-len>37</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>1.29889e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>1079974</Hsp_hit-from>
+      <Hsp_hit-to>1079938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>AAAGCGGCAACTTTATTGAGTTGCCGCTTTTTTATTC</Hsp_qseq>
+      <Hsp_hseq>AAAGCGGCAACTTTATTGAGTTGCCGCTTTTTTATTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00473822</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>1079945</Hsp_hit-from>
+      <Hsp_hit-to>1079974</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>AAAGCGGCAACTTTATTGAGTTGCCGCTTT</Hsp_qseq>
+      <Hsp_hseq>AAAGCGGCAACTCAATAAAGTTGCCGCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||  ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0612928</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>33</Hsp_query-to>
+      <Hsp_hit-from>349835</Hsp_hit-from>
+      <Hsp_hit-to>349853</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>ATTGAGTTGCCGCTTTTTT</Hsp_qseq>
+      <Hsp_hseq>ATTGAGTTGCTGCTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0612928</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>3457165</Hsp_hit-from>
+      <Hsp_hit-to>3457186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>TTGAGTTGCCGCTTTTTTATTC</Hsp_qseq>
+      <Hsp_hseq>TTGAGCTGCCGTTTTTTTATTC</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>104472640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>X04586.1/1699-1742 slurp/ecgetrf.pl?CH03876 DE:[stem-loop structure]</Iteration_query-def>
+  <Iteration_query-len>44</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.8329</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>1.02134e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>462943</Hsp_hit-from>
+      <Hsp_hit-to>462986</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>AACCGCGCCCGGCAGTGAATTTTCGCTGCCGGGTGGTTTTTTTG</Hsp_qseq>
+      <Hsp_hseq>AACCGCTCCCGGCAGTGAATTTTCGCTGCCGGGTGGTTTTTTTG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0806484</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>19</Hsp_query-to>
+      <Hsp_hit-from>1627413</Hsp_hit-from>
+      <Hsp_hit-to>1627394</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>AACC-GCGCCCGGCAGTGAA</Hsp_qseq>
+      <Hsp_hseq>AACCAGCGCCCGGCAGTGAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>137463975</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>X51950.1/3192-3229 slurp/ecgetrf.pl?CH03881 DE:[terminator region]</Iteration_query-def>
+  <Iteration_query-len>38</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>3.80148e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>5013529</Hsp_hit-from>
+      <Hsp_hit-to>5013492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>GACGGGCGGCTTCGGTTTTGTTGCCGCCCGTTTTCTCC</Hsp_qseq>
+      <Hsp_hseq>GACGGGCGGCTTCGGTTTTGTTGCCGCCCGTTTTCTCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>109971200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>X04382.1/567-588 slurp/ecgetrf.pl?CH03886 DE:[pot. stem-loop structure]</Iteration_query-def>
+  <Iteration_query-len>22</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>7.45151e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>25190</Hsp_hit-from>
+      <Hsp_hit-to>25169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>CCCGCGCAAGCGGGTTTTTTTA</Hsp_qseq>
+      <Hsp_hseq>CCCGCGCAAGCGGGTTTTTTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.82</Hsp_bit-score>
+      <Hsp_score>15</Hsp_score>
+      <Hsp_evalue>0.0580127</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>2241006</Hsp_hit-from>
+      <Hsp_hit-to>2240992</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>CAAGCGGGTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAAGCGGGTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.82</Hsp_bit-score>
+      <Hsp_score>15</Hsp_score>
+      <Hsp_evalue>0.0580127</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>21</Hsp_query-to>
+      <Hsp_hit-from>2698277</Hsp_hit-from>
+      <Hsp_hit-to>2698263</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>CAAGCGGGTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAAGCGGGTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>28.82</Hsp_bit-score>
+      <Hsp_score>15</Hsp_score>
+      <Hsp_evalue>0.0580127</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>18</Hsp_query-to>
+      <Hsp_hit-from>5033250</Hsp_hit-from>
+      <Hsp_hit-to>5033264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCGCAAGCGGGTTTT</Hsp_qseq>
+      <Hsp_hseq>GCGCAAGCGGGTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>27492805</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>M37337.1/4703-4733 slurp/ecgetrf.pl?CH03890 DE:[rrnC terminator]</Iteration_query-def>
+  <Iteration_query-len>31</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.92373e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>31</Hsp_query-to>
+      <Hsp_hit-from>4740630</Hsp_hit-from>
+      <Hsp_hit-to>4740600</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>ATCCTTAGCTTTCGCTAAGGATGATTTCTGG</Hsp_qseq>
+      <Hsp_hseq>ATCCTTAGCTTTCGCTAAGGATGATTTCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>71481280</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>L10328.1/5220-5193 slurp/ecgetrf.pl?CH03902 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.8265</Hsp_bit-score>
+      <Hsp_score>28</Hsp_score>
+      <Hsp_evalue>7.5733e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4559812</Hsp_hit-from>
+      <Hsp_hit-to>4559785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAGGCGACTGATGAGTCGCCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGCGACTGATGAGTCGCCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.00986624</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>1918840</Hsp_hit-from>
+      <Hsp_hit-to>1918859</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>TGATGAGTCGCCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>TGATGAGTCGGCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0354853</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>4559791</Hsp_hit-from>
+      <Hsp_hit-to>4559812</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>AAGGCGACTGATGAGTCGCCTT</Hsp_qseq>
+      <Hsp_hseq>AAGGCGACTCATCAGTCGCCTT</Hsp_hseq>
+      <Hsp_midline>||||||||| || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>60484171</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>L10328.1/43056-43083 slurp/ecgetrf.pl?CH03904 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>28</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>1.63933e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4644262</Hsp_hit-from>
+      <Hsp_hit-to>4644289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAAGGGGAGCGGGAAACCGCTCCCCTTT</Hsp_qseq>
+      <Hsp_hseq>AAAGGGGAGCGGGTAACCGCTCCCATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0354853</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4644289</Hsp_hit-from>
+      <Hsp_hit-to>4644262</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAAGGGGAGCGGGAAACCGCTCCCCTTT</Hsp_qseq>
+      <Hsp_hseq>AAATGGGAGCGGTTACCCGCTCCCCTTT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||  | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>60484171</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>L10328.1/43151-43173 slurp/ecgetrf.pl?CH03905 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>23</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>2.48616e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>4644357</Hsp_hit-from>
+      <Hsp_hit-to>4644379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>CGGCAACATTTATTGCCGCTTTT</Hsp_qseq>
+      <Hsp_hseq>CGGCAACATTTATTGCCGCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>32991366</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>L10328.1/76146-76169 slurp/ecgetrf.pl?CH03908 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>24</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>8.06452e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>4673106</Hsp_hit-from>
+      <Hsp_hit-to>4673129</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGCGGTCAGTTGACCGCCTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GGCGGTCAGTTGACCGCCTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.00627852</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>1062991</Hsp_hit-from>
+      <Hsp_hit-to>1063013</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>GGCGGTCAGTTGACCGCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>GGTGGTCAGTTGGCCGCCTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0225816</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>1817045</Hsp_hit-from>
+      <Hsp_hit-to>1817060</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>GTTGACCGCCTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTGACCGCCTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>38489927</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/177-208 slurp/ecgetrf.pl?CH03911 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>32</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>1.24685e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>4740609</Hsp_hit-from>
+      <Hsp_hit-to>4740640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>ATCCTTAGCGAAACGTAAGGATTTTTTTTATC</Hsp_qseq>
+      <Hsp_hseq>ATCCTTAGCGAAAGCTAAGGATTTTTTTTATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>76979840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/13395-13431 slurp/ecgetrf.pl?CH03915 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>37</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.9064</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>6.04317e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>4753801</Hsp_hit-from>
+      <Hsp_hit-to>4753837</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>TAATGGAACGACGATGCATGCGTTGCCATTAATTTTT</Hsp_qseq>
+      <Hsp_hseq>TAATGGAACGACGATGAATGCGTTGCCATTAATTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>104472640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/20818-20851 slurp/ecgetrf.pl?CH03917 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>34</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.9064</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>5.08898e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>34</Hsp_query-to>
+      <Hsp_hit-from>4761224</Hsp_hit-from>
+      <Hsp_hit-to>4761257</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AAAACGCCACGTGTTTACGTGGCGTTTTGCTTTT</Hsp_qseq>
+      <Hsp_hseq>AAAACGCCACGTGTTTACGTGGCGTTTTGCTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.051615</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>28</Hsp_query-to>
+      <Hsp_hit-from>4761251</Hsp_hit-from>
+      <Hsp_hit-to>4761224</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>AAAACGCCACGTGTTTACGTGGCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAAACGCCACGTAAACACGTGGCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||    ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>87976960</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/35929-35952 slurp/ecgetrf.pl?CH03919 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>24</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>8.06452e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>4776576</Hsp_hit-from>
+      <Hsp_hit-to>4776599</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AACCCCGCTTCGGCGGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AACCCCGCTTCGGCGGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.8999</Hsp_bit-score>
+      <Hsp_score>21</Hsp_score>
+      <Hsp_evalue>3.75206e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>3017887</Hsp_hit-from>
+      <Hsp_hit-to>3017910</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AACCCCGCTTCGGCGGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AACCCCGCTCCGGCGGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.000134948</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>1731907</Hsp_hit-from>
+      <Hsp_hit-to>1731929</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ACCCCGCTTCGGCGGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>ACCCTGCTTCGGCGGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00174566</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>1148466</Hsp_hit-from>
+      <Hsp_hit-to>1148443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AACCCCGCTTCGGCGGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AACCCCGCTGCTGCGGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||| | ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00174566</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>1264321</Hsp_hit-from>
+      <Hsp_hit-to>1264344</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>AACCCCGCTTCGGCGGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AACCCAGCTTCGGCTGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>38489927</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/58920-58946 slurp/ecgetrf.pl?CH03922 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>4802252</Hsp_hit-from>
+      <Hsp_hit-to>4802278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>CAGGCGCTGAAAATAGCGCCTGTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAGGCGCTGAAAATAGCGCCTGTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>36</Iteration_iter-num>
+  <Iteration_query-ID>Query_36</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/68404-68432 slurp/ecgetrf.pl?CH03923 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>29</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>3.52351e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>4811758</Hsp_hit-from>
+      <Hsp_hit-to>4811785</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ACCGGGTGGTAATACCACCCCGGTCTTTT</Hsp_qseq>
+      <Hsp_hseq>ACCGGGTGGTAATACCACCC-GGTCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.00986624</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>24</Hsp_query-to>
+      <Hsp_hit-from>4811780</Hsp_hit-from>
+      <Hsp_hit-to>4811758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>ACCGGGTGGTAATACCACCCCGGT</Hsp_qseq>
+      <Hsp_hseq>ACCGGGTGGTATTACCACCC-GGT</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>60484160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>37</Iteration_iter-num>
+  <Iteration_query-ID>Query_37</Iteration_query-ID>
+  <Iteration_query-def>M87049.1/80319-80294 slurp/ecgetrf.pl?CH03925 DE:[terminator-like sequence]</Iteration_query-def>
+  <Iteration_query-len>26</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>8.01547e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>4823695</Hsp_hit-from>
+      <Hsp_hit-to>4823670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>CCCGCCTGTCAGGGGCGGGTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CCCGCCTGTCAGGGGCGGGTTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.00807238</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>CCCGC-CTGTCAGGGGCGGGTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CCCGCACTGTCAGGTGCGGGCTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>49487049</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>38</Iteration_iter-num>
+  <Iteration_query-ID>Query_38</Iteration_query-ID>
+  <Iteration_query-def>X04691.1/1558-1582 slurp/ecgetrf.pl?CH03928 DE:[pot. transcription terminator]</Iteration_query-def>
+  <Iteration_query-len>25</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.56256e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>4475715</Hsp_hit-from>
+      <Hsp_hit-to>4475691</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GCCCGGTTATCGGTAGCGATACCGG</Hsp_qseq>
+      <Hsp_hseq>GCCCGGTTATCGGTAGCGATACCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>43988488</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>39</Iteration_iter-num>
+  <Iteration_query-ID>Query_39</Iteration_query-ID>
+  <Iteration_query-def>L19201.1/11616-11655 slurp/ecgetrf.pl?CH03934 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>40</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>3.2326e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>4846056</Hsp_hit-from>
+      <Hsp_hit-to>4846095</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>GCCCCAGTCAGTAATGACTGGGGCGTTTTTTATTGGGCGA</Hsp_qseq>
+      <Hsp_hseq>GCCCCAGTCAGTAATGACTGGGGCGTTTTTTATTGGGCGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00152541</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>4846079</Hsp_hit-from>
+      <Hsp_hit-to>4846055</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GCCCCAGTCAGTAATGACTGGGGCG</Hsp_qseq>
+      <Hsp_hseq>GCCCCAGTCATTACTGACTGGGGCG</Hsp_hseq>
+      <Hsp_midline>|||||||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.36</Hsp_bit-score>
+      <Hsp_score>18</Hsp_score>
+      <Hsp_evalue>0.00548636</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>3607796</Hsp_hit-from>
+      <Hsp_hit-to>3607764</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>GTCAGTAATGACTGGGGCGTTTTTTATTGGGCGA</Hsp_qseq>
+      <Hsp_hseq>GTCAGTAATGATGGGGGCGTTTTT-ATTTTGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||||||||| |||  ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0709706</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>303323</Hsp_hit-from>
+      <Hsp_hit-to>303308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>GGGCGTTTTTTATTGG</Hsp_qseq>
+      <Hsp_hseq>GGGCGTTTTTTATTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>120968320</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>40</Iteration_iter-num>
+  <Iteration_query-ID>Query_40</Iteration_query-ID>
+  <Iteration_query-def>L19201.1/21887-21922 slurp/ecgetrf.pl?CH03936 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>36</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>4.42578e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>4856174</Hsp_hit-from>
+      <Hsp_hit-to>4856209</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>AAAAAACCTGCCAGCGATGGCAGGTTTTTTTTTGCC</Hsp_qseq>
+      <Hsp_hseq>AAAAAACCTGCCAGCGATGGCAGGTTTTTTTTTGCC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>2.07373e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>30</Hsp_query-to>
+      <Hsp_hit-from>4856203</Hsp_hit-from>
+      <Hsp_hit-to>4856174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>AAAAAACCTGCCAGCGATGGCAGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAAAAACCTGCCATCGCTGGCAGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00124807</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>1572230</Hsp_hit-from>
+      <Hsp_hit-to>1572248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>TGGCAGGTTTTTTTTTGCC</Hsp_qseq>
+      <Hsp_hseq>TGGCAGGTTTTTTTTTGCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00124807</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>36</Hsp_query-to>
+      <Hsp_hit-from>1790701</Hsp_hit-from>
+      <Hsp_hit-to>1790719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>TGGCAGGTTTTTTTTTGCC</Hsp_qseq>
+      <Hsp_hseq>TGGCAGGTTTTTTTTTGCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>98974080</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>41</Iteration_iter-num>
+  <Iteration_query-ID>Query_41</Iteration_query-ID>
+  <Iteration_query-def>L19201.1/67994-68020 slurp/ecgetrf.pl?CH03939 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>1.15207e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>4906448</Hsp_hit-from>
+      <Hsp_hit-to>4906474</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>CCCCCACATGCTGTGGGGGTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CCCCCACATGATGTGGGGGTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>42</Iteration_iter-num>
+  <Iteration_query-ID>Query_42</Iteration_query-ID>
+  <Iteration_query-def>L19201.1/71476-71507 slurp/ecgetrf.pl?CH03941 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>32</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>5.76014e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>32</Hsp_query-to>
+      <Hsp_hit-from>4909929</Hsp_hit-from>
+      <Hsp_hit-to>4909960</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>AAACCCGGTGGTTTCTCGCGACCGGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAACCCGGTGGTTTCTCGCGACCGGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>76979840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>43</Iteration_iter-num>
+  <Iteration_query-ID>Query_43</Iteration_query-ID>
+  <Iteration_query-def>L19201.1/82018-81996 slurp/ecgetrf.pl?CH03944 DE:[putative termination signal]</Iteration_query-def>
+  <Iteration_query-len>23</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>2.48616e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>4922004</Hsp_hit-from>
+      <Hsp_hit-to>4921982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>TGGGGCTGAAAGGCCCCATTTTT</Hsp_qseq>
+      <Hsp_hseq>TGGGGCTGAAAGGCCCCATTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>32991366</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>44</Iteration_iter-num>
+  <Iteration_query-ID>Query_44</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/28964-28938 slurp/ecgetrf.pl?CH05080</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>5192712</Hsp_hit-from>
+      <Hsp_hit-to>5192686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>45</Iteration_iter-num>
+  <Iteration_query-ID>Query_45</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/28964-28938 slurp/ecgetrf.pl?CH05080</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>5192712</Hsp_hit-from>
+      <Hsp_hit-to>5192686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>46</Iteration_iter-num>
+  <Iteration_query-ID>Query_46</Iteration_query-ID>
+  <Iteration_query-def>seq10161 slurp/ecgetrf.pl?CH05080.1</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>5192712</Hsp_hit-from>
+      <Hsp_hit-to>5192686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>47</Iteration_iter-num>
+  <Iteration_query-ID>Query_47</Iteration_query-ID>
+  <Iteration_query-def>seq10161 slurp/ecgetrf.pl?CH05080.1</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>5192712</Hsp_hit-from>
+      <Hsp_hit-to>5192686</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>GCGCGGCCCCACCCCGCGCTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>48</Iteration_iter-num>
+  <Iteration_query-ID>Query_48</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/53366-53342 slurp/ecgetrf.pl?CH05082</Iteration_query-def>
+  <Iteration_query-len>25</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.56256e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>3852175</Hsp_hit-from>
+      <Hsp_hit-to>3852199</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CGGACCTCCACGGAGGTCCGTTTTT</Hsp_qseq>
+      <Hsp_hseq>CGGACCTCCACGGAGGTCCGTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.56256e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>25</Hsp_query-to>
+      <Hsp_hit-from>5217116</Hsp_hit-from>
+      <Hsp_hit-to>5217092</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>CGGACCTCCACGGAGGTCCGTTTTT</Hsp_qseq>
+      <Hsp_hseq>CGGACCTCCACGGAGGTCCGTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>32.5133</Hsp_bit-score>
+      <Hsp_score>17</Hsp_score>
+      <Hsp_evalue>0.00717545</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>5217097</Hsp_hit-from>
+      <Hsp_hit-to>5217119</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>CGGACCTCCACGGAGGTCCGTTT</Hsp_qseq>
+      <Hsp_hseq>CGGACCTCCGTGGAGGTCCGTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0258075</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>3852194</Hsp_hit-from>
+      <Hsp_hit-to>3852173</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>CGGACCTCCACGGAGGTCCGTT</Hsp_qseq>
+      <Hsp_hseq>CGGACCTCCGTGGAGGTCCGTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>43988488</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>49</Iteration_iter-num>
+  <Iteration_query-ID>Query_49</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/68628-68607 slurp/ecgetrf.pl?CH05085</Iteration_query-def>
+  <Iteration_query-len>22</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>7.45151e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>5232207</Hsp_hit-from>
+      <Hsp_hit-to>5232186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>GGTCCGAATTTTCGGACCTTTT</Hsp_qseq>
+      <Hsp_hseq>GGTCCGAATTTTCGGACCTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>27492805</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>50</Iteration_iter-num>
+  <Iteration_query-ID>Query_50</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/100855-100881 slurp/ecgetrf.pl?CH05087</Iteration_query-def>
+  <Iteration_query-len>27</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.47622e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>27</Hsp_query-to>
+      <Hsp_hit-from>5263881</Hsp_hit-from>
+      <Hsp_hit-to>5263907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>CCATCCAGATTTGGATGGTTTTTTTTT</Hsp_qseq>
+      <Hsp_hseq>CCATCCAGATTTGGATGGTTTTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>54985610</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>51</Iteration_iter-num>
+  <Iteration_query-ID>Query_51</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/122121-122149 slurp/ecgetrf.pl?CH05090</Iteration_query-def>
+  <Iteration_query-len>29</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>2.10566e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>5286890</Hsp_hit-from>
+      <Hsp_hit-to>5286918</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GCTGGATGGCGCAATGCCATCCAGCTTTT</Hsp_qseq>
+      <Hsp_hseq>GCTGGATGGCGCAATGCCATCCAGCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>60484160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>52</Iteration_iter-num>
+  <Iteration_query-ID>Query_52</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/303152-303174 slurp/ecgetrf.pl?CH05098</Iteration_query-def>
+  <Iteration_query-len>23</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>2.48616e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>5470494</Hsp_hit-from>
+      <Hsp_hit-to>5470516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>GCCAGTCCAGCGGACTGGCTTTT</Hsp_qseq>
+      <Hsp_hseq>GCCAGTCCAGCGGACTGGCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.6667</Hsp_bit-score>
+      <Hsp_score>16</Hsp_score>
+      <Hsp_evalue>0.0193556</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>5470512</Hsp_hit-from>
+      <Hsp_hit-to>5470491</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>GCCAGTCCAGC-GGACTGGCTTT</Hsp_qseq>
+      <Hsp_hseq>GCCAGTCC-GCTGGACTGGCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.82</Hsp_bit-score>
+      <Hsp_score>15</Hsp_score>
+      <Hsp_evalue>0.0696152</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>22</Hsp_query-to>
+      <Hsp_hit-from>3357001</Hsp_hit-from>
+      <Hsp_hit-to>3357018</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>GTCCAGCGGACTGGCTTT</Hsp_qseq>
+      <Hsp_hseq>GTCCAGCTGACTGGCTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>17</Statistics_hsp-len>
+      <Statistics_eff-space>32991366</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>53</Iteration_iter-num>
+  <Iteration_query-ID>Query_53</Iteration_query-ID>
+  <Iteration_query-def>U14003.1/312468-312496 slurp/ecgetrf.pl?CH05099</Iteration_query-def>
+  <Iteration_query-len>29</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>4.55795e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>29</Hsp_query-to>
+      <Hsp_hit-from>5479605</Hsp_hit-from>
+      <Hsp_hit-to>5479633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GCCGGAGCGGGAGACTGCTCCGGCTTTTT</Hsp_qseq>
+      <Hsp_hseq>GCCGGAGTGGGGGACTGCTCCGGCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>60484160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>54</Iteration_iter-num>
+  <Iteration_query-ID>Query_54</Iteration_query-ID>
+  <Iteration_query-def>J01636.1/1170-1210 slurp/ecgetrf.pl?CH05936 DE:[terminator overlapping CAP site]</Iteration_query-def>
+  <Iteration_query-len>41</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_002695.2 Escherichia coli O157:H7 str. Sakai DNA, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>5498578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.753</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>2.03396e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>423196</Hsp_hit-from>
+      <Hsp_hit-to>423156</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>CAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCT</Hsp_qseq>
+      <Hsp_hseq>CAATTAATGTGAGTCAGCTCACTCATTAGGCACCCCACGCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>5498578</Statistics_db-len>
+      <Statistics_hsp-len>18</Statistics_hsp-len>
+      <Statistics_eff-space>126466880</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

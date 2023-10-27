@@ -1,0 +1,5 @@
+- took only one BLAST match per species with an evalue better then 0.1/number_of_queries
+- sequences were extended by 20 nt on each side
+- only RNIE scores were taken of matches in the correct strand
+- RNIE threshold of 0 was chosen
+- if RNIE didn't find a hit for a sequence a score of 0 was chosen

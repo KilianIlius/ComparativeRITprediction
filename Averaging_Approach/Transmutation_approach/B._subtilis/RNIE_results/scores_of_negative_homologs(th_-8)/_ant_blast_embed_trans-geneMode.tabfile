@@ -1,0 +1,100 @@
+# command:    cmsearch -T -8 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile _ant_blast_embed_trans-geneMode.tabfile models/gene.cm /home/kilian/1st_RNIE_test/transmuted_RIT_regions/_ant_blast_embed_trans.fa
+# date:       Tue Jan 17 07:42:30 2023
+# num seqs:   23
+# dbsize(Mb): 0.004412
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -      30.856    -8.00   0.2818  00:00:00.72
+#
+# CM: seed-a-14
+#                                                                    target coord   query coord                         
+#                                                          ----------------------  ------------                         
+# model name  target name                                       start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   adaA,adaB                                           161         126      1     44      4.64  1.66e-01   53
+  seed-a-14   cwlJ                                                 17          53      1     44      0.73  8.37e-01   49
+  seed-a-14   cwlJ                                                 44           7      1     44      2.63  3.81e-01   50
+  seed-a-14   yfhQ,fabL,sspE                                       67          41      1     44     -6.37  1.57e+01   26
+  seed-a-14   yjcI,yjcJ                                            95          58      1     44     -4.02  5.96e+00   50
+  seed-a-14   ahpC,ahpF                                            26           8      1     44     -7.71  2.74e+01   21
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -      30.856        6    0.2818   0.0442
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.72    00:00:01.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -     354.000    -8.00   1.0000  00:00:01.88
+#
+# CM: seed-b-14
+#                                                                    target coord   query coord                         
+#                                                          ----------------------  ------------                         
+# model name  target name                                       start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   metS                                                 95          76      1     54     -4.67  3.07e+02   45
+  seed-b-14   adaA,adaB                                           134         161      1     54     -1.46  5.32e+01   50
+  seed-b-14   adaA,adaB                                           166         123      1     54      9.88  1.10e-01   52
+  seed-b-14   adaA,adaB                                           109          63      1     54     -4.59  2.94e+02   45
+  seed-b-14   adaA,adaB                                            43          22      1     54     -7.18  3.54e+02   41
+  seed-b-14   ybgE                                                 50           8      1     54     -2.56  9.68e+01   51
+  seed-b-14   ybgE                                                 93          52      1     54     -4.86  3.41e+02   33
+  seed-b-14   ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ                   20          67      1     54     -5.52  3.54e+02   52
+  seed-b-14   cwlJ                                                 17          52      1     54      0.61  1.72e+01   47
+  seed-b-14   cwlJ                                                 44           7      1     54      6.81  5.87e-01   50
+  seed-b-14   phoB,ydhF                                            78          42      1     54     -3.68  1.78e+02   46
+  seed-b-14   phoB,ydhF                                            28           4      1     54     -4.80  3.30e+02   60
+  seed-b-14   yfhQ,fabL,sspE                                       51          77      1     54     -7.61  3.54e+02   30
+  seed-b-14   yfhQ,fabL,sspE                                       73          38      1     54     -3.59  1.70e+02   33
+  seed-b-14   yfhQ,fabL,sspE                                       37          15      1     54     -6.65  3.54e+02   26
+  seed-b-14   oppA,oppB,oppC,oppD,oppF                             32          64      1     54     -6.40  3.54e+02   36
+  seed-b-14   oppA,oppB,oppC,oppD,oppF                             58          32      1     54     -4.37  2.60e+02   37
+  seed-b-14   oppA,oppB,oppC,oppD,oppF                             27           1      1     54     -7.62  3.54e+02   37
+  seed-b-14   yjcI,yjcJ                                            38          72      1     54      1.75  9.25e+00   46
+  seed-b-14   yjcI,yjcJ                                            97          58      1     54      4.60  1.95e+00   50
+  seed-b-14   ylqB                                                  6          38      1     54     -6.67  3.54e+02   36
+  seed-b-14   ylqB                                                 86          24      1     54     -3.92  2.03e+02   38
+  seed-b-14   ylqB                                                 23           4      1     54     -5.50  3.54e+02   50
+  seed-b-14   cgeC,cgeD,cgeE                                       70          45      1     54     -5.32  3.54e+02   46
+  seed-b-14   cgeC,cgeD,cgeE                                      102          75      1     54     -5.50  3.54e+02   25
+  seed-b-14   ilvD                                                 54          73      1     54     -2.93  1.19e+02   50
+  seed-b-14   kdgR,kdgK,kdgA,kdgT                                   5          45      1     54     -3.13  1.32e+02   44
+  seed-b-14   kdgR,kdgK,kdgA,kdgT                                  91          51      1     54      2.71  5.48e+00   51
+  seed-b-14   kdgR,kdgK,kdgA,kdgT                                  48          14      1     54     -3.07  1.28e+02   46
+  seed-b-14   glnQ,glnH,glnM,glnP                                   5          29      1     54     -7.89  3.54e+02   24
+  seed-b-14   glnQ,glnH,glnM,glnP                                  29           4      1     54     -7.17  3.54e+02   27
+  seed-b-14   glnQ,glnH,glnM,glnP                                  73          37      1     54     -7.21  3.54e+02   35
+  seed-b-14   spoVID,ysxE                                          20          89      1     54     -3.72  1.82e+02   53
+  seed-b-14   phoP,phoR                                            46          15      1     54     -6.41  3.54e+02   34
+  seed-b-14   pucR,pucJ,pucK,pucL,pucM                             66          36      1     54     -6.75  3.54e+02   58
+  seed-b-14   cggR,gapA,pgk,tpiA,pgm,eno                           55          84      1     54     -6.70  3.54e+02   43
+  seed-b-14   cggR,gapA,pgk,tpiA,pgm,eno                           67          28      1     54     -5.43  3.54e+02   50
+  seed-b-14   ahpC,ahpF                                            78           9      1     54     -1.66  5.95e+01   41
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -     354.000       38    1.0000   0.3051
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:01.88    00:00:01.00

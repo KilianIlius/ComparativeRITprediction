@@ -1,0 +1,159 @@
+
+# STOCKHOLM 1.0
+#=GF ID sliding_window_2124
+#=GF AU nhmmer (HMMER 3.3.2)
+
+#=GS Shigella_flexneri_IGR_genome/144084-144160 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/168243-168299  DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/25053-25109   DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/110359-110415 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/116990-117046 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/151534-151590 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/164183-164239 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/215692-215748 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/218336-218392 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/219406-219462 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/273760-273816 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/286490-286546 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/305692-305748 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/370210-370266 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/372735-372791 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/420939-420995 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/441801-441857 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/444496-444552 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/446857-446913 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/462207-462263 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/470307-470363 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/530637-530693 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/532192-532248 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/536006-536062 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/547534-547590 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/549839-549895 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/2787-2843     DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/182016-182072 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/460848-460904 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/182892-182948 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/271213-271269 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/407225-407281 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/458105-458161 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/496429-496486 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/384995-385050 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/184180-184236 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/58855-58908   DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/277025-277078 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/519918-519973 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/204298-204353 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/94389-94443   DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/384943-384995 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/166941-166993  DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/237870-237920 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/261681-261719 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/48787-48825   DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/497969-498008 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/66795-66833   DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/347672-347706 DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/277342-277379 DE [subseq from] Shigella_flexneri_IGR_genome
+
+Shigella_flexneri_IGR_genome/144084-144160         -------------------TCAGCATTCTCTCGTTTCAGT---GTCGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/144084-144160 PP ...................455555555555554444444...3589*************************************************987
+Escherichia_coli_IGR_genome/168243-168299          ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Escherichia_coli_IGR_genome/168243-168299  PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/25053-25109           ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/25053-25109   PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/110359-110415         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/110359-110415 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/116990-117046         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/116990-117046 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/151534-151590         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/151534-151590 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/164183-164239         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/164183-164239 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/215692-215748         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/215692-215748 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/218336-218392         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/218336-218392 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/219406-219462         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/219406-219462 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/273760-273816         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/273760-273816 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/286490-286546         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/286490-286546 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/305692-305748         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/305692-305748 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/370210-370266         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/370210-370266 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/372735-372791         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/372735-372791 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/420939-420995         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/420939-420995 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/441801-441857         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/441801-441857 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/444496-444552         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/444496-444552 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/446857-446913         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/446857-446913 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/462207-462263         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/462207-462263 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/470307-470363         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/470307-470363 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/530637-530693         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/530637-530693 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/532192-532248         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/532192-532248 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/536006-536062         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/536006-536062 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/547534-547590         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/547534-547590 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/549839-549895         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/549839-549895 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/2787-2843             ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/2787-2843     PP ..........................................677899************************************************997
+Shigella_flexneri_IGR_genome/182016-182072         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/182016-182072 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/460848-460904         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/460848-460904 PP ..........................................667799************************************************997
+Shigella_flexneri_IGR_genome/182892-182948         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/182892-182948 PP ..........................................677899************************************************997
+Shigella_flexneri_IGR_genome/271213-271269         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/271213-271269 PP ..........................................677899************************************************997
+Shigella_flexneri_IGR_genome/407225-407281         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/407225-407281 PP ..........................................677899************************************************997
+Shigella_flexneri_IGR_genome/458105-458161         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/458105-458161 PP ..........................................677899************************************************997
+Shigella_flexneri_IGR_genome/496429-496486         -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/496429-496486 PP .........................................4677899************************************************997
+Shigella_flexneri_IGR_genome/384995-385050         -------------------------------------------ACCGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/384995-385050 PP ...........................................799**************************************************997
+Shigella_flexneri_IGR_genome/184180-184236         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGTATTA
+#=GR Shigella_flexneri_IGR_genome/184180-184236 PP ..........................................677899***********************************************9987
+Shigella_flexneri_IGR_genome/58855-58908           ---------------------------------------------CGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/58855-58908   PP .............................................799************************************************997
+Shigella_flexneri_IGR_genome/277025-277078         ---------------------------------------------CGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/277025-277078 PP .............................................799************************************************997
+Shigella_flexneri_IGR_genome/519918-519973         -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCAT--
+#=GR Shigella_flexneri_IGR_genome/519918-519973 PP .........................................4677899**********************************************997..
+Shigella_flexneri_IGR_genome/204298-204353         ------------------------------------------GAGGGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCAAT-
+#=GR Shigella_flexneri_IGR_genome/204298-204353 PP ..........................................667799**********************************************9866.
+Shigella_flexneri_IGR_genome/94389-94443           --------------------------------------------TAGCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/94389-94443   PP ............................................4589************************************************997
+Shigella_flexneri_IGR_genome/384943-384995         ----------------------------------------------GCAAGCACCTTAAAATCACCATCATACACTAAATCAGTAAGTTGGCAGCATTA
+#=GR Shigella_flexneri_IGR_genome/384943-384995 PP ..............................................899***********************************************987
+Escherichia_coli_IGR_genome/166941-166993          TCCCGCATTCGCACAATCTTCATAAATCTCACAGGACATTCTGACCAGTAGAG----------------------------------------------
+#=GR Escherichia_coli_IGR_genome/166941-166993  PP 5899****************************************997666554..............................................
+Shigella_flexneri_IGR_genome/237870-237920         ------------------------------------------------GAGCACCTCAAAAACACCATCATACACTAAATCAGTAAGTTGGCAGCATCA
+#=GR Shigella_flexneri_IGR_genome/237870-237920 PP ................................................5799*******************************************9865
+Shigella_flexneri_IGR_genome/261681-261719         -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAAG-------------------
+#=GR Shigella_flexneri_IGR_genome/261681-261719 PP .........................................477889*****************************9874...................
+Shigella_flexneri_IGR_genome/48787-48825           -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAAG-------------------
+#=GR Shigella_flexneri_IGR_genome/48787-48825   PP .........................................4677899****************************9875...................
+Shigella_flexneri_IGR_genome/497969-498008         ---------------------------------------TGCGAGGGCAAGCACCTTAAAATCACCATCATACACTAAA--------------------
+#=GR Shigella_flexneri_IGR_genome/497969-498008 PP .......................................45678899*****************************987....................
+Shigella_flexneri_IGR_genome/66795-66833           -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAAT-------------------
+#=GR Shigella_flexneri_IGR_genome/66795-66833   PP .........................................477889*****************************9986...................
+Shigella_flexneri_IGR_genome/347672-347706         ---------------------------------------------CGCAAGCACCTTAAAATCACCATCATACACTAAAG-------------------
+#=GR Shigella_flexneri_IGR_genome/347672-347706 PP .............................................799****************************9874...................
+Shigella_flexneri_IGR_genome/277342-277379         -----------------------------------------CGAGGGCAAGCACCTTAAAATCACCATCATACACTAAA--------------------
+#=GR Shigella_flexneri_IGR_genome/277342-277379 PP .........................................4677899****************************987....................
+#=GC PP_cons                                       5899***************78888888888888777777685667799************************************************997
+#=GC RF                                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

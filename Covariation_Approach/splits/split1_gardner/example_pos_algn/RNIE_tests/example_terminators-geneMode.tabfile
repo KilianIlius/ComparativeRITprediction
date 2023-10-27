@@ -1,0 +1,66 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile example_terminators-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/example_terminators.fa
+# date:       Wed May 10 12:25:40 2023
+# num seqs:   5
+# dbsize(Mb): 0.000356
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.091     0.00   0.0103  00:00:00.05
+#
+# CM: seed-a-14
+#                                                        target coord   query coord                         
+#                                              ----------------------  ------------                         
+# model name  target name                           start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   sw_1454_term_X08035.1/3325-3361           6          37      1     44      4.74  1.28e-02   41
+  seed-a-14   sw_1454_term_X08035.1/3325-3361          36           1      1     44     22.92  7.01e-06   39
+  seed-a-14   sw_1512_term_X68192.1/1637-1678           6          42      1     44      8.88  2.32e-03   30
+  seed-a-14   sw_1512_term_X68192.1/1637-1678          41           1      1     44     19.38  3.02e-05   29
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.091        4    0.0103   0.4101
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.05    00:00:00.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       1.968     0.00   0.2467  00:00:00.15
+#
+# CM: seed-b-14
+#                                                        target coord   query coord                         
+#                                              ----------------------  ------------                         
+# model name  target name                           start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   sw_1454_term_X08035.1/3325-3361           8          37      1     54     17.36  1.52e-04   43
+  seed-b-14   sw_1454_term_X08035.1/3325-3361          37           1      1     54     24.26  3.54e-06   38
+  seed-b-14   sw_1512_term_X68192.1/1637-1678           6          42      1     54     14.28  8.17e-04   30
+  seed-b-14   sw_1512_term_X68192.1/1637-1678          39           1      1     54     18.07  1.04e-04   31
+  seed-b-14   sw_7074_term_M55170.1/1827-1862           1          36      1     54      3.19  3.46e-01   44
+  seed-b-14   sw_7074_term_M55170.1/1827-1862          35           2      1     54      7.83  2.75e-02   41
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       1.968        6    0.2467   0.5983
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.15    00:00:00.00

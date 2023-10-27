@@ -1,0 +1,57 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile example_high_cov_neg-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/example_high_cov_neg.fa
+# date:       Sat May 13 12:02:53 2023
+# num seqs:   1
+# dbsize(Mb): 0.000200
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.053     0.00   0.0106  00:00:00.03
+#
+# CM: seed-a-14
+#                                         target coord   query coord                         
+#                               ----------------------  ------------                         
+# model name  target name            start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------  ----------  ----------  -----  -----  --------  --------  ---
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.053        0    0.0106  0.0e+00
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.03    00:00:00.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       1.086     0.00   0.2423  00:00:00.08
+#
+# CM: seed-b-14
+#                                         target coord   query coord                         
+#                               ----------------------  ------------                         
+# model name  target name            start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ----------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   sliding_window_2          60           1      1     54      1.21  5.61e-01   42
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       1.086        1    0.2423   0.3000
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.08    00:00:00.00

@@ -1,0 +1,68 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile homologs_negatives-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/homologs_negatives.fasta
+# date:       Mon Oct 23 13:58:33 2023
+# num seqs:   30
+# dbsize(Mb): 0.009742
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       2.499     0.00   0.0103  00:00:01.59
+#
+# CM: seed-a-14
+#                                                                      target coord   query coord                         
+#                                                            ----------------------  ------------                         
+# model name  target name                                         start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ---------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       2.499        0    0.0103  0.0e+00
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:01.59    00:00:01.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -      52.992     0.00   0.2428  00:00:04.15
+#
+# CM: seed-b-14
+#                                                                      target coord   query coord                         
+#                                                            ----------------------  ------------                         
+# model name  target name                                         start        stop  start   stop    bit sc   E-value  GC%
+# ----------  ---------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   dnaA,dnaN_2                                           138          77      1     54      4.46  4.65e+00   29
+  seed-b-14   gyrA_1                                                106          78      1     54      1.57  2.25e+01   24
+  seed-b-14   gyrA_2                                                111          79      1     54      2.41  1.42e+01   27
+  seed-b-14   yaaD,yaaE_0                                           117          68      1     54      5.66  2.42e+00   40
+  seed-b-14   yaaD,yaaE_0                                            61          28      1     54      1.88  1.90e+01   47
+  seed-b-14   yaaD,yaaE_2                                            98          30      1     54      0.15  4.89e+01   45
+  seed-b-14   yaaH_0                                                 43          72      1     54      0.95  3.15e+01   50
+  seed-b-14   yaaH_0                                                 64          31      1     54      2.16  1.63e+01   32
+  seed-b-14   yaaH_2                                                 64          31      1     54      0.26  4.59e+01   35
+  seed-b-14   metS_2                                                152         120      1     54      1.08  2.94e+01   36
+  seed-b-14   veg_2                                                 136          94      1     54      3.54  7.70e+00   37
+  seed-b-14   sspF_2                                                118          83      1     54      3.18  9.37e+00   47
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -      52.992       12    0.2428   0.0500
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:04.15    00:00:03.00

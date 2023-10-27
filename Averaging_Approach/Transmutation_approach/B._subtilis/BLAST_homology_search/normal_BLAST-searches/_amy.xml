@@ -1,0 +1,4757 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._amyloliquefaciens_NZ_CP072120.1.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>dnaA,dnaN</BlastOutput_query-def>
+  <BlastOutput_query-len>120</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.01</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>dnaA,dnaN</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.40214e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1815452</Hsp_hit-from>
+      <Hsp_hit-to>1815566</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>GTACAGCTTATCCTTCCTGTCAGAACCTATTAATCCGATA-CA-CTGCTGCCGAC-CCG-TCGGCAGCTTTTCTATTCGGTATCTGCTCCGACAAGTTTTCCCTTTCCCTAATTC</Hsp_qseq>
+      <Hsp_hseq>GTTCAGCTCATCCTTCCGGTCAGAACGTATTAATCAAACAGAATGTGCTGCCGGCTTAGTTCGGCAGCTTTTCTATTCATCAGCCGCTCCCTCAAGTTTTCCCTTTCCTTATTTC</Hsp_hseq>
+      <Hsp_midline>|| ||||| |||||||| |||||||| ||||||||  | |  |  |||||||| |   | ||||||||||||||||||   | | |||||  |||||||||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>405616800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>guaB</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.04934e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>1829731</Hsp_hit-from>
+      <Hsp_hit-to>1829840</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>AACTATACAATTTCATAATAAATTGTTACAAATTAAAAACATTTGACAGGGTCTCTGACTCTGTCTATTTTTTTTATACTGATTATGATAAAATTTATACTGTTGTGCATTGAA</Hsp_qseq>
+      <Hsp_hseq>AACTATACAA--TC-TCAT-AATTGTTACAAATAAAAAACATTTGACAGGGTCGCTGACTCTGTCTATTTTTTTTATATCGAGTGTGATAAAATTTATACTGTTGTGTTTTGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||  || | || ||||||||||||| ||||||||||||||||||| ||||||||||||||||||||||||  || | ||||||||||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>yaaH</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.8329</Hsp_bit-score>
+      <Hsp_score>41</Hsp_score>
+      <Hsp_evalue>3.16438e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1837424</Hsp_hit-from>
+      <Hsp_hit-to>1837544</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>TCAGTTACCGACCTTCATATTGTATCACAACCCTTGGGTGCCCCCATGAAAAAAAGACGTTTCCAAATTATCGAAACGTCTTTTTGACAACATTAAATTGATCAGACAGCAGCAGCCAGTTTTG</Hsp_qseq>
+      <Hsp_hseq>TCAGCTGCCGGCCTTTATATTGTATCAC-ACTCTCAGAAAAGCCCATGAAAAAA-GACGCTTCC-AATTAACGAAACGTCTCTTTTACAATATGAAATTGATCGTTGAGCAAAAGCCAGTTTTG</Hsp_hseq>
+      <Hsp_midline>|||| | ||| |||| |||||||||||| || ||  |     |||||||||||| |||| |||| ||||| |||||||||| ||| |||| || |||||||||    ||||  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>metS</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.386</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.5545e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1861101</Hsp_hit-from>
+      <Hsp_hit-to>1861229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>CAGTCGTTACCAAAAGGCACAAGAATTAAATAATGATAAACAAAAGGTGTTTCACGTGTAACAATTCGTCGAACACCTTTTGTGTTTCGACAAGAAAGGAGTTTTTCACTTATGTTGTTTGACACTCACGCG</Hsp_qseq>
+      <Hsp_hseq>CAGTCATTACCGAAAGGCACTCGAATTAAATAAT-AGATGCAAAAGGTGTTTCACGTGTAACATTCCGTCGAACACCTTTTGTTTTTCAACAAGAAAGGAGTTTTT-A-TGATGCTTTTTGATACACATGCG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||  |||||||||||| | |  ||||||||||||||||||||||| | ||||||||||||||||| |||| ||||||||||||||||| | | ||| | ||||| || || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>454290816</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>yabG</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.12436e-09</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1866077</Hsp_hit-from>
+      <Hsp_hit-to>1866137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GCTATGCGGGTTTTTTATTTTACATAATGATACATAATTTACCGAAACTTGCGGAACATAA</Hsp_qseq>
+      <Hsp_hseq>GCTATGCGGGTTAATTATTTTACAAATTGATACATAAATTTCCGGAACTTGTGAAAAATAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||  |||||||||| | |||||||||| || ||| |||||| | || ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>veg</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.57811e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1866485</Hsp_hit-from>
+      <Hsp_hit-to>1866564</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TGACATTTAATGATGACGCCGCAAGCTCAGTGGCATTTTAACGGGCAGTGAACCTTTTGTTTACTGCTTTTTGTTTTGCC</Hsp_qseq>
+      <Hsp_hseq>TGACATTCAATGACGATGCGGCAAGCTCAGTAGCATTTTAATGGGCAGTGAACCTTTTGTTTACTGCTTTTTGTTTTGCC</Hsp_hseq>
+      <Hsp_midline>||||||| ||||| || || ||||||||||| ||||||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>sspF</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.12436e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>1866838</Hsp_hit-from>
+      <Hsp_hit-to>1866918</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>GAACAGCAAAT---GGCTCAGAATCAGAATAACCGATAAGGATGTGACCCGGGGGACGTGCTGTTCCCTGGTTTTTT-TAT</Hsp_qseq>
+      <Hsp_hseq>GAACAGCAGATGGCGGCTCAGAACCAAAATAACCGATAATGCAGTGGCCCGGGGGACAATCCGTTCCCCGGTTTTTTCTAT</Hsp_hseq>
+      <Hsp_midline>|||||||| ||   ||||||||| || |||||||||||| |  ||| ||||||||||   | |||||| |||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>spoVG</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.919</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.0079e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1869642</Hsp_hit-from>
+      <Hsp_hit-to>1869782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GAATTCGAAGAAGCTGGAGCTTCTTAAAAAATAACCAAAAAGCAAGGACTGCTGA-AAGGGCTGACATAAG-CCTTTTGCCGGCGGTCCTTTTTTAATTCTGATTTTTCA-AACTTAGTTGCACTCAATAGAAAATTCTTGCACT</Hsp_qseq>
+      <Hsp_hseq>GAATATGAAGAAGCCGGGGCTTCTTAAA-CATAA-CAAAATGTAAGGACTGCTGATAAAGGCTGACACAAGGCCTTTT-CCGGCAGTCCTTTTTTAAATCTGATTTTTCAGTAATAAAGCG-ATTACATAGAAAATTCTTGCACT</Hsp_hseq>
+      <Hsp_midline>||||  |||||||| || ||||||||||  |||| ||||| | |||||||||||| || |||||||| ||| |||||| ||||| |||||||||||| ||||||||||||  | | |   | | |  ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>494852496</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>pabB,pabA,pabC,sul,folB,folK,yazB,yacF,lysS</Iteration_query-def>
+  <Iteration_query-len>134</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>7.48959e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>1903584</Hsp_hit-from>
+      <Hsp_hit-to>1903615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>TTATTCCCGCAAATGAGACAACGCTAATAAAA</Hsp_qseq>
+      <Hsp_hseq>TTATTCCCTCAAATGAGACAACGATAATAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>462403152</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>adaA,adaB</Iteration_query-def>
+  <Iteration_query-len>160</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>567863520</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>ybcL</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>ybdO</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>csgA,ybxH</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>glpT,glpQ</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.11345e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>2037332</Hsp_hit-from>
+      <Hsp_hit-to>2037408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GGACAGTCAGAAGCTGCTGCCGGAAAAGAATAAA-ATATAGAAGAAAACCTTGCGATA--GTTGTCGCAAGGTTTTTTG</Hsp_qseq>
+      <Hsp_hseq>GGACAGGCGGAAGCCGCTGCCGGAAAAGAATAATGAT-T-GATAAAAACCTTGCGGGAACGTTCCCGCAAGGTTTTTTG</Hsp_hseq>
+      <Hsp_midline>|||||| | ||||| ||||||||||||||||||  || | ||  |||||||||||  |  |||  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>ybgE</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>ycbC,ycbD,ycbE,ycbF,ycbG,ycbH,ycbJ</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.1461</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>2.4521e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>2065189</Hsp_hit-from>
+      <Hsp_hit-to>2065286</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GAGTGAACGGCTGTAT-AGCTGTTAATAAAGGTGGTACCGCGAGACCCTCGTCCTTTGCATAGGACGGGGGTTTTTTGTGTTTCTTAAAGGAGGTGACGGCCA</Hsp_qseq>
+      <Hsp_hseq>GAGAGAATGGCT-TATCAGCCGTTAATAAAGGTGGCACCGCGAAAACCTCGTCCTTTG-AT-GGACGGGGTTTTTTTGTATTG-TT-AAGGAGGTGATGGCCA</Hsp_hseq>
+      <Hsp_midline>||| ||| |||| ||| ||| |||||||||||||| ||||||| | |||||||||||| || |||||||| |||||||| ||  || |||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>cwlJ</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.00143634</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2070895</Hsp_hit-from>
+      <Hsp_hit-to>2070964</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>GAGACGTGTGAAAATGTATATAACACATTTTAGAGACAGG-ACACCGTTC--AAATTGAACGGTGTTTTT</Hsp_qseq>
+      <Hsp_hseq>GAGACGTGCGAAAACGTGTACAATACATTTTAATCCCGGGCGCACCGTTCTGAGAATGAACGGTGTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||| || || || ||||||||    | ||  ||||||||  | | ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>natA,natB</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>mdr</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>6.89831e-07</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>2111616</Hsp_hit-from>
+      <Hsp_hit-to>2111666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>AGTGTAATAGAAAAAAGCAGTACATGCCCA--G-CATGTACTGCTTTTTTTA</Hsp_qseq>
+      <Hsp_hseq>AGAGTAA-ACAAAAAAGCAGTACATGACAAACGCCATGTACTGCTTTTTTTA</Hsp_hseq>
+      <Hsp_midline>|| |||| | |||||||||||||||| | |  | ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>nasB,nasC,nasD,nasE,nasF</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>1.44033e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>2131169</Hsp_hit-from>
+      <Hsp_hit-to>2131215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>ATGGCGATGTATTCCACCCATCATAAAAAATTGGTG-CATAAATAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGGCGATGTATTCGACTCACCATAAAAAATTGGTGACACAA-TAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| || || ||||||||||||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>srfAA,srfAB,comS,srfAC,srfAD</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>ycxC,ycxB</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>yclE</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00552403</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>1352288</Hsp_hit-from>
+      <Hsp_hit-to>1352309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>ATGGCTTGATCAATAAAAAACA</Hsp_qseq>
+      <Hsp_hseq>ATGGCCTGATCAATAAAAAACA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>438066144</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>ycnC,ycnB</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5932</Hsp_bit-score>
+      <Hsp_score>23</Hsp_score>
+      <Hsp_evalue>3.20947e-05</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>2215907</Hsp_hit-from>
+      <Hsp_hit-to>2215953</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>ATGACGCAAATGATTAAAGAAGTGAAAGACGGTTTAGAAAAGTAAAA</Hsp_qseq>
+      <Hsp_hseq>ATGGCGCAAATGGTGAAAGAAGTTAAAGACGGAATCGAGAAGTAAAA</Hsp_hseq>
+      <Hsp_midline>||| |||||||| | |||||||| ||||||||  | || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>ycnL</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>1.41209e-08</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>2229581</Hsp_hit-from>
+      <Hsp_hit-to>2229639</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGAGCCTTTTTATTTTTAAAAAATTGTCACAGTC-ATGTGCCAAAGTCCTCTTTACTTT</Hsp_qseq>
+      <Hsp_hseq>AGGTGTCTTTTT-TTGTTAAGGAGTTGTCACAGTCTCTGTGCCAAACTCCTCTTTACTTT</Hsp_hseq>
+      <Hsp_midline>||| | |||||| || ||||  | |||||||||||  ||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>405616800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>ycsA</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>486740160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>ycsD</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>450234648</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>gsiB</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>6.81776e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>2279845</Hsp_hit-from>
+      <Hsp_hit-to>2279967</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>CTAATCAAAAGCAT-AAAGGCAGACAACCTGTAAATAAAAAAGCGATCCGGCACATCAGCTGGATCGCTTTTT-TTT-GGAATCTTCTCAATTTATGCCGCTATTGAGATACAATAAGTGAAAAA</Hsp_qseq>
+      <Hsp_hseq>CTAAT-AAAAGCATAAAAGGCAGACAACCTGCAGAT-CAAAAGCGATCCGGCGTATCAGCTGGATCGCTTTTTATTTTGGGAAAATCTTGATCTGAGCCGCCGTTGCGATACAATAAATGAAAAA</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| |||||||||||||||| | ||  ||||||||||||||  ||||||||||||||||||| ||| || |   |||  || |  |||||  ||| |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>phoB,ydhF</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>ydiO,ydiP</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>yfnB</Iteration_query-def>
+  <Iteration_query-len>130</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>2.00932e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>39</Hsp_query-to>
+      <Hsp_hit-from>2541177</Hsp_hit-from>
+      <Hsp_hit-to>2541215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>ATTATTCATAAGGTGAA-GAATTTATCAAGAGGAAAAAAG</Hsp_qseq>
+      <Hsp_hseq>ATTATTCATAAGGTGAATGAA-TTATCAAGTGCAAAAAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| ||| |||||||| | |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>446178480</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>yfmQ</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>8.77623e-11</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>2549524</Hsp_hit-from>
+      <Hsp_hit-to>2549562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>AAAACTTAACGTTTACGTTAAGGTTCAAAAGGTGTATAA</Hsp_qseq>
+      <Hsp_hseq>AAAAGTTAACGTTTACGTTAAGGTTCAAATGGTGTATAA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>yfmK</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.3729</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>6.54229e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>2554659</Hsp_hit-from>
+      <Hsp_hit-to>2554778</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TTTCTTACGCTGATTCTTCGCAACTGATCTCATCGAAACACAAAAGGAGGGCAAAAAGCCCTCCCGTTTTC-ATCTTCAT-TCAGCTCGGATCACTGACCTTGATCAGCTGTTTCCCTTT</Hsp_qseq>
+      <Hsp_hseq>TTTCTTACTTTGATTCTTCGCGGCTGATCCCAAATAAACAGAAAAGGAGGGGACAAAGCCCTCCTTTTTTTTATCATCATGTTAACTTAGATCACTGACTTTGATGATCTGTTTGCCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||  |||||||||||  |||||| ||   ||||| |||||||||| | ||||||||||  ||||  ||| |||| | | ||  |||||||||| ||||| | |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>yfmI,yfmJ</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6796</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>8.29541e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>2554649</Hsp_hit-from>
+      <Hsp_hit-to>2554763</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>TGAAGATGGTTTTCTTACGCTGATTCTTCGCAACTGATCTCATCGAAACACAAAAGGAGGGCAAAAAGCCCTCCCGTTTTC-ATCTTCAT-TCAGCTCGGATCACTGACCTTGAT</Hsp_qseq>
+      <Hsp_hseq>TGAAGACGGCTTTCTTACTTTGATTCTTCGCGGCTGATCCCAAATAAACAGAAAAGGAGGGGACAAAGCCCTCCTTTTTTTTATCATCATGTTAACTTAGATCACTGACTTTGAT</Hsp_hseq>
+      <Hsp_midline>|||||| || ||||||||  |||||||||||  |||||| ||   ||||| |||||||||| | ||||||||||  ||||  ||| |||| | | ||  |||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>yfjQ</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00506369</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>2621524</Hsp_hit-from>
+      <Hsp_hit-to>2621578</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>CAACAAAAAAGAACAGCTGCTCGCTGTCCTCATTTAAAAATATTGAACCATCCTTT</Hsp_qseq>
+      <Hsp_hseq>CAA-AAAAAAGAACAGCCGGCAGCCGTTCTTACTTGAAAATATTAAACCAGCCTTT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||| |   || || || | || |||||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>36</Iteration_iter-num>
+  <Iteration_query-ID>Query_36</Iteration_query-ID>
+  <Iteration_query-def>yfjP,yfjO</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.9128</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.69855e-18</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>2625025</Hsp_hit-from>
+      <Hsp_hit-to>2625107</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TTCCTAATAAGACCTGGATTTCGGTAAAATAAACAATTCCGATTTCCGGGTCTTTTTCGTGCGCAGCTCTTGTCCTAACGGTCT</Hsp_qseq>
+      <Hsp_hseq>TTCGTAATCAGACCTGGATTTCGGTAAATTAAACAATTCCGATTTCCGGGT-TTTTTCATGTTTTGCCCTTGTCCTATCTGTCT</Hsp_hseq>
+      <Hsp_midline>||| |||| ||||||||||||||||||| |||||||||||||||||||||| |||||| ||    || ||||||||| | ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>494852496</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>37</Iteration_iter-num>
+  <Iteration_query-ID>Query_37</Iteration_query-ID>
+  <Iteration_query-def>yfjA,yfjB,yfjC,yfjD,yfjE,yfjF</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>38</Iteration_iter-num>
+  <Iteration_query-ID>Query_38</Iteration_query-ID>
+  <Iteration_query-def>lipB</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>39</Iteration_iter-num>
+  <Iteration_query-ID>Query_39</Iteration_query-ID>
+  <Iteration_query-def>yfiZ,yfhA</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>40</Iteration_iter-num>
+  <Iteration_query-ID>Query_40</Iteration_query-ID>
+  <Iteration_query-def>yfhQ,fabL,sspE</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.625</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>2.3612e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>2676584</Hsp_hit-from>
+      <Hsp_hit-to>2676706</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>GAACAAAACAAACAACAAAACAGCTAATCACTGAAACAGAAAAAAGCACTTCATCTTCGGGTGGAAGTGCTTTTTTCTGTTTGAAAAACGACAAAACTTGTGGAAGGTCTACAGAATGAGTCAAA</Hsp_qseq>
+      <Hsp_hseq>GAACAAAACAAACAGCAAAACAGCTAATCACTGAAAC-G-AAAAAGCACTTCATCTTCGGATGGAAGTGCTTTTTTCTGTTGCCAAAACGACAAAACTTGTGATTCCTCTACAGAATGAGTCAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||||||||||||||||| | |||||||||||||||||||| ||||||||||||||||||||   ||||||||||||||||||     ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>41</Iteration_iter-num>
+  <Iteration_query-ID>Query_41</Iteration_query-ID>
+  <Iteration_query-def>yfhS</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>1.38385e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>2675000</Hsp_hit-from>
+      <Hsp_hit-to>2675055</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TTGCTCGCCAACCTGTGGGAATTCCCGAATCTTGAAACACAAAAAGGGATCAAAAC</Hsp_qseq>
+      <Hsp_hseq>TTGCTCGCCAACTTGTGGGAGTTTCCGAATACCGAAACCCAGAAAGGAATCAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||| || ||||||   ||||| || ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>397504464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>42</Iteration_iter-num>
+  <Iteration_query-ID>Query_42</Iteration_query-ID>
+  <Iteration_query-def>yhdG</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.001479</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>26</Hsp_query-to>
+      <Hsp_hit-from>2767569</Hsp_hit-from>
+      <Hsp_hit-to>2767594</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>TATTCAAGAAAGCATTCAAAATTAAA</Hsp_qseq>
+      <Hsp_hseq>TATTCGAGAAAGCATTCGAAATTAAA</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>43</Iteration_iter-num>
+  <Iteration_query-ID>Query_43</Iteration_query-ID>
+  <Iteration_query-def>sigM,yhdL,yhdK</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>8.32863e-06</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>2659698</Hsp_hit-from>
+      <Hsp_hit-to>2659728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>AAAAAAGACGCC-TGAAAAGGCGTCTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AAAAAAGACGCCGTTAAAAGGCGTCTTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>397504464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>44</Iteration_iter-num>
+  <Iteration_query-ID>Query_44</Iteration_query-ID>
+  <Iteration_query-def>sspB</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6796</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>8.63057e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>2790575</Hsp_hit-from>
+      <Hsp_hit-to>2790695</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TCCCTCCCTTTTTTTCTAGGATATGTGGAGCAGGAAAAAAGGGTGACAAAATAAA-GA-GAGCGCGGAAA-CCGCGCCCTCTAT-AGCCATATATTGAATTGTTATTGAACTC-T-G-CCGCCCAT</Hsp_qseq>
+      <Hsp_hseq>TCCCT-CCTTTTTTCCTAGGGTATGTGGAATAGGAAAAAAGGGTGACGGCATAAAAGAAGA-CGCGGTATCCCGCGCCTTCTGTAAGCCATTTATTGA---GTTATTGTACGCCTTGGCCGCCCAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| ||||| ||||||||  ||||||||||||||||   ||||| || || ||||| |  ||||||| ||| | |||||| ||||||   ||||||| || | | | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>45</Iteration_iter-num>
+  <Iteration_query-ID>Query_45</Iteration_query-ID>
+  <Iteration_query-def>oppA,oppB,oppC,oppD,oppF</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>46</Iteration_iter-num>
+  <Iteration_query-ID>Query_46</Iteration_query-ID>
+  <Iteration_query-def>yjbC,yjbD</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>47</Iteration_iter-num>
+  <Iteration_query-ID>Query_47</Iteration_query-ID>
+  <Iteration_query-def>cotY,cotZ</Iteration_query-def>
+  <Iteration_query-len>118</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>397504464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>48</Iteration_iter-num>
+  <Iteration_query-ID>Query_48</Iteration_query-ID>
+  <Iteration_query-def>yjcI,yjcJ</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>49</Iteration_iter-num>
+  <Iteration_query-ID>Query_49</Iteration_query-ID>
+  <Iteration_query-def>yjfB</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>450234648</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>50</Iteration_iter-num>
+  <Iteration_query-ID>Query_50</Iteration_query-ID>
+  <Iteration_query-def>dppA,dppB,dppC,dppD,dppE</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>438066144</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>51</Iteration_iter-num>
+  <Iteration_query-ID>Query_51</Iteration_query-ID>
+  <Iteration_query-def>sspD</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.48107e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>3115677</Hsp_hit-from>
+      <Hsp_hit-to>3115797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AGACCGACGTAATCCAAACGGCTAC-AGCAGTGATA--ATCATTCAGCTAAAAATGAAGATTCGCCGAGTGCCCCCGGCGAATAAAGACCTGAATTTATTTAGTTGTGCCATTTAATTGTGATTG</Hsp_qseq>
+      <Hsp_hseq>AGACCGAAGGAATCCGAACGGCTACCGGCACGGAAAGGAGAATGCCGATAAATATCAAAATTCGCCGAGAAGTCCCGGCGAAT-AAG--CTGCA-TTATTGATTTTTCCCGTTTAATTGTGATTG</Hsp_hseq>
+      <Hsp_midline>||||||| | ||||| |||||||||  |||  || |  |  || | | |||| || || ||||||||||    |||||||||| |||  ||| | ||||| | || | || ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>52</Iteration_iter-num>
+  <Iteration_query-ID>Query_52</Iteration_query-ID>
+  <Iteration_query-def>splA,splB</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00537058</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>3164999</Hsp_hit-from>
+      <Hsp_hit-to>3165051</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GATACCTTTTTCCCTAACGCAAAAATTGAATATTTCACTTAAA-CGG-GCTGT</Hsp_qseq>
+      <Hsp_hseq>GAAACCTATTTCCCGAAAGCGAAAATCGAATATTTTACGTAAGGCGGAGCTGT</Hsp_hseq>
+      <Hsp_midline>|| |||| |||||| || || ||||| |||||||| || |||  ||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>53</Iteration_iter-num>
+  <Iteration_query-ID>Query_53</Iteration_query-ID>
+  <Iteration_query-def>ykuD</Iteration_query-def>
+  <Iteration_query-len>114</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>381279792</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>54</Iteration_iter-num>
+  <Iteration_query-ID>Query_54</Iteration_query-ID>
+  <Iteration_query-def>pdhA,pdhB,pdhC,pdhD</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>5.2447e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>3281544</Hsp_hit-from>
+      <Hsp_hit-to>3281668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>ATCGGAAGTCCGATTCACATCGTAAAATAATTTTCATATCAAA-AA-CAGCCCCGCTTTG----AGCGAGGGCTGTTTTTTTATTTTGACAGCACATGCTGTAATGGTTTAATGATGTCTTCTTTCTTT</Hsp_qseq>
+      <Hsp_hseq>ATCGGAAGCCCGATCCATATCGTAAAATAATAATG-TAACAAAGAAACAGCCCCCGTTTGTAAAAGCGGGGGCTGTTTTT--ATTGTGCAAGCACATGCTGCATAGGTTTGATGATATCCTCTTT-TTT</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||| || |||||||||||||  |  || |||| || |||||||  ||||    |||| |||||||||||  ||| ||  ||||||||||| |  ||||| ||||| || ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>55</Iteration_iter-num>
+  <Iteration_query-ID>Query_55</Iteration_query-ID>
+  <Iteration_query-def>ctaA</Iteration_query-def>
+  <Iteration_query-len>134</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>462403152</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>56</Iteration_iter-num>
+  <Iteration_query-ID>Query_56</Iteration_query-ID>
+  <Iteration_query-def>spoIIGA,sigE,sigG</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>1.95888e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>3349683</Hsp_hit-from>
+      <Hsp_hit-to>3349798</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>GCGGCTATCAAACAAATGAATAAAAATATTCATCAATAATG-AAAA-GCCTTTAAAACGATGTTGTTTTAAAGGCTTTTCTATTGATTATGGATGGTTTACGTTTTGGAAAAAGTAAGGTATCCTA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCATTAAACAAATGAATAAGAATATCCATCAATAACGGAAAAAGCCTTTAAACC--T-T-GTTT-AAAGGCTTTT-T-TC-ATGC--GATGGTTTACGTTTGCAAAAAAGTGATGTATTCTA</Hsp_hseq>
+      <Hsp_midline>|| || || |||||||||||||| ||||| ||||||||| | |||| ||||||||| |  | | |||| |||||||||| | |  ||    ||||||||||||||   ||||||| | |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>438066144</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>57</Iteration_iter-num>
+  <Iteration_query-ID>Query_57</Iteration_query-ID>
+  <Iteration_query-def>pyrR,pyrP,pyrB,pyrC,pyrAA,pyrAB,pyrK,pyrD,pyrF,pyrE</Iteration_query-def>
+  <Iteration_query-len>145</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.3729</Hsp_bit-score>
+      <Hsp_score>44</Hsp_score>
+      <Hsp_evalue>8.0969e-17</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>3373225</Hsp_hit-from>
+      <Hsp_hit-to>3373297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>AAAACAGG-CTGTGAGGCCTGTTTTTTTATTAATCCTATAAAAAAAGTCGGGTTGACTTATGTTAGAATTGTGCTA</Hsp_qseq>
+      <Hsp_hseq>AAAACAGGCCTCAG-GGCCTG--TTTTTATTATTCCTATCAAAAAACTCGGGTTGACTTCTGTTAGAATTGTGCTA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||  | ||||||  ||||||||| |||||| |||||| |||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>507021000</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>58</Iteration_iter-num>
+  <Iteration_query-ID>Query_58</Iteration_query-ID>
+  <Iteration_query-def>ylqB</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.09161e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>3415922</Hsp_hit-from>
+      <Hsp_hit-to>3415977</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TATGTGTACGGACTCTTTTCAGATTTAGTGGAAAAAGCCGACGATTAA-GAA-AAA</Hsp_qseq>
+      <Hsp_hseq>TACGTATACGGTCTCTTTTCTGATTTAGTTGAAAAAGCCGAGGATTAATGAATAAA</Hsp_hseq>
+      <Hsp_midline>|| || ||||| |||||||| |||||||| ||||||||||| |||||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>405616800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>59</Iteration_iter-num>
+  <Iteration_query-ID>Query_59</Iteration_query-ID>
+  <Iteration_query-def>yneA,yneB,ynzC</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.4463</Hsp_bit-score>
+      <Hsp_score>37</Hsp_score>
+      <Hsp_evalue>5.39599e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>3664830</Hsp_hit-from>
+      <Hsp_hit-to>3664950</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TAAAAAGAGAACAA-AGAAATAACAAACTTCACTAA-TATAAGAGGAATACGGCAATATCGTATTCCTCTTTTGCATATACTATAATCAAAAC-T-CTTATGTGACAAAATTCAACAAGTTTCTCT</Hsp_qseq>
+      <Hsp_hseq>TAAAAAGAGAACAACAGAAA-AATAATCTTCATTAAACAGAA-A-GAATACGGCAATA-CGTATTCTTTTTTCGTATATACTAATATCAGGATGTGCTT-TACGACAATTTTCAACAAGTTTATCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||| || || ||||| |||  | || | ||||||||||||| ||||||| | ||| | ||||||||  ||||  |  | ||| |  |||||  |||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>60</Iteration_iter-num>
+  <Iteration_query-ID>Query_60</Iteration_query-ID>
+  <Iteration_query-def>ccdA,yneI,yneJ</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>1.85005e-12</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>3670092</Hsp_hit-from>
+      <Hsp_hit-to>3670162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>CTAATATTCAAATGAATTAAAAAACCTTTCC-TCTTGTCAGGAAAGGTTTTTTATTTGAGAAGGGTCTGATAAGG</Hsp_qseq>
+      <Hsp_hseq>CTGATATTCAGATGAATTAAAA--CCTTTCCGTC-CG-CCGGAAAGGTTTTTTATTTGAGCAGGGCTTGATAAGG</Hsp_hseq>
+      <Hsp_midline>|| ||||||| |||||||||||  ||||||| ||  | | |||||||||||||||||||| ||||  ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>61</Iteration_iter-num>
+  <Iteration_query-ID>Query_61</Iteration_query-ID>
+  <Iteration_query-def>yoxA,dacC</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00526828</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>1067829</Hsp_hit-from>
+      <Hsp_hit-to>1067855</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAAACCTGTTTTCTCTTGGAAAACAGG</Hsp_qseq>
+      <Hsp_hseq>AAAAAGCCTGTTTTCTCT-G-AAAACAGG</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||| | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>62</Iteration_iter-num>
+  <Iteration_query-ID>Query_62</Iteration_query-ID>
+  <Iteration_query-def>yoaW</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>63</Iteration_iter-num>
+  <Iteration_query-ID>Query_63</Iteration_query-ID>
+  <Iteration_query-def>phrK</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>64</Iteration_iter-num>
+  <Iteration_query-ID>Query_64</Iteration_query-ID>
+  <Iteration_query-def>yocF,yocG</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>3.1565e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>41</Hsp_query-to>
+      <Hsp_hit-from>1689006</Hsp_hit-from>
+      <Hsp_hit-to>1688966</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>AAGCCATTACCCGGTCAAAAGAAAAAGGCTGGTTTAAATAA</Hsp_qseq>
+      <Hsp_hseq>AAGCCATTACCCGATCAAAAGAAAAGGGCTGGTTTAAGTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||| ||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>65</Iteration_iter-num>
+  <Iteration_query-ID>Query_65</Iteration_query-ID>
+  <Iteration_query-def>cgeC,cgeD,cgeE</Iteration_query-def>
+  <Iteration_query-len>130</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>446178480</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>66</Iteration_iter-num>
+  <Iteration_query-ID>Query_66</Iteration_query-ID>
+  <Iteration_query-def>sspC</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>67</Iteration_iter-num>
+  <Iteration_query-ID>Query_67</Iteration_query-ID>
+  <Iteration_query-def>ilvA,ypmP</Iteration_query-def>
+  <Iteration_query-len>145</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>507021000</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>68</Iteration_iter-num>
+  <Iteration_query-ID>Query_68</Iteration_query-ID>
+  <Iteration_query-def>ilvD</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.932</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>4.13072e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>3979163</Hsp_hit-from>
+      <Hsp_hit-to>3979286</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>CATCGGTACGACAAGCTGGCGCATGTATTCTTCATAAGCCATTGACATAAAAAAAGCCCCCTCTAGTATCCTTCATCTGAAGTAAAGGATACTATAGAGAGGGCCGGATTTCAAATGTTCACGCCT</Hsp_qseq>
+      <Hsp_hseq>CATCGGCACGACCAGCTGGCGCATATATTCTTCATAAGCCATTGACAT-AAAAAAGCCCCCTCTAAAATCCTT-ATATGAAGTCAAGGATACTATAGAGGGGGCCGGAATTCAATTGTTCAGGCCT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||| ||||||||||| ||||||||||||||||||||||| ||||||||||||||||  |||||| || |||||| ||||||||||||||| |||||||| ||||| |||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>575975856</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>69</Iteration_iter-num>
+  <Iteration_query-ID>Query_69</Iteration_query-ID>
+  <Iteration_query-def>kdgR,kdgK,kdgA,kdgT</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00542173</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>40</Hsp_query-to>
+      <Hsp_hit-from>28043</Hsp_hit-from>
+      <Hsp_hit-to>28079</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>TCCATTACAGGCTAATGGAAGGGGGT-ATGAAAGTCAA</Hsp_qseq>
+      <Hsp_hseq>TCAATTACAGGCTAATGGAATGCCGTGAT-AAAGTCAA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||| |  || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>70</Iteration_iter-num>
+  <Iteration_query-ID>Query_70</Iteration_query-ID>
+  <Iteration_query-def>recU,ponA</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.00146478</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>356501</Hsp_hit-from>
+      <Hsp_hit-to>356470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>ATAAAAAACCTCCCGTTTTAACAGGAGGTTTT</Hsp_qseq>
+      <Hsp_hseq>ATAAAAAACCTCCTGCTTATACAGGAGGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | ||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>71</Iteration_iter-num>
+  <Iteration_query-ID>Query_71</Iteration_query-ID>
+  <Iteration_query-def>spoIVA</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>3.1565e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>89260</Hsp_hit-from>
+      <Hsp_hit-to>89381</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>CTTTTTTCATCCTATTCCTTGATCCTTTTCCATTAT-TAAGAGCAAAGAAAAAAGACCTCCCATTCTATAAAGAGGTCTACCGGTATTACAGGATGATGGCGATTAAGCCGCCAGAGCCTTCG</Hsp_qseq>
+      <Hsp_hseq>CTTTTTTCCTCCTAATCCTTGATTGATTTCCAGTATCTAAAAAGAATAAAAAAAGACCCCCCGTTTCAGGAAGAGGTCCTTCAGC-TTACAAAATAATGGCGATCAGGCCGCCTGAGCCTTCG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||| ||||||||   |||||| ||| ||| |  ||  |||||||||| ||| ||  |  ||||||||   | |  |||||  || |||||||| | |||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>72</Iteration_iter-num>
+  <Iteration_query-ID>Query_72</Iteration_query-ID>
+  <Iteration_query-def>sigX,rsiX</Iteration_query-def>
+  <Iteration_query-len>116</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.00136523</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>530278</Hsp_hit-from>
+      <Hsp_hit-to>530297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>AGCAACTAAAAAAGAGCCTT</Hsp_qseq>
+      <Hsp_hseq>AGCAACTAAAAAAGAGCCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>389392128</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>73</Iteration_iter-num>
+  <Iteration_query-ID>Query_73</Iteration_query-ID>
+  <Iteration_query-def>ypuD</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>74</Iteration_iter-num>
+  <Iteration_query-ID>Query_74</Iteration_query-ID>
+  <Iteration_query-def>drm,punA</Iteration_query-def>
+  <Iteration_query-len>130</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>7.2268e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>146086</Hsp_hit-from>
+      <Hsp_hit-to>146143</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TGGTTTTATACGCCACTGATGGAAAATGTTTCGAATTTTGGGCATAAAAAAAGACAGCTG</Hsp_qseq>
+      <Hsp_hseq>TGGTTTTATACGCCTCATCTGGAAAATGTTTCGTGTTGAGGGCACAAAAAAA--CAGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |   ||||||||||||||  ||  ||||| |||||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>446178480</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>75</Iteration_iter-num>
+  <Iteration_query-ID>Query_75</Iteration_query-ID>
+  <Iteration_query-def>yqjP,yqjQ,dsdA,coaA,yqjT</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>76</Iteration_iter-num>
+  <Iteration_query-ID>Query_76</Iteration_query-ID>
+  <Iteration_query-def>yqjM</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.45822e-13</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>247109</Hsp_hit-from>
+      <Hsp_hit-to>247167</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TCTCTTTTTTTATTTTTAGAGAAACGATCGGCTAAGGTTCTCCGTCT-CCCTAGTAGAAC</Hsp_qseq>
+      <Hsp_hseq>TCTCTTTTTTTATTTTTTGAGAAACGATTGCCGAAGCTTCTCCGTCTTCCCTA-TAGAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||| | | ||| |||||||||| ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>77</Iteration_iter-num>
+  <Iteration_query-ID>Query_77</Iteration_query-ID>
+  <Iteration_query-def>yqjH,yqjI</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.753</Hsp_bit-score>
+      <Hsp_score>35</Hsp_score>
+      <Hsp_evalue>6.91491e-12</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>250914</Hsp_hit-from>
+      <Hsp_hit-to>250965</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CTTCGGGGGTTTCTATTGATTACTTCATCCATTCAGTATGGAAGATGCCTTCTT</Hsp_qseq>
+      <Hsp_hseq>CTGCGGGGGCTTC--TTCATTACTTCATCCATTCAGTATGGAAAATGCCTTCTT</Hsp_hseq>
+      <Hsp_midline>|| |||||| |||  || ||||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>78</Iteration_iter-num>
+  <Iteration_query-ID>Query_78</Iteration_query-ID>
+  <Iteration_query-def>bmrU,bmr,bmrR</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>466459320</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>79</Iteration_iter-num>
+  <Iteration_query-ID>Query_79</Iteration_query-ID>
+  <Iteration_query-def>spo0A</Iteration_query-def>
+  <Iteration_query-len>149</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>523245672</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>80</Iteration_iter-num>
+  <Iteration_query-ID>Query_80</Iteration_query-ID>
+  <Iteration_query-def>yqhV,spoIIIAA,spoIIIAB,spoIIIAC,spoIIIAD,spoIIIAE,spoIIIAF,spoIIIAG,spoIIIAH</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>8.41361e-06</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>3811921</Hsp_hit-from>
+      <Hsp_hit-to>3811961</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>AAAAAGCCCGCTTG-TT-TAGCGGGCTTTTTTCCC-TCATT</Hsp_qseq>
+      <Hsp_hseq>AAAAAGCCCGCTTGCTTACAGCGGGCTTTTTTCACATCATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||  |||||||||||||| | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>81</Iteration_iter-num>
+  <Iteration_query-ID>Query_81</Iteration_query-ID>
+  <Iteration_query-def>yqxD,dnaG,sigA</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.459</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.89999e-27</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>365083</Hsp_hit-from>
+      <Hsp_hit-to>365196</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CAGTAAAATAAAGGCATATTATCCATATATCTTTTTAAAAAAAGAAGAACGGATCTTCAAGACCCGTTCCATCTTATTCAAGGAAATCTTTCAAACGTTTACTTCTGCTAGGATG</Hsp_qseq>
+      <Hsp_hseq>CAGTAAAATAAAGGTATATTATCCATATATCTTATACATAAAA-AAGAACGGATCAAAAAGACCCGTTCCATTCTATTCGAGAAAATCCTTCAGACGTTTGCTTCTGCTCGGATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||||||||||||| |  | |||| |||||||||||   ||||||||||||||  ||||| || ||||| |||| |||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>82</Iteration_iter-num>
+  <Iteration_query-ID>Query_82</Iteration_query-ID>
+  <Iteration_query-def>antE</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.932</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>3.17076e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>368273</Hsp_hit-from>
+      <Hsp_hit-to>368400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>TTTCCCATCTTATAACACTCCGTCGTACATTATTCGATGCTTT-AGTGCAAAATCCCTTCATCGTTCGACAGGATTTTTTGCAGCAGTGTAATAAATCG-TTCTCGATCTTCTTTATTCAATTTTTTAGG</Hsp_qseq>
+      <Hsp_hseq>TTTCCCATCTTATAACACTCCGTCGTACATTATTCGATGTTTTGATTTG-AAATCCCTTCATCATTCGACAGGATTTTTTTAAGCAGGGTAACAAATCGATTC-CGATCTTCTTTATTTAATTTTTTAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||| ||| | |   ||||||||||||| ||||||||||||||||  ||||| |||| |||||| ||| |||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>442122312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>83</Iteration_iter-num>
+  <Iteration_query-ID>Query_83</Iteration_query-ID>
+  <Iteration_query-def>comER</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4399</Hsp_bit-score>
+      <Hsp_score>24</Hsp_score>
+      <Hsp_evalue>8.66857e-06</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>406966</Hsp_hit-from>
+      <Hsp_hit-to>407019</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GCATAAAAAAGCATTTTAAAAAACCATCGTT-TTAGGAAACGATGGTTTTTGATTT</Hsp_qseq>
+      <Hsp_hseq>GCA-AAAAATGCATTTTAAAAA-CCATCGTTCCGTTTAAACGATGGTTTTTGGTTT</Hsp_hseq>
+      <Hsp_midline>||| ||||| |||||||||||| ||||||||      ||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>84</Iteration_iter-num>
+  <Iteration_query-ID>Query_84</Iteration_query-ID>
+  <Iteration_query-def>levD,levE,levF,levG,sacC</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>8.86062e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>707174</Hsp_hit-from>
+      <Hsp_hit-to>707260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>TGATGATTTGGAAGCATTTAACCGCGAATCTTTAAACTTGTTAAAATAACAAGAAGGCACAGACT-GTTCGGGTCTGTGCCTTTTTTA</Hsp_qseq>
+      <Hsp_hseq>TGACGATTTGGAAGCCTTTAATCGTGAATCATTGAACCTGCTGAAATAAGAGAAAAGCACAGACCCGTTCA-GTCTGTGCTTTTTTTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| ||||| || ||||| || ||| || | |||||| |  || ||||||||  ||||  |||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>85</Iteration_iter-num>
+  <Iteration_query-ID>Query_85</Iteration_query-ID>
+  <Iteration_query-def>glnQ,glnH,glnM,glnP</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>1.1056e-14</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>472456</Hsp_hit-from>
+      <Hsp_hit-to>472568</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TCACTCGCAGCAAGACGCCTCGAGGTCCGG-CAAACATAGAAAAGGATACTCTTTGGAG-AGTATCC--TTTT-TGCATTAAAACATTTTCGTAATTCTTCTTCTCATCCGCTTCAT</Hsp_qseq>
+      <Hsp_hseq>TCTCTCGCAGCCAGACGGCTGGAAG-CGAGACAAACGTA-AAAAGGATACT-TCCGGAGAAGTATCCTTTTTTCTGC-TTAAAACATTTTCATGACTCGTCTTCTCATCCGTTTCAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||| ||||| || || | |  | ||||| || ||||||||||| |  |||| |||||||  |||| ||| ||||||||||||| | | || |||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>413729136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>86</Iteration_iter-num>
+  <Iteration_query-ID>Query_86</Iteration_query-ID>
+  <Iteration_query-def>yrbD</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00537058</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>3269307</Hsp_hit-from>
+      <Hsp_hit-to>3269332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>GTCTCCTGAACAT-ACTAAAACCGGC</Hsp_qseq>
+      <Hsp_hseq>GTCTCCTGAACATCAATAAAACCGGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>87</Iteration_iter-num>
+  <Iteration_query-ID>Query_87</Iteration_query-ID>
+  <Iteration_query-def>safA,coxA</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>88</Iteration_iter-num>
+  <Iteration_query-ID>Query_88</Iteration_query-ID>
+  <Iteration_query-def>spoVID,ysxE</Iteration_query-def>
+  <Iteration_query-len>134</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.779</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>9.2203e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>530236</Hsp_hit-from>
+      <Hsp_hit-to>530366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>TTCGTTTCCATCATAACCCTCCAGCATGTTTAAAAATGGCTGAG-AACGAAAAAAGAGCTCTTCATCCCTGTAAAAGGACGAAAAGCTCTTTCGCGGTACCACCTTTTTTCATGAACTCAATCAGTTCATGCAC</Hsp_qseq>
+      <Hsp_hseq>TTTGTATCCATGATAACCCTCCAGCATGTTTAGAAATGGCTGAGCAACTAAAAAAGAGC-CTTCAT-CCTGATAAAGGACGAAAAGCTCTTTCGCGGTACCACCTTTTTTCATGAACAGATTT-GTTCATGCAC</Hsp_hseq>
+      <Hsp_midline>|| || ||||| |||||||||||||||||||| ||||||||||| ||| |||||||||| |||||| ||||  ||||||||||||||||||||||||||||||||||||||||||||  | |  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>462403152</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>89</Iteration_iter-num>
+  <Iteration_query-ID>Query_89</Iteration_query-ID>
+  <Iteration_query-def>hemA,hemX,hemC,hemD,hemB,hemL</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>90</Iteration_iter-num>
+  <Iteration_query-ID>Query_90</Iteration_query-ID>
+  <Iteration_query-def>clpX</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.8265</Hsp_bit-score>
+      <Hsp_score>28</Hsp_score>
+      <Hsp_evalue>5.38351e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>545811</Hsp_hit-from>
+      <Hsp_hit-to>545924</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TCTCCCATAGAAGACGGGAATAAACGTTTTTCCGGAAGAGT--TG-CATGCAAAAAAACCTCCTGAGTGTTACCACTCAGGAGGTTTGTGCTTATCTTTATGCAGATGTTTTATCTTGGC</Hsp_qseq>
+      <Hsp_hseq>TCTCCCAGCAAAGCCCGGAATAAAC-ATTTT-CAGAAGGGTCAGGACAAG-AAAAAAACCTCCTGATCAATTCGAGTCAGGAGGTTT-TG-TCATG-TTATGCTGATGTTTTATCTTGGC</Hsp_hseq>
+      <Hsp_midline>|||||||   ||| | |||||||||  |||| | |||| ||   | || | |||||||||||||||    | | | ||||||||||| || | ||  |||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>91</Iteration_iter-num>
+  <Iteration_query-ID>Query_91</Iteration_query-ID>
+  <Iteration_query-def>araA,araB,araD,araL,araM,araN,araP,araQ,abfA</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>405616800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>92</Iteration_iter-num>
+  <Iteration_query-ID>Query_92</Iteration_query-ID>
+  <Iteration_query-def>gapB,speD</Iteration_query-def>
+  <Iteration_query-len>146</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>4.87743e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>635883</Hsp_hit-from>
+      <Hsp_hit-to>636024</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>CAAAAAAAATGAAAAAAGAAAAAGCTGACACTCTCGTTTCTTTATA-AAAATAAAAGGAGCATAAGCTAAAAAGCGCATAATGGCTTTCT-AGCTTCAGCTCCCTTTGTGTTCGCAATTT--ACTTTATAGTACTTTCGCTTGCGCCTGT</Hsp_qseq>
+      <Hsp_hseq>CAAAAAAAATGCTTAAAGAAAAAGC--A-ATGCT-GTTT-TTT-TACATTAGAAAAGGAGCATCAGCTTCAAAGCGCGTAATGGCTTTTTCAGCTT-AGCTCCC-TTGTGTTTGCGTTTTGAAAATTACAGTACTTTCGCTTGTGCCTGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||   |||||||||||  | |  || |||| ||| || |  | ||||||||||| ||||  ||||||| |||||||||| | ||||| ||||||| ||||||| ||  |||  |  ||| |||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>511077168</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>93</Iteration_iter-num>
+  <Iteration_query-ID>Query_93</Iteration_query-ID>
+  <Iteration_query-def>phoP,phoR</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.692</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.15694e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>645499</Hsp_hit-from>
+      <Hsp_hit-to>645623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>AACAAAGTTCAATTTGAAAGGAAAATACGTGAACTATAAGAGAAGACACAAAAAAGGACGGGAACA--CAAATAGGTTCCCGCCGTCAAAATTGGCTCCTTGGATGAAGGGGTTCTACTACATCCTA</Hsp_qseq>
+      <Hsp_hseq>AACAAAGTTCAATTTGAAAGGAAAATGAGCGAAC--CCCGTGAAAACGCAAAAAAGGACGGGAACAAGAAAACACGTTCCCGCCGTCAAAATTGGCTCCTTGGATGAAGGGGTTCTGTTATATCCTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||  | ||||     | ||| || ||||||||||||||||||   ||| | |||||||||||||||||||||||||||||||||||||||||  || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>94</Iteration_iter-num>
+  <Iteration_query-ID>Query_94</Iteration_query-ID>
+  <Iteration_query-def>pfkA,pyk,ytzA</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>3.14964e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>658835</Hsp_hit-from>
+      <Hsp_hit-to>658959</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>CAACAGGCGCATTAAAAGAAATATGGTCCTATATCACCGTTCAGCAAAAAT-AAAACGGCAGCCGTTTTTTCATGGCTGCCGTTTTTTATTTGATGATGATCCGCTTATTCTTCGACATTCCTCTCA</Hsp_qseq>
+      <Hsp_hseq>CAACGGGCGCTTTAAAAGAAATATGGGCCTATATTACTGTTCAGTCCAAATAAAAACAGCAGCCCTGTAAGAA-GGCTGCCG-TTTTTATTTGATAATGATCCGCTTGTTTTTTGACATTCCTCTCA</Hsp_hseq>
+      <Hsp_midline>|||| ||||| ||||||||||||||| ||||||| || ||||||   |||| ||||| |||||| | |    | |||||||| |||||||||||| ||||||||||| || || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>95</Iteration_iter-num>
+  <Iteration_query-ID>Query_95</Iteration_query-ID>
+  <Iteration_query-def>bioW,bioA,bioF,bioD,bioB,bioI,ytbQ</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>442122312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>96</Iteration_iter-num>
+  <Iteration_query-ID>Query_96</Iteration_query-ID>
+  <Iteration_query-def>ytrA,ytrB,ytrC,ytrD,ytrE,ytrF</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.3393e-06</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>769455</Hsp_hit-from>
+      <Hsp_hit-to>769525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GAAAAAGCCGGCTG-TCT-CAGCCGGCTCGTTCGCATTATAATTCTCTTCTCAACGCTGTCAGCACGTTGGT</Hsp_qseq>
+      <Hsp_hseq>GAAAAA-CCGGCTGATGTCCAGCCGGCTTTTTTCCTTTACAGTTCTCTTCTTAATGCAGTCAGAACGTTGGT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||| | | |||||||||  ||  | ||| | ||||||||| || || ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>97</Iteration_iter-num>
+  <Iteration_query-ID>Query_97</Iteration_query-ID>
+  <Iteration_query-def>asnB,ytnA</Iteration_query-def>
+  <Iteration_query-len>117</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>393448296</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>98</Iteration_iter-num>
+  <Iteration_query-ID>Query_98</Iteration_query-ID>
+  <Iteration_query-def>yufN</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>1.56742e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>879527</Hsp_hit-from>
+      <Hsp_hit-to>879582</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>CAACTGAGAAAGAGCTGAAAACCTTCAAAGCTGAATAAGAATCGCAGGGATAAGGAG</Hsp_qseq>
+      <Hsp_hseq>CAACTGAAAAAGAATTGAAATCCTTCAAGGCTGAGTAAGAATC-AGGGGATAAGGAG</Hsp_hseq>
+      <Hsp_midline>||||||| |||||  ||||| ||||||| ||||| ||||||||   |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>450234648</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>99</Iteration_iter-num>
+  <Iteration_query-ID>Query_99</Iteration_query-ID>
+  <Iteration_query-def>yunB</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>100</Iteration_iter-num>
+  <Iteration_query-ID>Query_100</Iteration_query-ID>
+  <Iteration_query-def>pucR,pucJ,pucK,pucL,pucM</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401560632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>101</Iteration_iter-num>
+  <Iteration_query-ID>Query_101</Iteration_query-ID>
+  <Iteration_query-def>yvgR,yvgQ</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>102</Iteration_iter-num>
+  <Iteration_query-ID>Query_102</Iteration_query-ID>
+  <Iteration_query-def>cggR,gapA,pgk,tpiA,pgm,eno</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.45822e-13</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1131967</Hsp_hit-from>
+      <Hsp_hit-to>1132047</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AGCATAAAAAAGCCGCCGAGAGAA-A-ATCCCGGCGGTCTTTTTATTACTTGTTTAAGTTGTAGAAAGAGTTGATACCGTGG</Hsp_qseq>
+      <Hsp_hseq>AGCATAAAAAA-ACGCCGGGAGAATATCTCCCGGCGTCCATTCCATTACTTATTCAAGTTATAGAAAGAGTTGATACCGTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||| ||||| |  ||||||||  | ||  ||||||| || ||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>103</Iteration_iter-num>
+  <Iteration_query-ID>Query_103</Iteration_query-ID>
+  <Iteration_query-def>yvfG</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.2195</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.92706e-17</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1166348</Hsp_hit-from>
+      <Hsp_hit-to>1166424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GATGAAGCATACAACAAAGTCAAACGTGGAGAATCAAAATAAACCTTCCGCTCACATGTGAGCAGGAAGGTTTTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GATGAGGCGTACAACAAAGTAAAACGCGGAGAAACAAAATAAACCTTCCGCTCAT-TCAAAGC-GGAAGGTTTTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| ||||| |||||| ||||||||||||||||||||  |   ||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>104</Iteration_iter-num>
+  <Iteration_query-ID>Query_104</Iteration_query-ID>
+  <Iteration_query-def>pbpE,racX</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>105</Iteration_iter-num>
+  <Iteration_query-ID>Query_105</Iteration_query-ID>
+  <Iteration_query-def>sacB,yveB,yveA</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>0.000113234</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>2400903</Hsp_hit-from>
+      <Hsp_hit-to>2400873</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>ACACGCGATAAAATGAATGAGAGTCAGTCAT</Hsp_qseq>
+      <Hsp_hseq>ACATGCGATAAAATGAATGACAGTCATTCAT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||||| ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>106</Iteration_iter-num>
+  <Iteration_query-ID>Query_106</Iteration_query-ID>
+  <Iteration_query-def>clpP</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.5198</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>4.16171e-09</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>1197028</Hsp_hit-from>
+      <Hsp_hit-to>1197089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>ACAGAAGACAAAAAGTAAT---AACACAACCTGCAAGAGCTGC-GTCTCTTGCAGGTTTTTT</Hsp_qseq>
+      <Hsp_hseq>ACAGAAGACCAGAAGTAATGCCCAAAAAACCTGCAAGAGCTGATGTCTCTTGCAGGTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||| | |||||||    | | |||||||||||||||  ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>107</Iteration_iter-num>
+  <Iteration_query-ID>Query_107</Iteration_query-ID>
+  <Iteration_query-def>yvzB</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.2066</Hsp_bit-score>
+      <Hsp_score>19</Hsp_score>
+      <Hsp_evalue>0.00613781</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>900852</Hsp_hit-from>
+      <Hsp_hit-to>900879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>TGATTGTAACAAAAAAAGCCTGCCG-GCA</Hsp_qseq>
+      <Hsp_hseq>TGATTGTACCAAAAAAAGCC-GCCGTGCA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||| |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>486740160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>108</Iteration_iter-num>
+  <Iteration_query-ID>Query_108</Iteration_query-ID>
+  <Iteration_query-def>csbA</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.2195</Hsp_bit-score>
+      <Hsp_score>45</Hsp_score>
+      <Hsp_evalue>1.89104e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1244703</Hsp_hit-from>
+      <Hsp_hit-to>1244807</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ATACGAACTAAAGTTCGGTGGTTTTTTATTTCCAGCTGTTTTTGTGTATAAAAAACCTGCTTTTAAAACGTAAAAGCAGGTATTCAGTCTTT-ATATTCATTATGTC</Hsp_qseq>
+      <Hsp_hseq>ATACGAACTAAAGTTCGATGGTTTATTTTTACCAAGTCAATTTTTGTATAAAAAACCTGCTTTTATGGCGTAAAAGCAGGCATTC--TATTTCATATTCACCATGTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||| || || |||  |   ||| |||||||||||||||||||||   |||||||||||| ||||  | ||| |||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>109</Iteration_iter-num>
+  <Iteration_query-ID>Query_109</Iteration_query-ID>
+  <Iteration_query-def>hag</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>110</Iteration_iter-num>
+  <Iteration_query-ID>Query_110</Iteration_query-ID>
+  <Iteration_query-def>degS,degU</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>1.13528e-09</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1278062</Hsp_hit-from>
+      <Hsp_hit-to>1278144</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GCAGC-CTAAAAAAAGACCTGCCTAGTAAAAGGCAAGTCTCCT-ATT-ATA-CTATCTCATTTCTACCCAGCCATTTTTAATGGC</Hsp_qseq>
+      <Hsp_hseq>GCAGCTGTAAAAAAAGACTTGCC-A-TAACAGGCAAGTCTTCTCACACATGGCTAACGCATCTCTACCCAGCCGTTTTTAATGGC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||||||| |||| | ||| |||||||||| || |   ||  ||| | ||| ||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>111</Iteration_iter-num>
+  <Iteration_query-ID>Query_111</Iteration_query-ID>
+  <Iteration_query-def>spoIID</Iteration_query-def>
+  <Iteration_query-len>117</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>2.29204e-06</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1403318</Hsp_hit-from>
+      <Hsp_hit-to>1403357</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TCTACTTTTTCGCCATATATTTATTCAAAAACGCATCTGC</Hsp_qseq>
+      <Hsp_hseq>TCTATTTTTTCGCCATATATTTGTTTAAAAATGAATCTGC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||| || ||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>393448296</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>112</Iteration_iter-num>
+  <Iteration_query-ID>Query_112</Iteration_query-ID>
+  <Iteration_query-def>ywlF,ywlG</Iteration_query-def>
+  <Iteration_query-len>116</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>389392128</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>113</Iteration_iter-num>
+  <Iteration_query-ID>Query_113</Iteration_query-ID>
+  <Iteration_query-def>fbaA,ywjH</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.66854e-13</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1434128</Hsp_hit-from>
+      <Hsp_hit-to>1434220</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GAAATACA-AAGGCCGCGGCAAACAGGCAT-AAAGCTGTTTGCCGCCCCTTTCA---TTATTTGTTCCAGTCTGCCAGGAATTGTTCGATTCCTTT</Hsp_qseq>
+      <Hsp_hseq>GAAA-ACATAAGGGTGCGGCAAAC-GG-ATGCAACCGGTTTGCCGCCCTTTTCACCCTTATTTATTCCAGTCTGCCAAGAATTGCTCGATGCCTTT</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||  ||||||||| || ||  || | ||||||||||| |||||   |||||| ||||||||||||| |||||| ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>482683992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>114</Iteration_iter-num>
+  <Iteration_query-ID>Query_114</Iteration_query-ID>
+  <Iteration_query-def>sigY,yxlC,yxlD,yxlE,yxlF,yxlG</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>115</Iteration_iter-num>
+  <Iteration_query-ID>Query_115</Iteration_query-ID>
+  <Iteration_query-def>yxiT</Iteration_query-def>
+  <Iteration_query-len>137</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>0.000128625</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>1621597</Hsp_hit-from>
+      <Hsp_hit-to>1621645</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>TTGCGGTATCTTTATTAAGTGCTGCGATTGTCGGCCTGTTTGTGTGGTA</Hsp_qseq>
+      <Hsp_hseq>TTGCCGTTTCCTTATTGAGCGCGGCGATTGTCGGATTGTTTGTCTGGTA</Hsp_hseq>
+      <Hsp_midline>|||| || || ||||| || || |||||||||||  ||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>474571656</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>116</Iteration_iter-num>
+  <Iteration_query-ID>Query_116</Iteration_query-ID>
+  <Iteration_query-def>licT,bglS</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>8.86062e-11</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>1626614</Hsp_hit-from>
+      <Hsp_hit-to>1626646</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>CATTATTTTTTTGTATAGCGCACCCAGTCATAA</Hsp_qseq>
+      <Hsp_hseq>CATTATTTTTTTGTATAGCGCACCCAGTCATAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>117</Iteration_iter-num>
+  <Iteration_query-ID>Query_117</Iteration_query-ID>
+  <Iteration_query-def>wapA,yxxG</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>118</Iteration_iter-num>
+  <Iteration_query-ID>Query_118</Iteration_query-ID>
+  <Iteration_query-def>deoR,dra,nupC,pdp</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>1.95452e-07</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1656921</Hsp_hit-from>
+      <Hsp_hit-to>1656975</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GGGATGTG-CTTTATT-TTTTATTCTGTAATTAACGTATGAATCAGCTTCGGCGC</Hsp_qseq>
+      <Hsp_hseq>GGTATGTGCCTTTCTTGTCTTATTCCGTAATCAGCGTATGAATCAGTTTCGGCGC</Hsp_hseq>
+      <Hsp_midline>|| ||||| |||| || | |||||| ||||| | |||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>119</Iteration_iter-num>
+  <Iteration_query-ID>Query_119</Iteration_query-ID>
+  <Iteration_query-def>yxeF,yxeG,yxeH</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421841472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>120</Iteration_iter-num>
+  <Iteration_query-ID>Query_120</Iteration_query-ID>
+  <Iteration_query-def>yxeE</Iteration_query-def>
+  <Iteration_query-len>116</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>389392128</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>121</Iteration_iter-num>
+  <Iteration_query-ID>Query_121</Iteration_query-ID>
+  <Iteration_query-def>htpG</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.9798</Hsp_bit-score>
+      <Hsp_score>27</Hsp_score>
+      <Hsp_evalue>1.95452e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1685568</Hsp_hit-from>
+      <Hsp_hit-to>1685694</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>AAAGAAGAAAAGCACCCAAAACCAAGTGCTGAATGAGCGTACA-T-T-ATAAAAAAAGGAATCGTCTCCTTATGAGACGATTCCTTTTT-CTGTTTACACCATGACCTTGCAAATATTGTTCGTAAATTC</Hsp_qseq>
+      <Hsp_hseq>AAAGAAGCGCAGCAAACAAAATCAAATTCTTAAACAGCGCACACTGTAATAAAAAAAGGAATCGCCCCCGC-TGGG-CGATTCCTTTTTGGCGTC-ATACCATAACTTTGCAAATGTCATTCGTAAATTC</Hsp_hseq>
+      <Hsp_midline>|||||||   ||||  ||||| ||| | || ||  |||| ||| | | |||||||||||||||| | ||   || | ||||||||||||   ||  | ||||| || |||||||| |  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434009976</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>122</Iteration_iter-num>
+  <Iteration_query-ID>Query_122</Iteration_query-ID>
+  <Iteration_query-def>yxbB,yxbA,yxnB,asnH,yxaM</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>482683992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>123</Iteration_iter-num>
+  <Iteration_query-ID>Query_123</Iteration_query-ID>
+  <Iteration_query-def>yxaG,yxaH</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>0.000116532</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>1698741</Hsp_hit-from>
+      <Hsp_hit-to>1698783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CTGCATGACATCATTTGCAAAACACGTGTCGTGTATAAATAAT</Hsp_qseq>
+      <Hsp_hseq>CTGCACGACATCATGTGCAGCACCCGTGTTGTCTATAAATAAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||| ||||  || ||||| || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>124</Iteration_iter-num>
+  <Iteration_query-ID>Query_124</Iteration_query-ID>
+  <Iteration_query-def>gntR,gntK,gntP,gntZ</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425897640</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>125</Iteration_iter-num>
+  <Iteration_query-ID>Query_125</Iteration_query-ID>
+  <Iteration_query-def>ahpC,ahpF</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.0533</Hsp_bit-score>
+      <Hsp_score>20</Hsp_score>
+      <Hsp_evalue>0.00160699</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>2388552</Hsp_hit-from>
+      <Hsp_hit-to>2388533</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>TTTTCTACAGAAAAAAACCG</Hsp_qseq>
+      <Hsp_hseq>TTTTCTACAGAAAAAAACCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>458346984</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>126</Iteration_iter-num>
+  <Iteration_query-ID>Query_126</Iteration_query-ID>
+  <Iteration_query-def>yyzE,bglA</Iteration_query-def>
+  <Iteration_query-len>154</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.7466</Hsp_bit-score>
+      <Hsp_score>22</Hsp_score>
+      <Hsp_evalue>0.000147315</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>3930907</Hsp_hit-from>
+      <Hsp_hit-to>3930949</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>CCATTCGTTTGAATGACATTTTTATACCACTCAAAGGAGTCTT</Hsp_qseq>
+      <Hsp_hseq>CCGTTTGTTTCAATCACTTTTTTATACCATTCAAATGAGTCTT</Hsp_hseq>
+      <Hsp_midline>|| || |||| ||| || ||||||||||| ||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>543526512</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>127</Iteration_iter-num>
+  <Iteration_query-ID>Query_127</Iteration_query-ID>
+  <Iteration_query-def>rapG,phrG</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>1.48626e-13</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>2497598</Hsp_hit-from>
+      <Hsp_hit-to>2497662</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>AATCCTAAAACGGTTTGTAGTTTTAGGATTCTTTCATCTTTTCAGCGTGATTGAAAACCCTTGAAG</Hsp_qseq>
+      <Hsp_hseq>AATCCTAAAACAGTAT-TCGTTTTAGGATTTTGTCATCTTTTCAGCGTGATCGGAAACCTTTGAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| || | | ||||||||||| | |||||||||||||||||| | ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>429953808</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>128</Iteration_iter-num>
+  <Iteration_query-ID>Query_128</Iteration_query-ID>
+  <Iteration_query-def>purA</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417785304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>129</Iteration_iter-num>
+  <Iteration_query-ID>Query_129</Iteration_query-ID>
+  <Iteration_query-def>yyaO</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>442122312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>130</Iteration_iter-num>
+  <Iteration_query-ID>Query_130</Iteration_query-ID>
+  <Iteration_query-def>soj,spo0J</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP072120.1 Bacillus amyloliquefaciens strain GKT04 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4056188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.8999</Hsp_bit-score>
+      <Hsp_score>21</Hsp_score>
+      <Hsp_evalue>0.000399355</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>406981</Hsp_hit-from>
+      <Hsp_hit-to>407014</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TAAAAACCATC-TTC-GTTTGAAAGATGGTTTTT</Hsp_qseq>
+      <Hsp_hseq>TAAAAACCATCGTTCCGTTTAAACGATGGTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||| |||| || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4056188</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409672968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

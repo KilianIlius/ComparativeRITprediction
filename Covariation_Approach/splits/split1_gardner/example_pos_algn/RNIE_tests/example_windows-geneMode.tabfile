@@ -1,0 +1,72 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile example_windows-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/example_windows.fa
+# date:       Sat May 13 11:29:59 2023
+# num seqs:   5
+# dbsize(Mb): 0.001000
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.256     0.00   0.0103  00:00:00.19
+#
+# CM: seed-a-14
+#                                            target coord   query coord                         
+#                                  ----------------------  ------------                         
+# model name  target name               start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   sliding_window_64            34          67      1     44     12.23  1.63e-03   50
+  seed-a-14   sliding_window_64            57          24      1     44     23.35  1.64e-05   53
+  seed-a-14   sliding_window_1454          34          75      1     44     14.49  6.40e-04   45
+  seed-a-14   sliding_window_1454          64          23      1     44     29.57  1.26e-06   45
+  seed-a-14   sliding_window_1512          27          71      1     44     16.05  3.35e-04   33
+  seed-a-14   sliding_window_1512          61          16      1     44     11.90  1.86e-03   33
+  seed-a-14   sliding_window_7074          35          82      1     44      2.01  1.11e-01   44
+  seed-a-14   sliding_window_7074          72          25      1     44      3.37  6.34e-02   44
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.256        8    0.0103   0.3390
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.19    00:00:00.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       5.428     0.00   0.2423  00:00:00.51
+#
+# CM: seed-b-14
+#                                            target coord   query coord                         
+#                                  ----------------------  ------------                         
+# model name  target name               start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   sliding_window_64            34          67      1     54      8.17  6.32e-02   50
+  seed-b-14   sliding_window_64            58          23      1     54     17.52  3.86e-04   50
+  seed-b-14   sliding_window_1454          35          64      1     54     17.36  4.20e-04   43
+  seed-b-14   sliding_window_1454          66          23      1     54     26.21  3.38e-06   45
+  seed-b-14   sliding_window_1512          27          71      1     54     21.05  5.62e-05   33
+  seed-b-14   sliding_window_1512          61          16      1     54     15.14  1.41e-03   33
+  seed-b-14   sliding_window_7074          31          86      1     54      8.55  5.12e-02   43
+  seed-b-14   sliding_window_7074          71          26      1     54      9.24  3.51e-02   41
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       5.428        8    0.2423   0.3370
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.51    00:00:01.00

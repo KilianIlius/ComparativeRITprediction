@@ -1,0 +1,165 @@
+
+# STOCKHOLM 1.0
+#=GF ID sliding_window_1207
+#=GF AU nhmmer (HMMER 3.3.2)
+
+#=GS Escherichia_coli_IGR_genome/94304-94403         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/60203-60107        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/342034-341936   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/53139-53234   DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/322420-322489      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/66069-66005         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/95469-95542         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/103952-104025      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/519861-519802       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/265041-264948      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/456572-456513      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/397754-397695   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/556853-556918      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/397667-397577   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/28231-28292        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/445424-445346      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/631970-632034       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/487890-487977      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/320418-320360 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/580084-580143       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/513927-513986      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/469442-469379   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/64220-64282         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/45096-45158        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/445797-445736   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/552564-552473       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/505746-505654   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/461474-461411       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/419755-419682   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/74182-74256     DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/479626-479569   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/396925-396840   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/85893-85930     DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/256427-256482   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/4681-4624          DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/528860-528802      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/406753-406712   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/546050-546110      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/584905-584957       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/399962-400000      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/55316-55350         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/36400-36434        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/397045-396959   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/601744-601797       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/356709-356617       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/513846-513888      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/496884-496826   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/249605-249553       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/30791-30831     DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/474853-474789   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_coli_IGR_genome/4950-4893           DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/546524-546485      DE [subseq from] Shigella_flexneri_IGR_genome
+
+Escherichia_coli_IGR_genome/94304-94403                 GGATTGTGAATGATTGCGCTTTTTATCT....G....AA..AAAA..AGACGCAGTTTCA..T.GCCTGGA....TGCG.T....CT...G.A..C..C....GTGT..GCCGGATAAAGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/94304-94403         PP 5899************************....*....**..****..*************..*.*******....****.*....**...*.*..*..*....****..**************************985
+Shigella_flexneri_IGR_genome/60203-60107                -GTTTATGAATGATTGCGCTTTTTATCT....G....AA..A-AA..AGAAGCGGTTTCA..T.GCCTGCA....TGCG.T....CG...A.A..C..C....GTTG..GCCGGAGAGTGCGCTTAGGCCGCCTCCG-
+#=GR Shigella_flexneri_IGR_genome/60203-60107        PP .567899*********************....*....87..6.57..8999*********..*.*******....****.*....**...*.*..*..*....****..***********************99997.
+Escherichia_albertii_IGR_genome/342034-341936           -GGTTATGAATGATTGCGCTTTTTATCT....G....AA..AAAA..AGACACCTTTTCC..T.GTCTACA....AGCA.T....CG...A.A..C..C....GTAG..ACCGGATAAGGCGCTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/342034-341936   PP .678999*********************....*....**..****..*************..*.*******....****.*....**...*.*..*..*....****..**************************986
+Escherichia_fergusonii_IGR_genome/53139-53234           --TTTATGAATGATTGCGCTTTTTATCT....G....AA..A-AA..AGTCGCGGTTTCA..T.TCCTGGA....TGTG.T....CG...A.A..C..T....TTAG..GCCGGAGAGGGCGCTAAGGCCGCCTCCG-
+#=GR Escherichia_fergusonii_IGR_genome/53139-53234   PP ..67889*********************....*....87..6.57..89***********..*.*******....****.*....**...*.*..*..*....****..************************9997.
+Shigella_flexneri_IGR_genome/322420-322489              ----------------------------....C....GA..AAAA..GGATTCATTTCTT..G.AGCTGA-....-GTG.C....TC...A.A..C..C....GTAG..GCCGGATAAGGCGTTAACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/322420-322489      PP ................................2....33..4444..4554444333333..3.333333......334.4....56...7.9..*..*....****..**************************986
+Escherichia_coli_IGR_genome/66069-66005                 ----------------------------....-....--..----..----GTCTTATCA..T.GCCCGGA....AGTC.TgcgcCC...GaA..T..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Escherichia_coli_IGR_genome/66069-66005         PP ...................................................33457789*..*.****999....7654.4111133...326..7..8....9999..*************************997.
+Escherichia_coli_IGR_genome/95469-95542                 ---------ATGCTGGCGCATCTTATCC....G....AC..CTAC..AAA----------..-.------T....CGCA.T....CG...A.A..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/95469-95542         PP .........4566777777777888777....7....65..4443..322....................2....4677.8....89...9.9..*..*....****..*************************9985
+Shigella_flexneri_IGR_genome/103952-104025              ---------ATGCTGGCGCATCTTATCC....G....AC..CTAC..AAA----------..-.------T....CGCA.T....CG...A.A..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/103952-104025      PP .........4566777777777888777....7....65..4443..322....................2....4677.8....89...9.9..*..*....****..*************************9985
+Escherichia_coli_IGR_genome/519861-519802               ----------------------------....-....--..----..----GTCTTATCA..T.GCCTATG....GGGA.C....CT...G.A..C..C....GTAG..GCCGGATAAGGCGTACACGCCGCATCCG-
+#=GR Escherichia_coli_IGR_genome/519861-519802       PP ...................................................445577999..*.***9999....9999.9....**...*.*..*..*....****..*************************997.
+Shigella_flexneri_IGR_genome/265041-264948              --------GATAATTACTCTGCCAAAGT....G....AT..AAAT..AAACATCGTCCGA..C.GCCTGCA....TTCG.Ca..cCG...C.C..C..C....GTAG..GCCGGATAAGGCGCTCACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/265041-264948      PP ........46677888888888889999....9....**..****..*************..*.*******....9877.52..145...5.6..7..8....9999..*************************9986
+Shigella_flexneri_IGR_genome/456572-456513              ----------------------------....-....--..----..----GTCTTATCA..T.GCCTACG....GGAA.C....CT...G.A..C..C....GTAG..GCCGGATAAGGCGTACACGCCGCATCCG-
+#=GR Shigella_flexneri_IGR_genome/456572-456513      PP ...................................................445677999..*.***9999....9999.9....**...*.*..*..*....****..*************************997.
+Escherichia_albertii_IGR_genome/397754-397695           ----------------------------....-....--..----..-----CACATATT..T.GTATGTT....TGCG.T....CC...G.T..T..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/397754-397695   PP ....................................................55555555..6.7777888....9999.9....99...9.9..9..*....****..*************************9985
+Shigella_flexneri_IGR_genome/556853-556918              ----------------------------....-....--..----..---CGTCTTATCA..T.GCCTACAggttTGTG.C....CG...A.A..C..C....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/556853-556918      PP ..................................................4455677889..9.998865522225667.7....78...8.9..*..*....****..*************************9975
+Escherichia_albertii_IGR_genome/397667-397577           -----------GCTGGCGCGTCTTATCA....G....GCctACGA..ATTCGCACATATT..T.TTATGTT....TGTG.T....CC...G.T..T..T....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/397667-397577   PP ...........55667888888888887....7....54113345..5556666555555..5.5556667....7788.8....88...8.8..8..8....9999..*************************9985
+Shigella_flexneri_IGR_genome/28231-28292                ----------------------------....-....--..----..-------TTATCA..T.GCCTAAAaactTGTG.C....CT...G.A.aC..G....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Shigella_flexneri_IGR_genome/28231-28292        PP ......................................................355777..8.888777622223444.5....55...5.4.14..5....6888..9************************997.
+Shigella_flexneri_IGR_genome/445424-445346              -----------GCTGGCGCATCTTATCC....G....GC..CTAC..----GGG-----G..A.GCCAGGC....CGAA.T....AA...A.A..T..C....GTAT..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Shigella_flexneri_IGR_genome/445424-445346      PP ...........55556666666666665....5....43..3322......222.....2..3.5666677....7778.8....88...9.9..9..*....****..*************************997.
+Escherichia_coli_IGR_genome/631970-632034               ----------------------------....-....--..----..----GTCTTATCA..T.GCCTACAggttTGTG.C....CG...A.A..C..C....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/631970-632034       PP ...................................................445567889..9.988865522225667.7....78...8.9..*..*....****..*************************9975
+Shigella_flexneri_IGR_genome/487890-487977              --------------TGCGCACCTTATTT....GgcctAA..AAAA..TCATTCAGATTCA..AtAAATTGC....AACG.T....--...-.C..A..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/487890-487977      PP ..............55666555555554....4222277..8888..8888899988886..403333333....4444.4...........4..5..6....8889..**************************985
+Escherichia_fergusonii_IGR_genome/320418-320360         ----------------------------....-....--..----..-------TTATCA..G.GCCTGGA....GCCG.Tt..gCC...A.A..A..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Escherichia_fergusonii_IGR_genome/320418-320360 PP ......................................................456889..9.9****99....8888.73..356...7.8..8..8....9999..*************************997.
+Escherichia_coli_IGR_genome/580084-580143               ----------------------------....-....--..----..-------TTATCA..T.GCCTACA....ACCG.Tt..gCC...G.A..A..C....GTAG..GCTGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/580084-580143       PP ......................................................466889..9.9999998....8887.64..468...9.9..*..*....****..*************************9975
+Shigella_flexneri_IGR_genome/513927-513986              ----------------------------....-....--..----..-------TTATCA..T.GCCTACA....ACCG.Tt..gCC...G.A..A..C....GTAG..GCTGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/513927-513986      PP ......................................................466889..9.9999998....8887.64..468...9.9..*..*....****..*************************9975
+Escherichia_albertii_IGR_genome/469442-469379           ----------------------------....-....--..----..----GAAGGTTAA..C.GCTTGGG....TAAC.T....CT...T.G..C..CgaatGTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Escherichia_albertii_IGR_genome/469442-469379   PP ...................................................567788999..9.9999999....9888.8....77...5.5..5..511116667..89***********************998.
+Escherichia_coli_IGR_genome/64220-64282                 ----------------------TTA---....-....--..----..----------TCA..G.GCCTACAaaccTGTG.C....CT...GaA..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/64220-64282         PP ......................333................................344..4.444443311113344.4....55...426..8..9....9***..*************************9975
+Shigella_flexneri_IGR_genome/45096-45158                ----------------------TTA---....-....--..----..----------TCA..G.GCCTACAaaccTGTG.C....CT...GaA..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/45096-45158        PP ......................333................................344..4.444443311113344.4....55...426..8..9....9***..*************************9975
+Escherichia_albertii_IGR_genome/445797-445736           ----------------------------....-....--..---G..TGACGTTTCTGCA..G.CCTTGCA....TGCT.T....AT...-.-..-..-....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/445797-445736   PP ............................................2..3455555555666..6.7777888....8887.7....66................5778..9*************************985
+Escherichia_coli_IGR_genome/552564-552473               ----------TGCTGACGCATCTTATCCagccT....AC..AGAA..CGCTGCAATTTAT..T.----GAA....TTTG.C....AC...G.A..T..C....ATGTagGCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/552564-552473       PP ..........55556677777777765411114....55..6666..7777888887765..4.....556....6667.7....77...7.7..7..7....6665449************************9985
+Escherichia_albertii_IGR_genome/505746-505654           ---------ATGCTGGCGCATCTTATCC....GgcctAC..AGAA..CGCTGCAATATAT..T.GAATTTA....TACGaT....CT...-.-..-..G....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/505746-505654   PP .........5778889999999**9998....7222244..5566..6667788888877..7.7777777....666522....33...........3....6777..9************************9985
+Escherichia_coli_IGR_genome/461474-461411               ----------------------------....-....--..----..--AATGATTTTTA..A.ATGTGGA....CTCA.T....CT...C.A..C.aC....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/461474-461411       PP .................................................33345567777..7.7889999....9999.9....99...9.8..7.68....999*..**************************986
+Escherichia_albertii_IGR_genome/419755-419682           ----------TGCTAGCGCATCTTATCC....G....GC..CTAC..AGA------TT--..-.-----GT....TGCG.-....-A...A.A..T..T....GTAG..GCCGGATAAAGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/419755-419682   PP ..........566677777777777777....7....65..5554..443......22...........23....3333.......3...4.6..6..7....8889..9************************9985
+Escherichia_albertii_IGR_genome/74182-74256             -------------------------TGT....A....AA..GAAT..AG----TGTCGGA..T.GCCTGGA....ATTG.T....CCa.cG.A..TtgC....GTAG..GCCGGATAAGGCGCTCACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/74182-74256     PP .........................333....3....33..3333..33....4555669..9.******9....9888.8....761.23.3..2226....6777..9*************************985
+Escherichia_albertii_IGR_genome/479626-479569           ----------------------------....-....--..----..--------TATCA..G.GCCTACAg..cTGTT.G....CC...G.A..A..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Escherichia_albertii_IGR_genome/479626-479569   PP .......................................................45666..6.67665431..15666.6....88...9.9..*..*....****..*************************997.
+Escherichia_albertii_IGR_genome/396925-396840           ----------------CGCGTCTTATCA....G....GCctACGA..ATTCGCACATATT..T.TTATGTT....TGTG.C....CC...G.T..T..T....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/396925-396840   PP ................566666666666....5....43113334..4555555544444..4.4455556....6677.7....77...7.7..7..8....8899..9************************9985
+Escherichia_albertii_IGR_genome/85893-85930             ----------------------------....-....--..----..-------------..-.-------....----.-....-A...G.C..C..T....GTAT..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/85893-85930     PP ......................................................................................5...6.6..7..8....999*..**************************985
+Escherichia_albertii_IGR_genome/256427-256482           ----------------------------....-....--..----..---------ATCA..G.GCCTACA....ACCG.G....GC...T.A..C..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/256427-256482   PP ........................................................5778..8.8899889....8899.8....89...9.9..9..*....****..*************************9975
+Shigella_flexneri_IGR_genome/4681-4624                  ----------------------------....-....--..----..------CTTATCA..G.GCCTACG....GGAG.C....AC...G.A..A..T....GTAA..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Shigella_flexneri_IGR_genome/4681-4624          PP .....................................................4466788..8.8888888....8888.8....99...9.9..9..*....****..*************************997.
+Shigella_flexneri_IGR_genome/528860-528802              ----------------------------....-....--..----..-------TCATCA..T.GCGTGCC....TGAT.G....CC...G.A.tA..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/528860-528802      PP ......................................................445667..7.7766665....5554.4....44...4.4.14..6....7889..9*************************985
+Escherichia_albertii_IGR_genome/406753-406712           ----------------------------....-....--..----..-------------..-.-------....--CT.T....TG...A.A..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/406753-406712   PP .............................................................................44.4....55...6.8..9..9....****..*************************9985
+Shigella_flexneri_IGR_genome/546050-546110              ----------------------------....-....--..----..--------TTGCAacT.GATTGAA....TGCT.T....GA...G.A..A..T....TTGTagGCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/546050-546110      PP .......................................................33333225.6677888....8888.8....88...8.7..6..5....5444339************************9985
+Escherichia_coli_IGR_genome/584905-584957               ----------------------------....-....--..----..---------TTCA..T.GCCTG-A....TGCC.G....CT...-.-..A..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/584905-584957       PP ........................................................6788..8.88886.5....5555.4....44........4..6....7888..9************************9985
+Shigella_flexneri_IGR_genome/399962-400000              ----------------------------....-....--..----..-------------..-.-------....----.G....CT...G.A..A..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Shigella_flexneri_IGR_genome/399962-400000      PP ................................................................................3....79...9.9..*..*....****..*************************997.
+Escherichia_coli_IGR_genome/55316-55350                 ----------------------------....-....--..----..-------------..-.-------....----.-....--...-.-..T..T....GTGG..GCCGGACAAAGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/55316-55350         PP ...............................................................................................4..5....7899..9*************************985
+Shigella_flexneri_IGR_genome/36400-36434                ----------------------------....-....--..----..-------------..-.-------....----.-....--...-.-..T..T....GTGG..GCCGGACAAAGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/36400-36434        PP ...............................................................................................4..5....7899..9*************************985
+Escherichia_albertii_IGR_genome/397045-396959           --------------GGCGCGTCTTATCT....G....GC..CTACgtGTTCGCACATATT..T.GTATGTT....TGTG.C....CC...G.T..T..T....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCG-
+#=GR Escherichia_albertii_IGR_genome/397045-396959   PP ..............56666677777777....6....54..4332102345566555555..6.6666666....6777.7....77...7.7..7..7....8888..9************************997.
+Escherichia_coli_IGR_genome/601744-601797               ----------------------------....-....--..----..-------------..T.GATTGAA....TGCT.T....GA...G.A..A..Tt..tGTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/601744-601797       PP ..............................................................5.6667778....8887.7....77...7.7..6..51..14556..9*************************985
+Escherichia_coli_IGR_genome/356709-356617               -------CAATGATTGTGGTCCGCATTC....Gg.tcAT..AAAC..GCACATAACATCA..T.G-----A....TCTG.T....GT...G.GttT..T....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/356709-356617       PP .......578888888777666655544....41.1133..3333..3344444555555..5.4.....4....4444.4....44...4.3004..5....6777..9************************9985
+Shigella_flexneri_IGR_genome/513846-513888              ----------------------------....-....--..----..-------------..-.-------....-GTT.G....CT...G.A..C..T....GTAG..GCCGGATAAGGCATTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/513846-513888      PP ............................................................................445.5....89...*.*..*..*....****..*************************9985
+Escherichia_albertii_IGR_genome/496884-496826           -------------------------TCC....G....GC..CAAC..AAAAACAGTATCA..-.-------....----.-....--...-.A..C..C....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/496884-496826   PP .........................555....5....44..4444..4444555555544................................7..8..9....9999..*************************9985
+Escherichia_coli_IGR_genome/249605-249553               ----------------------------....-....--..----..------------A..G.GTCTACA....ACCG.G....GC...T.A..A..T....GTAT..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Escherichia_coli_IGR_genome/249605-249553       PP ...........................................................5..5.5555555....5566.6....66...6.7..8..8....99**..*************************9975
+Escherichia_albertii_IGR_genome/30791-30831             ----------------------------....-....--..----..-------------..-.-------....-ACG.-....TT...G.A..C..C....GTAG..GCCAGATAAGGCGTTTACGCCGCATCTG-
+#=GR Escherichia_albertii_IGR_genome/30791-30831     PP ............................................................................333......47...9.*..*..*....****..************************9976.
+Escherichia_albertii_IGR_genome/474853-474789           ----------------------------....-....--..----..---CGCCTTATCA..G.GCCTACA....TACG.T....TTcgaT.T..T..C....GTAG..GCCGGATAAGGCGTTCACGCCGCATCCGG
+#=GR Escherichia_albertii_IGR_genome/474853-474789   PP ..................................................4566788999..9.9***999....9999.9....873223.4..6..8....9999..*************************9975
+Escherichia_coli_IGR_genome/4950-4893                   ----------------------------....-....--..----..------CTTATCA..G.GCCTACG....GGAG.C....AC...G.A..A..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCG-
+#=GR Escherichia_coli_IGR_genome/4950-4893           PP .....................................................4466788..8.8888888....8888.8....99...9.9..9..9....****..*************************997.
+Shigella_flexneri_IGR_genome/546524-546485              ----------------------------....-....--..----..-------------..-.-------....----.A....TG...A.A..C..T....GTAG..GCCGGATAAGGCGTTTACGCCGCATCCGG
+#=GR Shigella_flexneri_IGR_genome/546524-546485      PP ................................................................................4....44...5.7..8..8....9999..**************************985
+#=GC PP_cons                                            5678999997777878888888777777....6....65..5555..6666666666777..7.7888777....7777.7....77...7.8..8..8....9999..*************************9985
+#=GC RF                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxx....x....xx..xxxx..xxxxxxxxxxxxx..x.xxxxxxx....xxxx.x....xx...x.x..x..x....xxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

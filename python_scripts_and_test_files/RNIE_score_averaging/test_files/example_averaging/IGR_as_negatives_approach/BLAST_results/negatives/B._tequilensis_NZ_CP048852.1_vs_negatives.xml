@@ -1,0 +1,4159 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._tequilensis_NZ_CP048852.1.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>IGR_0 0:409</BlastOutput_query-def>
+  <BlastOutput_query-len>409</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.00108695652173913</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>IGR_0 0:409</Iteration_query-def>
+  <Iteration_query-len>409</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>4011963</Hsp_hit-from>
+      <Hsp_hit-to>4012371</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>390</Hsp_identity>
+      <Hsp_positive>390</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>ATCTTTTTCGGCTTTTTTTAGTATCCACAGAGGTTATCGACAACATTTTCACATTACCAACCCCTGTGGACAAGGTTTTTTCAACAGGTTGTCCGCTTTGTGGATAAGATTGTGACAACCATTGCAAGCTCTCGTTTATTTTGGTATTATATTTGTGTTTTAACTCTTGATTACTAATCCTACCTTTCCTCTTTATCCACAAAGTGTGGATAAGTTGTGGATTGATTTCACACAGCTTGTGTAGAAGGTTGTCCACAAGTTGTGAAATTTGTCGAAAAGCTATTTATCTACTATATTATATGTTTTCAACATTTAATGTGTACGAATGGTAAGCGCCATTTGCTCTTTTTTTGTGTTCTATAACAGAGAAAGACGCCATTTTCTAAGAAAAGGAGGGACGTGCCGGAAG</Hsp_qseq>
+      <Hsp_hseq>ATCTATTTCGCCATTTTTTAATATCCACAGAGGTTATCGACAACATTTTCACATTACCAACCCTTGTGGACAAATTTTTTTCAACAGGTTGTATGCTTTGTGGATAAGATTGTGACAACCATTGCAAGCTCTCGTTTATTTTGGTATTATATTTGTGTTTTAACTCTTGATTACTAATCTCACCTTCTCACTTTATCCACAAAGTGTGGATAAGTTGTGGATTGATTTCACACAGCTTGTGTAGAAGGTTGTCCACAAGTTGTGAAATTTGTCGAAAAGCTATTTATCTACTATATTATATGTTTTCAACATTTAATGTGTACGAATGGCAAGCGCCATTTGCTCTTTTTTTGTGTGCTATAACAGAAAAAGACACCATTTTCTATGAAAAGGAGGGACGTGCCGGAAG</Hsp_hseq>
+      <Hsp_midline>|||| ||||| | ||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||  |||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||| |||||| |||||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1556791800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>IGR_13 15794:15914</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.558</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.69546e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>15462</Hsp_hit-from>
+      <Hsp_hit-to>15578</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TATTTCTTAATCCTTTCCGTTATCTAAATATTTCAACTCTTTCCCGCTTCCTTGACATGCTCTTGGCTAGTTGATAATCTACATATAATATTTTGCCGAAAAGAGGGGGATTTACTA</Hsp_qseq>
+      <Hsp_hseq>TATTTCCTGATCCCTTCCGTTATCTAAATATTTCAACTCTTTCCCGCTTCCTTGACATGCTCTTGGCTAGTTGATAATCTACATATAATATTTTGCCGAAAAGAGGGGGATTTACTA</Hsp_hseq>
+      <Hsp_midline>|||||| | |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401235100</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>IGR_29 29705:29771</Iteration_query-def>
+  <Iteration_query-len>66</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.459</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.25558e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>29370</Hsp_hit-from>
+      <Hsp_hit-to>29435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GTGGTCTAAACTCCTGGATCTTCTCATAAGCTTGTACTAGAACAAGCGAAGGAGATGAGAAGATTC</Hsp_qseq>
+      <Hsp_hseq>GTGGTCTAAACTCCTGGATCTTCTCATAAGCTTGTACTAGAACAAGCAAAGGAGATGAGAAGATTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>188580544</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>IGR_46 45138:45632</Iteration_query-def>
+  <Iteration_query-len>494</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.486</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>44815</Hsp_hit-from>
+      <Hsp_hit-to>45309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>473</Hsp_identity>
+      <Hsp_positive>473</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>495</Hsp_align-len>
+      <Hsp_qseq>TCTCCTCCCAAGAGATACTTATTTGTTTAAATTATATTTTTCTTCGTCATTATTCGACAAAATCCTTACCTTCATAGCATAACAAGGTTTCCAATAATCGTCAATCATTTTGTTTACTATTGATTGTAAGAATTAGTTCTTATAGTCAGTAATGTCTTGGAAACTACCGAAATAACAGCATTTTATAAATATTTAATAAAGCTATTATCCTACTAAAAATCCTTTTAAATCAAGACTTTCGAACCAAAGTTTTTTATTTCATTTGATTATATACGACAAAATTCGACACGAACAGACTTTTTTTATTTTCATTAAAGATTTTTAATTTTAATTATTCTTTTTCAGGGCGTATGTATATATTCTTGATCTTAAAGGCTAAGATGGTATCATAGATAAAGGATAAATATAAATAATATTCATATATGA-TTTGCACTTATCGCCGCTCTCGTCCTTTGGGCGGGAGCTTTTTGACATTCTGATTAGGAGGTTTCAAG</Hsp_qseq>
+      <Hsp_hseq>TCTCCTCCCGAGAGATAATTATTTGTTTACATTATATTTTTCTTCGTCATTATTCGACAAAATCCTTACCTTCATAGCATAACAAGGTTTCCAATAATCGTCAATCCTTTTGTTTACTATTGATTGTAAGAATTAGTTCTAATAGTCAGTAATGCCTCGAAAATTACCGGAATAACAGCATTTTATAAATTTTTAATATAGCTATTATCCTACTAAATTTCCTTTTAAATCAAGACTTTCGAACCAAGGTTTTTTATTTCATTTGATTATATACGACAAAATTCGACACGAACAGACTTTTTTTATTTTCATTAAAGATTTTTAATTTTAATTATTCTTTTTCAGGGCATACGTATATATTCTTGATCTTAAAGGCTAAGATGGTATCATAGATAAAGGAGAATTCTAAATAATAGTCATATATGATTTTGCACTTATCGCCGCTCTCGTCCTTTGGGCGGGAGCTTTTTGACATTCTGATTAGGAGGTTTCAAG</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||| || | ||| ||||| |||||||||||||||||||| ||||||| ||||||||||||||||||  |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||| || | ||||||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>22</Statistics_hsp-len>
+      <Statistics_eff-space>1893828728</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>IGR_58 58698:58782</Iteration_query-def>
+  <Iteration_query-len>84</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.10639e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>58579</Hsp_hit-from>
+      <Hsp_hit-to>58661</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ACC-ATTTTTCGAGGTTTAAATCCTTATCGTTATGGGTATTGTTTGTAATAGGACAACTAAAACGACAAGAGGATGGTGCTGAAT</Hsp_qseq>
+      <Hsp_hseq>ACCGATATTT-GAGGTTTAAATCCTTATCGTTTTGGGTATTGTTTGTAATAGGACAA-TAAAACGATAATAGGATGGTGCTGAAT</Hsp_hseq>
+      <Hsp_midline>||| || ||| ||||||||||||||||||||| |||||||||||||||||||||||| |||||||| || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>260802880</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>IGR_65 68137:68215</Iteration_query-def>
+  <Iteration_query-len>78</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.079</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.02903e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>68020</Hsp_hit-from>
+      <Hsp_hit-to>68097</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GCTTGTTCTAAAAAAACCCCCCACCTCATACAATGCAGTAATAATGCTAAAAGTATCGAGGATATGGGGGCTGAATAG</Hsp_qseq>
+      <Hsp_hseq>GCTTGTTCTAAAAAAATCCCCCGCCTCATACAATGCAGTAATAATGCTAAAAGTATCGAGGATATGGGGGCTGAATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>236728768</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>IGR_73 76886:76983</Iteration_query-def>
+  <Iteration_query-len>97</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.245</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>1.72285e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>76772</Hsp_hit-from>
+      <Hsp_hit-to>76868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>TCGGCAGCCTGCTTCCGAGATGGTTATTGTTTGTATTGGAATGATTTTCTATGGTACTATTGAACATAGTTGTGCTTACTGTGGGAGGAGGTAAGGA</Hsp_qseq>
+      <Hsp_hseq>TCGGCAGCCTGCTTCCGAGATGGTTATTGTTTGTATTGGAATGATTTTCTATGGTACTATTGAACATAGTTGTGCTTACTGTGGGAGGAGGTAAGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>312963456</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>IGR_81 88635:88726</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.466</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>7.50451e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>88511</Hsp_hit-from>
+      <Hsp_hit-to>88601</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TACTCACCTCTATTTGCTGCTCACTGCTAGTTTTACGCTGGCAGTTTTTCTGCTTTTTTCATGAAACAATATCTGTAATGGAGTGATAACA</Hsp_qseq>
+      <Hsp_hseq>TACTTACTTCTATTTGCTGCTCACTGCCAGTATTGCGCTGGCAGTTTTTCTGCTTTTTTCATGAAACAATATCTGTAATGGAGTGATAACA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||||||||||||| ||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>288889344</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>IGR_107 116537:116599</Iteration_query-def>
+  <Iteration_query-len>62</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.71653e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>116478</Hsp_hit-from>
+      <Hsp_hit-to>116539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GTTGACGCTTTTTTGCCCAATACTGTATAATATTTCTATCTACGTGCGCCGGGGGGATCGGA</Hsp_qseq>
+      <Hsp_hseq>GTTGACGCTTTTTTGCCCAATACTGTATAATATTTCTATCTACGTGCGCCGGGGGGATCGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>172531136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>IGR_118 125500:125561</Iteration_query-def>
+  <Iteration_query-len>61</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.226</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.44001e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>125441</Hsp_hit-from>
+      <Hsp_hit-to>125501</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>TCTCTAGTTATAAAGGCAAGTGACATCGGTTAATCCGAAGATAAAAAGGGAGGTAGGCCCC</Hsp_qseq>
+      <Hsp_hseq>TCTCTAGTTATAAAGGCAAGTGACATCGGTTAATCCGAAGATAATAAGGGAGGTAGGCCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>168518784</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>IGR_125 135127:135363</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.61</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>5.60331e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>135069</Hsp_hit-from>
+      <Hsp_hit-to>135304</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TAGATCCTTGATAAATAAGAAAAACCCCTGTATAATAAAAAAAGTGTGCAAATCATGCATATTTTAAATAAGTCTTGCAACATGCGCCTATTTTCTGTATAATGGTGTATGTTGGTCTTTGACTGCGATGAAGTGAGAGGTTGCTGACACACCCGGCCGCTTTGCCATGGCAAGGTGTTCAGGTTTTTCTCACGGAGAACTGTCTAACGTGATGTAGGCGAAAAGGAGGGAAAATA</Hsp_qseq>
+      <Hsp_hseq>TAGAGCCTTGATTAATAAGAAAAACACCTGTATAATAAAAAAAGTGTGCAAACCATGCACATTCTAAATAAGTCTTGCAACATACGTCTATTTTCTGTATAATGGTGTATGTTGGTCTTTGACTGCGATGAAGTGAGAGGTTGCTGACACACCCGGCCGCTTTGCCATGGCAAGGTGTTCAGGTTTTTCTCACGGAGAACTGTCTAACGTGATGTAGGCGAAAAGGAGGGAAAATA</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| |||||||||||| |||||||||||||||||||||||||| |||||| ||| ||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>862655250</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>IGR_152 149875:149952</Iteration_query-def>
+  <Iteration_query-len>77</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>7.93152e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>149814</Hsp_hit-from>
+      <Hsp_hit-to>149896</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>CTAGTTTCCCTTGTGAACTAGGATTTTCGTGTGTTTATTA-T-----TCAGAAACAGCATTCCAATAAAGGAGGGGACATCAC</Hsp_qseq>
+      <Hsp_hseq>CTAGTTTCGCTTGTGAACTAGGATTTTCGTGTGTTTATTAATCAGAAACAGAAACAGCATTCCAATAAAGGAGGGGACATCAC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||||||||||||||| |      |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>232716416</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>IGR_171 165902:165958</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6796</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.06681e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>165925</Hsp_hit-from>
+      <Hsp_hit-to>165982</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TAAATGTATTATTACCAAGGTTTCTCATAAG--GAGAAAGCTTTTTTTATTGCGATAT</Hsp_qseq>
+      <Hsp_hseq>TAAATGTATTATTACTAAGGTTTCTCAAAAAACGAGAAAGCTTTTTTTATTGCGATAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||||||||| ||   |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>148457024</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>IGR_189 189733:189789</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>148457024</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>IGR_206 202266:202546</Iteration_query-def>
+  <Iteration_query-len>280</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1039198650</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>IGR_212 210514:210571</Iteration_query-def>
+  <Iteration_query-len>57</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.293</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>5.27056e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>206631</Hsp_hit-from>
+      <Hsp_hit-to>206680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>TGAGACGAAATCACAAATAGAATATGCCAATTTTTTTGCTCAGGAGATGT</Hsp_qseq>
+      <Hsp_hseq>TGAGACGATATAATAAATAGAATATGCCAATTTATTTGCTCAGGAGATGT</Hsp_hseq>
+      <Hsp_midline>|||||||| || | ||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>152469376</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>IGR_219 217632:217696</Iteration_query-def>
+  <Iteration_query-len>64</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>6.15377e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>213485</Hsp_hit-from>
+      <Hsp_hit-to>213546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>TATCATTTCTTTTTTATGGCTTCAGTCAAAAAGGCGTTTTGTAAGTCAAGGTCAGGAAAAAA</Hsp_qseq>
+      <Hsp_hseq>TATCATTTCTTTTTTATGGCTTCAGTCAAAAAGGCGTTTTGTTAATCAAGGTCAGGAAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>180555840</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>IGR_227 224932:225063</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>445370961</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>IGR_238 235873:235964</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.2994</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>5.92578e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>229184</Hsp_hit-from>
+      <Hsp_hit-to>229271</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>AAAGACCTCACTTTC-TAACATATCGTTGACTAAAGCAACTATATGTGATTATAATTGCTTTAGTCAACGATATTAGAAAGTGGGAAT</Hsp_qseq>
+      <Hsp_hseq>AAATACCTCACTTTCTTAACATGTCGTTGACTTTGGCAACTATGTTTGATTATAATTGCCTTAATCAACGATATACGAAAGTGGGAAT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||| |||||| |||||||||   |||||||| | ||||||||||||| ||| ||||||||||  ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>288889344</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>IGR_246 247548:247743</Iteration_query-def>
+  <Iteration_query-len>195</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.578</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.19933e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>239277</Hsp_hit-from>
+      <Hsp_hit-to>239471</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TAAGGAACATGAAAAGATTGGCATTCATTTTTCAAAAGGTAACAAATGTTGTATAATAATAGAATTTGAATGCTGCTTTTTTTGGGAGCATTCTATGTTATCATGCTTATTGGAGAAAAATTTTTCCTGTAACGCTATTCGATCACTATCGTCAAATAATATAGATGG-TTTTACAATTGGAGGTTTGGTTACACT</Hsp_qseq>
+      <Hsp_hseq>TAAGAAACATGTAAAGATTGGCATTCATTGTTCAAAGGGTAACAAATGATGTATAATAATAGAATTTG-GTGCTGCTTTTTTTGAGAGCATTCTATGTTATCATGCTTAATAGAGAAAATTTTTTCCTGTAACGCTATTCGATCCATATCGTCGAATGATATAGATGGTTTTTACAATTGGAGGTTTGGTTACACT</Hsp_hseq>
+      <Hsp_midline>|||| |||||| ||||||||||||||||| |||||| ||||||||||| |||||||||||||||||||  |||||||||||||| |||||||||||||||||||||||| | ||||||| ||||||||||||||||||||||||  ||||||| ||| |||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>702161425</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>IGR_258 261535:261655</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>6.18485e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>253262</Hsp_hit-from>
+      <Hsp_hit-to>253381</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TTTTT-CCAACTTTCTATCAGCGATTTATTTCCTTCCTAATAAAAAATCTCATGTCAGAAAGTGACACGAGACTCCGGCGAACCGGCTTTAAGTTAGAATATACAAACTATTCCGATAAG</Hsp_qseq>
+      <Hsp_hseq>TTTTTACCAACTTTCTATCGGCGGTTTATTTCCTTCCTAATAAAAAATCCCATGCCAGCGAGTGACACGAGACTCCGGCGAACCGGCTTTTAGATAGAATATACAAACAATTCCGATAAG</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||| ||| ||||||||||||||||||||||||| |||| |||  |||||||||||||||||||||||||||||| || |||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>401235100</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>IGR_267 273167:273236</Iteration_query-def>
+  <Iteration_query-len>69</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>200617600</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>IGR_277 282155:282468</Iteration_query-def>
+  <Iteration_query-len>313</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.779</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>2.33618e-40</Hsp_evalue>
+      <Hsp_query-from>224</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>266445</Hsp_hit-from>
+      <Hsp_hit-to>266534</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>ATGAATAAATTTAAAAACTTCTCCTGTCCCTCCGTCATCACTTCTGAAGTAATGAAATATGATGAAAAGAGATCAAGGGGAGGTGACGTG</Hsp_qseq>
+      <Hsp_hseq>ATGAATAAATTTAAAAACTTCTCCTGTCCCTCCGTCATCACTTTTGAAGTAATGAAATATGATGAAAAGAGATCAAGGGGAGGTGACGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1171606200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>IGR_287 292042:292204</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.325</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>1.44897e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>276090</Hsp_hit-from>
+      <Hsp_hit-to>276247</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>AGAAAAGAAGGCGAATAAGCCTTCTTTTTTTT-GGCTTTTTAGGACCAATAATGACCTCTGAATCTTAAAATTTCTTTAAAAATAAGCCAAAATTACCCTTTACTTAATTAATTTGGTAACGTAATATAATTGGAGAATTTGTTACAAAAAAAGGAGGATATT</Hsp_qseq>
+      <Hsp_hseq>AGTAAAGAAGGCGAATAAGCCTTCTTTTTTTTCGGCATTTTCAAAA-AATA-T--CCTCCAAATCTTAAAATTTCTTT-AAAATAAGTAAAAAATACCCTTTACTTAATTAATTTGGTAACGTAATATATTTGAAGAATTTGTTACAAAAAAAGGAGGATATT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||| ||| ||||   |  |||| |  ||||  ||||||||||||||||| ||||||||  |||| ||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>569753842</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>IGR_300 304307:304429</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.479</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.74343e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>288339</Hsp_hit-from>
+      <Hsp_hit-to>288458</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ATCGGTCTCACTTTCTCAAGATGTGCTGAATGTTAACGCTTTTAAGTGATTGACTCTCTCTAAAAGCGAACAGCTATGATAAAATATAACATAAATAGTAGCAGGAGGAAGGAGGCAGAC</Hsp_qseq>
+      <Hsp_hseq>ATCAGTCTCACTTTCTCGTGGTGTGCTGCATGTTAACGCTTTTAAGTGATTGACTCTCTCTAAAAGTGAACAGCTATGATAAAATATAACATAAATAGTAGCAGGAGGAAGGAGGCAGAC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||  | ||||||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>409259802</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>IGR_315 320723:321012</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>7.28745e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>304518</Hsp_hit-from>
+      <Hsp_hit-to>304803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>AATGGGTGTTGAAAAAGCAACTTATTTTTCCAGTAAAGGAGCAGGAAGTCATAAGAGGAAGGAGGAATTCAATTCCAATAAAAGCGTTTTCAACTAAAGGTAGGAGAAAAATCACCCGTAAAATACAATCATATAGGAGGATTACAGAGCATTTAGAAGCATAAATAAGATCATGTGGTCACATGGATGTTTATAAAGAAATGGTACAGAATAAAAGAGAATATGCTGTTTGTGTGGGAAGTTACATAAATGTTACGGTAATAAAGATTGCTTAATATGGAGGGAAAAT</Hsp_qseq>
+      <Hsp_hseq>AATGGGAGGTGGAAAAGCAACTTATTTTTCCAGTAAAGGAGAAC-AATT-ATAGAAAAAAAGAGGAATTAAGTTCCATTAAAAGCGCTTTCAAATATAGGTGAGCGAAATATCACCTGTAAAATACAATCATAAAGGAGTATAACAGAGTATTTAGAAGCATAAATAAGGTCAAACGGCCACAGGGATGTTTATAAAGAAATGATACAGAATAATAGGAAATATGCTGTTTGTG-GAGATGTTACATAAATGTTACGTTAATTAAGATTGCTTAATATGGAGGGAAAAT</Hsp_hseq>
+      <Hsp_midline>|||||| | || ||||||||||||||||||||||||||||| |  || | |||  |  || |||||||| | ||||| |||||||| |||||| || ||||  | |||| |||||| |||||||||||||||| ||||| || |||||| ||||||||||||||||||| |||   || |||| ||||||||||||||||||| |||||||||| ||  ||||||||||||||| | || ||||||||||||||||| |||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1075309800</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>IGR_324 333979:334091</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.165</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>4.39869e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>317766</Hsp_hit-from>
+      <Hsp_hit-to>317877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>TTGTTCTACCTCCTCTTACTTTTCTATGTAAGTTCTGATATCATGATAATAGTTTGATTGTTGAATATCTCGATTATCAAGATAAACTCGATTTTATAGGGAGGACTGTCAG</Hsp_qseq>
+      <Hsp_hseq>TTGTTCTACCTCCTCTTACTTTTCTATGTAAGTTCTGATATCATGATAATAGCTTGATCATTAAATATCTCGATTATCAAGATAAATTTGATTCTATAGGGAGGACTGTCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||| |||||  || ||||||||||||||||||||||| | |||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>369136292</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>IGR_329 338158:338287</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.546</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>5.24849e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>321946</Hsp_hit-from>
+      <Hsp_hit-to>322077</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>TCTCTCTTGTTCACAGTGAATGAAGACCTGTGCTATATTTAATAGGGATACATAACAGTCATGATTCATTTTCATTGATTTAGGGAAATGATCAGTAATAAGGGA-A---AA-TGTACAGGAGGAATGATTGGG</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTTGTTCACTGTGAATGAAGACCTGTGCTATATTTAATAGGGATACATCATTGTCATGATTCATTTTCATCAATTTCGGGAAATGATCA--AATAAGAAACAGCGAATTGTACAGGAGGAATGATTGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| |||||||||||||||||||||||||||||||||||||| |  ||||||||||||||||||  |||| ||||||||||||  ||||||  | |   || |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>437346259</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>IGR_335 343494:343577</Iteration_query-def>
+  <Iteration_query-len>83</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.153</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.69032e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>327907</Hsp_hit-from>
+      <Hsp_hit-to>327989</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TAAATGTGAAAAGCCGCCG-CATATCATCAGGCGGTTTTTTTCTGCAAACTGCCGGAATGAGAACAGACTGGAGACGAATAGAT</Hsp_qseq>
+      <Hsp_hseq>TAAACGTGAAAAGCCGCCGTGCT-TCATCAGGCGGTTTTTTTCTGCAAATTGCCGGAATGAGAACAGACTGGAGACGAATAGAT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||   | ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>256790528</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>IGR_347 358181:358302</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>6.2467e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>342583</Hsp_hit-from>
+      <Hsp_hit-to>342701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>CAGATGATCCGCTCCTTATCAAATGTTTTTTCCAGCGTAGCACAGCAAAAAGGAATATTTAAGATACATGTTATAAAATGTAACAAAATATACGAAAAGTTCTAAAAATTTTATGAAAAA</Hsp_qseq>
+      <Hsp_hseq>CAGATGATCCGCTCCTTATC-AATGTTTTTTTCAGCATAGCATGGCGAAAAGTAATATTTAAGATACATGTTATAAAATGTAACGAAATATACAAAAAGTTCTAAAATTTTTATGAAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||||||| |||| |||||  || ||||| ||||||||||||||||||||||||||||||| |||||||| ||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>405247451</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>IGR_355 368858:369019</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.785</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>6.69395e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>350304</Hsp_hit-from>
+      <Hsp_hit-to>350459</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>CTATAGTTCCCCCAATCTGTTAATCAACTAAAAAGATAGCATTGAACATAAGGGGTTGCAATATGTTGATCGCGTTTTCAAAAAGTTCGAATTGTGTATACAAAAAGCATGGGTGGGTGTTTAAAAGCGTCTATGAAGGGAAGAGGTGATGAAAAAAGG</Hsp_qseq>
+      <Hsp_hseq>CTATGTTTCCCCCAATCTGTTAATCAACTAAAAAGATAGCACTGAACATAAGGGGTTGCAATATGTTGATGGCGTTTTCGAAAAGTTTGAATTGTGTATACAAAAAGCGT--GTGAGCGTTTAAAAACGGCTACAAAGGGAACCAGTGAT-AAAAAAGG</Hsp_hseq>
+      <Hsp_midline>||||  ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||| ||||||| |||||||||||||||||||| |  ||| | |||||||| || |||  |||||||   ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>565741491</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>IGR_860 937831:937899</Iteration_query-def>
+  <Iteration_query-len>68</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.44024e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>872092</Hsp_hit-from>
+      <Hsp_hit-to>872160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>AAA-TTTTTAAAAAAGAGGAATAGCTATACGATCACCTGCACATTCTAATGACCGTGGAGGTGATAACA</Hsp_qseq>
+      <Hsp_hseq>AAATTTTTTAAAAAAGAGGAATAGCCATACGATCACCTGCACATTCTAAAGACCGTGGAGGTGATAACA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>196605248</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>IGR_869 945312:945519</Iteration_query-def>
+  <Iteration_query-len>207</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.278</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.0225e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>879583</Hsp_hit-from>
+      <Hsp_hit-to>879789</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>GTCCATCCCCCTCTGTTTTAACTATAGCACAAACCCGATGGGATTTTCTTCATGTTTTCGGTTGAACTGGAATTTACATATGGAGAGTTACTGTGAAATTGTTTATAATAGTTCAATGTGTTTAGAAAAAAGGAATTTCGTTTTAACCATAGAATTGAATCAAATAGAGAATAAAAAAATTTGAACAATTGCATTGGAGGAATAGTG</Hsp_qseq>
+      <Hsp_hseq>GTCCATCCCCCTTTGATCTAACTATAGCACAAACCTGATGGGATTTTCTTCATGTTTTCTACTGGAATGGAATTTACATATGGAGACTTATTGAGAAATTGTTTATAATAGTTCAATGTGTTTAGAAAAAAGGAATTTCGTTTTCATCATAGAATTGAATCAAATAGAGAATAAAAAAATTTGAACAATTGCATTGGAGGAATGGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| || | ||||||||||||||||| |||||||||||||||||||||||   || | ||||||||||||||||||| ||| || |||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>746297100</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>IGR_894 955762:955894</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.405</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>5.27969e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>890030</Hsp_hit-from>
+      <Hsp_hit-to>890159</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>TTATTGTCTTGCTGGGCAATAATATGTTTCTTTCTGACTGTAACCGGGTTCATTTATATGAATCCGGTTTTTTGTGCTGGTTATGGGCTTGATTTTGTCCTTTCAAACGTAGAAAGGGGAAGGAAAAGTA</Hsp_qseq>
+      <Hsp_hseq>TTATTGTCGTGCTGGGCAATAATATGTTACTTTCTGACTGTAACCGGGTTCATTCATTTGAATCCGGTTTTTTGTGCTGGTTATGGGCTTGATTTTGTCCTTTCAAACGAAGAGAGGGGAAGGATAAGTA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||||||| ||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>449383312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>IGR_905 966871:967064</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.185</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.72823e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>899612</Hsp_hit-from>
+      <Hsp_hit-to>899804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CATGACGTCTGTCCCCTTCACAATCTCGATTGATTATATTGTATAGTATACTTAACATTATGTAAATGGAACTTAACAACTTTACAAAAAGATAACTTTTTTTCGACAAAATTTTTATATTCCCTTGACGAAAAATAAATAAACATGTAATATAAAAAAAGTCAGAGCGGTACTGTTGCTGACAATCACAAAT</Hsp_qseq>
+      <Hsp_hseq>CATGACGTCTGTCCCTTTCACTATCTCATTTGATTACATTGTATAGTATACTTAACATTATGTAAATGCAACTTAACAAATTTACGAAAAGGTAATATTTTTTCGACAAAATTTTCACATTCCCTTGACGAAAAATCAATAAACGTGTAATATTAGACAAGTCAGAACGGTACTGTTTCTGACAATCGCAAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||||| |||||  ||||||| ||||||||||||||||||||||||||||||| |||||||||| ||||| ||||| |||  |||||||||||||||||| | |||||||||||||||||| ||||||| |||||||| | | |||||||| |||||||||| ||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>694136723</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>36</Iteration_iter-num>
+  <Iteration_query-ID>Query_36</Iteration_query-ID>
+  <Iteration_query-def>IGR_914 976409:976568</Iteration_query-def>
+  <Iteration_query-len>159</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.118</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.05835e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>909131</Hsp_hit-from>
+      <Hsp_hit-to>909289</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TGAAAAGCCCATTTCAGGGCTTTTTTTTATTTAATAAAAGCAAGAAAACGCTTGCGAAAAAAATACGGGAGAAAAAGAAATTTTTCCTTTGACAAATCTTCTTTCATTTATTAATATTTTATCTTGTGAACTATTATTGAGGAATGAGGTGAAAAGGAG</Hsp_qseq>
+      <Hsp_hseq>TGAAAAGCCCATTTCAGGGCTTTTTTTTATTTAATAAAAGCAAGAAAACGCTTGCGAAAAAAATACGCAGGAAAAAGAAATTTTTCCTTTGACAAATCTTCTTTCATTTATTAATATTTTATCTTGTGAACTATTATTGAGGAATGAGGTGAAAAGGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>557716789</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>37</Iteration_iter-num>
+  <Iteration_query-ID>Query_37</Iteration_query-ID>
+  <Iteration_query-def>IGR_932 996532:996642</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.705</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>9.24884e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>927583</Hsp_hit-from>
+      <Hsp_hit-to>927691</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>GTTAAATGGCTCCTTTTCGAAGCGGAAGGCTGCTGTTTCTCATAGGAAACACTTACCTTAGCTTTCGCGTTTTTTTCTGTGCTATTCTTGAGTAAGACTTAGGATATTCG</Hsp_qseq>
+      <Hsp_hseq>GTTTAATGGCTCCTTTTCGAAGCGGAAGGCATTTGTTTCT-ATAGGAAACACTTACCTTAGCTTTCGCGTTTTTTTCTGTGCTATTCTTGAGTAAGACTTAGGATATTCG</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||   ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>361111590</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>38</Iteration_iter-num>
+  <Iteration_query-ID>Query_38</Iteration_query-ID>
+  <Iteration_query-def>IGR_945 1011226:1011426</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.031</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>4.99955e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>942209</Hsp_hit-from>
+      <Hsp_hit-to>942408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>GAATCGCTTCTCCTTTCTTGGGTG-AGAAGTTCATGATTAGTTTATGCCGCATCCTCTGTTATTGACGGGGCAAAACTTGCCGTCTGCGTCAGTAAAGGGGTAGCAATATGAGGGAGACATAAAATCAAAATGCCTGAATGAAGATATCGCTTTTGGTAAACCTATGAGGGAATATATTCTGGGTACAGGAGACTGAAAAA</Hsp_qseq>
+      <Hsp_hseq>GAATCGCTTCTCCTTTCCTGTGTGAAGAAGTTCGTGATTAGTTTATGCTGCATCCTATATTATTGTCGGGGCAAAACTTGGCGTCTGCACAAGTACAAGGGTAGCAATATGAGGGAGACATAAAATCAAAATGCCTGAATGAAGCCATCGCTTTTGGAAATCATATGAGAGAACATATTCTGGTTACAGGAGACT-AAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| || ||| |||||||| |||||||||||||| ||||||| | |||||| |||||||||||||| |||||||   |||| | ||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||| || | |||||| ||| ||||||||| ||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>722223180</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>39</Iteration_iter-num>
+  <Iteration_query-ID>Query_39</Iteration_query-ID>
+  <Iteration_query-def>IGR_952 1020002:1020072</Iteration_query-def>
+  <Iteration_query-len>70</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.839</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>9.02178e-23</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>950938</Hsp_hit-from>
+      <Hsp_hit-to>951000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AGAAAACCCGTTCATTGGAACGGGTTTTTTTCATTAGACGGAGCACAGGCGTTTTGGTTGCTC</Hsp_qseq>
+      <Hsp_hseq>AGGAAACCCGTTCATTGGAACGGGTTTTTTTCATTAGACGGAGCACATCCGTTTTGGTTGCTC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>204629952</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>40</Iteration_iter-num>
+  <Iteration_query-ID>Query_40</Iteration_query-ID>
+  <Iteration_query-def>IGR_960 1030068:1030264</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.584</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.69964e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>960998</Hsp_hit-from>
+      <Hsp_hit-to>961193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TGCCTTTTCTCCCCTCTATGTTATACACGCATAAGAAAGGTTTAAAGTTGCACATTACATGCAAACGGCTTTTTTATACCTAATCAAACACCATTACTATATAGTACCCAAAAATGGCCGCAAAAGATAGTGCGGAGAAAGGTTTAACATTTTTTCCAGAGGGGAAAAGATAGTGAAAAAGTGAAGGAGTGGCACA</Hsp_qseq>
+      <Hsp_hseq>TGCCTTTTCTCCCCTCTATGTTATACACGCATAAGAAAGGTTTAAAGTTGCACATTACGTGCAAACGGCTTTTTTATACCTAATCAAACACCATTTCTATATAGTACCCAAAAATAGCCTTAAAAGATAGTGCTGAGAAATGTTTAACATTTTTCTCAACTGGGAAAAGATAGTGAAAAAGTGAAGGAGTGGCACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||| |||  |||||||||||| |||||| |||||||||||||  ||   |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>706173776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>41</Iteration_iter-num>
+  <Iteration_query-ID>Query_41</Iteration_query-ID>
+  <Iteration_query-def>IGR_967 1038419:1038652</Iteration_query-def>
+  <Iteration_query-len>233</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.284</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>2.04422e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>970597</Hsp_hit-from>
+      <Hsp_hit-to>970828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>GCTAAGTCAGCTCCTCGTATGGGCATTTCTGTTATTGTATCAAATCCATATATGCACCGCGATACAAACTGGTGAATTTTTTCTGCCATATCGGAATGGTCCGGGCTGAGGAATGCGTATAACTAAAAAAAGACACTCAGCGTATCAGAACACATTTCGTCAGAAAATTAGGTCTTTCGACATGTTCACAACAAAATATGATCCTTTATAATAGCAAAAAAGGAGGCGAGATC</Hsp_qseq>
+      <Hsp_hseq>GCTCAGTCAGCTCCTCGTATGGGCATTTCTGTTATTGTATCAAATCCATATATGCGCCGCGATACAAACAGGTGAATTTTTTCTGCCACAT-GGAATCGTACGGGCTGGGGAATGCGTATAACTAAAAAAAGACACTCAGCGCTCCAGAACATATTTCGTCAAGAAATTAGGTCTTTCGACATGTTCACAAAACATTCTGTTCCTTTATAATAGCAAAAAAGGAGGCGAGATC</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||||||||||| || ||||| || ||||||| |||||||||||||||||||||||||||||||||   ||||||| |||||||||  ||||||||||||||||||||||||||| | | | || ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>850618200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>42</Iteration_iter-num>
+  <Iteration_query-ID>Query_42</Iteration_query-ID>
+  <Iteration_query-def>IGR_975 1045198:1045317</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.006</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.21786e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>977340</Hsp_hit-from>
+      <Hsp_hit-to>977448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GGAAAGACAGGTGTATGGGATGTGAAGACAAATACAGAGGCGAGGGCAGTTCGTGCCAAACTGGATGAAAAAAGCTGCAAGGAAAAAATAGAAGGCGGCTGATGAGGAG</Hsp_qseq>
+      <Hsp_hseq>GGAAAGACAGGTGTATGGGATGTGAAGACAAATCCAGAGACGAGGACAGCTCATAGCAAACTGAGTGAAAAAAGCTGCAAGGAGAAAATAGAAGGCGGCTGATGAGGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||| ||||| ||| || |  |||||||  |||||||||||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>397222749</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>43</Iteration_iter-num>
+  <Iteration_query-ID>Query_43</Iteration_query-ID>
+  <Iteration_query-def>IGR_985 1057568:1057679</Iteration_query-def>
+  <Iteration_query-len>111</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.552</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>2.60009e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>989914</Hsp_hit-from>
+      <Hsp_hit-to>990023</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>AAAAGCCGCTCGCGCCCTGACAGGTGCGGCGGCTTTTTTGCCGGATTGATTTTAGCAGTTTATTTCTGTACACTAAAGAAAGTTTTGAATCTGATAAATTAGGTGATGAAG</Hsp_qseq>
+      <Hsp_hseq>AAAAGCCGCTCGCGCCCTGGCAGGCGCGGCGGCTTTTTTGCC-GATTGATTTTAGCGGTTTATTTCTGTACACTAAAGAAAGTTTTGAATCTGATAAATTAGGTGATTAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||| ||||||||||||||||| ||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>365123941</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>44</Iteration_iter-num>
+  <Iteration_query-ID>Query_44</Iteration_query-ID>
+  <Iteration_query-def>IGR_994 1068968:1069041</Iteration_query-def>
+  <Iteration_query-len>73</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.386</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.21833e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1001317</Hsp_hit-from>
+      <Hsp_hit-to>1001389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AAGAGGTTCTATAGCTGAAAATCGGTATGTGATATACTGGTATTATGTAAGATACGGAGGGAGCTTTAATAGA</Hsp_qseq>
+      <Hsp_hseq>AAGAGGTTCTATAGCTGTAAATCGGTATGTGATATACTGGTATTATGTAAGATACGGAGGGAGCTTTAATAGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>216667008</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>45</Iteration_iter-num>
+  <Iteration_query-ID>Query_45</Iteration_query-ID>
+  <Iteration_query-def>IGR_1002 1074251:1074380</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.025</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>5.10205e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1006595</Hsp_hit-from>
+      <Hsp_hit-to>1006725</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>TACAATCACCCCGTCTTTTTCTTCAAAATAGGATTCATTCAGCATTTTTC-ATTTTTGTTGAAAG-CCTGAACTTCTATACATAGCTTGCTTTATTTTAGCATATTTTTTAAGTGAAAAGGAGGGAGAAGG</Hsp_qseq>
+      <Hsp_hseq>TACAATCACCCCGTCTTTTTCTTGAAAATAGGATTCATTCAGCATGTTTCAATTTTTGTTGAAAGCCCTGAACTTCTATACATAGCTTGCTTTATTTTAGCATATTTTTTAAGTGAAAAGGAGGGAGAAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| ||||||||||||||||||||| |||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>437346259</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>46</Iteration_iter-num>
+  <Iteration_query-ID>Query_46</Iteration_query-ID>
+  <Iteration_query-def>IGR_1359 1447847:1448012</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.651</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>3.99902e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1356698</Hsp_hit-from>
+      <Hsp_hit-to>1356860</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>AAGCTTCCTCTCCTTTAAACATAATAATGCCTTTTGAAAGTATTTTGCAGTATTTTCATTGAGAAGTAAAGCGATAAGGAGTTTTATCTCCCTTATGAATTGTTCTGTCGCTATAAAGATGATATATTGATTTTCGTCAATAGAAAGAAAAGGGGGGAATTTTTG</Hsp_qseq>
+      <Hsp_hseq>AAGCTTCCTCTCCTTTAAACATAATAATGCCTTTTGAAAGTATTTTGCAGTATTTTTATTGAGAAGTAAAGCGATAAGGAGTTTTCTTTCCA-TATGAATTGTCCTGTCGCTATAAAGATGATATATTGATTTTCGTCAAAAGAAAGAAAAGGGGG-AATTTTTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||| | |||  |||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>581790895</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>47</Iteration_iter-num>
+  <Iteration_query-ID>Query_47</Iteration_query-ID>
+  <Iteration_query-def>IGR_1369 1459286:1459383</Iteration_query-def>
+  <Iteration_query-len>97</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.159</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>6.28478e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1368125</Hsp_hit-from>
+      <Hsp_hit-to>1368220</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GGTGTTAGTACGCCGTGCTTGTCAGATGACAAGTACGGTTGTATGATATAATATTGTGAAGTAATAAAGCTTTAAGTTAAAAGGAGAATGATAAAA</Hsp_qseq>
+      <Hsp_hseq>GGTGTTTGTACGCTGTGCTTGTCAGATGACAAGTACGGCTGTATGATATAATATTGTGGAGTAATATAGCTTTTAGTTAAAAGGAGAATGATAAAA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||| |||||||||||||||||||||||| ||||||||||||||||||| ||||||| |||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>312963456</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>48</Iteration_iter-num>
+  <Iteration_query-ID>Query_48</Iteration_query-ID>
+  <Iteration_query-def>IGR_1376 1467411:1467747</Iteration_query-def>
+  <Iteration_query-len>336</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.156</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>1.04705e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1376062</Hsp_hit-from>
+      <Hsp_hit-to>1376397</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>TAGTTCGTAACCTCCTAGAGTTGTTTGTTTCTACAGAAAAATCATAACATAGCTTTTTTGTCATAAAGATTCCAGCACTTTCCTTTGACAAATAGAGATTGTCATTTTCGTAAAGTAAATCCGT--TGAATCACTAAGAAT-AAGGGAATCAGCGGTATAT-ATGATTTTATCGTACCGTTACATAGCTTCCTTTTTTTTGAACCGTTAGTTATATTTTAATGTGTTTTTATATTGACAGCTTTTTTTACTCCTTTTCGCTGTAACAACTATTACAAAGGTGTTACAATTAATCTCAGTATATGTAAATATATTGAATGATTTGAGAGGGGTAACCAGAA</Hsp_qseq>
+      <Hsp_hseq>TAGTTCGTAACCTCCTAGAGTTGTTTGTTTCTACAAAAAAATCATAACATAGCTTTTTTGTCATAAAGAATCCATCCGTTTCCTTTGACAAAAAGAGATTGTCATGTTTGT-AA-CCAATGTGTGCTGAACTGCTGA-AATGAAGCGAATCAGCG-CATGTCATGATTTTATCATACAGTTACATAGCTTCCTTTTTTTTGAATCATTAGTTATATTTTAATATGTTTTTATATTGACAGCTTTTTTTACCCCTTTTTGCTGTAACAACTATTACAAAGGTGTTACAATTAATTTCAGTATATGTAAATATATTGAATGATTTGAGAGGAGTAACCAGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||| |  |||||||||||||| |||||||||||| || || ||   |||  ||  ||||   || | ||| ||| |||||||||  || | ||||||||||| ||| ||||||||||||||||||||||||| | |||||||||||||||| ||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1263890250</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>49</Iteration_iter-num>
+  <Iteration_query-ID>Query_49</Iteration_query-ID>
+  <Iteration_query-def>IGR_1386 1478836:1479136</Iteration_query-def>
+  <Iteration_query-len>300</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1119445650</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>50</Iteration_iter-num>
+  <Iteration_query-ID>Query_50</Iteration_query-ID>
+  <Iteration_query-def>IGR_1392 1484356:1484465</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.546</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.28546e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1389675</Hsp_hit-from>
+      <Hsp_hit-to>1389780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>TTCCTGAAATAGGGGGAACAAGCTTCCGCCTTTGC-AAAAGTAATCGAAATAAACGGTAAGGAACATACTTGTTTCATGGTTGTAAATCCTTGAAAAGGAGTGTCGT</Hsp_qseq>
+      <Hsp_hseq>TTCCTGAACTGGGGAGAGCAAGCTTCCG-TTTTGCAAAAAGTAATCGAAATAAACGATAAGGAACATACTTGTTTCATGGTTGTAAATCCTTGAAAAGGAGTGTCGT</Hsp_hseq>
+      <Hsp_midline>|||||||| | ||| || ||||||||||  ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>357099239</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>51</Iteration_iter-num>
+  <Iteration_query-ID>Query_51</Iteration_query-ID>
+  <Iteration_query-def>IGR_1402 1492024:1492260</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.031</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>5.97168e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1397327</Hsp_hit-from>
+      <Hsp_hit-to>1397569</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>GTT-GAGCTCCTTTTCT-AATTGATTGCTGCACATTGAGACTAGTTACCCTGTACATGACCATGTTAAACGTTTTATTCAAAAATGTCGAAGCCAAAGACATACATGATTTGTTAAAAATTGACTCAGGAAATCTGCTTTTATATAAT-GGCATTGCAATA----TAACTAAAAATGGT-TAATCACCCTTTATTTTCATGCGATTTTGACCTTTAAGCCAAACAATAAATTGGAGGGATACAT</Hsp_qseq>
+      <Hsp_hseq>GTTGGAGCTCCTTTTCTGAATTGATTGCTGCACATTGAGATTTGTTACCCTATACATAAACATGTTAAACGTTTTATTCAAAAATGTCGAAACCAAAGACATCTGTGATTTGTTAAAAATTGACTCGAAAAATCTGCTCTTATATAATAGGCATTGTGATGGTGTTAACGAAATATGGAATAA-CATCCTTTATTTTCATGTAAATTCGGCTTTTAAGCCAAATAATAAATTGGAGGGATACAT</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||| |||||||||||||||||||||| | |||||||| ||||| | ||||||||||||||||||||||||||||||| ||||||||||   |||||||||||||||||||||   ||||||||| ||||||||| |||||||  ||     |||| ||| ||||  ||| || ||||||||||||||  | || | | ||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>862655250</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>52</Iteration_iter-num>
+  <Iteration_query-ID>Query_52</Iteration_query-ID>
+  <Iteration_query-def>IGR_1411 1503472:1503581</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>1.21708e-23</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1408804</Hsp_hit-from>
+      <Hsp_hit-to>1408896</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ATTGAAGGTTTTTGGAAATTTATTAGAAAAACATGAAACTTTTTGATATCCT-TCCCGTACTATTTGTTAGATA-TTCTCAAGGAGGTTTTGAA</Hsp_qseq>
+      <Hsp_hseq>ATTGAAGGCTTTTGGAAATGTATGAGAAAAACATGAAACTTTTCGAT-TCCTCTCCCGTATTATCTGTTAGACATTTTTTAAGGAGGTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||| ||| ||||||||||||||||||| ||| |||| ||||||| ||| ||||||| | || | ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>357099239</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>53</Iteration_iter-num>
+  <Iteration_query-ID>Query_53</Iteration_query-ID>
+  <Iteration_query-def>IGR_1423 1517581:1517864</Iteration_query-def>
+  <Iteration_query-len>283</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.377</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>4.10953e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>1422891</Hsp_hit-from>
+      <Hsp_hit-to>1423172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>258</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>GTTTTCACCCAATCTCTATCCTAATTTAATATGATTCTACATTTAAAGTTTCTCAGAAATACTGCGATTTTTGGGGGTGTGCGTCGGTAAAGAAATGTTTTTGTAAAAAATCAAGGAACTGTGTAACAGAAGTAATACATTTTTCGGTTTTATGGAAAAAATATCTTGTAATTCTTATAGAAAGCGGGAAACTTTTTCAAAGTTTCATTCGTCTACGATATATTGAGGTACATCCTTAAAACATTACATGAGAAAAGAAACATTTAAAGGAAGAAGGGTTTTT</Hsp_qseq>
+      <Hsp_hseq>GTCTTCACCCAATCTCTATCCTGATTTTATATGATTCTACATTTAAAGTTTCTAAGAAATGAAGCGATTTTTGGGGGTGTGCGTCGAGAAAGAAATGTTTTTGTAAAAAAACGCGGAACCGTGTAACAGAAGTAATATATTTTTCGGTTTTATGGAAAAAATATCTTTTGATTCTCATCGGAAACGGGAAACTTTTTCTAAGTTTCGTACGTCTACGATATATTGAGGTACATCCTT-AAATATTACATGAGAAAAGAAACATTTAAAGGAAGAAGGGTTTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||| |||| ||||||||||||||||||||||||| ||||||   |||||||||||||||||||||||  |||||||||||||||||||||| |  ||||| ||||||||||||||||| ||||||||||||||||||||||||||||| | ||||| || | || |||||||||||||| ||||||| | |||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1051235700</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>54</Iteration_iter-num>
+  <Iteration_query-ID>Query_54</Iteration_query-ID>
+  <Iteration_query-def>IGR_1433 1527067:1527230</Iteration_query-def>
+  <Iteration_query-len>163</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.945</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.44889e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1432373</Hsp_hit-from>
+      <Hsp_hit-to>1432536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>AGCGTCTAATATAACCTATGTAAAAACAAAAAAGTTGTATGGTCATCTGTCCTGATTTTTCACT-TTTTTGATTTAATTTCAGTATTGCATTTATACAGCACGGCTATTGCCAAATGTCCCCATGGATTCTATAGTAGAAATTGTCAAGATTGGGGGATTTAAC</Hsp_qseq>
+      <Hsp_hseq>AGCGTCTACTATAACCTATGTAAAAACAAAAAAGTTGTATGGTCATCTGCCCTGATTTTTCACTATTTTTGATTTGATTTTAACGTTGCATTCATAAAGTACATCTATTGCCAAATGTGCTTTTGGATTCTATAGTAGAAATTGTCAAGATTGGGGGATTTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||| |||| |   ||||||| ||| || ||  |||||||||||||| |   |||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>573766193</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>55</Iteration_iter-num>
+  <Iteration_query-ID>Query_55</Iteration_query-ID>
+  <Iteration_query-def>IGR_1443 1536873:1537112</Iteration_query-def>
+  <Iteration_query-len>239</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.83</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.68101e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1442158</Hsp_hit-from>
+      <Hsp_hit-to>1442396</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>GATTTTCCTCCTTCATGCTAAGTATACATATTTTATCACAGTTCATACGAGCTTCAAAAAGATTGAGCGCGTTTGAAGTAAGGAGAAATGTGGTAATAAACGAGTAGGTAAACACACAATTTTCAGAATCATGTTGCGCGTAAATAGAACAATCATACGATATAAGAAGTAATCATTGTTGAATGGCAAAATGGGATGCTTTTTTACAAACAAATGATCTCTGGAAGGGGCGAAAGACA</Hsp_qseq>
+      <Hsp_hseq>GATTTTCCTCCTTCATGCTCAGTATACATATTTTATCACAGTTAGGACGAGCGGCAAAAAGATTGCGCGCGTTTTAAGAAAGGGGAAATGTGGTAATGAACGAATAGGTAAACACACAATTTTTAGAATCCTGTTACGCGTAAATAGAACAATCATACGATATAAGAAGTCATCATTGTTGAATGGCAAAATGGGATGCTTTTTTACAAACAAATGATCTCTGGAAGGGGCGAAAGACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||||||||||   ||||||  ||||||||||| |||||||| ||| |||| ||||||||||||| ||||| ||||||||||||||||||| |||||| |||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>874692300</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>56</Iteration_iter-num>
+  <Iteration_query-ID>Query_56</Iteration_query-ID>
+  <Iteration_query-def>IGR_1452 1547959:1548015</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>5.05976e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1453235</Hsp_hit-from>
+      <Hsp_hit-to>1453290</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TCTCGTGCAGAATTTGAAAAGATAGAACCCGTACGTTTACAGGGGAGGGAATCTTT</Hsp_qseq>
+      <Hsp_hseq>TCTCGTGCAGAATTTGAAAAGATAGAACCCGTACGTTTACAGGGGAGGGAATCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>148457024</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>57</Iteration_iter-num>
+  <Iteration_query-ID>Query_57</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2903102 2903165</Iteration_query-def>
+  <Iteration_query-len>63</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.379</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>1.67295e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>2720086</Hsp_hit-from>
+      <Hsp_hit-to>2720148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ACTTTTCCCTCCTAAGGATGTTTGTACTATTATGTATACGAGCCTCTTTAGGAAATAGACCGA</Hsp_qseq>
+      <Hsp_hseq>ACTTTTCCCTCCTAAGGCTGTTTGTACTATTATGTATACGAGCCTATTTAGGAAATAGACCGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| ||||||||||||||||||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>176543488</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>58</Iteration_iter-num>
+  <Iteration_query-ID>Query_58</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2938178 2938285</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.619</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.26141e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>2755165</Hsp_hit-from>
+      <Hsp_hit-to>2755267</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>TTTCTCCCAT-CCCCTTTTCTGTTTTTCATAAATATATCATAATTTCATGGTGAAAAGCGGTCATTTTTTCCTATAC-AAAAAGCCGGCTGGAATGGGCCGGCT</Hsp_qseq>
+      <Hsp_hseq>TTTATCCCATCCCCCTTTGCTG-TTTTCATAAATATATCACAATTTCATCTTGAAAAGCGGTCATTTTTCCCTATACAAAAAAGCCGGCTGGAATGGGCCGGCT</Hsp_hseq>
+      <Hsp_midline>||| |||||| ||||||| ||| ||||||||||||||||| ||||||||  |||||||||||||||||| ||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>349074537</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>59</Iteration_iter-num>
+  <Iteration_query-ID>Query_59</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2966139 2966332</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.338</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.21581e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>2783316</Hsp_hit-from>
+      <Hsp_hit-to>2783496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>TAAAATCAGCTCCCAACTATATCGTTCCCTGCAATGTATTTTCGGCAGCCTCCGCCTTTTAAAAATAGATGTGACAG-CATCTGTCGGGAGAGCCGTTGT-TAAATTTGTTTCTATAGCATTAGGTGGTTTGTGAAAATCTCCTTCTTATTTTACAAAAAAAATGAAAAAAGAAAAAGCTG</Hsp_qseq>
+      <Hsp_hseq>TAAAATCAGCTCCCAACTATTTCGTTCCCTGCAATGTATGTTCGGCAGCCTCCGCCTTTTCAAAATAAATGTGACAGCCATCTGTCGGGAGAGCCGTTGTGTAAGGCTGTGGTTACAGCATCAGGTGGTTTATGAGAATCTCTTTCTTATTTTACAAAAAAAATGAAAAAAGAAAAAGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||||||||||||||| |||||||||||||||||||| |||||| ||||||||| |||||||||||||||||||||| |||   |||   || ||||| ||||||||| ||| |||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>694136723</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>60</Iteration_iter-num>
+  <Iteration_query-ID>Query_60</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2978522 2978674</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.105</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.85437e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>2795688</Hsp_hit-from>
+      <Hsp_hit-to>2795826</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>GCTGTGCCTCCAGTATTATAATTCCCCGACATCCTATTTCTCTATTTTATGTCATCTTAACATGTTTCATGATTTTATTTTAGCGAAAGCAGGACATTCCGACAATTCGCCTTTTACATCATTTTTAAAAGAAATAAAGA</Hsp_qseq>
+      <Hsp_hseq>GCTGTGCCTCCAGTATCA-AATTCCCCGACATCCTATTTGTCTATTTTATGTCATCTTAACATGTTTCATGATTTTATTTTAACGAAAGCAGGACATTCCGACAATTCGCCTTTTACACCATTTTTAAAAGAAATAAAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>529630332</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>61</Iteration_iter-num>
+  <Iteration_query-ID>Query_61</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3014344 3014446</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>5.07158e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>2831495</Hsp_hit-from>
+      <Hsp_hit-to>2831592</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ATAAAAATCCCCTCTCAACCGTGTTTCTATTTTGTATAAAAATAAATTATATTTAATAAAAATACATTTTGTATGTATACACTTTAACAAGTACGTTTC</Hsp_qseq>
+      <Hsp_hseq>ATAAAAATCTCCTCTCAACCGTGTATCT-TTTTGTATAAAAATAAATTATATTTAATAAAAATACATTTTGTATGTATACACTTTAACAAGTACGTTTC</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>329012782</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>62</Iteration_iter-num>
+  <Iteration_query-ID>Query_62</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3059401 3059499</Iteration_query-def>
+  <Iteration_query-len>98</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.232</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.89293e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2877843</Hsp_hit-from>
+      <Hsp_hit-to>2877941</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GGCGCCTCCGTCCATATGCGTCACGCCTCCGTCAAGCCAGGTCAACGTGATGTTTCCAATTTTCATTGTTTCCATTTTCACCCCCC-CCTATCATCATG</Hsp_qseq>
+      <Hsp_hseq>GGCGCCTCCGTCCATATGTGTCACGCCTCCGTCAAGCCAGGTTAACGTAATATTTCCGATTTTCATTGATTCCATTTTCATCCCCCTCCTGTCATCATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| ||||||||||||||||||||||| ||||| || ||||| |||||||||| ||||||||||| ||||| ||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>312963378</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>63</Iteration_iter-num>
+  <Iteration_query-ID>Query_63</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3102512 3102570</Iteration_query-def>
+  <Iteration_query-len>58</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.9863</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>4.18161e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>2904555</Hsp_hit-from>
+      <Hsp_hit-to>2904613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>AGAAAACACTCCTATTCACAGTGATCATG-TTCAGTATATCAAAGTCAGCCGAACGATT</Hsp_qseq>
+      <Hsp_hseq>AGAAAACACTCCCATTCACAATGATCATGTTTTAGTATATCAAAGTCAGCTGGACGATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||| |||||||| || ||||||||||||||||| | ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>156481728</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>64</Iteration_iter-num>
+  <Iteration_query-ID>Query_64</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3119410 3119513</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.3664</Hsp_bit-score>
+      <Hsp_score>31</Hsp_score>
+      <Hsp_evalue>8.96251e-10</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>2921255</Hsp_hit-from>
+      <Hsp_hit-to>2921309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ATTTTATATTAGTGTCTATAGTGTATTACTTCAATTAGTACACTTAATACAATAAA</Hsp_qseq>
+      <Hsp_hseq>ATTTT-TTTGAGTGTTTGTAGTGTATTACATCAAGTAGTACACATAATACAATAAA</Hsp_hseq>
+      <Hsp_midline>||||| | | ||||| | ||||||||||| |||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>333025133</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>65</Iteration_iter-num>
+  <Iteration_query-ID>Query_65</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3129027 3129129</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.399</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>6.51425e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>2934323</Hsp_hit-from>
+      <Hsp_hit-to>2934424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GATTTGCTTCCTCCTGCACAAGGCCTCCCGAAAGACCTTGTATATATGATACGGAACTCGCTCCCTCTTATACAATGTACAGTTATATTAGAGAATGTTAAT</Hsp_qseq>
+      <Hsp_hseq>GATTTGCTTCCTCCTGCACAAGGCCTCCCGAAAGACCTTGTATATATGATACGGAACTCGCTCCCTCTTATACAATGTAACGTTATATTAGAGAATGTTAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>329012782</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>66</Iteration_iter-num>
+  <Iteration_query-ID>Query_66</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3187356 3187502</Iteration_query-def>
+  <Iteration_query-len>146</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.65143e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2989158</Hsp_hit-from>
+      <Hsp_hit-to>2989302</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAAATACGGGAAAAACACCCCATTTACTTCCAAAATATTTGATGGTA-ATTTTATGTAGGTAAAATTTGTATTTGGCCTTTCAGAGGAGGTGAAAAGCGGGCAGGCCTGTTTAATTT-ATCATTTT--TTAGGGGGAATTT</Hsp_qseq>
+      <Hsp_hseq>TTTGAAAAATACGGGAAAAACATACCATTTACTCCCAAAAAAAATGATGATAGTTTTTATGTAGGTAAAATTTGTATTTGGCCGGTAAGGGGAGGTGAAAAAC-GGCAGGCCTGTGTATTTTTATCAACTTAATTAGGGGGAATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||  ||||||||| |||||| |  ||||| ||  |||||||||||||||||||||||||||||  | || ||||||||||| | ||||||||||| || ||| ||||  ||  |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>505556226</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>67</Iteration_iter-num>
+  <Iteration_query-ID>Query_67</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3222083 3222139</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>2.35408e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>3020908</Hsp_hit-from>
+      <Hsp_hit-to>3020963</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TGCTTGTCCCTCCATAACGGTATAATGTTTTCATCTTTCACTTTATATGAACTTAT</Hsp_qseq>
+      <Hsp_hseq>TGCTTGTCCCTCCATAACGGTAGAATGTTTTCATCTTTCACTTTATATGAACTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>148457024</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>68</Iteration_iter-num>
+  <Iteration_query-ID>Query_68</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3239511 3239929</Iteration_query-def>
+  <Iteration_query-len>418</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1592902950</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>69</Iteration_iter-num>
+  <Iteration_query-ID>Query_69</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3276766 3276954</Iteration_query-def>
+  <Iteration_query-len>188</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.859</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>6.20942e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>3072068</Hsp_hit-from>
+      <Hsp_hit-to>3072264</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>GATGACTTTCTTAGAAGATTAATAGGATAAGCTGTCGTATTATATGAGACAT-ACACTGTCCTGCAAAAAGGCGATTACACCGCCAAATGTATATAGAACGTTTCTCTCAT--G--A---AATTGTTTTTT-TGCTTCTGTTCTTTGTTGTTGATTTTCACAAACAACAACAATCATAATAAAAGGAAGGGGATGAG</Hsp_qseq>
+      <Hsp_hseq>GATGACTTACTTAGAAGAATAATAGAATAAGCTTTCGTATCATATAAGGAATAAAACTGTACTGTAAAAAGGCAATTACGCCGCTAATCATCTATAAAACATTTCTCTCATATGCCATGTCATTGTTTTTTCGGCTTCCGTTCTTTGTTGTTGATTTTCACAAACATCAACAATCATAATAAAAGGAAGGGGATGAG</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||| |||||| ||||||| |||||| |||| ||  || | ||||| ||| |||||||| ||||| |||| ||   | |||| ||| ||||||||||  |  |    ||||||||||  ||||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>674074968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>70</Iteration_iter-num>
+  <Iteration_query-ID>Query_70</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3296270 3296360</Iteration_query-def>
+  <Iteration_query-len>90</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.05755e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>3091584</Hsp_hit-from>
+      <Hsp_hit-to>3091672</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>ATGATACCCCTCCAAAAATCCTTTAGTTTGCTAATGTAGTAGATAAATAAAGTACGAACGTATCGTATCATAACCGATCCACTTTAGTC</Hsp_qseq>
+      <Hsp_hseq>ATGATACCCCTCCAAAAATCCTTTAGTTTGCTAATGTAGTAGATAAATAAAGTACGAACGTATCGTATCATAATCAATATACTTTAGTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>284876992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>71</Iteration_iter-num>
+  <Iteration_query-ID>Query_71</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3352096 3352234</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.159</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>9.50775e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>3154176</Hsp_hit-from>
+      <Hsp_hit-to>3154277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>ATCCTTCACTCCTCGTTTTTATTATATAACGTTATATAACATTATATATTGTTATATTAAAGTCCGCGGGTAGGATTGTCAATATTATTTTCTGAAATTTCT</Hsp_qseq>
+      <Hsp_hseq>ATCCTTCACTCCTTATTTTTATTATATAACGTTATATAACATTATATATTGTTATATTAAGGTCCGCAGCGATGATTGTCAATATTATTTTCAGAAATTTCT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||| |||||| |  | ||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>473457418</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>72</Iteration_iter-num>
+  <Iteration_query-ID>Query_72</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3400360 3400470</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.466</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>9.38063e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>3213350</Hsp_hit-from>
+      <Hsp_hit-to>3213455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>ATCAGAGCCCCCCGTTGCCTATTTTTTACATCTATTTATTACAATATCTCATTTTTCCATTTTTCAGTCAATAATTCATAAGGTTCATTTTTTGTCGTAAAATGGGA</Hsp_qseq>
+      <Hsp_hseq>ATCAGAGCCCTCACTT-CCTATTTTTTACATACATTTGTTACAATATCTCATTTTTCCATTTTAAGGTCAATAATTCATAAGGTTCATTTTTTGTCGTAAAATGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |  || ||||||||||||||  |||| |||||||||||||||||||||||||   |||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>361111590</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>73</Iteration_iter-num>
+  <Iteration_query-ID>Query_73</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3434156 3434282</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.025</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.96163e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>3247085</Hsp_hit-from>
+      <Hsp_hit-to>3247208</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>CGTATCCACCTCACAAAGTTATAAACTGATCGAAAATTGCATCTAATTGAACTTTACCGGAATACTAGGCTTAAGTAAAATATATTTACATGATGATAACTATTAAGAATCCTAATGATAAAAC</Hsp_qseq>
+      <Hsp_hseq>CGTATCCACCTCACAAAGTTATAAACTGATCGAAAATTGCATCTAATTGAACTTTACCGGAATACTAGGTTTAAGTAAAATATATTTACATGATGATAACTATTAATAATCCTAATGATAAAAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425309206</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>74</Iteration_iter-num>
+  <Iteration_query-ID>Query_74</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3448132 3448213</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>2.37408e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>3261021</Hsp_hit-from>
+      <Hsp_hit-to>3261090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>TTGACAAAATCCTTTTCAATGAATGTGTAGAACTTTTCCAGTTTCTTCGCTTTAGTATGCCC-AAAAACG</Hsp_qseq>
+      <Hsp_hseq>TTGACAAAATCCTTTTCAGCGAATGTGTAGAGCTTTTCCCGTTTATTCGCTATAGTATGCCCCAAAAACG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||  ||||||||||| ||||||| |||| |||||| |||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>248765824</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>75</Iteration_iter-num>
+  <Iteration_query-ID>Query_75</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3473300 3473371</Iteration_query-def>
+  <Iteration_query-len>71</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.28511e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>3283843</Hsp_hit-from>
+      <Hsp_hit-to>3283913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TTACAACTTTTTTCTTTTATAATAAAACTATTAGTCTATTTTCCCTATATTACAGATAAAGGAGTTATTTT</Hsp_qseq>
+      <Hsp_hseq>TTACAACTTTTTTCTTTTATAATAAAACTATTAGTCTATTTTCCCTATAACACAGGTAAAGGAGTTATTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||  |||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>208642304</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>76</Iteration_iter-num>
+  <Iteration_query-ID>Query_76</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3508518 3508612</Iteration_query-def>
+  <Iteration_query-len>94</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.459</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.31738e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>3328278</Hsp_hit-from>
+      <Hsp_hit-to>3328361</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TGATTGTCACCCTTTCGGTAGGAATGAAAGCGCTTTAAAGATAATATAGCATGCCTGAGAAAATGTGTAAACAAACTATTTACT</Hsp_qseq>
+      <Hsp_hseq>TGATCGTCACCCTTTCGGTATGAATGAAAGCGCTTTTAAAACAATATAGCACGACTGAGAAAATGTGTAAACAAACTATTTACT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||| ||||||||||||||| || | ||||||||| | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>300926400</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>77</Iteration_iter-num>
+  <Iteration_query-ID>Query_77</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3535939 3536011</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.2994</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>4.36203e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>3356442</Hsp_hit-from>
+      <Hsp_hit-to>3356513</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>TTGCCATCTTCAAACAGGAGGGCTGGAAGAAGCAGACCGCTAACACAGTACATAAAAAAGGAGACATGAACG</Hsp_qseq>
+      <Hsp_hseq>TTGCCATCTTTAAACAGGAGGGCTGGAAGAAGCGGATCACTTTTACAGTACATAAAAAAGGAGACATGAACG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||||||| || | ||   ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>212654656</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>78</Iteration_iter-num>
+  <Iteration_query-ID>Query_78</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3573134 3573206</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.379</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>2.01515e-24</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>3393643</Hsp_hit-from>
+      <Hsp_hit-to>3393711</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GCATTACACATGTGTTACAGCGGAATTAAAACCCAGTAACGTAATGTGAAACTCGTATGACAGCCCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTACACAACTGTTACAGCGGAATTAAAACCCAGTAACGTAATGTGAAGCTCGTATGACAGTCCTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||||||||||||||||||||||||||||||||| |||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>212654656</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>79</Iteration_iter-num>
+  <Iteration_query-ID>Query_79</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3609221 3609333</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.0662</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>4.55707e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>3428194</Hsp_hit-from>
+      <Hsp_hit-to>3428278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>TTGCGGAAAACATATCATTCATTATAACTGAAACAAAGCTAAAGGTTAGATGACAATATCTTGCCTTTTTTGTTTTGAAAAAACAA</Hsp_qseq>
+      <Hsp_hseq>TTGCGGAAAAAGTTGCGTTTATTATAAC-AAAACAAAGCTAAAGGTTAGGTGACAGCATCTTGCCTTTTTTGTTTTGAAGGAACAA</Hsp_hseq>
+      <Hsp_midline>||||||||||  |  | || ||||||||  ||||||||||||||||||| |||||  ||||||||||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>369136292</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>80</Iteration_iter-num>
+  <Iteration_query-ID>Query_80</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3625507 3625681</Iteration_query-def>
+  <Iteration_query-len>174</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.038</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.53816e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3445510</Hsp_hit-from>
+      <Hsp_hit-to>3445683</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>GAAATCACCTAATCTTTTATATCATTTTATCTATCACACGGTCATACTCTTCGAATGCATTCGACAATTTATGACCCATTCATTTGTAAAAAGATGAAAAATCTGAAAGTTCCCTTTTTCAATACACTTCATTATACGTCAAATTTAGACATAATACTATTACAGTTTCTTTTC</Hsp_qseq>
+      <Hsp_hseq>GAAATCACCTAATCTTTTATATCATTTTATTTATCACACGGTCACACTCGTCGAATACATTCGACAATTTATGACCTATTCATTTGTAAAAAGATGAAAAATCTGAAACTTTTATTTTTCAACACACTTCATTATACGTCAAATTTAGACATAATACTATTACAGTTTCTTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| ||||||||||||| |||| |||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||| ||   |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>617902054</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>81</Iteration_iter-num>
+  <Iteration_query-ID>Query_81</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3643558 3643611</Iteration_query-def>
+  <Iteration_query-len>53</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.1332</Hsp_bit-score>
+      <Hsp_score>26</Hsp_score>
+      <Hsp_evalue>2.20961e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>3464865</Hsp_hit-from>
+      <Hsp_hit-to>3464905</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>TCCTTTCGAAACAGTATGCCTGAATGAATATTTTCTGTCCA</Hsp_qseq>
+      <Hsp_hseq>TCCTTTCGAGACAGTATGACTCAGTGAATATTTACTGTCCA</Hsp_hseq>
+      <Hsp_midline>||||||||| |||||||| || | ||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>136419968</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>82</Iteration_iter-num>
+  <Iteration_query-ID>Query_82</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3687468 3687548</Iteration_query-def>
+  <Iteration_query-len>80</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.153</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.28296e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>3508259</Hsp_hit-from>
+      <Hsp_hit-to>3508338</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TCCTTCTCCTCTTTCTTATTCTATGAGTATATAAAACTAGTTTATTTATCGGCACGCGCATGCTTCATTTATAGGTGAAT</Hsp_qseq>
+      <Hsp_hseq>TCCTTCTCCTCTTTCTTATTCAATGAGTATATAAATCTAGTCTATTTATCGGCACACGTATGCTTCATTTATAGGTGAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||||| ||||| ||||||||||||| || |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>244753472</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>83</Iteration_iter-num>
+  <Iteration_query-ID>Query_83</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3729296 3729431</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>461420365</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>84</Iteration_iter-num>
+  <Iteration_query-ID>Query_84</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3753752 3753880</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>1.4769e-23</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>3575647</Hsp_hit-from>
+      <Hsp_hit-to>3575720</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>GTTTTTTGACATTAGATGTCACTTAATATAACTGAAGAGTCAGACAATAACACTGGCTATGATATACAATTTTC</Hsp_qseq>
+      <Hsp_hseq>GTTTTCTGACATCGGATGTCACTTAATATAACTGAAAAGTCAGACAATAACATTGGCTATGGTATACAATTTTC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||  |||||||||||||||||||||| ||||||||||||||| |||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>433333908</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>85</Iteration_iter-num>
+  <Iteration_query-ID>Query_85</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3770865 3770948</Iteration_query-def>
+  <Iteration_query-len>83</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.766</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.4542e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>3603589</Hsp_hit-from>
+      <Hsp_hit-to>3603670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>ATCTGCATCCCAAAACGGCTTTTGTTCAAAAAACAGTGCTGTAGCGATTTTTCCTGTTCTCCCCGGAAATAAACGTTCCGATG</Hsp_qseq>
+      <Hsp_hseq>ATCTGCATCCCAACACGGCTTGTGTTC-AAAAACAGCGCTGTAGCGATTTTTCCTGTTCTCCCCGAAATTAAACGTTTCGATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||| ||||| |||||||| |||||||||||||||||||||||||||| || |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>256790528</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>86</Iteration_iter-num>
+  <Iteration_query-ID>Query_86</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3786457 3786536</Iteration_query-def>
+  <Iteration_query-len>79</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.006</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.34416e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3619158</Hsp_hit-from>
+      <Hsp_hit-to>3619236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>CTACTACGGCAACTCCCTTCTGCAGGTTTTTCTTTGCTGATCCAGCAGCCGCACTTGTCTCTTTTCAGCCGGCAAGGCG</Hsp_qseq>
+      <Hsp_hseq>CTACTACGGCAACTCCCTTCTGCAGGTTTTTCTTTGCTGATCCAGCAGCCGCACTTGTCTCTTTTCAGCCGGCAAGGCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>240741120</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>87</Iteration_iter-num>
+  <Iteration_query-ID>Query_87</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3802166 3802332</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.651</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.0266e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3634870</Hsp_hit-from>
+      <Hsp_hit-to>3635033</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>CTAAAATATGACCGATCATGATCTTTATGCGACTTTGTGACAATTATTCGAACAATGTCTCAAAACTATTTACATTACGTAAGCTATTGTATGCCTGTCAAAATCAAAATTCAAGAGAAGAAAATTACTTAATTTTTTAATATACTTATTTAAATTTTTTAATT</Hsp_qseq>
+      <Hsp_hseq>CTAAAAAATGACCGATCATGTTCTTTATACGACTTTGTGACAATTGTTCGAACAATGTCTCAAAACTATTTACATTACGTAAGCTATTGTATTCCTGTCAAAATCAAAATTCAAGAGAAGAAAATTATTTAATTTTTTAATAGACTTAATTAAATTTTTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||| ||||||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| |||||||||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>585803246</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>88</Iteration_iter-num>
+  <Iteration_query-ID>Query_88</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3812300 3812390</Iteration_query-def>
+  <Iteration_query-len>90</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.779</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>5.68044e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>3644989</Hsp_hit-from>
+      <Hsp_hit-to>3645078</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>TTCGTTTGCTCCTCTCTTCGCTCTTAGCTACATTTTTAAAATGTACTATTTTATAAAAAATCATTTAGCCTTTTAAATGATTTATAAGAA</Hsp_qseq>
+      <Hsp_hseq>TTCGTTTGCTCCTCTCTTCGCTCTTAGCTACATTTTTAAAATGTACTGTTTTATAAAAAATCATTTAGCCTTTTAAATGATTTATAAGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>284876992</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>89</Iteration_iter-num>
+  <Iteration_query-ID>Query_89</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3851893 3852045</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.153</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.79238e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>3685025</Hsp_hit-from>
+      <Hsp_hit-to>3685117</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>AAATAACCCGGCTCCTCGGAGGCCGGGTTATTCGTATGGTTCCTTCATAATCGATGGAAG-AATGTTAGACAATCGAGCTGAACAATCAGTTT</Hsp_qseq>
+      <Hsp_hseq>AAATAACCCGGCTCCTCGGAGGCCGGGTTATTCATATGGTTCCTTCATAATCCATGGAAGCAATGTAATGCAATTAAGCTGAACAATCGGTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||| ||||| |  ||||  |||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>529630332</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>90</Iteration_iter-num>
+  <Iteration_query-ID>Query_90</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3867410 3867492</Iteration_query-def>
+  <Iteration_query-len>82</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.07676e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>3700836</Hsp_hit-from>
+      <Hsp_hit-to>3700917</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AATTTAAATAAAATTTGCTATTTTCTTCGTTTTTTCTTACGATGTAGATAATAATCCATTTTTTTCAAAGGGGTGCAGTTAT</Hsp_qseq>
+      <Hsp_hseq>AATTTAAATAAAATTTGCTATTTTATCCGTTTTTTCTTACGATGGAGTTAACAATCCAATTTTTTCAAAGGGGTGCAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| | ||||||||||||||||| || ||| |||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>252778176</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>91</Iteration_iter-num>
+  <Iteration_query-ID>Query_91</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3930550 3930650</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.079</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.3953e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>3752446</Hsp_hit-from>
+      <Hsp_hit-to>3752544</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>CATGTTCCTCCTATAATTGAAAATGATTATCATTGTATAACATAATCATAGCCAGTTCCTGTCCTTTGTCAATTAAAATTTGAAGGTCTGAAAACCTTGA</Hsp_qseq>
+      <Hsp_hseq>CATGTTCCTCCTCTAACTGAAAATGATTATCATTATATATCATAATCATAGCCAGTTCCTGTTCTTTGTCAATTAAAATTTGAAAAT-TAAAAACCTTGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||| ||||||||||||||||| |||| |||||||||||||||||||||| |||||||||||||||||||||  | | ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>320988080</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>92</Iteration_iter-num>
+  <Iteration_query-ID>Query_92</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3950584 3950671</Iteration_query-def>
+  <Iteration_query-len>87</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP048852.1 Bacillus tequilensis strain EA-CB0015 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4012371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.29592e-27</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>3773029</Hsp_hit-from>
+      <Hsp_hit-to>3773114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>TTCGTCATCTCCTTTAACGGAACTTTATCCGCTGTCCATGTACTAGACGTCCCTGTCTGCTGCAAGGTTCTATGAATTTTTTTACA</Hsp_qseq>
+      <Hsp_hseq>TTCGTCATCTCCTTTAACGGATCTTTATCCGCTGTCCATGTACTAGACGTGCCTGCCTCCTGAGAAGTTCTACGAATTTTTTTACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||||||||||||||||||||||| |||| || |||  | |||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4012371</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>272839936</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

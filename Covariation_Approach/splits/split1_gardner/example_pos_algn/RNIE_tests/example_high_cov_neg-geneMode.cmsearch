@@ -1,0 +1,76 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0.2 (October 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile example_high_cov_neg-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/example_high_cov_neg.fa
+# date:       Sat May 13 12:02:53 2023
+# num seqs:   1
+# dbsize(Mb): 0.000200
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -       0.053     0.00   0.0106  00:00:00.03
+
+CM: seed-a-14
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -       0.053        0    0.0106  0.0e+00
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:00.03    00:00:00.00
+//
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -       1.086     0.00   0.2423  00:00:00.08
+
+CM: seed-b-14
+>sliding_window_2
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 60 - 1
+ Score = 1.21, E = 0.5607, P = 0.03505, GC =  42
+
+           ::<<<<<<<<<<<<<<<<<______..........>>>>>>>..>>>>>>.>>>>:::::
+         1 aaaAAGccgcggccgccauuuaaaa..........auggcgg..ccgcgg.CUUuUUUUU 47      
+           A+: A C::   :C::CA: UAA +          :UG::G:     ::G CU :UUUUU
+        60 AUUUA-CUC---ACGGCAGGUAACCaguucagaagCUGCUGUca---GAGaCUCUUUUUU 8       
+
+           :::::::
+        48 Uuuuaau 54      
+           U +U  +
+         7 UAAUCCA 1       
+
+
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -       1.086        1    0.2423   0.3000
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:00.08    00:00:00.00
+//
+# Tabular version of hit list saved in file example_high_cov_neg-geneMode.tabfile.
+#
+# CPU time: 0.32u 0.00s 00:00:00.32 Elapsed: 00:00:00

@@ -1,0 +1,94 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile test_rits_B.sub_emb-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/test_rits_B.sub_emb.fasta
+# date:       Mon Oct 23 13:25:22 2023
+# num seqs:   10
+# dbsize(Mb): 0.002482
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.637     0.00   0.0103  00:00:00.40
+#
+# CM: seed-a-14
+#                                                                    target coord   query coord                         
+#                                                          ----------------------  ------------                         
+# model name  target name                                       start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   dnaA,dnaN                                            41          80      1     44     13.52  2.39e-03   55
+  seed-a-14   dnaA,dnaN                                            70          31      1     44      0.02  6.33e-01   55
+  seed-a-14   gyrA                                                 41          81      1     44     32.81  8.23e-07   39
+  seed-a-14   gyrA                                                 71          31      1     44     30.53  2.11e-06   41
+  seed-a-14   rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S          43          79      1     44     30.41  2.22e-06   38
+  seed-a-14   rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S          69          31      1     44     18.81  2.68e-04   46
+  seed-a-14   guaB                                                 42          80      1     44      6.86  3.74e-02   33
+  seed-a-14   guaB                                                 71          28      1     44      1.22  3.86e-01   32
+  seed-a-14   yaaD,yaaE                                            45          90      1     44     18.68  2.83e-04   46
+  seed-a-14   yaaH                                                 51          95      1     44     18.58  2.95e-04   29
+  seed-a-14   yaaH                                                 85          41      1     44     28.20  5.54e-06   36
+  seed-a-14   metS                                                 41          92      1     44     13.74  2.17e-03   40
+  seed-a-14   metS                                                 82          31      1     44     13.68  2.23e-03   35
+  seed-a-14   yabG                                                 41          83      1     44     31.11  1.66e-06   37
+  seed-a-14   yabG                                                 73          31      1     44     13.89  2.05e-03   40
+  seed-a-14   veg                                                  41          83      1     44     13.15  2.77e-03   42
+  seed-a-14   sspF                                                 43          83      1     44     12.14  4.22e-03   51
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.637       17    0.0103   0.2945
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.40    00:00:01.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -      13.502     0.00   0.2428  00:00:01.05
+#
+# CM: seed-b-14
+#                                                                    target coord   query coord                         
+#                                                          ----------------------  ------------                         
+# model name  target name                                       start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------------------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   dnaA,dnaN                                            41          80      1     54     15.81  2.44e-03   55
+  seed-b-14   dnaA,dnaN                                            70          29      1     54      7.40  2.39e-01   52
+  seed-b-14   gyrA                                                 41          81      1     54     30.53  7.96e-07   39
+  seed-b-14   gyrA                                                 71          31      1     54     27.72  3.69e-06   41
+  seed-b-14   gyrA                                                120          86      1     54      2.00  4.54e+00   23
+  seed-b-14   rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S          41          79      1     54     28.01  3.14e-06   36
+  seed-b-14   rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S          67          43      1     54     14.27  5.62e-03   48
+  seed-b-14   guaB                                                 41          81      1     54     18.33  6.17e-04   34
+  seed-b-14   guaB                                                 73          26      1     54      8.73  1.15e-01   31
+  seed-b-14   yaaD,yaaE                                            41          93      1     54     24.24  2.46e-05   47
+  seed-b-14   yaaD,yaaE                                             2          36      1     54      2.82  2.90e+00   37
+  seed-b-14   yaaD,yaaE                                           127          92      1     54      1.82  5.02e+00   31
+  seed-b-14   yaaD,yaaE                                            79          44      1     54      1.58  5.70e+00   56
+  seed-b-14   yaaH                                                 53          93      1     54     16.41  1.75e-03   32
+  seed-b-14   yaaH                                                 85          41      1     54     21.27  1.24e-04   36
+  seed-b-14   metS                                                 41          92      1     54     15.82  2.42e-03   40
+  seed-b-14   metS                                                 87          26      1     54     15.01  3.78e-03   31
+  seed-b-14   yabG                                                 41          83      1     54     27.90  3.35e-06   37
+  seed-b-14   yabG                                                 73          31      1     54     13.28  9.69e-03   40
+  seed-b-14   veg                                                  42          82      1     54     13.53  8.46e-03   44
+  seed-b-14   sspF                                                 41          83      1     54     16.47  1.70e-03   51
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -      13.502       21    0.2428   0.3554
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:01.05    00:00:01.00

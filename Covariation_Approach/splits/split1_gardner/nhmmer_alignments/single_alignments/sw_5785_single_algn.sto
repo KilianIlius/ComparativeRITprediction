@@ -1,0 +1,234 @@
+
+# STOCKHOLM 1.0
+#=GF ID sliding_window_5785
+#=GF AU nhmmer (HMMER 3.3.2)
+
+#=GS Escherichia_coli_IGR_genome/484442-484540       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/21130-21032         DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/558648-558550       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/425360-425262 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/336893-336991      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/19238-19140        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/281530-281626 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/389012-388916 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/402416-402510   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/500475-500569   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/48504-48410     DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/28927-28832       DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/480856-480761     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/30733-30639      DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/493625-493531    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/512343-512249    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/467486-467394     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/426839-426924    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/495249-495334    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/508394-508479    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/328606-328689    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/340551-340634    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/394740-394657    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/232608-232689   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/292229-292148   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/305033-304952   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/518776-518857  DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/14278-14197    DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/27561-27480    DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/521351-521427    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/52051-51975    DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/310243-310167   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/307839-307913    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/254394-254446 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/19520-19469        DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_coli_IGR_genome/403337-403388       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/549461-549410       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/574741-574690       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Escherichia_coli_IGR_genome/579247-579196       DE [subseq from] Escherichia_coli_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/421381-421432      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/483621-483570      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/491808-491757      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/509075-509024      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Shigella_flexneri_IGR_genome/513364-513313      DE [subseq from] Shigella_flexneri_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/348275-348326 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/352307-352358 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Escherichia_fergusonii_IGR_genome/378988-378937 DE [subseq from] Escherichia_fergusonii_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/327642-327695    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/420745-420798    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/481356-481303    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Salmonella_enterica_IGR_genome/516938-516885    DE [subseq from] Salmonella_enterica_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/481007-481054   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/485037-485084   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/509109-509156   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Escherichia_albertii_IGR_genome/128907-128860   DE [subseq from] Escherichia_albertii_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/324339-324390     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/406004-406055     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/458968-458917     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Salmonella_bongori_IGR_genome/485268-485217     DE [subseq from] Salmonella_bongori_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/284377-284305   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/331268-331196   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/431346-431418  DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/6084-6012      DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/33008-32936    DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/148401-148444   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_freundii_IGR_genome/386960-386917   DE [subseq from] Citrobacter_freundii_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/256004-256046    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/323797-323839    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/479844-479802    DE [subseq from] Citrobacter_tructae_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/458434-458478    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/500152-500196    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/55304-55260      DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Kluyvera_intermedia_IGR_genome/133261-133217    DE [subseq from] Kluyvera_intermedia_IGR_genome
+#=GS Citrobacter_arsenatis_IGR_genome/104114-104073  DE [subseq from] Citrobacter_arsenatis_IGR_genome
+#=GS Citrobacter_tructae_IGR_genome/347313-347355    DE [subseq from] Citrobacter_tructae_IGR_genome
+
+Escherichia_coli_IGR_genome/484442-484540               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_coli_IGR_genome/484442-484540       PP 6899*****************************************************************************************999886
+Escherichia_coli_IGR_genome/21130-21032                 CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_coli_IGR_genome/21130-21032         PP 6899*****************************************************************************************999886
+Escherichia_coli_IGR_genome/558648-558550               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_coli_IGR_genome/558648-558550       PP 6899*****************************************************************************************999886
+Escherichia_fergusonii_IGR_genome/425360-425262         CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_fergusonii_IGR_genome/425360-425262 PP 6899*****************************************************************************************999886
+Shigella_flexneri_IGR_genome/336893-336991              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Shigella_flexneri_IGR_genome/336893-336991      PP 6899*****************************************************************************************999886
+Shigella_flexneri_IGR_genome/19238-19140                CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Shigella_flexneri_IGR_genome/19238-19140        PP 6899*****************************************************************************************999886
+Escherichia_fergusonii_IGR_genome/281530-281626         --TTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_fergusonii_IGR_genome/281530-281626 PP ..7899***************************************************************************************999876
+Escherichia_fergusonii_IGR_genome/389012-388916         --TTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_fergusonii_IGR_genome/389012-388916 PP ..7899***************************************************************************************999876
+Escherichia_albertii_IGR_genome/402416-402510           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_albertii_IGR_genome/402416-402510   PP ....5789*************************************************************************************999876
+Escherichia_albertii_IGR_genome/500475-500569           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_albertii_IGR_genome/500475-500569   PP ....5789*************************************************************************************999876
+Escherichia_albertii_IGR_genome/48504-48410             ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTGCAGGTACACTCTGAAGTATTTTTTATTTA
+#=GR Escherichia_albertii_IGR_genome/48504-48410     PP ....5789*************************************************************************************999876
+Salmonella_bongori_IGR_genome/28927-28832               CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTATTTTTTCG---
+#=GR Salmonella_bongori_IGR_genome/28927-28832       PP 6899*************************************************************************************9988755...
+Salmonella_bongori_IGR_genome/480856-480761             CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTATTTTTTCG---
+#=GR Salmonella_bongori_IGR_genome/480856-480761     PP 6899*************************************************************************************9988755...
+Salmonella_enterica_IGR_genome/30733-30639              CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCCTTTCAGGTACACTCTGAAGTATTTTTTC----
+#=GR Salmonella_enterica_IGR_genome/30733-30639      PP 6899************************************************************************************9998875....
+Salmonella_enterica_IGR_genome/493625-493531            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCCTTTCAGGTACACTCTGAAGTATTTTTTC----
+#=GR Salmonella_enterica_IGR_genome/493625-493531    PP 6899************************************************************************************9998875....
+Salmonella_enterica_IGR_genome/512343-512249            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCCTTTCAGGTACACTCTGAAGTATTTTTTC----
+#=GR Salmonella_enterica_IGR_genome/512343-512249    PP 6899************************************************************************************9998875....
+Salmonella_bongori_IGR_genome/467486-467394             --TTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTATTTTTTC----
+#=GR Salmonella_bongori_IGR_genome/467486-467394     PP ..57999*********************************************************************************9998765....
+Kluyvera_intermedia_IGR_genome/426839-426924            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTTTTTGT---
+#=GR Kluyvera_intermedia_IGR_genome/426839-426924    PP ..........47899***********************************************************************9998887665...
+Kluyvera_intermedia_IGR_genome/495249-495334            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTTTTTGT---
+#=GR Kluyvera_intermedia_IGR_genome/495249-495334    PP ..........47899***********************************************************************9998887665...
+Kluyvera_intermedia_IGR_genome/508394-508479            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTTTTTGT---
+#=GR Kluyvera_intermedia_IGR_genome/508394-508479    PP ..........47899***********************************************************************9998887665...
+Citrobacter_tructae_IGR_genome/328606-328689            --------ATCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_tructae_IGR_genome/328606-328689    PP ........5568999***********************************************************************877654.......
+Citrobacter_tructae_IGR_genome/340551-340634            --------ATCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_tructae_IGR_genome/340551-340634    PP ........5568999***********************************************************************877654.......
+Citrobacter_tructae_IGR_genome/394740-394657            --------ATCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_tructae_IGR_genome/394740-394657    PP ........5568999***********************************************************************877654.......
+Citrobacter_freundii_IGR_genome/232608-232689           ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_freundii_IGR_genome/232608-232689   PP ..........47899**********************************************************************9877654.......
+Citrobacter_freundii_IGR_genome/292229-292148           ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_freundii_IGR_genome/292229-292148   PP ..........47899**********************************************************************9877654.......
+Citrobacter_freundii_IGR_genome/305033-304952           ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_freundii_IGR_genome/305033-304952   PP ..........47899**********************************************************************9877654.......
+Citrobacter_arsenatis_IGR_genome/518776-518857          ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_arsenatis_IGR_genome/518776-518857  PP ..........47899**********************************************************************9977654.......
+Citrobacter_arsenatis_IGR_genome/14278-14197            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_arsenatis_IGR_genome/14278-14197    PP ..........47899**********************************************************************9977654.......
+Citrobacter_arsenatis_IGR_genome/27561-27480            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCGCAGTGAACCTTTTCAGGTACACTCTGAAGTTTTCT-------
+#=GR Citrobacter_arsenatis_IGR_genome/27561-27480    PP ..........47899**********************************************************************9977654.......
+Kluyvera_intermedia_IGR_genome/521351-521427            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCTTAATGCAC--TCGTAAGTACATTCAGAAGTT-----------
+#=GR Kluyvera_intermedia_IGR_genome/521351-521427    PP .........357899*********************************************99887..678899***********9974...........
+Citrobacter_arsenatis_IGR_genome/52051-51975            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCTTAATGCAC--TCGAAAGTACATTCAGAAGTT-----------
+#=GR Citrobacter_arsenatis_IGR_genome/52051-51975    PP .........457899********************************************999886..679999**********99974...........
+Citrobacter_freundii_IGR_genome/310243-310167           ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCTTAATGCAC--TCGAAAGTACATTCAGAAGTT-----------
+#=GR Citrobacter_freundii_IGR_genome/310243-310167   PP .........357899********************************************999886..67999***********99974...........
+Citrobacter_tructae_IGR_genome/307839-307913            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAACTTCTTAATGCAC--TCGGAAGTACATTTAGAAGT------------
+#=GR Citrobacter_tructae_IGR_genome/307839-307913    PP ..........57899*******************************************9999876..56888899999999888886............
+Escherichia_fergusonii_IGR_genome/254394-254446         CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATA----------------------------------------------
+#=GR Escherichia_fergusonii_IGR_genome/254394-254446 PP 689*********************************************98743..............................................
+Shigella_flexneri_IGR_genome/19520-19469                CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/19520-19469        PP 689*********************************************9864...............................................
+Escherichia_coli_IGR_genome/403337-403388               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_coli_IGR_genome/403337-403388       PP 689*********************************************9864...............................................
+Escherichia_coli_IGR_genome/549461-549410               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_coli_IGR_genome/549461-549410       PP 689*********************************************9864...............................................
+Escherichia_coli_IGR_genome/574741-574690               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_coli_IGR_genome/574741-574690       PP 689*********************************************9864...............................................
+Escherichia_coli_IGR_genome/579247-579196               CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_coli_IGR_genome/579247-579196       PP 689*********************************************9864...............................................
+Shigella_flexneri_IGR_genome/421381-421432              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/421381-421432      PP 689*********************************************9864...............................................
+Shigella_flexneri_IGR_genome/483621-483570              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/483621-483570      PP 689*********************************************9864...............................................
+Shigella_flexneri_IGR_genome/491808-491757              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/491808-491757      PP 689*********************************************9864...............................................
+Shigella_flexneri_IGR_genome/509075-509024              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/509075-509024      PP 689*********************************************9864...............................................
+Shigella_flexneri_IGR_genome/513364-513313              CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Shigella_flexneri_IGR_genome/513364-513313      PP 689*********************************************9864...............................................
+Escherichia_fergusonii_IGR_genome/348275-348326         CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_fergusonii_IGR_genome/348275-348326 PP 6899********************************************9874...............................................
+Escherichia_fergusonii_IGR_genome/352307-352358         CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_fergusonii_IGR_genome/352307-352358 PP 6899********************************************9874...............................................
+Escherichia_fergusonii_IGR_genome/378988-378937         CGTTGTTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_fergusonii_IGR_genome/378988-378937 PP 6899********************************************9874...............................................
+Salmonella_enterica_IGR_genome/327642-327695            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_enterica_IGR_genome/327642-327695    PP 6899********************************************987543.............................................
+Salmonella_enterica_IGR_genome/420745-420798            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_enterica_IGR_genome/420745-420798    PP 6899********************************************987543.............................................
+Salmonella_enterica_IGR_genome/481356-481303            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_enterica_IGR_genome/481356-481303    PP 6899********************************************987543.............................................
+Salmonella_enterica_IGR_genome/516938-516885            CGTTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_enterica_IGR_genome/516938-516885    PP 6899********************************************987543.............................................
+Escherichia_albertii_IGR_genome/481007-481054           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_albertii_IGR_genome/481007-481054   PP ....5789****************************************9864...............................................
+Escherichia_albertii_IGR_genome/485037-485084           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_albertii_IGR_genome/485037-485084   PP ....5789****************************************9864...............................................
+Escherichia_albertii_IGR_genome/509109-509156           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_albertii_IGR_genome/509109-509156   PP ....5789****************************************9864...............................................
+Escherichia_albertii_IGR_genome/128907-128860           ----ATTCAGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Escherichia_albertii_IGR_genome/128907-128860   PP ....5789****************************************9864...............................................
+Salmonella_bongori_IGR_genome/324339-324390             --TTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_bongori_IGR_genome/324339-324390     PP ..57999*****************************************987543.............................................
+Salmonella_bongori_IGR_genome/406004-406055             --TTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_bongori_IGR_genome/406004-406055     PP ..57999*****************************************987543.............................................
+Salmonella_bongori_IGR_genome/458968-458917             --TTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_bongori_IGR_genome/458968-458917     PP ..57999*****************************************987543.............................................
+Salmonella_bongori_IGR_genome/485268-485217             --TTGTTCTGTGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Salmonella_bongori_IGR_genome/485268-485217     PP ..57999*****************************************987543.............................................
+Citrobacter_freundii_IGR_genome/284377-284305           ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT-CTCAAACGTCACCCGAAGGTAAGTTTTGA---------------
+#=GR Citrobacter_freundii_IGR_genome/284377-284305   PP ..........57899*********************************987543.33433333334445666666666655555...............
+Citrobacter_freundii_IGR_genome/331268-331196           ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT-CTCAAACGTCACCCGAAGGTAAGTTTTGA---------------
+#=GR Citrobacter_freundii_IGR_genome/331268-331196   PP ..........57899*********************************987543.33433333333445666666666555555...............
+Citrobacter_arsenatis_IGR_genome/431346-431418          ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT-CTCAAACGTCACCCGAAGGTAAGTTTTGA---------------
+#=GR Citrobacter_arsenatis_IGR_genome/431346-431418  PP ..........57899*********************************987543.33433333333445666666666655555...............
+Citrobacter_arsenatis_IGR_genome/6084-6012              ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT-CTCAAACGTCACCCGAAGGTAAGTTTTGA---------------
+#=GR Citrobacter_arsenatis_IGR_genome/6084-6012      PP ..........57899*********************************987543.33433333333445666666666655555...............
+Citrobacter_arsenatis_IGR_genome/33008-32936            ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT-CTCAAACGTCACCCGAAGGTAAGTTTTGA---------------
+#=GR Citrobacter_arsenatis_IGR_genome/33008-32936    PP ..........57899*********************************987543.33433333333445666666666655555...............
+Citrobacter_freundii_IGR_genome/148401-148444           ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATA----------------------------------------------
+#=GR Citrobacter_freundii_IGR_genome/148401-148444   PP .........357899*********************************98743..............................................
+Citrobacter_freundii_IGR_genome/386960-386917           ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATA----------------------------------------------
+#=GR Citrobacter_freundii_IGR_genome/386960-386917   PP .........357899*********************************98743..............................................
+Citrobacter_tructae_IGR_genome/256004-256046            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Citrobacter_tructae_IGR_genome/256004-256046    PP .........357899*********************************9874...............................................
+Citrobacter_tructae_IGR_genome/323797-323839            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Citrobacter_tructae_IGR_genome/323797-323839    PP .........357899*********************************9874...............................................
+Citrobacter_tructae_IGR_genome/479844-479802            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Citrobacter_tructae_IGR_genome/479844-479802    PP .........357899*********************************9874...............................................
+Kluyvera_intermedia_IGR_genome/458434-458478            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Kluyvera_intermedia_IGR_genome/458434-458478    PP .........357899*********************************987543.............................................
+Kluyvera_intermedia_IGR_genome/500152-500196            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Kluyvera_intermedia_IGR_genome/500152-500196    PP .........357899*********************************987543.............................................
+Kluyvera_intermedia_IGR_genome/55304-55260              ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Kluyvera_intermedia_IGR_genome/55304-55260      PP .........357899*********************************987543.............................................
+Kluyvera_intermedia_IGR_genome/133261-133217            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAATAT---------------------------------------------
+#=GR Kluyvera_intermedia_IGR_genome/133261-133217    PP .........357899*********************************987543.............................................
+Citrobacter_arsenatis_IGR_genome/104114-104073          ----------CGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Citrobacter_arsenatis_IGR_genome/104114-104073  PP ..........57899*********************************9874...............................................
+Citrobacter_tructae_IGR_genome/347313-347355            ---------TCGTTTCAATTTTCAGCTTGATCCAGATTTTTAAAGAGCAAAT-----------------------------------------------
+#=GR Citrobacter_tructae_IGR_genome/347313-347355    PP .........457899*********************************9864...............................................
+#=GC PP_cons                                            688999***8899***********************************998788*99999999999999999999999999999**9998889878886
+#=GC RF                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

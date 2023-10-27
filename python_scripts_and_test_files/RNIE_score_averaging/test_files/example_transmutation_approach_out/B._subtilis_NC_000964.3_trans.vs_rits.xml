@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._subtilis_NC_000964.3_trans.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>dnaA,dnaN</BlastOutput_query-def>
+  <BlastOutput_query-len>120</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.01</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>dnaA,dnaN</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.718</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.80175e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>3042</Hsp_hit-from>
+      <Hsp_hit-to>3161</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ACAGTGCTAAGATTAATTACATGCGGTTAGAAGGATTCGAGTGTACTACTTCGTTTCATCCTGCTAAAATAGAATCCAGATACTATTCGTGGCAAAATTTAAATTTAGGAATCAAAAAAA</Hsp_qseq>
+      <Hsp_hseq>ACAGTGCTAAGATTAATTACATGCGGTTAGAAGGATTCGAGTGTACTACTTCGTTTCATCCTGCTAAAATAGAATCCAGATACTATTCGTGGCAAAATTTAAATTTAGGAATCAAAAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>421558600</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>gyrA</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.565</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.0676e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>9421</Hsp_hit-from>
+      <Hsp_hit-to>9541</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>CGGCGGCGACGCGGACGGCGGCGGTGGCGGCGGCACACGGGGGGGCTCTGCTACGGGAGCTACTCTAAAAAACACATGAGGTTTAAAGTGCATGAGGGGGAAGACCAGAGGATGAAATACA</Hsp_qseq>
+      <Hsp_hseq>CGGCGGCGACGCGGACGGCGGCGGTGGCGGCGGCACACGGGGGGGCTCTGCTACGGGAGCTACTCTAAAAAACACATGAGGTTTAAAGTGCATGAGGGGGAAGACCAGAGGATGAAATACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>425774186</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.872</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.35368e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>14772</Hsp_hit-from>
+      <Hsp_hit-to>14890</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>CCCCAAATTTTTACACGCGCAGCCGTCTTCTTGGCTGGCTAAGGGTTTGCTATGGACGCTACCCAAAAAACAAACAAGGGGGACGGCGGCGGGTACACGGCTCAGAAAGCCCGGAAATA</Hsp_qseq>
+      <Hsp_hseq>CCCCAAATTTTTACACGCGCAGCCGTCTTCTTGGCTGGCTAAGGGTTTGCTATGGACGCTACCCAAAAAACAAACAAGGGGGACGGCGGCGGGTACACGGCTCAGAAAGCCCGGAAATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>417343014</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>guaB</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.258</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.41647e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>17363</Hsp_hit-from>
+      <Hsp_hit-to>17485</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>AGGTAGAGTGGAAATGAGGAGGGAACAAGTGGGAAGGGGGTGAAACGTGCCCATATACGTATACATAGAAAAAAAAGAGTACGAAGACGAGGGGAAAGAGTACAACACTGAACGGGGACATTA</Hsp_qseq>
+      <Hsp_hseq>AGGTAGAGTGGAAATGAGGAGGGAACAAGTGGGAAGGGGGTGAAACGTGCCCATATACGTATACATAGAAAAAAAAGAGTACGAAGACGAGGGGAAAGAGTACAACACTGAACGGGGACATTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434205358</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>yaaD,yaaE</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.878</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.08737e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>20762</Hsp_hit-from>
+      <Hsp_hit-to>20893</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>CCGGGGTCGCATAAACGAAACAAAATGGATGCCCACCTGGTCTCGCGCTATATCATTTAAAGACCCCGACGCCCTATAAAAAGAAAATCGAGGGATGGAGGGGGGGCCGCACAAATCTGACTAACGAGTCGG</Hsp_qseq>
+      <Hsp_hseq>CCGGGGTCGCATAAACGAAACAAAATGGATGCCCACCTGGTCTCGCGCTATATCATTTAAAGACCCCGACGCCCTATAAAAAGAAAATCGAGGGATGGAGGGGGGGCCGCACAAATCTGACTAACGAGTCGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>472145632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>yaaH</Iteration_query-def>
+  <Iteration_query-len>125</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.952</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>6.63266e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>23801</Hsp_hit-from>
+      <Hsp_hit-to>23925</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>ATGCAAGTTCGTTAATGAGAACAGATGTGGTTTAACCCACTTTTTGACGGGGGGGCGTCAAATTGGGAAGATCGGGTCATAAAAACGTGGTGAAGGGAACGATGCGTGCTGCTGCTTGCAAAACA</Hsp_qseq>
+      <Hsp_hseq>ATGCAAGTTCGTTAATGAGAACAGATGTGGTTTAACCCACTTTTTGACGGGGGGGCGTCAAATTGGGAAGATCGGGTCATAAAAACGTGGTGAAGGGAACGATGCGTGCTGCTGCTTGCAAAACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>442636530</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>metS</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.878</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.08737e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>47595</Hsp_hit-from>
+      <Hsp_hit-to>47726</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>TGCATCAAGTTGGGGCCTGTGGCGGAAGGGAGGACGAGGGTGGGGCCACAAATGTCACAGGTGGAATCATCGGTGTTAAAACACAAATCGTGGCGGGCCGCAAAAATGTAAGACAACAAACGTGTATGTCTC</Hsp_qseq>
+      <Hsp_hseq>TGCATCAAGTTGGGGCCTGTGGCGGAAGGGAGGACGAGGGTGGGGCCACAAATGTCACAGGTGGAATCATCGGTGTTAAAACACAAATCGTGGCGGGCCGCAAAAATGTAAGACAACAAACGTGTATGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>472145632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>yabG</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.258</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.41647e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>52518</Hsp_hit-from>
+      <Hsp_hit-to>52640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>AATACGCGGAACCAGACTTAAGAGGCATTGGAAGGTGCAACGGGGTTACTGAGCCGCGCTAGACTCCCAAAAAAGAAAAGTGAGGACGAGTGAGGAAAGTTCGGGTAACTCCGGTGAGGAACG</Hsp_qseq>
+      <Hsp_hseq>AATACGCGGAACCAGACTTAAGAGGCATTGGAAGGTGCAACGGGGTTACTGAGCCGCGCTAGACTCCCAAAAAAGAAAAGTGAGGACGAGTGAGGAAAGTTCGGGTAACTCCGGTGAGGAACG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434205358</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>veg</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.258</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.41647e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>52982</Hsp_hit-from>
+      <Hsp_hit-to>53104</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>TACGTGAAAGGACGACGTCTTCTGGCTATGCACCTGAAAAGGTCCCTGCACGGTTAAAACAAAGTACTAAAAACAAAACTTTAAAAAACCAAATTGGAGGAAAAGGTCGGGCAATTGATACGA</Hsp_qseq>
+      <Hsp_hseq>TACGTGAAAGGACGACGTCTTCTGGCTATGCACCTGAAAAGGTCCCTGCACGGTTAAAACAAAGTACTAAAAACAAAACTTTAAAAAACCAAATTGGAGGAAAAGGTCGGGCAATTGATACGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434205358</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>sspF</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NC_000964.3 Bacillus subtilis subsp. subtilis str. 168 complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>4215606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.258</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.41647e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>53333</Hsp_hit-from>
+      <Hsp_hit-to>53455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>CGGTGCTGGGACCTATGCGGATGCGGAGGTTCGAGGCCGACACGTTTCCCCCGTCACTACAATTTACCAAAAAAAGAAAACCGAGAGGGAGTGAGGACCCTACGGAGACCGAGACAATGATTA</Hsp_qseq>
+      <Hsp_hseq>CGGTGCTGGGACCTATGCGGATGCGGAGGTTCGAGGCCGACACGTTTCCCCCGTCACTACAATTTACCAAAAAAAGAAAACCGAGAGGGAGTGAGGACCCTACGGAGACCGAGACAATGATTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>4215606</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>434205358</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,4186 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>B._vallismortis_NZ_CP033052.1.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>IGR_0 0:409</BlastOutput_query-def>
+  <BlastOutput_query-len>409</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>0.00108695652173913</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>IGR_0 0:409</Iteration_query-def>
+  <Iteration_query-len>409</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>656.681</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>135731</Hsp_hit-from>
+      <Hsp_hit-to>136139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>ATCTTTTTCGGCTTTTTTTAGTATCCACAGAGGTTATCGACAACATTTTCACATTACCAACCCCTGTGGACAAGGTTTTTTCAACAGGTTGTCCGCTTTGTGGATAAGATTGTGACAACCATTGCAAGCTCTCGTTTATTTTGGTATTATATTTGTGTTTTAACTCTTGATTACTAATCCTACCTTTCCTCTTTATCCACAAAGTGTGGATAAGTTGTGGATTGATTTCACACAGCTTGTGTAGAAGGTTGTCCACAAGTTGTGAAATTTGTCGAAAAGCTATTTATCTACTATATTATATGTTTTCAACATTTAATGTGTACGAATGGTAAGCGCCATTTGCTCTTTTTTTGTGTTCTATAACAGAGAAAGACGCCATTTTCTAAGAAAAGGAGGGACGTGCCGGAAG</Hsp_qseq>
+      <Hsp_hseq>ATCTTTTCCGCCTTTTTTTAGTATCCACAGAGGTTATCGACAACATTTTCACATTACCAACCCCTGTGGACAAAAAATTTTCAACAGGTTGTCCGCTTTGTGGATAAGATTGTGACACCCATTGCAAGCTCTCGTTTATTTTGGTATTATATTTGTGTTTTAACTCTTGATTACGAATCTCACCTTCCCTCCTTATCCACAAACTGTGGATAAGTTGTGGATTGATTTCACACAGCTTGTGTAGAACGTTGTCCACAAGTTGTGAAATTTGTCGAAAAGCTATTTATCTACTATATTATATGTTTTCAACATTTAATGTGTACGAATGGCAAGCGCCATTTGCTCTTTTTTTGTGTTCTATAACAGAGAAGGATGCCATTTTCTACGAAAAGGAGGGACGTGCCGGAAG</Hsp_hseq>
+      <Hsp_midline>||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  ||||| |||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| || ||||||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1535840188</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>IGR_13 15794:15914</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.558</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.67264e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>151584</Hsp_hit-from>
+      <Hsp_hit-to>151700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TATTTCTTAATCCTTTCCGTTATCTAAATATTTCAACTCTTTCCCGCTTCCTTGACATGCTCTTGGCTAGTTGATAATCTACATATAATATTTTGCCGAAAAGAGGGGGATTTACTA</Hsp_qseq>
+      <Hsp_hseq>TATTTCTTTATCCTTTCCATTATCTAAATATTTCAACTCTTTTCCGCTTCCTTGACATGCTCTTGGCTAGTTGATAATCTACATATAATATTTTGCCGAAAAGAGGGGGATTTACTA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>395835200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>IGR_29 29705:29771</Iteration_query-def>
+  <Iteration_query-len>66</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.839</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>8.2023e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>165492</Hsp_hit-from>
+      <Hsp_hit-to>165557</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GTGGTCTAAACTCCTGGATCTTCTCATAAGCTTGTACTAGAACAAGCGAAGGAGATGAGAAGATTC</Hsp_qseq>
+      <Hsp_hseq>GTGGTCTAAACTCCTGGGTCTTCTCATAAGCTTGTACTAGAATAAGCAAAGGAGATGGGAAGATTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||||||||||||| |||| ||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>186042591</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>IGR_46 45138:45632</Iteration_query-def>
+  <Iteration_query-len>494</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>494</Hsp_query-to>
+      <Hsp_hit-from>180975</Hsp_hit-from>
+      <Hsp_hit-to>181469</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>460</Hsp_identity>
+      <Hsp_positive>460</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>495</Hsp_align-len>
+      <Hsp_qseq>TCTCCTCCCAAGAGATACTTATTTGTTTAAATTATATTTTTCTTCGTCATTATTCGACAAAATCCTTACCTTCATAGCATAACAAGGTTTCCAATAATCGTCAATCATTTTGTTTACTATTGATTGTAAGAATTAGTTCTTATAGTCAGTAATGTCTTGGAAACTACCGAAATAACAGCATTTTATAAATATTTAATAAAGCTATTATCCTACTAAAAATCCTTTTAAATCAAGACTTTCGAACCAAAGTTTTTTATTTCATTTGATTATATACGACAAAATTCGACACGAACAGACTTTTTTTATTTTCATTAAAGATTTTTAATTTTAATTATTCTTTTTCAGGGCGTATGTATATATTCTTGATCTTAAAGGCTAAGATGGTATCATAGATAAAGGATAAATATAAATAATATTCATA-TATGATTTGCACTTATCGCCGCTCTCGTCCTTTGGGCGGGAGCTTTTTGACATTCTGATTAGGAGGTTTCAAG</Hsp_qseq>
+      <Hsp_hseq>TCTCCTCCCAAGAGATGATTATTTGGTTGAATTATATTTTTCTTCGTCATTATTCGACAAAATCCTTACCTTCATAGCATAACAAGGTTTCCAATAATCGTCAATCATTTTGTTTGCTATTGATTGTAAGAATTAGTTCTTATAGTCAGTAATGTATCAGAAACTACTGAAATAACAGCTTTTTATAAACTTTTAATAAAGCTATTATCCTACTAAAAATCCTTTTAAATCAAGACTTTTGAACTAAGGTTGTTTATTTTATTTGATTATATACGACAAAATTCGACATGAACAGACTTTTTTTACTTTCATAAAAGATTTTTCAAATTCATTATTCTTTTCCTTGGCACACGTATATATTCTTGATCTTAAAGGCTAAGATGGTATCATAGATAAAGGATAAATATAAATAATCATCATTTTATGATTTGCACTTATCGCCGCTCTCGTCCTTTGGGCGGGAGCTTTTTGACATTCTGATTGGGAGGTTTCAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  ||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |  |||||||| ||||||||||| |||||||||  |||||||||||||||||||||||||||||||||||||||||||||||| |||| || ||| ||||||| |||||||||||||||||||||||||||| |||||||||||||||| |||||| |||||||||| |  || ||||||||||| |  |||  | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>22</Statistics_hsp-len>
+      <Statistics_eff-space>1868341200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>IGR_58 58698:58782</Iteration_query-def>
+  <Iteration_query-len>84</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.88481e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>194538</Hsp_hit-from>
+      <Hsp_hit-to>194617</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>ATTTTTCGAGGTTTAAATCCTTATCGTTATGGGTATTGTTTGTAATAGGACAACTAAAACGACAAGAGGATGGTGCTGAAT</Hsp_qseq>
+      <Hsp_hseq>ATTTTTAAAGGTTTAGATCCTTGTCGTTATGGGTATTGTTTGTAATAGGACAA-TAAAACGATAATAGGATGGTGCTGAAT</Hsp_hseq>
+      <Hsp_midline>||||||  ||||||| |||||| |||||||||||||||||||||||||||||| |||||||| || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>257292945</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>IGR_65 68137:68215</Iteration_query-def>
+  <Iteration_query-len>78</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.72319e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>203976</Hsp_hit-from>
+      <Hsp_hit-to>204053</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GCTTGTTCTAAAAAAACCCCCCACCTCATACAATGCAGTAATAATGCTAAAAGTATCGAGGATATGGGGGCTGAATAG</Hsp_qseq>
+      <Hsp_hseq>GCTTGTTCTAAAAACATCCCCCGCCTCATACAATGCAGTAATAATGCTAAAAGTATCGAGGATATGGGGGCTGAATAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>233542827</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>IGR_73 76886:76983</Iteration_query-def>
+  <Iteration_query-len>97</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.245</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>1.69967e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>212725</Hsp_hit-from>
+      <Hsp_hit-to>212821</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>TCGGCAGCCTGCTTCCGAGATGGTTATTGTTTGTATTGGAATGATTTTCTATGGTACTATTGAACATAGTTGTGCTTACTGTGGGAGGAGGTAAGGA</Hsp_qseq>
+      <Hsp_hseq>TCGGCAGCCTGCTTCCGAGATGGTTATTGTTTGTATTGGAATGATTTTCTATGGTACTATTGAACATAGTTGTGCTTACTGTGGGAGGAGGTAAGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>308751534</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>IGR_81 88635:88726</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.086</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>7.35132e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>224473</Hsp_hit-from>
+      <Hsp_hit-to>224563</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TACTCACCTCTATTTGCTGCTCACTGCTAGTTTTACGCTGGCAGTTTTTCTGCTTTTTTCATGAAACAATATCTGTAATGGAGTGATAACA</Hsp_qseq>
+      <Hsp_hseq>TACTCACCTCTATTTGCTGCTCACTGCCAGTTTTATGCTGGCAGTTTTTCTGCTTTTTTCATGAAACAATATCTGTAATGGAGTGATAACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>285001416</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>9</Iteration_iter-num>
+  <Iteration_query-ID>Query_9</Iteration_query-ID>
+  <Iteration_query-def>IGR_107 116537:116599</Iteration_query-def>
+  <Iteration_query-len>62</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.67997e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>252530</Hsp_hit-from>
+      <Hsp_hit-to>252591</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GTTGACGCTTTTTTGCCCAATACTGTATAATATTTCTATCTACGTGCGCCGGGGGGATCGGA</Hsp_qseq>
+      <Hsp_hseq>GTTGACGCTTTTTTGCCCAATACTGTATAATATTTCTATCTACGTGCGCCGGGGGGATCGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>170209179</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>10</Iteration_iter-num>
+  <Iteration_query-ID>Query_10</Iteration_query-ID>
+  <Iteration_query-def>IGR_118 125500:125561</Iteration_query-def>
+  <Iteration_query-len>61</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.766</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.41474e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>261491</Hsp_hit-from>
+      <Hsp_hit-to>261551</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>TCTCTAGTTATAAAGGCAAGTGACATCGGTTAATCCGAAGATAAAAAGGGAGGTAGGCCCC</Hsp_qseq>
+      <Hsp_hseq>TCTCTAGTTATAAAGGCAAGTGACATCGGTTAATCCGAAGATAAAAAGGGAGGTAGGCCCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>166250826</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>11</Iteration_iter-num>
+  <Iteration_query-ID>Query_11</Iteration_query-ID>
+  <Iteration_query-def>IGR_125 135127:135363</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.23</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>5.48893e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>271116</Hsp_hit-from>
+      <Hsp_hit-to>271351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TAGATCCTTGATAAATAAGAAAAACCCCTGTATAATAAAAAAAGTGTGCAAATCATGCATATTTTAAATAAGTCTTGCAACATGCGCCTATTTTCTGTATAATGGTGTATGTTGGTCTTTGACTGCGATGAAGTGAGAGGTTGCTGACACACCCGGCCGCTTTGCCATGGCAAGGTGTTCAGGTTTTTCTCACGGAGAACTGTCTAACGTGATGTAGGCGAAAAGGAGGGAAAATA</Hsp_qseq>
+      <Hsp_hseq>TAGGTCCTTGATAAATAAGAAAAACACCTGTATAATAAAAAAAGTGTGCAAATCATGCATATCTTAAATAAGTCTTGCAACATACGTCTATTTTCTGTATAATGGTGTATGTTGGTCTTTGACTGCGATGAAGTGAGAGGTTGCTGACACACCCGGCCGCTTTGCCATGGCAAGGTGTTCAGGTTTTTCTCACGGAGAACTGTCTAACGTGATGTAGGCGAAAAGGAGGGAAAATA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>851045465</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>12</Iteration_iter-num>
+  <Iteration_query-ID>Query_12</Iteration_query-ID>
+  <Iteration_query-def>IGR_152 149875:149952</Iteration_query-def>
+  <Iteration_query-len>77</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.999</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.16024e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>285865</Hsp_hit-from>
+      <Hsp_hit-to>285938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>CTAGTTTCCCTTGTGAACTAGGATTTTCGTGTGTTTATTATTCAGAAACAGCATTCCAATAAAGGAGGGGACATCA</Hsp_qseq>
+      <Hsp_hseq>CTAGTTTCCCATGTGAACTAGGATTTTCGTGTGTTTATTAT-CAG-AACAGCATTCCAATAAAGGAGGGGACATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>229584474</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>13</Iteration_iter-num>
+  <Iteration_query-ID>Query_13</Iteration_query-ID>
+  <Iteration_query-def>IGR_171 165902:165958</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.6796</Hsp_bit-score>
+      <Hsp_score>42</Hsp_score>
+      <Hsp_evalue>3.02554e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>308114</Hsp_hit-from>
+      <Hsp_hit-to>308168</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AATGTATTATTACCAAGGTTTCTC-ATAAGGAGAAAGCTTTTTTTATTGCGATAT</Hsp_qseq>
+      <Hsp_hseq>AAGGTATTATTATCAAGGTTTCTCAAAAAGGAGAAAGCTTTTTTTATTGCGATAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| ||||||||||| | ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>146459061</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>14</Iteration_iter-num>
+  <Iteration_query-ID>Query_14</Iteration_query-ID>
+  <Iteration_query-def>IGR_189 189733:189789</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.2865</Hsp_bit-score>
+      <Hsp_score>25</Hsp_score>
+      <Hsp_evalue>8.532e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>332166</Hsp_hit-from>
+      <Hsp_hit-to>332217</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>AGGCTAGCCCCTTTCTGTGCTTCTATCCCGTTTACTATCCCTAAAACAGAAAC</Hsp_qseq>
+      <Hsp_hseq>AGGTTTGCTCCTTTCCTTGCGTTTATCCTG-TTACTATCCCTAAAACAGAAAC</Hsp_hseq>
+      <Hsp_midline>||| | || ||||||  ||| | ||||| | ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>146459061</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>15</Iteration_iter-num>
+  <Iteration_query-ID>Query_15</Iteration_query-ID>
+  <Iteration_query-def>IGR_206 202266:202546</Iteration_query-def>
+  <Iteration_query-len>280</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1025212909</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>16</Iteration_iter-num>
+  <Iteration_query-ID>Query_16</Iteration_query-ID>
+  <Iteration_query-def>IGR_212 210514:210571</Iteration_query-def>
+  <Iteration_query-len>57</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1396</Hsp_bit-score>
+      <Hsp_score>39</Hsp_score>
+      <Hsp_evalue>1.44569e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>352911</Hsp_hit-from>
+      <Hsp_hit-to>352965</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TGAGACGAAATCACAAA-TAGAATATGCCAATTTTT-TTGCTCAGGAGATGTATTA</Hsp_qseq>
+      <Hsp_hseq>TGAGACGAAATCACAAAATAGAATATGC-AATTTTTGTTGCTCAGGAGAGGTTTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||| ||||||| |||||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>150417414</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>17</Iteration_iter-num>
+  <Iteration_query-ID>Query_17</Iteration_query-ID>
+  <Iteration_query-def>IGR_219 217632:217696</Iteration_query-def>
+  <Iteration_query-len>64</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>178125885</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>18</Iteration_iter-num>
+  <Iteration_query-ID>Query_18</Iteration_query-ID>
+  <Iteration_query-def>IGR_227 224932:225063</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.466</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.14137e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>360364</Hsp_hit-from>
+      <Hsp_hit-to>360491</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>CAAACAACCTCCTTTTATTTCCATCATACATAATAACGATTTAG-GTGTAAATAAATGTTTTTTGAGGTTAATATATACATTATATTCGCCGATAAAAAAGAATAAGAGAGAATAC-TCGGGAGGGAAT</Hsp_qseq>
+      <Hsp_hseq>CAAACAACCTCCTTTTATTTCCATCATACATAATAATG-TTCACTGTGTAAATAAATGTTTTTATAGGTTAATATATACATTGGGTTTGCCGATAAAAAAGAGTAAGAGAAAATTGTTCAGGAGGGAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||| | || |  ||||||||||||||||||  |||||||||||||||||   || |||||||||||||| ||||||| |||   || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>439377072</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>19</Iteration_iter-num>
+  <Iteration_query-ID>Query_19</Iteration_query-ID>
+  <Iteration_query-def>IGR_238 235873:235964</Iteration_query-def>
+  <Iteration_query-len>91</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>4.51926e-22</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>371338</Hsp_hit-from>
+      <Hsp_hit-to>371420</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>CACTTTCTAACATATCGTTGACTAAAGCAACTATATGTGATTATAATTGCTTTAGTCAACGATATTAGAAAGTGGGAATTGAT</Hsp_qseq>
+      <Hsp_hseq>CACTTTCTAAGATATCGTTGACTATGGCAACTATATTTGGTTATAATTGCCTTAATCAACGATACAAGAAAGTGGGGATTGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||  |||||||||| || |||||||||| ||| |||||||||  |||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>285001416</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>20</Iteration_iter-num>
+  <Iteration_query-ID>Query_20</Iteration_query-ID>
+  <Iteration_query-def>IGR_246 247548:247743</Iteration_query-def>
+  <Iteration_query-len>195</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.418</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>2.86565e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>381340</Hsp_hit-from>
+      <Hsp_hit-to>381531</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>AGGAACATGAAAAGATTGGCATTCATTTTTCAAAAGGTAACAAATGTTGTATAATAATAGAATTTGAATGCTGCTTTTTTTGGGAGCATTCTATGTTATCATGCTTATTGGAGAAAAATTTTTCCTGTAACGCTATTCGATCACTATCGTCAAATAAT-ATAGATGGTTTTACAATTGGAGGTTTGGTTACACT</Hsp_qseq>
+      <Hsp_hseq>AGAAACAAGAAAAGAATGGCATTCATTTTTCAAAAGGTAACAAATGTTGTATAATAATAGAATTTGAGTGCTGCTTTTTGTCGG-GCATTTTATGTTATTATGCTTAATAGAG-AAAATTTTTCCTGTAACGCTATTCGGCCCATAACGTCGAATAATGATAGATGGTTTTACAATTGGAGGTTTGGTTACACT</Hsp_hseq>
+      <Hsp_midline>|| |||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| | || ||||| |||||||| ||||||| | ||| |||||||||||||||||||||||||  |  || |||| |||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>692711600</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>21</Iteration_iter-num>
+  <Iteration_query-ID>Query_21</Iteration_query-ID>
+  <Iteration_query-def>IGR_258 261535:261655</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.939</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>1.68452e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>395505</Hsp_hit-from>
+      <Hsp_hit-to>395624</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>CTTTTTCCAACTTTCTATCAGCGATTTATTTCCTTCCTAATAAAAAATCTCATGTCAGAAAGTGACACGAGACTCCGGCGAACCGGCTTTAAGTTAGAATATACAAACTATTCCGATAAG</Hsp_qseq>
+      <Hsp_hseq>CTTTTTCCAACTTTCTATCGGCGATTTATTTCCTTCCTAATAAAAAATCTCATGTCAGCGAGTGACACGAGATTCCGGCGAACCGGCTTTTAGATAGAATATACAAACAATTCCGATAAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||  |||||||||||| ||||||||||||||||| || |||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>395835200</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>22</Iteration_iter-num>
+  <Iteration_query-ID>Query_22</Iteration_query-ID>
+  <Iteration_query-def>IGR_267 273167:273236</Iteration_query-def>
+  <Iteration_query-len>69</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.919</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.03112e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>407133</Hsp_hit-from>
+      <Hsp_hit-to>407201</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GTTTGATTGTAAATATTGTCATATCCGCTATTTTGTCTTACAATTGAACAACTGAAGGGAGAGTTGTTC</Hsp_qseq>
+      <Hsp_hseq>GTTTGATTGCAAATATTGTCATACCGGCTATTTTGTCTTACAATTGAACAACTGAAGGGAGAGTTGTTC</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||||| | |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>197917650</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>23</Iteration_iter-num>
+  <Iteration_query-ID>Query_23</Iteration_query-ID>
+  <Iteration_query-def>IGR_277 282155:282468</Iteration_query-def>
+  <Iteration_query-len>313</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.159</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.3211e-35</Hsp_evalue>
+      <Hsp_query-from>224</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>414977</Hsp_hit-from>
+      <Hsp_hit-to>415066</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>ATGAATAAATTTAAAAACTTCTCCTGTCCCTCCGTCATCACTTCTGAAGTAATGAAATATGATGAAAAGAGATCAAGGGGAGGTGACGTG</Hsp_qseq>
+      <Hsp_hseq>ATGAATAAATTTACAAACTTCTCCTGTCCCTCCGTCATCACTTTTGAAGTCATGAAATATGATGAAAGGAGATCAAGGGGAGGTGACGTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||||||||||||||||||||||||||| |||||| |||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1155838492</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>24</Iteration_iter-num>
+  <Iteration_query-ID>Query_24</Iteration_query-ID>
+  <Iteration_query-def>IGR_287 292042:292204</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.386</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.16064e-31</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>423994</Hsp_hit-from>
+      <Hsp_hit-to>424100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>TCT-GAATCTTAAAATTTCTTTAAAAATAAGCCAAAATTACCCTTTACTTAATTAATTTGGTAACGTAATATAATTGGAGAATTTGTTACAAAAAAAGGAGGATATT</Hsp_qseq>
+      <Hsp_hseq>TCTCGAATCTTAAATTCTCTTTAAAAATAAGGTAAAATTACCCTTCTCATAATTAATTTGGTAATGTAATATATTTGAAGAATTTGTTACAAAAAAAGGAGGAAATT</Hsp_hseq>
+      <Hsp_midline>||| |||||||||| | ||||||||||||||  ||||||||||||  | ||||||||||||||| |||||||| ||| ||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>562085984</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>25</Iteration_iter-num>
+  <Iteration_query-ID>Query_25</Iteration_query-ID>
+  <Iteration_query-def>IGR_300 304307:304429</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>1.32826e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>436189</Hsp_hit-from>
+      <Hsp_hit-to>436310</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>ATCGGTCTCACTTTCTCAAGATGTGCTGAATGTTAACGCTTTTAAGTGATTGACTCTCTCTAAAAGCGAACAGCTATGATAAAATATAACATAAATAGTAGCAGGAGGAAGGAGGCAGACCG</Hsp_qseq>
+      <Hsp_hseq>ATCGGTCTCACTTTCTCATGATGTGCTGAATGTTTTCGCTTTTAAGCGATTGACTCTCTCTAAAAGAGAACAGCTATGATAAAATATAACATAAATAGTATCTGGAGGAAGGAGGCAGACCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||||  |||||||||| ||||||||||||||||||| ||||||||||||||||||||||||||||||||| | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>403751904</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>26</Iteration_iter-num>
+  <Iteration_query-ID>Query_26</Iteration_query-ID>
+  <Iteration_query-def>IGR_315 320723:321012</Iteration_query-def>
+  <Iteration_query-len>289</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>7.66201e-35</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>455768</Hsp_hit-from>
+      <Hsp_hit-to>455865</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>TATAAAGAAATGGTACAGAATAAAAGAGAATATGCTGTTTGTGTGGGAAGTTACATAAATGTTACGGTAATAAAGATTGCTTAATATGGAGGGAAAAT</Hsp_qseq>
+      <Hsp_hseq>TATAAAGAAATGATACAGAATAAAAGAGTATATGCTGTTTGTATGAAATGTTACATAAATGTTACGGTTATAAAGATTGCTTAATATGGAGGGAAAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||||||||||| ||||||||||||| ||  | ||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1060838068</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>27</Iteration_iter-num>
+  <Iteration_query-ID>Query_27</Iteration_query-ID>
+  <Iteration_query-def>IGR_324 333979:334091</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.546</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.3703e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>487570</Hsp_hit-from>
+      <Hsp_hit-to>487681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>TTGTTCTACCTCCTCTTACTTTTCTATGTAAGTTCTGATATCATGATAATAGTTTGAT-TGTTGAATATCTCGATTATCAAGATAAACTCGATTTTATAGGGAGGACTGTCAG</Hsp_qseq>
+      <Hsp_hseq>TTGTTCTACCTCCTCTTACTTTTCTATGTAAGTTTTGATATGATGATAATAGTTT-ATCTATCGAATATCTTGATTATCGAGATAAATTTGATTTTATAGGGAGGACTGTCAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||| |||||| ||||||||||||| || | | |||||||| ||||||| ||||||| | |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>364168384</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>28</Iteration_iter-num>
+  <Iteration_query-ID>Query_28</Iteration_query-ID>
+  <Iteration_query-def>IGR_329 338158:338287</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.232</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.74553e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>491750</Hsp_hit-from>
+      <Hsp_hit-to>491876</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>TCTCTCTT-GTTCACAGTGAATGAAGACCTGTGCTATATTTAATAGGGATACATAACAGTCATGATTCATTTTCATTGATTTAGGGAAATGATCAG-TAATAAGG-GAAAATGTACAGGAGGAATGA</Hsp_qseq>
+      <Hsp_hseq>TCTCTCTTAATTCACTGTAAATGAAAACCTGTGCTATATTTAATAGGGATACATAACGATCATGATTCATTTCCATTCATTTAGGGAAATGATCAAATAAGAATCAGTGATTGTACAGGAGGAATGA</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||| || |||||| |||||||||||||||||||||||||||||||  ||||||||||||| |||| |||||||||||||||||  ||| ||   |  | ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>431460368</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>29</Iteration_iter-num>
+  <Iteration_query-ID>Query_29</Iteration_query-ID>
+  <Iteration_query-def>IGR_335 343494:343577</Iteration_query-def>
+  <Iteration_query-len>83</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.153</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.57337e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>496416</Hsp_hit-from>
+      <Hsp_hit-to>496498</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TAAATGTGAAAAGCCGCCGCATATCATCAGGCGGTTTTTTTCTGCAAACTGCCGGAATGAGAACAGACTGGAGACGAATAGAT</Hsp_qseq>
+      <Hsp_hseq>TAAACTTGAAAAGCCGCCGCACCTCATCAGGCGGTTTTTTTCTGCAAACTGCCGGAATGAAACCAGACTGGAGACGAATAGAT</Hsp_hseq>
+      <Hsp_midline>||||  |||||||||||||||  ||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>253334592</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>30</Iteration_iter-num>
+  <Iteration_query-ID>Query_30</Iteration_query-ID>
+  <Iteration_query-def>IGR_347 358181:358302</Iteration_query-def>
+  <Iteration_query-len>121</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.098</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.63106e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>511546</Hsp_hit-from>
+      <Hsp_hit-to>511665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>CAGATGATCCGCTCCTTATCAAATGTTTTTTCCAGCGTAGCACAGCAAAAAGGAATATTTAAGATACATGTTATAAAATGTAACAAAATATACGAAAAGTTCTAAAAATTTTATGAAAAAT</Hsp_qseq>
+      <Hsp_hseq>CAGATGATCCGCTCCTTATC-AATGTTTTTTCCAGCGTAGCACAGCAAAAAGAAATATTTAAGATGCATGTTATAAAATGTAACAAAATATACGAAAAGTTCTAAAAATTTTATGAAAAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>399793552</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>31</Iteration_iter-num>
+  <Iteration_query-ID>Query_31</Iteration_query-ID>
+  <Iteration_query-def>IGR_355 368858:369019</Iteration_query-def>
+  <Iteration_query-len>161</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.092</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>8.54263e-47</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>523241</Hsp_hit-from>
+      <Hsp_hit-to>523390</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>TTCCCCCAATCTGTTAATCAACTAAAAAGATAGCATTGAACATAAGGGGTTGCAATATGTTGATCGCGTTTTCAAAAAGTTCGAATTGTGTATACAAAAAGCATGGGTGGGTGTTTAAAAGCGTCTATGAAGGGAAGAGGTGATGAAAAAAGGA</Hsp_qseq>
+      <Hsp_hseq>TTCCCCCAATCTTTTAATCAACTAAAAAGATAGCATTGAACATAAGGGGTTGCAATATGTTGAGCTCGTTTTCAAAAAGTTAGAATTGTGTAGACAAAT-GCGT--GTGCACGTTTAAAAGCTGCTATGAAGGGAAGGAGTGAT-AAAAAAGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| | ||||||||||||||| |||||||||| |||||  || |  |||   ||||||||||  |||||||||||||  ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>558127632</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>32</Iteration_iter-num>
+  <Iteration_query-ID>Query_32</Iteration_query-ID>
+  <Iteration_query-def>IGR_860 937831:937899</Iteration_query-def>
+  <Iteration_query-len>68</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.1461</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>1.10618e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1119420</Hsp_hit-from>
+      <Hsp_hit-to>1119486</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>AAATTTTTAAAAAAGAGGAATAGCTATACGATCACCTGCACATTCTAATGACCGTGGAGGTGATAACA</Hsp_qseq>
+      <Hsp_hseq>AAATTTTT-AAAAAGAGGAATAGCCATACCGTCACCTGCACATTCTAATGATCGTGGAGGTGATAACA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||||||||||||||| ||||  |||||||||||||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>193959297</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>33</Iteration_iter-num>
+  <Iteration_query-ID>Query_33</Iteration_query-ID>
+  <Iteration_query-def>IGR_869 945312:945519</Iteration_query-def>
+  <Iteration_query-len>207</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.897</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>2.9608e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>1126907</Hsp_hit-from>
+      <Hsp_hit-to>1127113</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>GTCCATCCCCCTCTG-TTTTAACTATAGCACAAACCCGATGGGATTTTCTTCATGTTTTCGGTTGAACTGGAATTTACATATGGAGAGTTACTGTGAAATTGTTTATAATAGTTCAATGTGTTTAGAA-AAAAGGAATTTCGTTTTAACCATAGAATTGAATCAAATAGAGAATAAAAAAATTTGAACAATTGCATTGGAGGAATAGTG</Hsp_qseq>
+      <Hsp_hseq>GTCCATCCCCCTCTGACTTTAACTATAGCACAAACCCAATGGGATTTTCTTCATCTTTTCGATTGAACTGGAATTTACATATGGAGACTTATAGTGAAATTGTTTATAATAGTTCAATGTGTTTAGAATAAAAGGAATTTCGTTATAACCATAGAATTGAATCAAATAGAGA-TAAAAAAA-TTGAACAATTGCATTGGAGGAATAGTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||  |||||||||||||||||||| |||||||||||||||| |||||| ||||||||||||||||||||||||| |||  ||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>736253286</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>34</Iteration_iter-num>
+  <Iteration_query-ID>Query_34</Iteration_query-ID>
+  <Iteration_query-def>IGR_894 955762:955894</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.319</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.90005e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>1137372</Hsp_hit-from>
+      <Hsp_hit-to>1137494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>TTATTGTCTTGCTGGGCAATAATATGTTTCTTTCTGACTGTAACCGGGTTCATTTATATGAATCCGGTTTTTTGTGCTGGTTATGGGCTTGATTTTGTCCTTTCAAACGTAGAAAGGGGAAGGA</Hsp_qseq>
+      <Hsp_hseq>TTATTGCCGTCCTGGGCGATAATATGTTTCTTTCTGACTGTAACCGGGTTCATTCTT-TGAATCCGGTTTTTTGTGCTGGTAATGAGCTTGATTTTGTCCTTTCAAACGAAGAGAGGGGAAGGA</Hsp_hseq>
+      <Hsp_midline>|||||| | | |||||| ||||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||||| ||| ||||||||||||||||||||||| ||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>443335424</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>35</Iteration_iter-num>
+  <Iteration_query-ID>Query_35</Iteration_query-ID>
+  <Iteration_query-def>IGR_905 966871:967064</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.424</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.68102e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1142842</Hsp_hit-from>
+      <Hsp_hit-to>1143034</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>CATGACGTCTGTCCCCTTCACAATCTCGATTGATTATATTGTATAGTATACTTAACATTATGTAAATGGAACTTAACAACTTTACAAAAAGATAACTTTTTTTCGACAAAATTTTTATATTCCCTTGACGAAAAATAAATAAACATGTAATATAAAAAAAGTCAGAGCGGTACTGTTGCTGACAATCACAAAT</Hsp_qseq>
+      <Hsp_hseq>CATGACGTCTGTCCCCTTCACAATCTCATTTGGTTATATTGTATAGTATACTTAACATTTTGTAAATGTGGCTTAACATCTTTACAAAAAGAAGACATTTTTTCGACAAAATTTTTATATTCCCTTGACGAAAAAACAATAAACATGTAATATAAAAAAAGTCAGAGCGATACTGTTGCTGACAATCAAAAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||  ||| |||||||||||||||||||||||||| ||||||||   ||||||| |||||||||||||  || ||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||| |||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>684794896</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>36</Iteration_iter-num>
+  <Iteration_query-ID>Query_36</Iteration_query-ID>
+  <Iteration_query-def>IGR_914 976409:976568</Iteration_query-def>
+  <Iteration_query-len>159</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.878</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.05899e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1151831</Hsp_hit-from>
+      <Hsp_hit-to>1151989</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TGAAAAGCCCATTTCAGGGCTTTTTTTTATTTAATAAAAGCAAGAAAACGCTTGCGAAAAAAATACGGGAGAAAAAGAAATTTTTCCTTTGACAAATCTTCTTTCATTTATTAATATTTTATCTTGTGAACTATTATTGAGGAATGAGGTGAAAAGGAG</Hsp_qseq>
+      <Hsp_hseq>TGAAAAGCCCATTTCAGGGCTTTTTTTAATTTAATAAAAGTAAGAAAACGGTTGCGAAAAAAATACGAGAAGAAAAGACATTTTTCCTTTGACAAATCTCCTTTCATTTATTAATATTTTATCTTGTGAACTATTATTGAGGAATGAGGTGAAAACGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||| |||||||||||| ||||||||| |||||||||||||||| ||  |||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>550210928</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>37</Iteration_iter-num>
+  <Iteration_query-ID>Query_37</Iteration_query-ID>
+  <Iteration_query-def>IGR_932 996532:996642</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>5.49145e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1173590</Hsp_hit-from>
+      <Hsp_hit-to>1173690</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>CTCCTTTTCGAAGCGGAAGGCTGCTGTTTCTCATAGGAAACACTTACCTTAGCTTTCGCGTTTTTTTCTGTGCTATTCTTGAGTAAGACTTAGGATATTCG</Hsp_qseq>
+      <Hsp_hseq>CTCCTTTTCAAAGCGGAAGGCCGCTGTTTCTCATAGGAAACACTTACCTTAGCTTTCGGGTTTTTTTCTGTGCTATTCTTGAGTAAGAGTTAGGATATTCG</Hsp_hseq>
+      <Hsp_midline>||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>356251680</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>38</Iteration_iter-num>
+  <Iteration_query-ID>Query_38</Iteration_query-ID>
+  <Iteration_query-def>IGR_945 1011226:1011426</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.571</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.06012e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1188933</Hsp_hit-from>
+      <Hsp_hit-to>1189128</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>GAATCGCTTCTCCTTTCTTGGGTGAGAAGTTCATGATTAGTTTATGCCGCATCCTCTGTTATTGACGGGGCAAAACTTGCCGTCTGCGTCAGTAAAGGGGTAGCAATATGAGGGAGACATAAAATCAAAATGCCTGAATGAAGATATCGCTTTTGGTAAACCTATGAGGGAATATATTCTGGGTACAGGAGACTGAAAA</Hsp_qseq>
+      <Hsp_hseq>GAATCGCTTCTCCTTTCTT--GTGAGAAGTTCATGATTAGTTTATGCCGCATCCCATGTTATTGACGTTGCAAAACTTGGCGTCTGCGGCAGTACA-GGGTAGCAATAAGAGGGAGACATAAAATCAAAATGCCTGAATGAAGCCATTGCTTTTGGAAAACCTATGAGAGAACTTAATCTAGGCACAGGAGACTGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||  |||||||||||||||||||||||||||||||||  |||||||||||  |||||||||| |||||||| ||||| | ||||||||||| ||||||||||||||||||||||||||||||||||  || |||||||| ||||||||||| |||  || ||| || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>712503360</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>39</Iteration_iter-num>
+  <Iteration_query-ID>Query_39</Iteration_query-ID>
+  <Iteration_query-def>IGR_952 1020002:1020072</Iteration_query-def>
+  <Iteration_query-len>70</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.9128</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>6.92925e-19</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>1197694</Hsp_hit-from>
+      <Hsp_hit-to>1197755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>AGAAAACCCGTTCATTGGAACGGGTTTTTTTCATTAGACGGAGCACAGGCGTTTTGGTTGCT</Hsp_qseq>
+      <Hsp_hseq>AGGAAACCCGTTCATAGGAACGGGTTTTTTTCATTAGACGGAGCACATCCGCTTTGGTTGCT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||| |||||||||||||||||||||||||||||||  || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>201876003</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>40</Iteration_iter-num>
+  <Iteration_query-ID>Query_40</Iteration_query-ID>
+  <Iteration_query-def>IGR_960 1030068:1030264</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.664</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.68614e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1207953</Hsp_hit-from>
+      <Hsp_hit-to>1208148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TGCCTTTTCTCCCCTCTATGTTATACACGCATAAGAAAGGTTTAAAGTTGCACATTACATGCAAACGGCTTTTTTATACCTAATCAAACACCATTACTATATAGTACCCAAAAATGGCCGCAAAAGATAGTGCGGAGAAAGGTTTAACATTTTTTCCAGAGGGGAAAAGATAGTGAAAAAGTGAAGGAGTGGCACA</Hsp_qseq>
+      <Hsp_hseq>TGCCTTTTCTCCCCTCTATGTTATACACGCATAAGAAAGGTTTAAAGTTGCACATTACATGCAAACGGCTTTTTTATACCTCATCAAACACCATTCCTATATAGTACCTAAAAATGGCCGCAAATGATAGTGCCGAGAAATGTTTAACATGTTTGCCAGCGGGGAAAAGAGAGTGAAAAAGTGAAGGAGTGGCACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| |||||||||||| ||||||||||||||| |||||||| |||||| ||||||||| ||| |||| |||||||||| |||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>696669952</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>41</Iteration_iter-num>
+  <Iteration_query-ID>Query_41</Iteration_query-ID>
+  <Iteration_query-def>IGR_967 1038419:1038652</Iteration_query-def>
+  <Iteration_query-len>233</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.511</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>5.64702e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>1218495</Hsp_hit-from>
+      <Hsp_hit-to>1218728</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>GCTAAGTCAGCTCCTCGTATGGGCATTTCTGTTATTGTATCAAATCCATATATGCACCGCGATACAAACTGGTGAATTTTTTCTGCCATATCGGAATGGTCCGGGCTGAGGAAT-GCGTATAACT-AAAAAAAGACACTCAGCGTATCAGAACACATTTCGTCAGAAAATTAGGT-CTTTCGACATGTTCACAACAAAATATGATCCTTTATAATAGCAAAAAAGGAGGCGAGATC</Hsp_qseq>
+      <Hsp_hseq>GCTAAGTCAGCTCCTCATATGGGCATTTCTGTTATTGTATCAAATCCATATATGCGCGGCGATACAAACTGGTGAATTTTTTCTGCCATATCGGAATGGTCCGGGCTG-GAAATCGCGTATAACTAAAAAAAAGACACTCAGCGTATCAGAACCTTTTTCGTCA-AGAATTTGGGGCTTTCGACATCTTCACAAAACACTCTGTTACTTTATAATAGCAAAAAAGGAGGCGAGATC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||||| | ||| |||||||||| |||||||||||||||||||||||||||   |||||||| | |||| ||  |||||||||| ||||||| | | | || | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>839170412</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>42</Iteration_iter-num>
+  <Iteration_query-ID>Query_42</Iteration_query-ID>
+  <Iteration_query-def>IGR_975 1045198:1045317</Iteration_query-def>
+  <Iteration_query-len>119</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.766</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.21919e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>1225278</Hsp_hit-from>
+      <Hsp_hit-to>1225383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>GGAAAGACAGGTGTATGGGATGTGAAGACAAATACAGAGGCGAGGGCAGTTCGTGCCAAACTGGATGAAAAAAGCTGCAAGGAAAAAATAGAAGGCGGCTGATGAG</Hsp_qseq>
+      <Hsp_hseq>GGAAGGACAGGTGTATGGGATGTGAAGAAAAATACAGAGACAAGAACAACTTGTACCAAACTGAACGAAAAAGGAAGCAAGGAAAAAATAGAAGGCGGCTGATGAG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||| |||||||||| | ||  ||  | || |||||||| | |||||| |  ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>391876848</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>43</Iteration_iter-num>
+  <Iteration_query-ID>Query_43</Iteration_query-ID>
+  <Iteration_query-def>IGR_985 1057568:1057679</Iteration_query-def>
+  <Iteration_query-len>111</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.019</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>7.08166e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1237658</Hsp_hit-from>
+      <Hsp_hit-to>1237768</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>AAAAGCCGCTCGCGCCCTGACAGGTGCGGCGGCTTTTTTGCCGGATTGATTTTAGCAGTTTATTTCTGTACACTAAAGAAAGTTTTGAATCTGATAAATTAGGTGATGAAG</Hsp_qseq>
+      <Hsp_hseq>AAAAGCCGCTCGCGCCCTGACAGGTGCGGCGGCTTTTTTGCCGGATTGATTTTAGCGGTTTATTTCTGTACACTAAAGAAAGTTTTGAATTTGATAAATTAGGTGATGAAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>360210032</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>44</Iteration_iter-num>
+  <Iteration_query-ID>Query_44</Iteration_query-ID>
+  <Iteration_query-def>IGR_994 1068968:1069041</Iteration_query-def>
+  <Iteration_query-len>73</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.60173e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1249268</Hsp_hit-from>
+      <Hsp_hit-to>1249340</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AAGAGGTTCTATAGCTGAAAATCGGTATGTGATATACTGGTATTATGTAAGATACGGAGGGAGCTTTAATAGA</Hsp_qseq>
+      <Hsp_hseq>AAGAGGTTCTATAGCTGTCAATCGGTATGTGATATACTGATATTATGTAAGATACGGAGGGAGCTTTAATAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||  |||||||||||||||||||| |||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>213751062</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>45</Iteration_iter-num>
+  <Iteration_query-ID>Query_45</Iteration_query-ID>
+  <Iteration_query-def>IGR_1002 1074251:1074380</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.178</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.81033e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1254539</Hsp_hit-from>
+      <Hsp_hit-to>1254667</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>TACAATCACCCCGTCTTTTTCTTCAAAATAGGATTCATTCAGCATTTTTCATTTTTGTTGAAAGCCTGAACTTCTATACATAGCTTGCTTTATTTTAGCATATTTTTTAAGTGAAAAGGAGGGAGAAGG</Hsp_qseq>
+      <Hsp_hseq>TACAATCACCCCGTCTTTTTCTTGAAAATAGGATTCATTCAGTATGTTTCATTTTTGTTGAAAGCTTGAACTTCTATACATAGCTTGCTTTATTTTAGCATATTTTTTAAGTGAAAAGGAGGGAGAAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||| |||||||||||||||||| || ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>431460368</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>46</Iteration_iter-num>
+  <Iteration_query-ID>Query_46</Iteration_query-ID>
+  <Iteration_query-def>IGR_1359 1447847:1448012</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.178</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.40823e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1628154</Hsp_hit-from>
+      <Hsp_hit-to>1628316</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>AAGCTTCCTCTCCTTTAAACATAATAATGCCTTTTGAAAGTATTTTGCAGTATTTTCATTGAGAAGTAAAGCGATAAGGAGTTTTATCTCCCTTATGAATTGTTCTGTCGCTATAAAGATGATATATTGATTTTCGTCAATAGAAAGAAAA-GGGGGGAATTT</Hsp_qseq>
+      <Hsp_hseq>AAGCTTCCTCTCCTTTTAACATAATAATGCCTTTTGAAAGTATTTTGCAGTATTTTCATTAAGAAGTAAAGTGATAAGGAGTGTTATCTCCCTCATGAATTGTCCAGATGCGATAAAGGTGATATATTGATTTTCGTCAATAAAAAGAAAAAAGGGGGGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||| |||||||||| |||||||||| ||||||||| | |  || |||||| ||||||||||||||||||||||| ||||||||  ||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>573961040</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>47</Iteration_iter-num>
+  <Iteration_query-ID>Query_47</Iteration_query-ID>
+  <Iteration_query-def>IGR_1369 1459286:1459383</Iteration_query-def>
+  <Iteration_query-len>97</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.239</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.86434e-39</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1639785</Hsp_hit-from>
+      <Hsp_hit-to>1639880</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GGTGTTAGTACGCCGTGCTTGTCAGATGACAAGTACGGTTGTATGATATAATATTGTGAAGTAATAAAGCTTTAAGTTAAAAGGAGAATGATAAAA</Hsp_qseq>
+      <Hsp_hseq>GGTGTTAGTACGCTGTGCTTGTCAGATGACAAGTACAGCTGTATGATATAATATTGTGAAGTAATATAGCTTTAAGTTAAAAGGAGAATGATAAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||||||||||||||||| | ||||||||||||||||||||||||||| |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>308751534</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>48</Iteration_iter-num>
+  <Iteration_query-ID>Query_48</Iteration_query-ID>
+  <Iteration_query-def>IGR_1376 1467411:1467747</Iteration_query-def>
+  <Iteration_query-len>336</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.457</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.25183e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>1647671</Hsp_hit-from>
+      <Hsp_hit-to>1648006</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>TAGTTCGTAACCTCCTAGAGTTGTTTGTTTCTACAGAAAAATCATAACATAGCTTTTTTGTCATAAAGATTCCAGCACTTTCCTTTGACAAATAGAGATTGTCATTTTCGTAAAGTAAATCCGT--TGAATCACTAAGAATAAGGGAATCAGCGGTATAT-ATGATTTTATCGTACCGTTACATAGCTTCCTTTTTTTTGAACCGTTAGTTATATTTTAATGTGTTTTTATATTGACAGCTTTTTTTACTCCTTTTCGCTGTAACAACTATTACAAAGGTGTTACAATTAATCTCAGTATATGTAAATATATTGAATGATTTGAGAGGGGTAACCAGAA</Hsp_qseq>
+      <Hsp_hseq>TAGTTCATAACCTCCTAGAGTTGTTTGTTTCTACAAAAAAATCATAACATAGCTTTTTTGTCATAAAGCAACCATCACTTTCCTTTGACAAAGAGAGATTGTCATTTTTGTAA-CT-AGTGTGTGCTGAATCCTTGAAAAGCAGGGAATCAGCTGCAAATCATG-TTTTATCACACTGTTACATGTCTTCCTTTTTTTTGAATCGTTAGTTAAATTTAAATATGTTTTTATATTGACAGTTTTTTTTATCCCTTTTTGCTGTAACAACTATTACAAAGGTGTTACAATTAATCTCAGTATATGTAAATATATTGAATGATCTGAGAGGGGTAACCAGAA</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||   ||| ||||||||||||||||| ||||||||||||||| ||||  | | |  ||  ||||||  | | ||  ||||||||||| | | || ||| |||||||  || |||||||  |||||||||||||||| ||||||||| |||| ||| ||||||||||||||||| ||||||||  |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1246880565</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>49</Iteration_iter-num>
+  <Iteration_query-ID>Query_49</Iteration_query-ID>
+  <Iteration_query-def>IGR_1386 1478836:1479136</Iteration_query-def>
+  <Iteration_query-len>300</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1104379929</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>50</Iteration_iter-num>
+  <Iteration_query-ID>Query_50</Iteration_query-ID>
+  <Iteration_query-def>IGR_1392 1484356:1484465</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.52058e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1661254</Hsp_hit-from>
+      <Hsp_hit-to>1661359</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>TTCCTGAAATAGGGGGAACAAGCTTCCGCCTTTG-CAAAAGTAATCGAAATAAACGGTAAGGAACATACTTGTTTCATGGTTGTAAATCCTTGAAAAGGAGTGTCG</Hsp_qseq>
+      <Hsp_hseq>TTCCTGAAATAAGGGGAACAAGCTCCCGCTTCTGTAAAAAGTAATCGTAATAAACGATAAGGAACATACTTGTTTCATGGTTGTAAATCCTTGAAAAGGAGTGTCG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||| |||| | ||  ||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>352293328</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>51</Iteration_iter-num>
+  <Iteration_query-ID>Query_51</Iteration_query-ID>
+  <Iteration_query-def>IGR_1402 1492024:1492260</Iteration_query-def>
+  <Iteration_query-len>236</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>1.31185e-41</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>1668929</Hsp_hit-from>
+      <Hsp_hit-to>1669164</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>GCTCCTTTTCT-AATTGATTGCTGCACATTGAGACTAGTTACCCTGTACATGACCATGTTAAACGTTTTATTCAAAAATGTCGAAGCCAAAGACATACATGATTTGTTAAAAATTGACTCAGGAAATCTGCTTTTATATAATGG-CATTGCAAT---A-TAACTAAAAATGGTTAATCACCCTTTATTTTCATGCGATTTTGACCTTTAAGCCAAACAATAAATTGGAGGGATACAT</Hsp_qseq>
+      <Hsp_hseq>GCTCCTTTTCTGAAGTGATTGCAGCATATTGAGGTTTGTTACCCTTTACTTGAACATGTTAAACTTTTTCTTCAAAAATGTTTCAGCCGAAGACGAACATGAATTGTTAAAAATTGACTCGAAAAATGAGCTCCTATATAATGGGCATTGTGATGTTATTAACGAAATATAGATGATGATCCTTTATTTTCATGGGAATCCGGCTTTTAAGCCAAACGAT-AATTGGAGGGATACAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| || ||||||| ||| ||||||  | |||||||| ||| ||| |||||||||| |||| |||||||||||   |||| |||||  |||||| |||||||||||||||||   ||||  |||  |||||||||| |||||  ||   | |||| ||| || | | || | |||||||||||||| || |  | | |||||||||||| || ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>851045465</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>52</Iteration_iter-num>
+  <Iteration_query-ID>Query_52</Iteration_query-ID>
+  <Iteration_query-def>IGR_1411 1503472:1503581</Iteration_query-def>
+  <Iteration_query-len>109</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.306</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.28803e-28</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1680399</Hsp_hit-from>
+      <Hsp_hit-to>1680493</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>ATATTGAAGGTTTTTGGAAATTTATTAG-AAAAACATGAAACTTTTTGATATCCTTCCCGTACTATTTGTTAGATATTCTCAAGGAGGTTTTGAA</Hsp_qseq>
+      <Hsp_hseq>ATATTGAAGGCTTTTGGAAATTTATTTGAAAAAACATGAAACTTTTTGAACCCCATCTCGTATTATCTGTTAGATATTCTCAAGGAGGTTTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||| | ||||||||||||||||||||   || || |||| ||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>352293328</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>53</Iteration_iter-num>
+  <Iteration_query-ID>Query_53</Iteration_query-ID>
+  <Iteration_query-def>IGR_1423 1517581:1517864</Iteration_query-def>
+  <Iteration_query-len>283</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.156</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>8.59156e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>1694496</Hsp_hit-from>
+      <Hsp_hit-to>1694777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>GTTTTCACCCAATCTCTATCCTAATTTAATATGATTCTACATTTAAAGTTTCTCAGAAATACTGCGATTTTTGGGGGTGTGCGTCGGTAAAGAAATGTTTTTGTAAAAAATCAAGGAACTGTGTAACAGAAGTAATACATTTTTCGGTTTTATGGAAAAAATATCTTGTAATTCTTATAGAAAGCGGGAAACTTTTTCAAAGTTTCATTCGTCTACGATATATTGAGGTACATCCTTAAAACATTACATGAGAAAAGAAACATTTAAAGGAAGAAGGGTTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTTTCACCCAATCTCTATCCTGATTTTATATCATTCTACATTTAAAGTTTCTGAGAAATGAAGCGATTTTTGGGGGTGTGTGTCGGGAAAGAAATGTTTTTGTAAAAAATCATGGAACAGTGTAACAGAAGTAATACATTTTTCGGTTTTATGGTAAAAATATCTTGTGATTCTTATAGAAAGCGGGAAACTTTTTCTGAGTTTCATACGTCTACGATATATTGAGGTTCATCCTT-AAACATTACATGAGAAAAGAAACATTTAAAGGAAGAAGGGTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||| |||| |||| |||||||||||||||||||| ||||||   |||||||||||||||||| ||||| ||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||| ||||||||||||| ||||||||||||||||||||||||||||  |||||||| |||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1037087962</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>54</Iteration_iter-num>
+  <Iteration_query-ID>Query_54</Iteration_query-ID>
+  <Iteration_query-def>IGR_1433 1527067:1527230</Iteration_query-def>
+  <Iteration_query-len>163</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.939</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>2.40886e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1703981</Hsp_hit-from>
+      <Hsp_hit-to>1704141</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>AGCGTCTAATATAACCTATGTAAAAACAAAAAAGTTGTATGGTCATCTGTCCTGATTTTTCACTTTTTTGATTTAATTTCAGTATTGCATTTATACAGCACGGCTATTGCCAAATGTCCCCATGGATTCTATAGTAGAAATTGTCAAGATTGGGGGATTTAAC</Hsp_qseq>
+      <Hsp_hseq>AGCGTCTACTATAACCTATGTAAAAACGAAAAAGTTGTATGGTCATCTGTCCTGATTTTTTACTTTTTTGGTTTGATTTCTGTATT-C-CTCATCCAGGAAAGCTATTGCCAAATCACCCGGTGAATTCTATAGTAGAAATGATCAAGATTGGGGGATTTAAC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||| ||||||||| ||| ||||| ||||| |  | || ||| |  |||||||||||||  |||  || ||||||||||||||||  ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>566044336</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>55</Iteration_iter-num>
+  <Iteration_query-ID>Query_55</Iteration_query-ID>
+  <Iteration_query-def>IGR_1443 1536873:1537112</Iteration_query-def>
+  <Iteration_query-len>239</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.91</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.22189e-101</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1713792</Hsp_hit-from>
+      <Hsp_hit-to>1714026</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TTTTCCTCCTTCATGCTAAGTATACATATTTTATCACAGTTCATACGAGCTTCAAAAAGATTGAGCGCGTTTGAAGTAAGGAGAAATGTGGTAATAAACGAGTAGGTAAACACACAATTTTCAGAATCATGTTGCGCGTAAATAGAACAATCATACGATATAAGAAGTAATCATTGTTGAATGGCAAAATGGGATGCTTTTTTACAAACAAATGATCTCTGGAAGGGGCGAAAGACA</Hsp_qseq>
+      <Hsp_hseq>TTTTCCTCCTTCATGC-AAGTAAACATATTTTATCACAGTTCATACGAGCGTC-AAAAGATTGAGCACGTTTGAAGAAAGGGGAAATGTGGTAATAAACGAATAGGTAAACACACAATTTTCAGAATCATGTTACACGTAAATAGAAGGATCATACGATATAAGAAGTAATCATTGTTGAATGGCGAAATGGGATGCTTTTTTACAAACAAATGATCTCTGGAAGGGGCGAAAGACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||| ||||||||||||||||||||||||||| || |||||||||||| ||||||||| |||| ||||||||||||||||||| ||||||||||||||||||||||||||||||| | |||||||||||  |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>862920518</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>56</Iteration_iter-num>
+  <Iteration_query-ID>Query_56</Iteration_query-ID>
+  <Iteration_query-def>IGR_1452 1547959:1548015</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>2.3224e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>1724755</Hsp_hit-from>
+      <Hsp_hit-to>1724810</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>TCTCGTGCAGAATTTGAAAAGATAGAACCCGTACGTTTACAGGGGAGGGAATCTTT</Hsp_qseq>
+      <Hsp_hseq>TCTCTTGCAGAATTTGAAAAGATAGAACCCGTACGTTTACAGGGGAGGGAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>146459061</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>57</Iteration_iter-num>
+  <Iteration_query-ID>Query_57</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2903102 2903165</Iteration_query-def>
+  <Iteration_query-len>63</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.2994</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>3.57257e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>63</Hsp_query-to>
+      <Hsp_hit-from>2786556</Hsp_hit-from>
+      <Hsp_hit-to>2786618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ACTTTTCCCTCCTAAGGATGTTTGTACTATTATGTATACGAGCCTCTTTAGGAAATAGACCGA</Hsp_qseq>
+      <Hsp_hseq>ACTTTTCCCTCCTAAGGCTGTTTGTACTATTATGTATACGAGCCTTATTTGGAAATAGACCGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||||||||||||||||  || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>174167532</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>58</Iteration_iter-num>
+  <Iteration_query-ID>Query_58</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2938178 2938285</Iteration_query-def>
+  <Iteration_query-len>107</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.48641e-37</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>2822469</Hsp_hit-from>
+      <Hsp_hit-to>2822571</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>TCTCCCATCCCCTTTTCTGTTTTTCATAAATATATCATAATTTCATGGTGAAAAGCGGTCATTTTTTCCTATAC-AAAAAGCCGGCTGGAATGGGCCGGCTCG</Hsp_qseq>
+      <Hsp_hseq>TCTCCCAACTCCTTTGCTGTTTTTCATAAATATATCATAATTTCATATTGAAAAGCGGTCATTTTTTCCTATACAAAAAAGCCGGCTGGAATTGGCCGGCTCG</Hsp_hseq>
+      <Hsp_midline>||||||| | ||||| ||||||||||||||||||||||||||||||  |||||||||||||||||||||||||| ||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>344376624</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>59</Iteration_iter-num>
+  <Iteration_query-ID>Query_59</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2966139 2966332</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.111</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.18997e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2850756</Hsp_hit-from>
+      <Hsp_hit-to>2850933</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>TAAAATCAGCTCCCAACTATATCGTTCCCTGCAATGTATTTTCGGCAGCCTCCGCCTTTTAAAAATAGATGTGACAGCATCTGTCGGGAGAGCCGTTGT-TAAATTTGTTTCTATAGCATTAGGTGGTTTGTGAAAATCTCCTTCTTATTTTACAAAAAAAATGAAAAAAGAAAAAGCTGAC</Hsp_qseq>
+      <Hsp_hseq>TAAAATCAGCTCCCAACTATTTCGTTCCCTGGAATGTATTTTCGGCAGCCTCCGCCTTTTTAAAATAGATGTGA---CATCTGTCGGGAGAGCCGTTGTGTAAAGCTGTATCTACAGCATCAGGTGGTTTGTGAAAATCTCTTTC-TATTTTACAAAAAAAATGAAAAAAGAAAAAGCTGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||||||||| |||||||||||||||||||||||||||| |||||||||||||   |||||||||||||||||||||| ||||  ||| |||| ||||| |||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>684794896</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>60</Iteration_iter-num>
+  <Iteration_query-ID>Query_60</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_2978522 2978674</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.105</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.81596e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>2861671</Hsp_hit-from>
+      <Hsp_hit-to>2861821</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GCTGTGCCTCCAGTATTATAATTCCCCGACATCCTATTTCTCTATTTTATGTCATCTTAACATGTTTCATGATTTTATTTTAGCGAAAGCAGGACATTCCGACAATTCGCCTTTTACATCATTTTTAAAAGAAATAAAGACGTTTATGATA</Hsp_qseq>
+      <Hsp_hseq>GCTGTGCCTCCAGTATTATAATTCCCCGACATCCTATTTCTCTATTTTATGTCATCTTAACATGTTTCATGATTTTATTTTAGCGAAAGCAGGATATTCCGGCAATTCGCCTTTTATATCATTTTTAAACTAATTAAAGATATTAATGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||| ||||||||||||  || ||||||  || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>522502464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>61</Iteration_iter-num>
+  <Iteration_query-ID>Query_61</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3014344 3014446</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.859</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>2.99e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>2886320</Hsp_hit-from>
+      <Hsp_hit-to>2886421</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GATAAAAATCCCCTCTCAACCGTGTTTCTATTTTGTATAAAAATAAATTATATTTAATAAAAATACATTTTGTATGTATACACTTTAACAAGTACGTTTCGT</Hsp_qseq>
+      <Hsp_hseq>GATAAAAATCCCCTCTCAACCGTGTATCATTTTTGTATAAAAATAAATTATATTTAATAAAAATACATTTTGTATGTATACACTTTAACAAGTACGTTTCGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>324584864</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>62</Iteration_iter-num>
+  <Iteration_query-ID>Query_62</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3059401 3059499</Iteration_query-def>
+  <Iteration_query-len>98</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.006</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.74599e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>2931449</Hsp_hit-from>
+      <Hsp_hit-to>2931545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>GGCGCCTCCGTCCATATGCGTCACGCCTCCGTCAAGCCAGGTCAACGTGATGTTTCCAATTTTCATTGTTTCCATTTTCACCCCCCCCTATCATCATG</Hsp_qseq>
+      <Hsp_hseq>GGCGCCTCCGTCCATATGTGTCACGCCTCCGTCAAGCCAGGTCAACGTGATGTTTCCCATTTTCATTGTTTCCATTTTCATCCCTCC-TGTCATCATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||| || | ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>312709887</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>63</Iteration_iter-num>
+  <Iteration_query-ID>Query_63</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3102512 3102570</Iteration_query-def>
+  <Iteration_query-len>58</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.5262</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>8.86684e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>2976881</Hsp_hit-from>
+      <Hsp_hit-to>2976938</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>AGAAAACACTCCTATTCACAGTGATCATGTTCAGTATATCAAAGTCAGCCGAACGATT</Hsp_qseq>
+      <Hsp_hseq>AGAAAACACTCCTATTCACAATGGTCATGTTCAGTATAGCAAAGTCAGCCGGGCGATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| || |||||||||||||| ||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>154375767</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>64</Iteration_iter-num>
+  <Iteration_query-ID>Query_64</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3119410 3119513</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.766</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.86053e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>2993554</Hsp_hit-from>
+      <Hsp_hit-to>2993657</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AACTGCCTCCCTTAATGTCAATATATAAATGATTTTAT-ATTAGTGTCTATAGTGTATTACTTCAATTAGTACACTTAATACAATAAATACTTTGACTCACAAA</Hsp_qseq>
+      <Hsp_hseq>AACTGCCTCCCTTTATTTCCATATATAAATGACTTTTTCATCAGTGTTTGTAGTGTATTACCTCAATTAGTACACTTAATACAATAAGCACTTTGACATACAAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| || || |||||||||||| ||| | || ||||| | ||||||||||| |||||||||||||||||||||||||  ||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>328543216</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>65</Iteration_iter-num>
+  <Iteration_query-ID>Query_65</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3129027 3129129</Iteration_query-def>
+  <Iteration_query-len>102</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.165</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>3.86781e-43</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>3002030</Hsp_hit-from>
+      <Hsp_hit-to>3002129</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTTGCTTCCTCCTGCACAAGGCCTCCCGAAAGACCTTGTATATATGATACGGAACTCGCTCCCTCTTATACAATGTACAGTTATATTAGAGAATGTTAAT</Hsp_qseq>
+      <Hsp_hseq>TTTGCTTCCTCCTGCACAAGGCCTCCCGAAAGACCTTGTCTATATGATACGGAACTCGCTCCCTCTTATACAATGTAACGTTATATTAGAGAATGTTAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>324584864</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>66</Iteration_iter-num>
+  <Iteration_query-ID>Query_66</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3187356 3187502</Iteration_query-def>
+  <Iteration_query-len>146</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.792</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>3.50178e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>3052520</Hsp_hit-from>
+      <Hsp_hit-to>3052662</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAAATACGGGAAAAACACCCCATTTACTTCCAAAATATTTGATGGTAATTTTATGTAGGTAAAATTTGTATTTGGCCTTTCAGAGGAGGTGAAAAGCGGGCAGGCCTGTTTAATTTATCATTTTTTAGGGGGAATTTT</Hsp_qseq>
+      <Hsp_hseq>TTTGAAAAATACGGGAAAAACACCCCATTTACTTCCAAAAAGTTTGATGGTAATTTTATGTAGGTAAAATTTGTATTTGGCCGTTCAGAGGAGGTGAACAGCGAGCAGGCCTGTATATTTCATAACTTTTTAGGGGGAATTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||||||| || || || | |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>498752352</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>67</Iteration_iter-num>
+  <Iteration_query-ID>Query_67</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3222083 3222139</Iteration_query-def>
+  <Iteration_query-len>56</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9927</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>2.3224e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>3089199</Hsp_hit-from>
+      <Hsp_hit-to>3089251</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>TGCTTGTCCCTCCATAACGGTATAATGTTTTCATCTTTCACTTTATATGAACT</Hsp_qseq>
+      <Hsp_hseq>TGCTTGTCCCTCCATAACGGTATAATGTTTTCATCTTTCACTTTATATGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>146459061</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>68</Iteration_iter-num>
+  <Iteration_query-ID>Query_68</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3239511 3239929</Iteration_query-def>
+  <Iteration_query-len>418</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>1571465347</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>69</Iteration_iter-num>
+  <Iteration_query-ID>Query_69</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3276766 3276954</Iteration_query-def>
+  <Iteration_query-len>188</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.919</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.35446e-25</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>3140444</Hsp_hit-from>
+      <Hsp_hit-to>3140515</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GTTTTTTTGCTTCTGTTCTTTGTTGTTGATTTTCACAAACAACAACAATCATAATAAAAGGAAGGGGATGAG</Hsp_qseq>
+      <Hsp_hseq>GTTATTTTGCTTCCGTTCTTTGTTGTTGATTTTCACAAACAACAACAATCATAATAAAAGGTAGAGGATGAG</Hsp_hseq>
+      <Hsp_midline>||| ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>665003136</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>70</Iteration_iter-num>
+  <Iteration_query-ID>Query_70</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3296270 3296360</Iteration_query-def>
+  <Iteration_query-len>90</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>2.02986e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>3160093</Hsp_hit-from>
+      <Hsp_hit-to>3160181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>ATGATACCCCTCCAAAAATCCTTTAGTTTGCTAATGTAGTAGATAAATAAAGTACGAACGTATCGTATCATAACCGATCCACTTTAGTC</Hsp_qseq>
+      <Hsp_hseq>ATAATAACCCTCCAAAAATCCTTTAGTTTGCTAATGTAGTAGATAAATAAAGTATGAACGTATCGTATCATAACCGATACACTTTAGTC</Hsp_hseq>
+      <Hsp_midline>|| ||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>281043063</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>71</Iteration_iter-num>
+  <Iteration_query-ID>Query_71</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3352096 3352234</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.319</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>2.00184e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>3212385</Hsp_hit-from>
+      <Hsp_hit-to>3212507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>ATCCTTCACTCCTCGTTTTTATTATATAACGTTATATAACATTATATATTGTTATATTAAAGTCCGCGGGTAGGATTGTCAATATTATTTTCTGAAATTTCTCAATAATTTATTCGGATGACA</Hsp_qseq>
+      <Hsp_hseq>ATCCTTCACTCCTTCTTTTTATTATATAACGTTATATAACATTATATATTGTTATATTAAAGTCCGCTGGGAAAATTGTCAATATTGTTTTCTGAAATTTCTCAATAATCGAATCAGATGACA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| || |  |||||||||||| ||||||||||||||||||||||  | || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>467085536</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>72</Iteration_iter-num>
+  <Iteration_query-ID>Query_72</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3400360 3400470</Iteration_query-def>
+  <Iteration_query-len>110</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.165</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>4.24515e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>3260096</Hsp_hit-from>
+      <Hsp_hit-to>3260204</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>CCATCAGAGCCCCCCGTTGCCTATTTTTTACATCTATTTATTACAATATCTCATTTTTCCATTTTTCAGTCAATAATTCATAAGGTTCATTTTTTGTCGTAAAATGGGA</Hsp_qseq>
+      <Hsp_hseq>CCATCAGAGCCCCCCACTGCCTATTTTTTACATCTATTTTTAACAATATCTCATTTTTCCATTTTTGAGTCAATAATTCATAAGGTTCATTTTTTGTCGTAATATGGGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||  |||||||||||||||||||||| | |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>356251680</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>73</Iteration_iter-num>
+  <Iteration_query-ID>Query_73</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3434156 3434282</Iteration_query-def>
+  <Iteration_query-len>126</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.025</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.89485e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>3293998</Hsp_hit-from>
+      <Hsp_hit-to>3294121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>CGTATCCACCTCACAAAGTTATAAACTGATCGAAAATTGCATCTAATTGAACTTTACCGGAATACTAGGCTTAAGTAAAATATATTTACATGATGATAACTATTAAGAATCCTAATGATAAAAC</Hsp_qseq>
+      <Hsp_hseq>CGTATCCACCTCACAAAGTTATAAACTGATCGAAAATTGCATCTAATTGAACTTTACCGGAATACTAGGCTTAAGTAAAATATATTTACATGATGATAACGATTAAGATTCCTAATGATAAAAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>419585312</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>74</Iteration_iter-num>
+  <Iteration_query-ID>Query_74</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3448132 3448213</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.5262</Hsp_bit-score>
+      <Hsp_score>43</Hsp_score>
+      <Hsp_evalue>1.4096e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>3308112</Hsp_hit-from>
+      <Hsp_hit-to>3308182</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TTGACAAAATCCTTTTCAATGAATGTGTAGAACTTTTCCAGTTTCTTCGCTTTAGTATG-CCCAAAAACGC</Hsp_qseq>
+      <Hsp_hseq>TTGACAAAATCCTTTTCGATGAATGTACAGAACTCTTCCCGTTTATCAGCTTTAGTATGTCCCAAAAACGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| ||||||||  |||||| |||| |||| |  ||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>245417886</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>75</Iteration_iter-num>
+  <Iteration_query-ID>Query_75</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3473300 3473371</Iteration_query-def>
+  <Iteration_query-len>71</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.533</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>7.01532e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>3344321</Hsp_hit-from>
+      <Hsp_hit-to>3344391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>TTACAACTTTTTTCTTTTATAATAAAACTATTAGTCTATTTTCCCTATATTACAGATAAAGGAGTTATTTT</Hsp_qseq>
+      <Hsp_hseq>TTACTACATTTTTCTTTTATAATAAAAATAGTAGTCTATTTTCCCTATATTACAGGTAAAGGAGTTATTTT</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||||||||||||| || |||||||||||||||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>205834356</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>76</Iteration_iter-num>
+  <Iteration_query-ID>Query_76</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3508518 3508612</Iteration_query-def>
+  <Iteration_query-len>94</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.0597</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>6.17639e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>3374912</Hsp_hit-from>
+      <Hsp_hit-to>3374971</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATGAAAGCGCTTTAAAGATAATATAGCATGCCTGAGAAAATGTGTAAACAAACTATTTAC</Hsp_qseq>
+      <Hsp_hseq>ATGAAAGCGCTTCAAAAATAATATAGCACGACTGGAAAAATGAGCAAACCAACTATTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||| ||||||||||| | |||  |||||| | |||| ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>296876475</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>77</Iteration_iter-num>
+  <Iteration_query-ID>Query_77</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3535939 3536011</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.53684e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>3402378</Hsp_hit-from>
+      <Hsp_hit-to>3402448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>TTGCCATCTTCAAACAGGAGGGCTGGAAGAAGCAGACCGCTAACACAGTACATAAAAAAGGAGACATGAACG</Hsp_qseq>
+      <Hsp_hseq>TTGCCATCTTC-AACAGGAGGGCCGGAAGAAGCAAACCGCTAACACAGTACATCAAAAAGGAGACATGAACG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||| |||||||||| |||||||||||||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>209792709</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>78</Iteration_iter-num>
+  <Iteration_query-ID>Query_78</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3573134 3573206</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.459</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.1842e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>3424753</Hsp_hit-from>
+      <Hsp_hit-to>3424824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AAAGCATTACACATGTGTTACAGCGGAATTAAAACCCAGTAACGTAATGTGAAACTCGTATGACAGCCCTTT</Hsp_qseq>
+      <Hsp_hseq>AAAGCATTACACAACTGTTACAGCGGAATTAAAACCCAGTAACGTAATGTGAAACTCGTATGACAGCCTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>209792709</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>79</Iteration_iter-num>
+  <Iteration_query-ID>Query_79</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3609221 3609333</Iteration_query-def>
+  <Iteration_query-len>112</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.459</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.59424e-27</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>3465354</Hsp_hit-from>
+      <Hsp_hit-to>3465435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>TCATTATAACTGAAACAAA-GCTAAAGGTTAGATGACAATATCTTGCCTTTTTTGTTTTGAAAA-AACAAGTGATTCCCTGG</Hsp_qseq>
+      <Hsp_hseq>TCATTATAACCGAAACAAATGCTAAAGGTTAGATGACAATATCTTGCCTTTTTTGTTTTGAAGGTAACAAGTGATTCTCTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||   |||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>364168384</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>80</Iteration_iter-num>
+  <Iteration_query-ID>Query_80</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3625507 3625681</Iteration_query-def>
+  <Iteration_query-len>174</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.424</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.4964e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>3482164</Hsp_hit-from>
+      <Hsp_hit-to>3482339</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GAAATCACCTAATCTTTTATATCATTTTATCTATCACACGGTCATACTCTTCGAATGCATTCGACAATTTATGACCCATTCATTTGTAAAAAGATGAAAAATCTGAAAGTTCCCTTTTTCA-AT-ACACTTCATTATACGTCAAATTTAGACATAATACTATTACAGTTTCTTTTC</Hsp_qseq>
+      <Hsp_hseq>GAAATCACCTAATCTTTTATATCATTTTATCTATCACACGGTCATACTCTTCGAATGCATTCGACAATTTATGACTTATTCATTTGCAAAAAGACGAAAAATCTGAAAGTTTCATTTTTCACAACACACTTCATTATACGTCAAATTTAGACATAATACTATTACAGTTTCTTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||| ||||||| |||||||||||||||| | ||||||| |  |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>609586208</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>81</Iteration_iter-num>
+  <Iteration_query-ID>Query_81</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3643558 3643611</Iteration_query-def>
+  <Iteration_query-len>53</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.5997</Hsp_bit-score>
+      <Hsp_score>36</Hsp_score>
+      <Hsp_evalue>6.01813e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>3500126</Hsp_hit-from>
+      <Hsp_hit-to>3500177</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>ATAGCA-CGCCTCCTTTCGAAACAGTATGCCTGAATGAATATTTTCTGTCCA</Hsp_qseq>
+      <Hsp_hseq>ATAGCACCGCCTCCTTTCGAGAAAGTATGGCTGATTGAATATTTTCTGTCCA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||||| | |||||| |||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>134584002</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>82</Iteration_iter-num>
+  <Iteration_query-ID>Query_82</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3687468 3687548</Iteration_query-def>
+  <Iteration_query-len>80</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.772</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>8.11389e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>3553070</Hsp_hit-from>
+      <Hsp_hit-to>3553149</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TCCTTCTCCTCTTTCTTATTCTATGAGTATATAAAACTAGTTTATTTATCGGCACGCGCATGCTTCATTTATAGGTGAAT</Hsp_qseq>
+      <Hsp_hseq>TCCTTCTCCTCTTTCTTATTCAATGAGTATATAAAACTAGTTTATTTATCGGCACGCGTATGCTTCATTTATAGGTGAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>241459533</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>83</Iteration_iter-num>
+  <Iteration_query-ID>Query_83</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3729296 3729431</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>455210480</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>84</Iteration_iter-num>
+  <Iteration_query-ID>Query_84</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3753752 3753880</Iteration_query-def>
+  <Iteration_query-len>128</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.42643e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>3620609</Hsp_hit-from>
+      <Hsp_hit-to>3620727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>AGCCGGCTCCCCTTTCCATATTGTCTATATGTCGTCACACGTTATGTTTTTTGACATTAGATGTCACTTAATATAACTGAAGAGTCAGACAATAACACTGGCTATGATATACAATTTTCC</Hsp_qseq>
+      <Hsp_hseq>AGCCGGCTCCCCTTTCGATATTGTCTGT-TTTCGTCACATGTTCAGTTTTCTGACATTCGATGTCACCTAATATAACTGAAAAGTCAGACAATAACATTGGCTATGATATACAATTTTCC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| ||||||||| | | |||||||| |||  ||||| ||||||| |||||||| ||||||||||||| ||||||||||||||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>427502016</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>85</Iteration_iter-num>
+  <Iteration_query-ID>Query_85</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3770865 3770948</Iteration_query-def>
+  <Iteration_query-len>83</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.2131</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>1.89562e-10</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>3643228</Hsp_hit-from>
+      <Hsp_hit-to>3643271</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>TGTAGCGATTTTTCCTGTTCTCCCCGGAAATAAACGTTCCGATG</Hsp_qseq>
+      <Hsp_hseq>TGTAGCGATTTTTCCTGTTTTGTCCGGAAATAAACGTTCCAATG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |  ||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>253334592</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>86</Iteration_iter-num>
+  <Iteration_query-ID>Query_86</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3786457 3786536</Iteration_query-def>
+  <Iteration_query-len>79</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.466</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>6.16959e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3658788</Hsp_hit-from>
+      <Hsp_hit-to>3658866</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>CTACTACGGCAACTCCCTTCTGCAGGTTTTTCTTTGCTGATCCAGCAGCCGCACTTGTCTCTTTTCAGCCGGCAAGGCG</Hsp_qseq>
+      <Hsp_hseq>CTACTACGGCAACTCCCTTCTGCAGGTTTTTCTTTGCTGATCCAGCAGCCGCACTTGTCTCTTATCAGCCGGCAAGGCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>237501180</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>87</Iteration_iter-num>
+  <Iteration_query-ID>Query_87</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3802166 3802332</Iteration_query-def>
+  <Iteration_query-len>166</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.265</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.64725e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3674507</Hsp_hit-from>
+      <Hsp_hit-to>3674668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>CTAAAATATGACCGATCATGATCTTTATGCGACTTTGTGACAATTATTCGAACAATGTCTCAAAACTATTTACATTACGTAAGCTATTGTATGCCTGTCAAAATCAAAATTCAAGAGAAGAAAATTACTTAATTTTTTAATATACTTATTTAAATTTTTTAATT</Hsp_qseq>
+      <Hsp_hseq>CTAAAAAAT-A-CGATCATGATCTTTATACGACTTTATGACAATTATTCGAACAATGTCTAAAAACTATTTACATTACGTAAGCTATTGTATGCCTGTCAAAATCAAAATTCAAGGGAAGAAAATTACTTAATTTTTTAATACACTTAATTAAATTTTTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||| || | |||||||||||||||| ||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>577919392</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>88</Iteration_iter-num>
+  <Iteration_query-ID>Query_88</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3812300 3812390</Iteration_query-def>
+  <Iteration_query-len>90</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.159</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>5.64377e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>3684635</Hsp_hit-from>
+      <Hsp_hit-to>3684725</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>TTCGTTTGCTCCTCTCTTCGCTCTTAGCTACATTTTTAAAATGTACTATTTTATAAAAAATCATTTAGCCTTTTAAATGATTTAT-AAGAA</Hsp_qseq>
+      <Hsp_hseq>TTCGTTTGCTCCTCTCTTCGCTCTTAGCTACATGTTTAAAATGTACTGTTTTATAGAAAATCATTTAGCCTTTTAAATGATTTATTAAGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||| ||||||| ||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>281043063</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>89</Iteration_iter-num>
+  <Iteration_query-ID>Query_89</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3851893 3852045</Iteration_query-def>
+  <Iteration_query-len>152</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.9128</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>1.79345e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3722142</Hsp_hit-from>
+      <Hsp_hit-to>3722229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>AAATAACCCGGCTCCTCGGAGGCCGGGTTATTCGTATGGTTCCTTCATAATCGATGGAAGAATGTTAGACAATCGAGCTGAACAATCAGTTTTGGGA</Hsp_qseq>
+      <Hsp_hseq>AAATAACCCGGCTTCTCGGTGGCCGGGTTATTCGTATGGTTCTTTCATAATCCATGGA----TG-----CAATCGAGCTGAACAATCGGTTTCGGGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||| |||||||||||||||||||||| ||||||||| |||||    ||     |||||||||||||||||| |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>522502464</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>90</Iteration_iter-num>
+  <Iteration_query-ID>Query_90</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3867410 3867492</Iteration_query-def>
+  <Iteration_query-len>82</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.82681e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>79</Hsp_query-to>
+      <Hsp_hit-from>3735757</Hsp_hit-from>
+      <Hsp_hit-to>3735838</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>AATTTAAATAAAATTTGCTATTTTCTTCGTTTTTTCTTACGATGTAGATA---ATAATCCATTTTTTTCAAAGGGGTGCAGT</Hsp_qseq>
+      <Hsp_hseq>AATTTAAATAAAATTTGCTATTTTATCTGTTTTTTCTTACGATGGAGATAATCATAATCCATTTTTTTCAAAGGGGTGCAGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |  |||||||||||||||| |||||   |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>249376239</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>91</Iteration_iter-num>
+  <Iteration_query-ID>Query_91</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3930550 3930650</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>20</Statistics_hsp-len>
+      <Statistics_eff-space>316668160</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>92</Iteration_iter-num>
+  <Iteration_query-ID>Query_92</Iteration_query-ID>
+  <Iteration_query-def>cutIGR_3950584 3950671</Iteration_query-def>
+  <Iteration_query-len>87</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|0</Hit_id>
+  <Hit_def>NZ_CP033052.1 Bacillus vallismortis strain Bac111 chromosome, complete genome</Hit_def>
+  <Hit_accession>0</Hit_accession>
+  <Hit_len>3958372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7595</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>2.56879e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>3832991</Hsp_hit-from>
+      <Hsp_hit-to>3833071</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>TCATCTCCTTTAACGGAACTTTATCCGCTGTCCATGTACTAGACGTCCCTGTCTGCTGCAAGGTTCTATGAATTTTTTTACA</Hsp_qseq>
+      <Hsp_hseq>TCATCTCCTTTAACGGATCTTTATCCGCTGTCCATGTACTAGACGTCCTTGCTTCCAGTATGGTTTTGTGAATTTTTT-ACA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |||||||||||||||||||||||||||||| ||  | | | | |||| | |||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1</Statistics_db-num>
+      <Statistics_db-len>3958372</Statistics_db-len>
+      <Statistics_hsp-len>19</Statistics_hsp-len>
+      <Statistics_eff-space>269168004</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

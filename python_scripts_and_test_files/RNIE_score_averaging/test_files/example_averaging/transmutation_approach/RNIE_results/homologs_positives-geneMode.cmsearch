@@ -1,0 +1,1576 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0.2 (October 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile homologs_positives-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/homologs_positives.fasta
+# date:       Mon Oct 23 13:58:24 2023
+# num seqs:   30
+# dbsize(Mb): 0.009742
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -       2.499     0.00   0.0103  00:00:01.59
+
+CM: seed-a-14
+>dnaA,dnaN_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 99
+ Score = 13.52, E = 0.00937, P = 1.312e-05, GC =  55
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             A  GC:GCCG:C       :CGGC:GC  U  U UU   U+U
+        60 ACACUGCUGCCGACCCG----UCGGCAGCUUUUCUAUUCGGUAU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 89 - 50
+ Score = 0.02, E = 2.482, P = 0.003476, GC =  55
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           : A  GC:GCCG:C      G:CGGC:GC  U : U  + UU++
+        89 GAAAAGCUGCCGACG--G--GUCGGCAGCAGUGUAUCGGAUUAA 50      
+
+
+>dnaA,dnaN_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 100
+ Score = 13.85, E = 0.008147, P = 1.141e-05, GC =  51
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             A  GC:GCCG:C   +   :CGGC:GC  U  U UU   UUU
+        60 ACACUGCUGCCGACCCGU---UCGGCAGCUUUUCUAUUCAGUUU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 50
+ Score = 0.96, E = 1.679, P = 0.002352, GC =  54
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           : A  GC:GCCG:+       :CGGC:GC  U : U  + UU++
+        90 GAAAAGCUGCCGAACGGG---UCGGCAGCAGUGUAUCGGAUUAA 50      
+
+
+>dnaA,dnaN_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 100
+ Score = 14.30, E = 0.006788, P = 9.507e-06, GC =  56
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             A  GC:GCCG:C U +   :CGGC:GC  U  U UU    +U
+        60 ACACCGCUGCCGACCUGU---UCGGCAGCUUUUCUAUUCGGCAU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 48
+ Score = 0.76, E = 1.823, P = 0.002554, GC =  51
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>..>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGC..UUUUUUUuUuuuuuu 44      
+           : A AGC:GCCG:+ +     :CGGC:GC  U U :    UU +U+
+        90 GAAAAGCUGCCGAACAGG---UCGGCAGCggUGUAUCGGAUUAAUA 48      
+
+
+>gyrA_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 100
+ Score = 32.81, E = 3.228e-06, P = 4.522e-09, GC =  39
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAGC:::::: A+A+   ::::::GCUUUUUU U U  U++
+        60 AAAAAGCGCAGCUGAAAU---AGCUGCGCUUUUUUGUGUCAUAA 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 50
+ Score = 30.53, E = 8.282e-06, P = 1.16e-08, GC =  41
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAGC::::::++U+    ::::::GCUUUUUUU    +UU 
+        90 AAAAAGCGCAGCUAUUUC---AGCUGCGCUUUUUUUCACACUUC 50      
+
+
+>gyrA_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 100
+ Score = 26.05, E = 5.275e-05, P = 7.388e-08, GC =  41
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           A: AAGC:::::: A+A+   ::::::GCUU :UUU U U+ U+
+        60 AUCAAGCGCAGCUGAAAU---AGCUGCGCUUUUUUUGUAUCCUA 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 89 - 51
+ Score = 14.79, E = 0.00553, P = 7.746e-06, GC =  44
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             AA:::C::C:    A+ U+C:G::G:::UU  U UU    UU
+        89 AAAAGCGCAGCU----AU-UUCAGCUGCGCUUGAUCUUACACUU 51      
+
+
+>gyrA_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 99
+ Score = 29.82, E = 1.11e-05, P = 1.555e-08, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAGC::::     AA   + ::::GCUUUUUUUUU+  U++
+        60 AAAAAGCGCAGU---GAA-CCAGCUGCGCUUUUUUUUUGCAUAA 99      
+
+
+ Query = 1 - 44, Target = 115 - 146
+ Score = 0.28, E = 2.23, P = 0.003124, GC =  25
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+            :A    +++::G :++A : C::       U: U UU+U+UUU
+       115 AGA----AAUAUGGUAUA-AUCAU-------UUCUGUUGUCUUU 146     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 89 - 50
+ Score = 18.90, E = 0.001011, P = 1.416e-06, GC =  48
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAGC::::    U   U+C ::::GCUUUUU U    +UU 
+        89 AAAAAGCGCAGC---UGG-UUCACUGCGCUUUUUCUCACACUUC 50      
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 62 - 98
+ Score = 30.41, E = 8.696e-06, P = 1.218e-08, GC =  38
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             AAA:CC::C:::   A  :::G::GG:UUUUUU UUU UU++
+        62 --AAACCCAGCUCA---A--UGAGCUGGGUUUUUUGUUUGUUAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 88 - 50
+ Score = 18.81, E = 0.001051, P = 1.473e-06, GC =  46
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             AAA:CC::C::++  +   ::G::GG:UUU    UU+ UU  
+        88 AAAAACCCAGCUCAU--U---GAGCUGGGUUUAAGCUUGCUUGG 50      
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 98
+ Score = 32.92, E = 3.083e-06, P = 4.318e-09, GC =  38
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AAAA:CC::C::++  +   ::G::GG:UUUU:U UUU U ++
+        60 UAAAACCCAGCUCAU--U---GAGCUGGGUUUUUUGUUUGUCAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 88 - 50
+ Score = 25.50, E = 6.616e-05, P = 9.267e-08, GC =  46
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+            AAAA:CC::C:::   A  :::G::GG:UUUU   UU+ UU  
+        88 AAAAACCCAGCUCA---A--UGAGCUGGGUUUUACCUUGCUUGG 50      
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 98
+ Score = 32.92, E = 3.083e-06, P = 4.318e-09, GC =  38
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AAAA:CC::C::++  +   ::G::GG:UUUU:U UUU U ++
+        60 UAAAACCCAGCUCAU--U---GAGCUGGGUUUUUUGUUUGUCAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 88 - 50
+ Score = 25.89, E = 5.636e-05, P = 7.893e-08, GC =  44
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+            AAAA:CC::C:::   A  :::G::GG:UUUU   UU+ UU  
+        88 AAAAACCCAGCUCA---A--UGAGCUGGGUUUUACAUUGCUUGG 50      
+
+
+>guaB_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 61 - 99
+ Score = 6.86, E = 0.1467, P = 0.0002055, GC =  33
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           A:  : C G :::+   +   ::: C G :  :UUUUUUU U+ 
+        61 AUUUGACAGGGUCUC--U---GACUCUGUCUAUUUUUUUUAUAC 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 47
+ Score = 1.22, E = 1.513, P = 0.002119, GC =  32
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAA A   G:C:G+:U A      : C:G:C+++U UUUUU+ UUU U+
+        90 AAAUA---GACAGAGUCA-gagacC-CUGUCAAAUGUUUUUAAUUUGUA 47      
+
+
+>guaB_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 98
+ Score = 7.09, E = 0.1332, P = 0.0001865, GC =  31
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           A:  : C G :::+   +   ::: C G :  :UUUUUUU U++
+        60 AUUUGACAGGGUCUC--U---GACUCUGUCUAUUUUUUUUAUAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 89 - 46
+ Score = 1.22, E = 1.513, P = 0.002119, GC =  32
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAA A   G:C:G+:U A      : C:G:C+++U UUUUU+ UUU U+
+        89 AAAUA---GACAGAGUCA-gagacC-CUGUCAAAUGUUUUUAAUUUGUA 46      
+
+
+>guaB_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 98
+ Score = 5.79, E = 0.2283, P = 0.0003198, GC =  36
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           A:  : C G :::+   +   ::: C G :  :UUUUUU  U  
+        60 AUUUGACAGGGUCUC--U---GACUCUGUCUAUUUUUUUAAUCC 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 89 - 46
+ Score = 1.22, E = 1.513, P = 0.002119, GC =  32
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAA A   G:C:G+:U A      : C:G:C+++U UUUUU+ UUU U+
+        89 AAAUA---GACAGAGUCA-gagacC-CUGUCAAAUGUUUUUAAUUUGUA 46      
+
+
+>yaaD,yaaE_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 64 - 109
+ Score = 18.68, E = 0.001108, P = 1.552e-06, GC =  46
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+             A AGC ::C :C: ++      :G: G:: GCU UUUUU+UUUU  +
+        64 --AGAGCUCUCGUCCCUU-uauggGGAUGAGGGCUCUUUUUAUUUUCGA 109     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 171 - 141
+ Score = 1.29, E = 1.465, P = 0.002052, GC =  35
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AA    +++ :GC: +  :GC:        UU:U  U U+++ 
+       171 GAA----AAUUUGCUCUC-AGCA--------UUUUCGUAUCAAG 141     
+
+
+>yaaD,yaaE_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 64 - 109
+ Score = 18.00, E = 0.001471, P = 2.06e-06, GC =  43
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+             A AGC ::C :C: ++      :G: G:: GCU UUUUU+UUUUU  
+        64 --AGAGCUCUCGUCCCUU-uauagGGAUGAGGGCUCUUUUUAUUUUUCG 109     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 171 - 141
+ Score = 1.29, E = 1.465, P = 0.002052, GC =  35
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AA    +++ :GC: +  :GC:        UU:U  U U+++ 
+       171 GAA----AAUUUGCUCUC-AGCA--------UUUUCGUAUCAAG 141     
+
+
+>yaaD,yaaE_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 64 - 109
+ Score = 18.68, E = 0.001108, P = 1.552e-06, GC =  46
+
+           <<<<<<<<<<<<<<<____.....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.....ugccggcGGCUUUUUUUuUuuuuuu 44      
+             A AGC ::C :C: ++      :G: G:: GCU UUUUU+UUUU  +
+        64 --AGAGCUCUCGUCCCUU-uauggGGAUGAGGGCUCUUUUUAUUUUCGA 109     
+
+
+ Query = 1 - 44, Target = 21 - 53
+ Score = 1.93, E = 1.127, P = 0.001579, GC =  45
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AA    ++C :G :U + : C: G      UU:U + U     
+        21 GAA----AACGAGUCUCU-GGCUUG------UUUUCAAUCAGGG 53      
+
+
+>yaaH_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 70 - 114
+ Score = 18.58, E = 0.001157, P = 1.621e-06, GC =  29
+
+           <<<<<<<<<<<<<<<____...>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa...ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG::::C +A+      ::::CG:CUUUUU       UU+
+        70 AAAAAGACGUUUCCAAAU-uauC-GAAACGUCUUUUUGACAACAUUA 114     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 104 - 60
+ Score = 28.20, E = 2.172e-05, P = 3.042e-08, GC =  36
+
+           <<<<<<<<<<<<<<<____..>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa..ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG:::: AUAA   U ::::CG:CUUUUUUU  U     
+       104 AAAAAGACGUUUCGAUAA-uuUGGAAACGUCUUUUUUUCAUGGGGG 60      
+
+
+>yaaH_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 69 - 113
+ Score = 18.58, E = 0.001157, P = 1.621e-06, GC =  29
+
+           <<<<<<<<<<<<<<<____...>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa...ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG::::C +A+      ::::CG:CUUUUU       UU+
+        69 AAAAAGACGUUUCCAAAU-uauC-GAAACGUCUUUUUGACAACAUUA 113     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 103 - 59
+ Score = 30.41, E = 8.679e-06, P = 1.216e-08, GC =  36
+
+           <<<<<<<<<<<<<<<____..>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa..ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG:::: AUAA   U ::::CG:CUUUUUU +U+  +  
+       103 AAAAAGACGUUUCGAUAA-uuUGGAAACGUCUUUUUUCAUGGGAGC 59      
+
+
+>yaaH_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 70 - 114
+ Score = 17.70, E = 0.00166, P = 2.325e-06, GC =  27
+
+           <<<<<<<<<<<<<<<____...>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa...ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG::::C +A+      ::::CG:CUUUUU     U UU 
+        70 AAAAAGACGUUUCCAAAU-uauC-GAAACGUCUUUUUAACAAUAUUG 114     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 104 - 60
+ Score = 28.20, E = 2.172e-05, P = 3.042e-08, GC =  36
+
+           <<<<<<<<<<<<<<<____..>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa..ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAG:CG:::: AUAA   U ::::CG:CUUUUUUU  U     
+       104 AAAAAGACGUUUCGAUAA-uuUGGAAACGUCUUUUUUUCAUGGGGG 60      
+
+
+>metS_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 111
+ Score = 13.74, E = 0.008525, P = 1.194e-05, GC =  40
+
+           <<<<<<<<<<<<.<<<____.......>>>.>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugc.cggcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::  :C:U +        :G:  ::C::CUUUU U UUU  + +
+        60 CAAAAGGUGUUUcACGUGU-aacaauuCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 101 - 50
+ Score = 13.68, E = 0.00875, P = 1.225e-05, GC =  35
+
+           <<<<<<<<<<<<.<<<____.......>>>>>.>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugccg.gcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::: :C:+A+        :G::: :C::CUUUU UUU U  UU+
+       101 CAAAAGGUGUUCgACGAAU-uguuacaCGUGAaACACCUUUUGUUUAUCAUUA 50      
+
+
+>metS_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 111
+ Score = 13.74, E = 0.008525, P = 1.194e-05, GC =  40
+
+           <<<<<<<<<<<<.<<<____.......>>>.>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugc.cggcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::  :C:U +        :G:  ::C::CUUUU U UUU  + +
+        60 CAAAAGGUGUUUcACGUGU-aacaauuCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 101 - 50
+ Score = 13.81, E = 0.008314, P = 1.164e-05, GC =  37
+
+           <<<<<<<<<<<<.<<<____.......>>>>>.>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugccg.gcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::: :C:+A+        :G::: :C::CUUUU UUU U  UU+
+       101 CAAAAGGUGUUCgACGAAU-uguuacaCGUGAaACACCUUUUGUUUGUCAUUA 50      
+
+
+>metS_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 111
+ Score = 13.74, E = 0.008525, P = 1.194e-05, GC =  40
+
+           <<<<<<<<<<<<.<<<____.......>>>.>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugc.cggcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::  :C:U +        :G:  ::C::CUUUU U UUU  + +
+        60 CAAAAGGUGUUUcACGUGU-aacaauuCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 101 - 50
+ Score = 13.68, E = 0.00875, P = 1.225e-05, GC =  35
+
+           <<<<<<<<<<<<.<<<____.......>>>>>.>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccg.gcauaaa.......ugccg.gcGGCUUUUUUUuUuuuuuu 44      
+            AAAAG::G::: :C:+A+        :G::: :C::CUUUU UUU U  UU+
+       101 CAAAAGGUGUUCgACGAAU-uguuacaCGUGAaACACCUUUUGUUUAUCAUUA 50      
+
+
+>yabG_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 102
+ Score = 31.11, E = 6.499e-06, P = 9.102e-09, GC =  37
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AAAA:C GC:::: + A  ::::GC G:UUUU:U UUUU  +U
+        60 GAAAACCUGCAUAGGAGA-GCUAUGCGGGUUUUUUAUUUUACAU 102     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 92 - 50
+ Score = 13.89, E = 0.008034, P = 1.125e-05, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+            AAAA:C GC:::: U +  ::::GC G:UUUU    U+UU++U
+        92 AAAAACCCGCAUAGCUCU-CCUAUGCAGGUUUUCAACUGUUAAU 50      
+
+
+>yabG_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 58 - 100
+ Score = 32.11, E = 4.316e-06, P = 6.044e-09, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AAAA:C GC:::::+   :::::GC G:UUUU:U UUUU  +U
+        58 GAAAACCUGCAUAGGAGG-UCUAUGCGGGUUUUUUAUUUUGCAU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 48
+ Score = 14.69, E = 0.00577, P = 8.081e-06, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+            AAAA:C GC::::   +  ::::GC G:UUUU  U U+UU++U
+        90 AAAAACCCGCAUAGACCU-CCUAUGCAGGUUUUCAUCUGUUAAU 48      
+
+
+>yabG_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 58 - 99
+ Score = 26.56, E = 4.274e-05, P = 5.986e-08, GC =  33
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           :AA A:C GC:::::+A  :::::GC G:U UU:U UUUU  +U
+        58 GAAUACCUGCAUAGGAA--ACUAUGCGGGUUUUUUAUUUUACAU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 90 - 47
+ Score = 8.32, E = 0.0801, P = 0.0001122, GC =  34
+
+           <<<<<<<<<<<<<<<____.>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa.ugccggcGGCUUUUUUUuUuuuuuu 44      
+             AA  CC :C::::U++  ::::G: GG  UU  U U UU +UU
+        90 AAAAAACCCGCAUAGUUU-cCUAUGCAGGUAUUCAUCUGUUAAUU 47      
+
+
+>veg_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 102
+ Score = 13.15, E = 0.01089, P = 1.525e-05, GC =  42
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AA   GC G: ::C U++  G:: :C GC   UU UUUU +  U
+        60 AACGGGCAGUGAACCUUU-UGUUUACUGCUUUUUGUUUUGCCCU 102     
+
+
+>veg_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 60 - 102
+ Score = 13.12, E = 0.01103, P = 1.545e-05, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AA   GC G: ::C U++  G:: :C GC   UU UUUU + UU
+        60 AACGGGCAGUGAACCUUU-UGUUUACUGCUUUUUGUUUUGCCUU 102     
+
+
+>veg_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 59 - 101
+ Score = 13.12, E = 0.01103, P = 1.545e-05, GC =  40
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AA   GC G: ::C U++  G:: :C GC   UU UUUU + UU
+        59 AACGGGCAGUGAACCUUU-UGUUUACUGCUUUUUGUUUUGCCUU 101     
+
+
+>sspF_0
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 62 - 102
+ Score = 12.14, E = 0.01655, P = 2.318e-05, GC =  51
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+              A :C G:: :C:U   :G: ::C G: U UUUU+UUUU  +
+        62 --GACCCGGGGGACGUGC-UGUUCCCUGGUUUUUUUAUUUUGGA 102     
+
+
+>sspF_1
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 62 - 102
+ Score = 14.17, E = 0.007144, P = 1.001e-05, GC =  56
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+              A :C:G:: :C U    G: ::C:G: U UUU U UU  +U
+        62 --GACCCGGGGGACAUGC-CGUUCCCCGGUUUUUUGUGUUAGAU 102     
+
+
+>sspF_2
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 62 - 102
+ Score = 14.31, E = 0.006753, P = 9.458e-06, GC =  56
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+              A :C:G:: :C:U   :G: ::C:G: U UU UUUU  + +
+        62 --GACCCGGGGGACGUGC-UGUUCCCCGGUUUUUAUUUUGGACA 102     
+
+
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -       2.499       55    0.0103   0.2388
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:01.59    00:00:02.00
+//
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -      52.992     0.00   0.2428  00:00:04.15
+
+CM: seed-b-14
+>dnaA,dnaN_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 99
+ Score = 15.81, E = 0.009568, P = 1.225e-05, GC =  55
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A A: GC:GC:G:C                G:C:GC:GC :UU U UU   +AU
+        60 ACACUGCUGCCGAC-----CC---------GUCGGCAGCUUUUCUAUUCGGUAU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 89 - 48
+ Score = 7.40, E = 0.9391, P = 0.001202, GC =  52
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>..>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggC..UUuUUUUUUuuuaau 54      
+            AA AGC:GC:G:C                G:C:GC:GC  U U U    UU+A++
+        89 GAAAAGCUGCCGAC-----GG---------GUCGGCAGCagUGUAUCGGAUUAAUA 48      
+
+
+>dnaA,dnaN_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 14.27, E = 0.02214, P = 2.835e-05, GC =  51
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A A: GC:GC:G:C                 :C:GC:GC :UU U UU + ++U
+        60 ACACUGCUGCCGACC----CGU---------UCGGCAGCUUUUCUAUUCAGUUU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 48
+ Score = 6.45, E = 1.576, P = 0.002018, GC =  51
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>..>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggC..UUuUUUUUUuuuaau 54      
+            AA AGC:GC:G:+                 :C:GC:GC  U U U    UU+A++
+        90 GAAAAGCUGCCGAAC----GGG---------UCGGCAGCagUGUAUCGGAUUAAUA 48      
+
+
+>dnaA,dnaN_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 15.86, E = 0.009301, P = 1.191e-05, GC =  56
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A A::GC:GC:G:C     U           :C:GC:GC::UU U UU    AU
+        60 ACACCGCUGCCGACC----UGU---------UCGGCAGCUUUUCUAUUCGGCAU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 48
+ Score = 7.06, E = 1.129, P = 0.001445, GC =  51
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>..>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggC..UUuUUUUUUuuuaau 54      
+            AA AGC:GC:G:+     +           :C:GC:GC  U U U    UU+A++
+        90 GAAAAGCUGCCGAAC----AGG---------UCGGCAGCggUGUAUCGGAUUAAUA 48      
+
+
+>gyrA_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 30.53, E = 3.124e-06, P = 4.001e-09, GC =  39
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAGC:::G:       U AA      +++:C:::GCUUUUUU U U ++A+
+        60 AAAAAGCGCAGC-------UGAA------AUAGCUGCGCUUUUUUGUGUCAUAA 100     
+
+
+ Query = 1 - 54, Target = 109 - 154
+ Score = 0.05, E = 51.62, P = 0.06609, GC =  22
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+           A  :A : :::: ::      UA+       :: :::: : U: U UUUUU++A +
+       109 AGUCAUAAAAAUuAUG----GUAU------AAUcAUUUCUGUUGUCUUUUUAAAGA 154     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 50
+ Score = 27.72, E = 1.448e-05, P = 1.854e-08, GC =  41
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAGC:::G::++    UU          ::C:::GCUUUUUUU   + ++ 
+        90 AAAAAGCGCAGCUAU----UUC---------AGCUGCGCUUUUUUUCACACUUC 50      
+
+
+ Query = 1 - 54, Target = 139 - 105
+ Score = 2.00, E = 17.82, P = 0.02282, GC =  23
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>.>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg.CUUuUUUUUUuuuaau 54      
+            A:AA ::G :        U+            : C:: +UU:UU U   U +A+
+       139 CAGAA-AUGAU--------UAU-----------ACCAUaAUUUUUAUGACUGUAA 105     
+
+
+>gyrA_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 26.10, E = 3.502e-05, P = 4.484e-08, GC =  41
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A+ AAGC:::G:       U AA      +++:C:::GCUU UUUU U U  ++
+        60 AUCAAGCGCAGC-------UGAA------AUAGCUGCGCUUUUUUUGUAUCCUA 100     
+
+
+ Query = 1 - 54, Target = 113 - 153
+ Score = 1.04, E = 30.02, P = 0.03843, GC =  22
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::.::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUU.UUUUuuuaau 54      
+            A A  ::: ::                 +++:: :::  U UU U UUUU+AA+
+       113 CAUAAGAAUUAU-------GGU-------AUAAUCAUUUCUGUUgUCUUUUAAAA 153     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 50
+ Score = 17.95, E = 0.002974, P = 3.807e-06, GC =  44
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AA AAGC:::G::++    UU          ::C:::GCUU  U UU  + ++ 
+        90 AAAAAGCGCAGCUAU----UUC---------AGCUGCGCUUGAUCUUACACUUC 50      
+
+
+ Query = 1 - 54, Target = 140 - 106
+ Score = 0.55, E = 39.34, P = 0.05038, GC =  26
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>.>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg.CUUuUUUUUUuuuaau 54      
+            A AA ::G :        U+            : C:: +UU UU U   U +A+
+       140 CAGAA-AUGAU--------UAU-----------ACCAUaAUUCUUAUGACUGUAA 106     
+
+
+>gyrA_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 99
+ Score = 27.44, E = 1.688e-05, P = 2.161e-08, GC =  40
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAGC:::G         +A       C + C:::GCUUUUUUUUU  ++A+
+        60 AAAAAGCGCAGU-------GAA-------CCAGCUGCGCUUUUUUUUUGCAUAA 99      
+
+
+ Query = 1 - 54, Target = 111 - 151
+ Score = 1.86, E = 19.21, P = 0.0246, GC =  24
+
+           ::<<<<<<<<.<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgc.ggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            A: AG::::           UA       +++  ::::CU :U U UUUU+A +
+       111 CAUAAGAAAUaUG-------GUA-------UAAUCAUUUCUGUUGUCUUUUAAGA 151     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 89 - 50
+ Score = 15.73, E = 0.009979, P = 1.278e-05, GC =  48
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAGC:::G        U         ++  C:::GCUUUUU U   + ++ 
+        89 AAAAAGCGCAGC-------UGG-------UUCACUGCGCUUUUUCUCACACUUC 50      
+
+
+ Query = 1 - 54, Target = 141 - 101
+ Score = 0.05, E = 51.59, P = 0.06605, GC =  32
+
+           ::<<<<<<<<.<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgc.ggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            A :AG:::: ::       U+        +  ::::::CU: U   U U++A  
+       141 CAACAGAAAUgAU-------UAU-------ACCAUAUUUCUUAUGGCUGUAAAGG 101     
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 98
+ Score = 28.01, E = 1.232e-05, P = 1.578e-08, GC =  36
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            +AAA:CC::::C      ++          G::::GG:UUUUUU UUU U+A+
+        60 UUAAACCCAGCUC------AAU---------GAGCUGGGUUUUUUGUUUGUUAA 98      
+
+
+ Query = 1 - 54, Target = 104 - 152
+ Score = 6.15, E = 1.85, P = 0.002369, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>..>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcgg..ccgcggCUUuUUUUUUuuuaau 54      
+           AA:AAG:::   C: : A:   +A :U : :G     :::CUU:U U  U  UAAU
+       104 AAGAAGAAA---CUGUGAAGCGUA-UUUAGGGaa---UUUCUUUUCUGAUACUAAU 152     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 86 - 62
+ Score = 14.27, E = 0.02207, P = 2.826e-05, GC =  48
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             AAA:CC::::C      +U          G::::GG:UUU            
+        86 --AAACCCAGCUC------AUU---------GAGCUGGGUUU------------ 62      
+
+
+ Query = 1 - 54, Target = 142 - 94
+ Score = 8.11, E = 0.6376, P = 0.0008164, GC =  31
+
+           ::<<<<<<<<<<...<<<<<<<______>>>>>>>..>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg...ccgccauuuaaaaauggcgg..ccgcggCUUuUUUUUUuuuaau 54      
+            A AAG::: :    ::     +UA  +     ::   : :::CUU UU  UUUUUAA 
+       142 GAAAAGAAAUUCccuAA-----AUACGC-----UUcaCAGUUUCUUCUUCAUUUUUAAC 94      
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 98
+ Score = 28.88, E = 7.667e-06, P = 9.817e-09, GC =  38
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA:CC::::C      +U          G::::GG:UUUUUU UUU U A+
+        60 UAAAACCCAGCUC------AUU---------GAGCUGGGUUUUUUGUUUGUCAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 88 - 50
+ Score = 18.16, E = 0.002651, P = 3.394e-06, GC =  46
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA:CC::::C      ++          G::::GG:UUUU   UU  U+  
+        88 AAAAACCCAGCUC------AAU---------GAGCUGGGUUUUACCUUGCUUGG 50      
+
+
+>rrnO-16S,trnO-Ile,trnO-Ala,rrnO-23S,rrnO-5S_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 98
+ Score = 28.88, E = 7.667e-06, P = 9.817e-09, GC =  38
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA:CC::::C      +U          G::::GG:UUUUUU UUU U A+
+        60 UAAAACCCAGCUC------AUU---------GAGCUGGGUUUUUUGUUUGUCAA 98      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 88 - 50
+ Score = 18.76, E = 0.001914, P = 2.451e-06, GC =  44
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA:CC::::C      ++          G::::GG:UUUU   UU  U+  
+        88 AAAAACCCAGCUC------AAU---------GAGCUGGGUUUUACAUUGCUUGG 50      
+
+
+>guaB_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 18.33, E = 0.00242, P = 3.099e-06, GC =  34
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            A:  G:C:: G:C     U          G:C ::G:C  :UUUUUUU+UA U
+        60 CAUUUGACAGGGUC-----UCU--------GACUCUGUCUAUUUUUUUUAUACU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 92 - 45
+ Score = 8.73, E = 0.453, P = 0.00058, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______..>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa..auggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA :    G:C:: :U +      A: ::G:C++  : UUUUU  UUU UAA 
+        92 AAAAAUA----GACAGAGUCAG---agACCCUGUCAAA-UGUUUUUAAUUUGUAAC 45      
+
+
+>guaB_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 59 - 99
+ Score = 19.81, E = 0.001077, P = 1.379e-06, GC =  32
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            A:  G:C:: G:C     U          G:C ::G:C  :UUUUUUU+UAAU
+        59 CAUUUGACAGGGUC-----UCU--------GACUCUGUCUAUUUUUUUUAUAAU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 91 - 44
+ Score = 8.73, E = 0.453, P = 0.00058, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______..>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa..auggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA :    G:C:: :U +      A: ::G:C++  : UUUUU  UUU UAA 
+        91 AAAAAUA----GACAGAGUCAG---agACCCUGUCAAA-UGUUUUUAAUUUGUAAC 44      
+
+
+>guaB_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 59 - 99
+ Score = 17.28, E = 0.004279, P = 5.479e-06, GC =  37
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            A:  G:C:: G:C     U          G:C ::G:C  :UUUUUU +U  U
+        59 CAUUUGACAGGGUC-----UCU--------GACUCUGUCUAUUUUUUUAAUCCU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 91 - 44
+ Score = 8.73, E = 0.453, P = 0.00058, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______..>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa..auggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA :    G:C:: :U +      A: ::G:C++  : UUUUU  UUU UAA 
+        91 AAAAAUA----GACAGAGUCAG---agACCCUGUCAAA-UGUUUUUAAUUUGUAAC 44      
+
+
+>yaaD,yaaE_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 112
+ Score = 24.24, E = 9.658e-05, P = 1.237e-07, GC =  47
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::.::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUU.UUUUuuuaau 54      
+              :AG::: ::C :CC::UUA+  ::GG: G:: :::CU: UU UUUU  ++A+
+        60 CGCGAGAGCUCUCGUCCCUUUAU--GGGGAUGAGGGCUCUUUUUaUUUUCGAUAA 112     
+
+
+ Query = 1 - 54, Target = 21 - 55
+ Score = 2.82, E = 11.37, P = 0.01455, GC =  37
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA: : ::        UU            :: : :UUUU   U     + 
+        21 GAAAACGAGUC--------UUU-----------GAUUUGUUUUCAAUCAGGGUG 55      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 158 - 111
+ Score = 2.17, E = 16.22, P = 0.02077, GC =  33
+
+           ::<<<<<<<<<<<<<<<<<______..>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa..auggcggccgcggCUUuUUUUUUuuuaau 54      
+            A::A      ::::: AU +A     AU ::::: +C++CU::UUUU UU +++U
+       158 CAGCA-----UUUUCGUAUCAA---gcAUGCGAAACACUCCUUUUUUUAUUGAUUU 111     
+
+
+ Query = 1 - 54, Target = 98 - 63
+ Score = 1.58, E = 22.35, P = 0.02862, GC =  56
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+              A  :C C:: ::CC   + AAA  GG:: ::G G:  U             
+        98 --AAGAGCCCUCAUCCC--CAUAAA--GGGACGAGAGCUCUC------------ 63      
+
+
+>yaaD,yaaE_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 112
+ Score = 25.66, E = 4.436e-05, P = 5.68e-08, GC =  45
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::.::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUU.UUUUuuuaau 54      
+              :AG::: ::C :CC:UUUA+  A:GG: G:: :::CU: UU UUUUU  A++
+        60 CGCGAGAGCUCUCGUCCCUUUAU--AGGGAUGAGGGCUCUUUUUaUUUUUCGAUA 112     
+
+
+ Query = 1 - 54, Target = 21 - 55
+ Score = 1.23, E = 27.06, P = 0.03465, GC =  40
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA  :G :        UU            : C:  UUUU   U     + 
+        21 GAAAAUGAGUC--------UUU-----------GGCUUGUUUUCAAUCAGGGUG 55      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 98 - 63
+ Score = 4.13, E = 5.56, P = 0.007119, GC =  53
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+              A  :C C:: ::CC: +UA   A:GG:: ::G G:  U             
+        98 --AAGAGCCCUCAUCCCU-AUA---AAGGGACGAGAGCUCUC------------ 63      
+
+
+ Query = 1 - 54, Target = 158 - 111
+ Score = 1.32, E = 25.77, P = 0.03299, GC =  33
+
+           ::<<<<<<<<<<<<<<<<<______..>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa..auggcggccgcggCUUuUUUUUUuuuaau 54      
+            A::A      ::::: AU +A     AU ::::: +C++CU::UUU UU +U+++
+       158 CAGCA-----UUUUCGUAUCAA---gcAUGCGAAACACUCCUUUUUUAUUGAUUUA 111     
+
+
+>yaaD,yaaE_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 112
+ Score = 23.17, E = 0.0001729, P = 2.214e-07, GC =  49
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::.::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUU.UUUUuuuaau 54      
+              :AG::: ::C :CC::UUA+  ::GG: G:: :::CU: UU UUUU  + ++
+        60 CGCGAGAGCUCUCGUCCCUUUAU--GGGGAUGAGGGCUCUUUUUaUUUUCGACUA 112     
+
+
+ Query = 1 - 54, Target = 21 - 55
+ Score = 5.01, E = 3.444, P = 0.00441, GC =  46
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA: :G :        U             : C: :UUUU   U     + 
+        21 GAAAACGAGUC--------UCU-----------GGCUUGUUUUCAAUCAGGGUG 55      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 98 - 63
+ Score = 1.58, E = 22.35, P = 0.02862, GC =  56
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+              A  :C C:: ::CC   + AAA  GG:: ::G G:  U             
+        98 --AAGAGCCCUCAUCCC--CAUAAA--GGGACGAGAGCUCUC------------ 63      
+
+
+ Query = 1 - 54, Target = 156 - 112
+ Score = 0.03, E = 52.24, P = 0.06689, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>.>>>>.....::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg.CUUu.....UUUUUUuuuaau 54      
+            A    :C::  ::G    U+        C::  ::G: +++      UUUU U ++A+U
+       156 UA----GCAUCUUUG----UAU-------CAAGCAUGCgAAACacuccUUUUAUAAAAUU 112     
+
+
+>yaaH_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 72 - 112
+ Score = 16.41, E = 0.006887, P = 8.818e-06, GC =  32
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAA:A:::::: :+     UUA         : ::::::U:UUUUU   ++ AU
+        72 AAAGACGUUUCCAAA----UUA---------UCGAAACGUCUUUUUGACAACAU 112     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 104 - 60
+ Score = 21.27, E = 0.000487, P = 6.235e-07, GC =  36
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAG:CG:::C      U+A++       G:::CG:CUUUUUUU  U     
+       104 AAAAAGACGUUUCGA----UAAUUU----G-GAAACGUCUUUUUUUCAUGGGGG 60      
+
+
+ Query = 1 - 54, Target = 36 - 1
+ Score = 2.12, E = 16.64, P = 0.02131, GC =  42
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             A     G:: :      U+A         : ::CG++  UUUUU   +UA++
+        36 UGAAG---GUCGG------UAA---------CUGACGCACGUUUUUCAGAUAUA 1       
+
+
+>yaaH_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 71 - 111
+ Score = 16.41, E = 0.006887, P = 8.818e-06, GC =  32
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAA:A:::::: :+     UUA         : ::::::U:UUUUU   ++ AU
+        71 AAAGACGUUUCCAAA----UUA---------UCGAAACGUCUUUUUGACAACAU 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 103 - 59
+ Score = 20.51, E = 0.0007361, P = 9.426e-07, GC =  36
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAG:CG:::C      U+A++       G:::CG:CUUUUUU  U   A  
+       103 AAAAAGACGUUUCGA----UAAUUU----G-GAAACGUCUUUUUUCAUGGGAGC 59      
+
+
+ Query = 1 - 54, Target = 36 - 1
+ Score = 1.88, E = 19.03, P = 0.02437, GC =  36
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>..>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg..CUUuUUUUUUuuuaau 54      
+             A   ::: G        U+A           C :::  +  UUUUUU  ++A++
+        36 UGAAG-GUCGG--------UAA-----------CUGACgaACGUUUUUUAGAAAUA 1       
+
+
+>yaaH_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 70 - 114
+ Score = 16.11, E = 0.008132, P = 1.041e-05, GC =  27
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAG:CG:::CC     ++ +A       G:::CG:CUUUUU     U+++ 
+        70 AAAAAGACGUUUCCA----AAUUAU----C-GAAACGUCUUUUUAACAAUAUUG 114     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 104 - 60
+ Score = 21.27, E = 0.000487, P = 6.235e-07, GC =  36
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAAG:CG:::C      U+A++       G:::CG:CUUUUUUU  U     
+       104 AAAAAGACGUUUCGA----UAAUUU----G-GAAACGUCUUUUUUUCAUGGGGG 60      
+
+
+ Query = 1 - 54, Target = 36 - 1
+ Score = 0.37, E = 43.3, P = 0.05544, GC =  39
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>..>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg..CUUuUUUUUUuuuaau 54      
+             A   ::: G        U+A           C :::  +  UUUUU   ++A++
+        36 UGAAG-GUCGG--------UAA-----------CUGACgaACGUUUUUCAGAAAUA 1       
+
+
+>metS_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 111
+ Score = 15.82, E = 0.009491, P = 1.215e-05, GC =  40
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+            AAAAG::G::  :CG    U  AA+A++ CG:  ::C::CUUUU U UUU  A +
+        60 CAAAAGGUGUUUcACG----UGUAACAAUUCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 106 - 45
+ Score = 15.01, E = 0.01482, P = 1.898e-05, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______.........>>>>>>>>>>>>>>>>>:::::::::
+         1 aaaAAGccgcggccgccauuuaaaa.........auggcggccgcggCUUuUUUUUUuuu 51      
+           AAA:A:::::GG::: :: +  AA           ::+:::CC:::::U:U U  UU UU
+       106 AAACACAAAAGGUGU-UCGACGAAUuguuacacgUGAAACACCUUUUGUUUAUCAUUAUU 48      
+
+           :::
+        52 aau 54      
+           +A+
+        47 UAA 45      
+
+
+>metS_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 111
+ Score = 15.82, E = 0.009491, P = 1.215e-05, GC =  40
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+            AAAAG::G::  :CG    U  AA+A++ CG:  ::C::CUUUU U UUU  A +
+        60 CAAAAGGUGUUUcACG----UGUAACAAUUCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 101 - 50
+ Score = 14.10, E = 0.02425, P = 3.105e-05, GC =  37
+
+           ::<<<<<<<<<<<<<<<<<______.....>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaa.....auggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAAG::G::  C :C: +U          :G:   +::C::CUUUU UUU U ++++
+       101 CAAAAGGUGUU--CGACGAAUU---guuacACGUG--AAACACCUUUUGUUUGUCAUUA 50      
+
+
+>metS_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 111
+ Score = 15.82, E = 0.009491, P = 1.215e-05, GC =  40
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+            AAAAG::G::  :CG    U  AA+A++ CG:  ::C::CUUUU U UUU  A +
+        60 CAAAAGGUGUUUcACG----UGUAACAAUUCGUcGAACACCUUUUGUGUUUCGACA 111     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 106 - 45
+ Score = 15.01, E = 0.01482, P = 1.898e-05, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______.........>>>>>>>>>>>>>>>>>:::::::::
+         1 aaaAAGccgcggccgccauuuaaaa.........auggcggccgcggCUUuUUUUUUuuu 51      
+           AAA:A:::::GG::: :: +  AA           ::+:::CC:::::U:U U  UU UU
+       106 AAACACAAAAGGUGU-UCGACGAAUuguuacacgUGAAACACCUUUUGUUUAUCAUUAUU 48      
+
+           :::
+        52 aau 54      
+           +A+
+        47 UAA 45      
+
+
+>yabG_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 102
+ Score = 27.90, E = 1.314e-05, P = 1.682e-08, GC =  37
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA:C GC::::     + A        ::::GC G:UUUUUU UUUU+ AU
+        60 GAAAACCUGCAUAGG----AGA-------GCUAUGCGGGUUUUUUAUUUUACAU 102     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 92 - 50
+ Score = 13.28, E = 0.03801, P = 4.867e-05, GC =  40
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA:C GC::::     U          ::::GC G:UUUU    U UUAAU
+        92 AAAAACCCGCAUAGC----UCU-------CCUAUGCAGGUUUUCAACUGUUAAU 50      
+
+
+>yabG_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 58 - 100
+ Score = 26.59, E = 2.671e-05, P = 3.42e-08, GC =  40
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AAAA:C GC:::::    +         :::::GC G:UUUUUU UUUU  AU
+        58 GAAAACCUGCAUAGG----AGG-------UCUAUGCGGGUUUUUUAUUUUGCAU 100     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 48
+ Score = 14.79, E = 0.01664, P = 2.131e-05, GC =  40
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AAAAA:C GC::::                ::::GC G:UUUU  U U UUAAU
+        90 AAAAACCCGCAUAGA----CCU-------CCUAUGCAGGUUUUCAUCUGUUAAU 48      
+
+
+>yabG_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 58 - 99
+ Score = 24.64, E = 7.745e-05, P = 9.917e-08, GC =  33
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            AA A:C GC::: G    ++A       C :::GC G:U UUUU UUUU+ AU
+        58 GAAUACCUGCAUAGG----AAA-------C-UAUGCGGGUUUUUUAUUUUACAU 99      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 89 - 46
+ Score = 11.15, E = 0.1213, P = 0.0001553, GC =  34
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>.>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcgg.CUUuUUUUUUuuuaau 54      
+           AA AA CC :::::G    UU        C::::: GG +UU  U U UU++++U
+        89 AAAAA-CCCGCAUAG----UUUC------CUAUGCAGGuAUUCAUCUGUUAAUUU 46      
+
+
+>veg_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 61 - 101
+ Score = 13.53, E = 0.03319, P = 4.25e-05, GC =  44
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A :: :::: ::CC+    UU          G:: :::: ::UUU UUUU    
+        61 ACGGGCAGUGAACCU----UUU---------GUUUACUGCUUUUUGUUUUGCCC 101     
+
+
+>veg_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 61 - 101
+ Score = 13.67, E = 0.03063, P = 3.922e-05, GC =  41
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A :: :::: ::CC+    UU          G:: :::: ::UUU UUUU   U
+        61 ACGGGCAGUGAACCU----UUU---------GUUUACUGCUUUUUGUUUUGCCU 101     
+
+
+>veg_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 100
+ Score = 13.67, E = 0.03063, P = 3.922e-05, GC =  41
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           A :: :::: ::CC+    UU          G:: :::: ::UUU UUUU   U
+        60 ACGGGCAGUGAACCU----UUU---------GUUUACUGCUUUUUGUUUUGCCU 100     
+
+
+>sspF_0
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 102
+ Score = 16.47, E = 0.00667, P = 8.541e-06, GC =  51
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            +:A::C G:G :C:    U         :G: C:C G::U:UUUU UUUU  +
+        60 GUGACCCGGGGGACG----UGC-------UGUUCCCUGGUUUUUUUAUUUUGGA 102     
+
+
+ Query = 1 - 54, Target = 116 - 153
+ Score = 1.78, E = 20.1, P = 0.02574, GC =  37
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+              :::::: ::         A+         :: :::::: U U  UU +AAU
+       116 UGGGCUGAAUAU-------GGAU---------AUGUUCAUCCUGUACUUCAAAU 153     
+
+
+>sspF_1
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 102
+ Score = 21.04, E = 0.0005523, P = 7.071e-07, GC =  56
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            +:A::C:G:G :C     U          G: C:C:G::U:UUU U UU+ AU
+        60 GUGACCCGGGGGACA----UGC-------CGUUCCCCGGUUUUUUGUGUUAGAU 102     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 92 - 45
+ Score = 4.99, E = 3.479, P = 0.004454, GC =  52
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>.....::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUu.....UUUUUUuuuaau 54      
+           AA A :C:G:G :C:      A       :G: C:C:G: U      UUU U   U+AU
+        92 AAAAACCGGGGAACG----GCA-------UGUCCCCCGGGUCacaucUUUAUCGGUUAU 45      
+
+
+ Query = 1 - 54, Target = 133 - 95
+ Score = 0.05, E = 51.44, P = 0.06586, GC =  28
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+           A+A ::::: :G        +             C: ::::: UUU U U U+A +
+       133 AUAUCCAUAUUGc-------AGC----------cCAUUAUGUAUUUAUAUCUAACA 95      
+
+
+>sspF_2
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 60 - 102
+ Score = 19.20, E = 0.001504, P = 1.926e-06, GC =  56
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+            +:A::C:G:G :C:    U         :G: C:C:G::U:UU UUUU  A +
+        60 GUGACCCGGGGGACG----UGC-------UGUUCCCCGGUUUUUAUUUUGGACA 102     
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 90 - 52
+ Score = 2.30, E = 15.11, P = 0.01935, GC =  59
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+           AA   G::G ::         A          :: C::C   U    U  U+AU
+        90 AAACCGGGGAACA------GCA---------CGUCCCCCGGGUCACAUCCUUAU 52      
+
+
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -      52.992       75    0.2428   0.3292
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:04.15    00:00:03.00
+//
+# Tabular version of hit list saved in file homologs_positives-geneMode.tabfile.
+#
+# CPU time: 4.73u 0.04s 00:00:04.77 Elapsed: 00:00:05

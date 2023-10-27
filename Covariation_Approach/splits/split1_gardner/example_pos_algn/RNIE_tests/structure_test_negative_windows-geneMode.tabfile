@@ -1,0 +1,69 @@
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile structure_test_negative_windows-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/structure_test_negative_windows.fa
+# date:       Mon May 15 16:03:45 2023
+# num seqs:   6
+# dbsize(Mb): 0.001200
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       0.308     0.00   0.0103  00:00:00.19
+#
+# CM: seed-a-14
+#                                            target coord   query coord                         
+#                                  ----------------------  ------------                         
+# model name  target name               start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-a-14   sliding_window_4194          17          54      1     44     14.16  8.86e-04   50
+  seed-a-14   sliding_window_4194          44           5      1     44      4.22  5.40e-02   45
+  seed-a-14   sliding_window_5863           8          47      1     44      8.98  7.53e-03   50
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       0.308        3    0.0103   0.0983
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.19    00:00:01.00
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+#   1   cm  ins  glc      -       6.514     0.00   0.2423  00:00:00.43
+#
+# CM: seed-b-14
+#                                            target coord   query coord                         
+#                                  ----------------------  ------------                         
+# model name  target name               start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -------------------  ----------  ----------  -----  -----  --------  --------  ---
+  seed-b-14   sliding_window_2161           1          35      1     54      0.42  5.17e+00   29
+  seed-b-14   sliding_window_3580          26          62      1     54      4.73  4.94e-01   27
+  seed-b-14   sliding_window_3580          52           5      1     54      1.00  3.79e+00   38
+  seed-b-14   sliding_window_4194          14          55      1     54     15.29  1.56e-03   48
+  seed-b-14   sliding_window_4194          44           5      1     54      9.01  4.78e-02   45
+  seed-b-14   sliding_window_4194          90          49      1     54      2.32  1.84e+00   26
+  seed-b-14   sliding_window_4665          83          51      1     54      1.24  3.31e+00   36
+  seed-b-14   sliding_window_5863           7          48      1     54     13.77  3.58e-03   48
+  seed-b-14   sliding_window_5863          38           2      1     54      4.10  6.98e-01   51
+  seed-b-14   sliding_window_6639          84          36      1     54      0.55  4.82e+00   45
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+#   1   cm  ins  glc      -       6.514       10    0.2423   0.3375
+#
+# expected time    actual time
+# -------------  -------------
+#   00:00:00.43    00:00:00.00

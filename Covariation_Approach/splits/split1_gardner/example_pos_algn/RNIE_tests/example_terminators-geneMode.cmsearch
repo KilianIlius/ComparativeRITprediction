@@ -1,0 +1,178 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0.2 (October 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    cmsearch -T 0 -g --fil-no-qdb --fil-no-hmm --no-qdb --inside --tabfile example_terminators-geneMode.tabfile /home/kilian/git/RNIE/models/gene.cm /home/kilian/git/RNIE/example_terminators.fa
+# date:       Wed May 10 12:25:40 2023
+# num seqs:   5
+# dbsize(Mb): 0.000356
+#
+# Pre-search info for CM 1: seed-a-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -       0.091     0.00   0.0103  00:00:00.05
+
+CM: seed-a-14
+>sw_1454_term_X08035.1/3325-3361
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 6 - 37
+ Score = 4.74, E = 0.01285, P = 0.0004942, GC =  41
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAAGC:GC:::: +A+A ::::GC:GCUUU            
+         6 AAAAAGCGGCAACUCAAUAAAGUUGCCGCUUU------------ 37      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 36 - 1
+ Score = 22.92, E = 7.006e-06, P = 2.695e-07, GC =  39
+
+           <<<<<<<<<<<<<<<____>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaaugccggcGGCUUUUUUUuUuuuuuu 44      
+             AA:::::::::+ +++   :::::::::UUUUUU+UU     
+        36 --AAGCGGCAACUUUAUU-G-AGUUGCCGCUUUUUUAUUC---- 1       
+
+
+>sw_1512_term_X68192.1/1637-1678
+
+  Plus strand results:
+
+ Query = 1 - 44, Target = 6 - 42
+ Score = 8.88, E = 0.002317, P = 8.912e-05, GC =  30
+
+           <<<<<<<<<<<<<<<____....>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa....ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAAA:  ::C:GCA++A     UGC:G::  :UUUUU          
+         6 AAAAACUAAUCCGCAAUA-agaaUGCGGAUUAGUUUUU---------- 42      
+
+
+  Minus strand results:
+
+ Query = 1 - 44, Target = 41 - 1
+ Score = 19.38, E = 3.019e-05, P = 1.161e-06, GC =  29
+
+           <<<<<<<<<<<<<<<____..>>>>>>>>>>>>>>>::::::::::
+         1 AAAAAGCCgccggcauaaa..ugccggcGGCUUUUUUUuUuuuuuu 44      
+           AAAA  : :CCG:::U +   :::CGG: :  UUUUUU UU     
+        41 AAAACUAAUCCGCAUUCU-uaUUGCGGAUUAGUUUUUUCUUA---- 1       
+
+
+#
+# Post-search info for CM 1: seed-a-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -       0.091        4    0.0103   0.4101
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:00.05    00:00:00.00
+//
+#
+# Pre-search info for CM 2: seed-b-14
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc      -       1.968     0.00   0.2467  00:00:00.15
+
+CM: seed-b-14
+>sw_1454_term_X08035.1/3325-3361
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 8 - 37
+ Score = 17.36, E = 0.0001522, P = 5.25e-06, GC =  43
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             AAAGC:GC::C:      +A+AA     :G::GC:GCUUU            
+         8 --AAAGCGGCAACU-----CAAUAA-----AGUUGCCGCUUU------------ 37      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 37 - 1
+ Score = 24.26, E = 3.536e-06, P = 1.219e-07, GC =  38
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             AAAGC:GC::C::    U+ +      ::G::GC:GCUUUUUU UU      
+        37 --AAAGCGGCAACUU----UAUU------GAGUUGCCGCUUUUUUAUUC----- 1       
+
+
+>sw_1512_term_X68192.1/1637-1678
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 6 - 42
+ Score = 14.28, E = 0.0008168, P = 2.817e-05, GC =  30
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             AAA :C::::CCGC: U++    A :GCGG::::G: UUU            
+         6 --AAAAACUAAUCCGCAAUAAG---AAUGCGGAUUAGUUUUU------------ 42      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 39 - 1
+ Score = 18.07, E = 0.0001035, P = 3.569e-06, GC =  31
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             AA ::::C:GC:+    U  +A      :GC:G:::: UUUUUU UU+    
+        39 --AACUAAUCCGCAU----UCUUAU-----UGCGGAUUAGUUUUUUCUUA---- 1       
+
+
+>sw_7074_term_M55170.1/1827-1862
+
+  Plus strand results:
+
+ Query = 1 - 54, Target = 1 - 36
+ Score = 3.19, E = 0.3463, P = 0.01194, GC =  44
+
+           ::<<<<<<<<<<.<<<<<<<______>>>>>>>.>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcgg.ccgccauuuaaaaauggcgg.ccgcggCUUuUUUUUUuuuaau 54      
+              A G:C:::: C:G    U  A+   + C:G ::::G:C U             
+         1 --GAUGGCAGAAaCAG----UGUAUU--UCCUGaUUCUGCCAUC------------ 36      
+
+
+  Minus strand results:
+
+ Query = 1 - 54, Target = 35 - 2
+ Score = 7.83, E = 0.02754, P = 0.0009495, GC =  41
+
+           ::<<<<<<<<<<<<<<<<<______>>>>>>>>>>>>>>>>>::::::::::::
+         1 aaaAAGccgcggccgccauuuaaaaauggcggccgcggCUUuUUUUUUuuuaau 54      
+             A  GC:G:: C:G     +AA+A   +C:G ::C:GC  U            
+        35 --AUGGCAGAAUCAG----GAAAUA--CACUGUUUCUGCCAU------------ 2       
+
+
+#
+# Post-search info for CM 2: seed-b-14
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc      -       1.968        6    0.2467   0.5983
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:00.15    00:00:00.00
+//
+# Tabular version of hit list saved in file example_terminators-geneMode.tabfile.
+#
+# CPU time: 0.29u 0.01s 00:00:00.30 Elapsed: 00:00:01
