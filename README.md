@@ -121,3 +121,85 @@ Use ./rnie.pl to compute RNIE scores for positive homologs, negative homologs, i
 
 In the second iteration comment in lines 495-508 in <tt>RNIE_score_averaging.py</tt>. Run the script and you'll receive two histograms, depicting initial and averaged RNIE scores, and a ROC plot showing two ROC curves, one for classification using initial scores and one for classification using averaged scores. AUCs are plotted in the bottom right corner.
 
+## Covariation analysis
+
+The covariation analysis in the context of the master thesis was carried out in Enterobacteriaceae species, but can be applied on all species with sufficent known RITs, full assemblies of genomes, and available gene annotation.<br/>
+To employ the covariation analysis you need the following data to start with (Data used for this tutorial is located in 'python_scripts_and_test_files\Covariation_analysis'):
+
+* All related genomes you want to analyze in FASTA format (Entero_genomes/)<br/>
+* Gene annotations for all genomes in GFF format (Entero_gene_annotation/)<br/>
+* All available identified RITs for your target species (Escherichia coli RITs in our case: E._coli_rits/)<br/>
+
+To prepare the HMMER homology search and the sliding window approach in a first step 'IGR genomes' of all species must be generated, meaning the extraction and subsequent concatenation of all IGRs. Therefore you can use the python script <tt>generate_IGR_genome.py</tt>
+
+### <tt>generate_IGR_genome.py</tt>
+
+The script has to be employed on each pair of genome and gene annotation and the following paths has to be specified:
+
+* genome_fasta: path to the genome in FASTA format.<br/>
+* gene_annotation: path to the associated gene annotation in GFF format.<br/>
+* igrs_output_path: directory where the extracted IGRs should be saved.<br/>
+* merged_igrs: filename and path for the concatenated IGR output.<br/>
+* merged_igrs_out_path: specify a path where a log file is written to, documenting the original genome positions of the concatenated IGRs.<br/> 
+
+After this step you should have 'IGR genomes' for all species you want to include in your covariation analysis. Now we have to split the 'IGR genome' of our target species into four groups to receive training and test splits. It's important that each split contains only RITs from the same origin. For example in our case the E. coli RITs we had originated from two different studies: Gardner et al. (2011) and Chen et al. (2013), so we generated two splits where only Gardner RITs could be found in the 'IGR genome' split and two where only Chen RITs could be found. 
+To accomplish independent sets you can use <tt>split_IGR_genome.py</tt>
+
+### <tt>split_IGR_genome.py</tt>
+
+This script was developed to analyze covariation within E. coli RIT homologs. Therefore, variable names are partially named after the author of the paper the set of known E. coli RITs originated from. Before executing this script you need to BLAST search your set(s) of known RITs against the target 'IGR genome'. The resulting XML files must be provided to the script so IGRs containing RITs can be identified. The BLAST results for our approach can be found in 'python_scripts_and_test_files\Covariation_analysis\BLAST_results'.
+
+* rits_gardner: path to the FASTA file containing the first set of known terminators (in this case Gardners RITs).<br/>
+* rits_chen: path to the FASTA file containing the second set of known terminators (in this case Chens RITs).<br/>
+* blast_gardner_xml: path to the XML output files of BLAST for your first set of known terminators against the target genome.<br/>
+* blast_chen_xml: path to the XML output files of BLAST for your second set of knwon terminators against the target genome.<br/>
+* e_coli_igrs: path to the FASTA file containing all IGRs of your target genome, generated with <tt>generate_IGR_genome.py</tt>.<br/
+
+The Output directories and filenames do not need to be changed as long as the directories: 'splits/split1_gardner/', 'splits/split2_gardner/', 'splits/split3_chen/', 'splits/split4_chen/' exist. If other RITs are used, it is recommended to change those directories as well.
+After choosing one of the resulting splits the sliding window approach and covariation analysis can be conducted.
+
+### <tt>sliding_window.py</tt>
+
+This script uses a provided window and step size to apply a sliding window approach on a given sequence. The output consinsts of all windows in FASTA format. The original nucleotide positions of each window are annotated in the description of each window sequence.
+
+* window_size: set the length of one window.<br/>
+* step_size: determine how many nucleotides the window should be shifted in each step.<br/>
+* merged_igr_split: path to the chosen split of 'IGR genome' created by <tt>split_IGR_genome.py</tt>.<br/>
+* IGRs_real_nucl_position_log: path to the log file created by the 'concatenate_igrs' function for your chosen split.(is needed to annotate origianl genome positions to the windows)<br/>
+* output_window_file: specify a path and filename for the resulting windows in FASTA format.<br/>
+
+Use <b>nhmmer </b> to carry out a homology search of all windows against all 'IGR genomes' of the analyzed species. Make sure to opt in the <b>-A</b> flag, otherwise HMMER doesn't output the alignments of homologs found needed for the covariation analysis. Create a FASTA file containing all 'IGR genomes' and make one HMMER search of the window FASTA file against this comprehensive file. Since nhmmers output of alignments contains all the alignments in one big file, but R-scape can only handle one alignment at a time, you can use the <tt>split_alignments.py</tt> script to split the file into single alignments.
+
+### <tt>split_alignments.py</tt>
+
+* multiple_algn_file: HMMER output file containing all alignments.<br/>
+* single_algn_output_path: specify a path where the single window alignments should be saved.<br/>
+
+Be careful with specifying the output path for single alignments, since over 7.000 files may be created. To reduce redundant data within the GitHub page the HMMER output and single alignments are not contained within this python project, but can be viewed in 'Covariation_Approach\splits\split1_gardner\nhmmer_alignments\single_alignments'.
+
+After splitting the alignments you can either start computing covariation with R-scape immediately or annotate a consensus structure predicted by RNIE to each alignment. Thereby, the efficacy of R-scpae should be enhanced. To predict the structure for each alignment you have to use ./rnie.pl. The resulting data can then be handed over to the <tt>annotate_structure.py</tt> script to transfer the structure onto each alignment.
+
+### <tt>annotate_structure.py</tt>
+
+* single_alignments_path: path to the directory in which the alignments of each window are located.<br/>
+* rnie_output_path: path to RNIEs output after predicting strucutres for each window (.cmsearch output file needed).<br/>
+* alignments_with_strucutre_out_path: output path for alignments with annotated structure. <br/>
+
+Again the input and output data for this step is not included in the python project folder but can be found in 'Covariation_Approach\splits\split1_gardner\nhmmer_alignments\'
+
+To measure covariation within the alignmets you can use the following terminal command (install R-scape first):
+
+for FILE in <path/to/single_alignemnts/>*; do bin/R-scape -s -E 1 --nofigures --outdir <output/directory> $FILE; done
+
+
+### <tt>covariation_analysis.py</tt>
+
+The <tt>covariation_analysis.py</tt> script provided with R-scapes output can then assign each window to either be positive or negative and illustrates covariation e-values of positives and negatives in a histogram. It also computes a ROC curve displaying the classification efficacy based on the covariation e-value.
+
+Before using this script two final BLAST searches must be done, to enable correct window assignment. Firstly, the pure RIT sequences of the used split must be blasted against the target genome (E. coli). Secondly, all available known RITs of the target genome must be blasted against the genomes sequence. Both BLAST results must be provided in XML format.
+
+* split_path: two log files will be saved to this location listing the positive and negative windows.<br/>
+* split_rits_vs_genome_xml: path to the BLAST XML output of the split RITs against the target genome.<br/>
+* all_rits_vs_genome_xml: path to the BLAST XML output of all RITs against the target genome.<br/>
+* split_windows: FASTA file of the windows generated with <tt>sliding_window.py</tt>.<br/>
+* r_scape_output_path: path to R-scapes RIT predictions for each window.<br/>
